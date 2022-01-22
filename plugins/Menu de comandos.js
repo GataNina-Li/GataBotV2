@@ -288,7 +288,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟👑 _${usedPrefix}restart_
 ° ඬ⃟👑 _${usedPrefix}backup_
 ° ඬ⃟👑 _${usedPrefix}bcbot *texto*_
-° ඬ⃟👑 _${usedPrefix}unban *@tag*_
+° ඬ⃟👑 _${usedPrefix}unbanuser *@tag*_
 ° ඬ⃟👑 _${usedPrefix}setwelcome *@tag*_
 ° ඬ⃟👑 _${usedPrefix}setbye *@tag*_
 ° ඬ⃟👑 _${usedPrefix}listgroup *@tag*_

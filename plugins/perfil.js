@@ -20,7 +20,7 @@ let handler = async (m, { conn }) => {
 ┃${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 ┃• *💢Link💢 :* 
 ┃wa.me/${who.split`@`[0]}${registered ? '\n┃• *Edad:* ' + age : ''}
-┗━━━━━━━━━━━━━━━━
+┗━━━━━━━━━━━━━━
 `.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', str, m, false, { contextInfo: { mentionedJid }})

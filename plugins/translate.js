@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { args, usedPrefix, command }) => {
-    let msg = `Gunakan format ${usedPrefix}${command} [lang] [teks]`
+    let msg = `*[❗] Uso correcto del comando: ${usedPrefix}${command} idioma texto*\n*Ejemplo*\n*${usedPrefix}${command} es Shadow*`
     if (!args || !args[0]) return m.reply(msg)
     let lang = 'es'
     let text = args.join(' ')
@@ -19,9 +19,6 @@ let handler = async (m, { args, usedPrefix, command }) => {
 *${lang}:* ${json.result.text}
 `.trim())
 }
-handler.help = ['translate'].map(v => v + ' [lang] [teks]')
-
-handler.tags = ['General']
 handler.command = /^(tr(anslate)?)$/i
 
 module.exports = handler

@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      "limit-it@3.2.10",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "limit-it@3.2.10",
+  "_id": "limit-it@3.2.10",
+  "_inBundle": false,
+  "_integrity": "sha512-T0NK99pHnkimldr1WUqvbGV1oWDku/xC9J/OqzJFsV1jeOS6Bwl8W7vkeQIBqwiON9dTALws+rX/XPMQqWerDQ==",
+  "_location": "/limit-it",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "limit-it@3.2.10",
+    "name": "limit-it",
+    "escapedName": "limit-it",
+    "rawSpec": "3.2.10",
+    "saveSpec": null,
+    "fetchSpec": "3.2.10"
+  },
+  "_requiredBy": [
+    "/exec-limiter"
+  ],
+  "_resolved": "https://registry.npmjs.org/limit-it/-/limit-it-3.2.10.tgz",
+  "_spec": "3.2.10",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "blah": {
+    "h_img": "http://i.imgur.com/4UoX6DL.png"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-limit-it/issues"
+  },
+  "dependencies": {
+    "typpy": "^2.0.0"
+  },
+  "description": "Run in parallel as many functions you want, but not more than <x> functions at the time.",
+  "devDependencies": {},
+  "directories": {
+    "example": "example"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "homepage": "https://github.com/IonicaBizau/node-limit-it",
+  "keywords": [
+    "limit",
+    "functions"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "limit-it",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/node-limit-it.git"
+  },
+  "scripts": {
+    "test": "node example"
+  },
+  "version": "3.2.10"
+}

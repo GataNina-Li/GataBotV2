@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      "typpy@2.3.13",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "typpy@2.3.13",
+  "_id": "typpy@2.3.13",
+  "_inBundle": false,
+  "_integrity": "sha512-vOxIcQz9sxHi+rT09SJ5aDgVgrPppQjwnnayTrMye1ODaU8gIZTDM19t9TxmEElbMihx2Nq/0/b/MtyKfayRqA==",
+  "_location": "/typpy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "typpy@2.3.13",
+    "name": "typpy",
+    "escapedName": "typpy",
+    "rawSpec": "2.3.13",
+    "saveSpec": null,
+    "fetchSpec": "2.3.13"
+  },
+  "_requiredBy": [
+    "/deffy",
+    "/err",
+    "/exec-limiter",
+    "/limit-it",
+    "/ul"
+  ],
+  "_resolved": "https://registry.npmjs.org/typpy/-/typpy-2.3.13.tgz",
+  "_spec": "2.3.13",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "blah": {
+    "h_img": "http://i.imgur.com/FkoAc5n.png"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/typpy/issues"
+  },
+  "contributors": [
+    {
+      "name": "Hunter Paulson",
+      "email": "HPaulson@SeismicCore.com"
+    }
+  ],
+  "dependencies": {
+    "function.name": "^1.0.3"
+  },
+  "description": "A better typeof for JavaScript.",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "homepage": "https://github.com/IonicaBizau/typpy",
+  "keywords": [
+    "typeof",
+    "javascript",
+    "typpy"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "typpy",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/typpy.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "2.3.13"
+}

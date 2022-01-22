@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      "noop6@1.0.9",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "noop6@1.0.9",
+  "_id": "noop6@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-DB3Hwyd89dPr5HqEPg3YHjzvwh/mCqizC1zZ8vyofqc+TQRyPDnT4wgXXbLGF4z9YAzwwTLi8pNLhGqcbSjgkA==",
+  "_location": "/noop6",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "noop6@1.0.9",
+    "name": "noop6",
+    "escapedName": "noop6",
+    "rawSpec": "1.0.9",
+    "saveSpec": null,
+    "fetchSpec": "1.0.9"
+  },
+  "_requiredBy": [
+    "/function.name"
+  ],
+  "_resolved": "https://registry.npmjs.org/noop6/-/noop6-1.0.9.tgz",
+  "_spec": "1.0.9",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/noop6/issues"
+  },
+  "description": "No operation as a module using an arrow function.",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "homepage": "https://github.com/IonicaBizau/noop6#readme",
+  "keywords": [
+    "noop6",
+    "no",
+    "operation",
+    "as",
+    "a",
+    "module",
+    "using",
+    "arrow",
+    "functions"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "noop6",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/noop6.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.9"
+}

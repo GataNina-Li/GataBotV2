@@ -1,0 +1,62 @@
+{
+  "_from": "@canvacord/emoji-parser@^1.0.1",
+  "_id": "@canvacord/emoji-parser@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Lb3xatdd91MR9tU4sicgrxxKg+/rVD1zKTOh55bmVF2Ri5X8vHTV+jNHTvRzkomGpyepGM+7qA4xMvG8ZqtO8g==",
+  "_location": "/@canvacord/emoji-parser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@canvacord/emoji-parser@^1.0.1",
+    "name": "@canvacord/emoji-parser",
+    "escapedName": "@canvacord%2femoji-parser",
+    "scope": "@canvacord",
+    "rawSpec": "^1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.1"
+  },
+  "_requiredBy": [
+    "/canvacord"
+  ],
+  "_resolved": "https://registry.npmjs.org/@canvacord/emoji-parser/-/emoji-parser-1.0.1.tgz",
+  "_shasum": "b33049320e01dc5290751df5b6279d99fe2f2437",
+  "_spec": "@canvacord/emoji-parser@^1.0.1",
+  "_where": "/data/data/com.termux/files/home/BAKA13/node_modules/canvacord",
+  "author": {
+    "name": "Snowflake107"
+  },
+  "bugs": {
+    "url": "https://github.com/DevSnowflake/emoji-parser/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "twemoji-parser": "^13.0.0"
+  },
+  "deprecated": false,
+  "description": "Emoji parser for canvacord.",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "@types/twemoji-parser": "^12.1.0",
+    "canvas": "^2.6.1"
+  },
+  "homepage": "https://github.com/DevSnowflake/emoji-parser#readme",
+  "keywords": [
+    "emoji",
+    "canvacord",
+    "parser"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "@canvacord/emoji-parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/emoji-parser.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "cd test && node index.js"
+  },
+  "types": "build/index.d.ts",
+  "version": "1.0.1"
+}

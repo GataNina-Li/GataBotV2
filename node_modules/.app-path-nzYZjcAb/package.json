@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      "app-path@3.3.0",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "app-path@3.3.0",
+  "_id": "app-path@3.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-EAgEXkdcxH1cgEePOSsmUtw9ItPl0KTxnh/pj9ZbhvbKbij9x0oX6PWpGnorDr0DS5AosLgoa5n3T/hZmKQpYA==",
+  "_location": "/app-path",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "app-path@3.3.0",
+    "name": "app-path",
+    "escapedName": "app-path",
+    "rawSpec": "3.3.0",
+    "saveSpec": null,
+    "fetchSpec": "3.3.0"
+  },
+  "_requiredBy": [
+    "/iterm2-version"
+  ],
+  "_resolved": "https://registry.npmjs.org/app-path/-/app-path-3.3.0.tgz",
+  "_spec": "3.3.0",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/app-path/issues"
+  },
+  "dependencies": {
+    "execa": "^1.0.0"
+  },
+  "description": "Get the path to an app (macOS)",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.1",
+    "xo": "^0.24.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "main"
+  ],
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "homepage": "https://github.com/sindresorhus/app-path#readme",
+  "keywords": [
+    "macos",
+    "applescript",
+    "app",
+    "application",
+    "path",
+    "directory",
+    "bundle",
+    "location"
+  ],
+  "license": "MIT",
+  "name": "app-path",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/app-path.git"
+  },
+  "scripts": {
+    "compile": "npm run compile-x64 && npm run compile-arm64 && lipo -create -output main main-x64 main-arm64 && rm main-x64 main-arm64",
+    "compile-arm64": "clang main.m -fmodules -mmacosx-version-min=11.0 -target arm64-apple-darwin -o main-arm64",
+    "compile-x64": "clang main.m -fmodules -mmacosx-version-min=10.6 -target x86_64-apple-darwin -o main-x64",
+    "test": "xo && ava && tsd"
+  },
+  "version": "3.3.0"
+}

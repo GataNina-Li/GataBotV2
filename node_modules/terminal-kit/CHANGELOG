@@ -1,0 +1,3245 @@
+
+v2.1.6
+------
+
+Fix a circular require error (#181)
+
+
+v2.1.5
+------
+
+Fix no lazy require mode
+
+
+v2.1.4
+------
+
+Add a browser build (#176)
+
+
+v2.1.3
+------
+
+New: use require('terminal-kit/lib/termkit-no-lazy-require.js') if lazy loading is troublesome (#176)
+
+
+v2.1.2
+------
+
+Fix TextTable 'autoWidth' bug (#177)
+
+
+v2.1.1
+------
+
+TextTable fix: when providing a custom 'borderChars', check that all character types exists (#173)
+
+
+v2.1.0
+------
+
+New TextTable methods: .setCellAttr() and variations (methods named: set/reset + Cell/Row/Column/Table + Attr()) allowing to modify text attribute of cells (a first step for #166)
+
+
+v2.0.7
+------
+
+sample/detect-terminal-test.js now returns the lib version
+
+
+v2.0.6
+------
+
+Fix BACKSPACE key on OSX
+
+
+v2.0.5
+------
+
+Dependencies
+
+
+v2.0.4
+------
+
+Bar widget: fix rate calculation bug when minValue and maxValue is used (#159)
+
+
+v2.0.3
+------
+
+Fix 'legacyAnsi' markup option for document's widgets (#155)
+
+
+v2.0.2
+------
+
+Submenus now propagate 'itemFocus' events to the main ColumnMenu (fix bug #151)
+
+
+v2.0.1
+------
+
+Fix some niche ansi markup issues, adding a 'legacyAnsi' markup option for document's widgets (#155)
+
+
+v2.0.0
+------
+
+BREAKING: Node >= 14.15.0 (Fermium LTS) required (#156)
+
+
+v1.49.3
+-------
+
+Revert engine changes introduced in v1.49.0 (#156) (will re-introduce it as of v2.0.0)
+
+
+v1.49.2
+-------
+
+Fix a .destroy() bug on ColumnMenu's submenu (#151)
+
+
+v1.49.1
+-------
+
+Fix wrong keybinding for ColumnMenu's submenu (#151)
+
+
+v1.49.0
+-------
+
+Now Node.js v14 is required
+ColumnMenu now supports submenu (still beta) (#151)
+
+
+v1.48.1
+-------
+
+ScreenBuffer#put() now supports 'ansi' for the 'markup' option (#153)
+Improved the TextBuffer's doc
+
+
+v1.48.0
+-------
+
+New method: BaseMenu#setItem() (#150)
+
+
+v1.47.2
+-------
+
+Add the Element#show() and Element#hide() methods, fixing the missing API (#151)
+
+
+v1.47.1
+-------
+
+Fix #147 (ANSI parser bug)
+
+
+v1.47.0
+-------
+
+Document model: better handling of middle and right click, and now Button are sensible to all 3 clicks
+
+
+v1.46.1
+-------
+
+New: DropDownMenu#setDropDownItem()
+
+
+v1.46.0
+-------
+
+Document model: new 'blinked' event emitted by Button, re-emitted by all *Menu* widget
+DropDownMenu now have the option 'clearColumnMenuOnSubmit' (boolean) that clear the drop down column menu on submit (on 'submit' then and once 'blinked')
+
+
+v1.45.9
+-------
+
+Button: submitOnce option
+
+
+v1.45.8
+-------
+
+Button: fixed more .setContent() bugs
+
+
+v1.45.7
+-------
+
+Button: fixed some .setContent() bugs
+
+
+v1.45.6
+-------
+
+Button: fixed some .setContent() bugs
+
+
+v1.45.6
+-------
+
+Button: fixed some .setContent() bugs
+
+
+v1.45.5
+-------
+
+Fix Linux Console default BG color
+
+
+v1.45.4
+-------
+
+Markup: add special reset that also reset forced attr (document-model) (#144)
+
+
+v1.45.3
+-------
+
+Add 'kitty' termconfig (dummy, fully based upon xterm 256/true color config) (#139)
+
+
+v1.45.2
+-------
+
+Following v1.45.1, adding 'itemToggle' event on the ColumnMenuMulti and derivated class
+
+
+v1.45.1
+-------
+
+Add the 'itemFocus' event on the BaseMenu superclass (#143)
+
+
+v1.45.0
+-------
+
+Fix keyboard navigation with Form having SelectList and SelectListMulti (#142), and some 'focus' event issues
+
+
+v1.44.3
+-------
+
+Fix a memory leak in the Document model (#138)
+
+
+v1.44.2
+-------
+
+Fix a memory leak in the Document model (#138)
+
+
+v1.44.1
+-------
+
+Mitigate leak issue with term.table() (#138)
+
+
+v1.44.0
+-------
+
+Better OSX support (see #126 and #127)
+
+
+v1.43.0
+-------
+
+New method TextTable#setCellContent() (#123)
+Fix Text#setContent()
+Fix a LabeledInput's label highlight bug on direct click focus
+
+
+v1.42.0
+-------
+
+Dependencies upgraded (get-pixels and underlying jpeg-js, pngjs and other lib)
+Upgrade forces Node v8 drop, now supports Node >= v10
+
+
+v1.41.0
+-------
+
+Container now supports scrolling, and so does Window.
+
+
+v1.40.0
+-------
+
+Fix a bad ScreenBuffer#put() behavior when trying to write out of the buffer without wrap:true
+Container now supports a 'movable' option that makes them movable by mouse-drag
+New Window widget with title, border, movable by default, that will serve as a base to iterate upon (planned feature: resizing, minimizing, docking, closing, scrolling)
+
+
+v1.39.0
+-------
+
+New TextBox methods: .scrollToTop(), .scrollToBottom() and .appendLog() (see the doc), and minor draw fix
+
+
+v1.38.0
+-------
+
+New: Bar widget, featuring text-over-bar, suitable as a component for a future progress-bar widget
+Fixing SelectList master-button enlargement bug
+
+
+v1.37.0
+-------
+
+New: AnimatedText widget, used for the new .spinner() (#98)
+Lot of inline mode fixes for document-model widget
+Documentation on .spinner(), .table() and TextTable (#109), built-in box/border/frame and animation/spinner
+
+
+v1.36.0
+-------
+
+ColumnMenu height bugfixes, autoWidth/Height support, and 'parentResize' event support (issue #120)
+
+
+v1.35.13
+--------
+
+Document model -- ColumnMenu: fix a redraw bug introduced in v1.35.0 (issue #120)
+
+
+v1.35.12
+--------
+
+Documentation
+
+
+v1.35.11
+--------
+
+Document model: new option 'autoWidth' and 'autoHeight' to adjust width/height to the parent Container size
+TextBox inside a Layout/Container auto-adjust itself on Container resizing (#119)
+Fix Text/Button display error when on the last column of a Container
+
+
+v1.35.10
+--------
+
+TextBuffer now supports content containing ANSI code, and so does TextBox (#119)
+
+
+v1.35.9
+-------
+
+Fix a nasty bug/regression introduced in v1.35.8 (TextBuffer)
+
+
+v1.35.8
+-------
+
+TextBuffer now supports .append() and .prepend()
+TextBox now supports .appendContent() and .prependContent()
+
+
+v1.35.7
+-------
+
+.inputField(): Fixing (again) issues related to full-width char (#117)
+
+
+v1.35.6
+-------
+
+Add debug facilities for issue #116, and a maybe-fix
+
+
+v1.35.5
+-------
+
+.inputField(), .progressBar() and all .*Menu() fallback to the last line position when requesting cursor location is not possible on the terminal (mainly a Windows problem) (#74)
+
+
+v1.35.4
+-------
+
+Fix backDelete behavior when the previous char is a full-width char (#117)
+
+
+v1.35.3
+-------
+
+Add 'cli' to the package keywords
+
+
+v1.35.2
+-------
+
+Fix the 'strictInline' mode clipping issue for widget with a height greater than the terminal height (#111)
+
+
+v1.35.1
+-------
+
+Many Document-model fix, including not altering user passed options
+
+
+v1.35.0
+-------
+
+New document-model widget: InlineInput, it's like .inputField() and implements almost every features of it, and will supersede it once its inline-mode is ready
+TextBuffer: fix some cursor position issue with line-wrapping
+RowMenu now supports pagination
+TextBuffer now supports voidTextBuffer (a kind of 'ghost' textBuffer companion, used to implement hint and placeholder in InlineInput)
+
+
+v1.34.5
+-------
+
+Transmit lineWrap/wordWrap options from LabeledInput and Form to EditableTextBox
+
+
+v1.34.4
+-------
+
+TextBuffer now supports auto-wrapping
+
+
+v1.34.3
+-------
+
+TextBuffer now supports both word-wrapping and 'hard' line-wrapping
+word-wrapping options are now spelled 'wordWrap' everywhere in Terminal Kit, old 'wordwrap' spelling is DEPRECATED but kept for backward compatibility
+
+
+v1.34.2
+-------
+
+.inputField() now supports CTRL_R auto-completion, using history as its source instead of options.autoComplete
+
+
+v1.34.1
+-------
+
+TextTable fixed when hasBorder:false, plus a whole bunch of new options to set attributes of columns, rows, cells, borders... as well as markup support (#109)
+
+
+v1.34.0
+-------
+
+New: document model TextTable
+New: term.table() (using TextTable in inline mode)
+New: ScreenBuffer* now support inline terminal rendering (i.e.: no moveTo operation, just newlines)
+New: Document model now supports “strict” inline mode (no grabInput, no asyncness, but only for static and one-time-renderable elements, like TextTable)
+
+
+v1.33.15
+--------
+
+Dependency
+
+
+v1.33.14
+--------
+
+Fix the SelectMenuMulti behavior, submitting on 'clickOut'
+
+
+v1.33.13
+--------
+
+Fix a scrolling bug in EditableTextBox
+
+
+v1.33.12
+--------
+
+Some word-wrapping bugs fixed for TextBuffer
+horizontal Slider supported
+TextBox supports horizontal scroll bar now
+
+
+v1.33.11
+--------
+
+Word-wrapping support for TextBuffer and TextBox
+Improved scrolling on Slider, TextBox and EditableTextBox, as well as more navigation keys and tiny draw-code performances bugs fixed
+
+
+v1.33.10
+--------
+
+Minor improvement on Slider (fix micro bug of the cursor hanging at the bottom and one cell right off of the slider)
+
+
+v1.33.9
+-------
+
+Document model: Fix some scrollbar/slider bug, allow Form/LabelledInput to have scrollbar
+
+
+v1.33.8
+-------
+
+New: Document model has now a Slider widget (only vertical support ATM)
+Now TextBox and EditableTextBox can have a vertical scrollbar using the new Slider widget
+
+
+v1.33.7
+-------
+
+Fix scrollable for TextBox, it can now get focus for listening key events (page up/down)
+All *Menu* are now sensible to mouse wheel
+
+
+v1.33.6
+-------
+
+Form/LabeledInput: fix the scrollable option
+
+
+v1.33.5
+-------
+
+Form/LabeledInput: add the scrollable option
+
+
+v1.33.4
+-------
+
+Document model: improved mouse event
+TextBox and EditableTextBox scrolling is greatly improved (auto scroll when needed, scroll move cursor, mouse wheel support)
+
+
+v1.33.3
+-------
+
+Fix Document model drag event
+basic support for scrollable TextBox
+
+
+v1.33.2
+-------
+
+ColumnMenu* support next/previous/first/last page key bindings
+
+
+v1.33.1
+-------
+
+EditableTextBox supports cursor moves on click, and supports middle-click that paste the so-called 'primary' clipboard
+LabeledInput support clipboard operation
+
+
+v1.33.0
+-------
+
+New: clipboard API
+Mouse event: new event subtype MOUSE_DRAG
+TextBuffer support selection with hilight (inverse foreground and background)
+TextBox are selectable and copy to primary clipboard on doing so while CTRL_O copy current selection to cut clipboard
+EditableTextBox: CTRL_P paste from cut clipboard
+
+
+v1.32.3
+-------
+
+.singleLineMenu() now supports option 'align' (=right|center|left) and 'fillIn' (boolean) (inspired by PR #105)
+
+
+v1.32.2
+-------
+
+Dependencies
+
+
+v1.32.0 - v1.32.1
+-----------------
+
+String-kit dependency upgraded: better formatting options!
+
+
+v1.31.7 - v1.31.10
+------------------
+
+Dependencies (string-kit format improvements)
+
+
+v1.31.6
+-------
+
+Support for new line in ScreenBuffer#put() need the opt-in option 'newLine' set to true, fixing v1.31.5 non-backward compatible behavior change (#103)
+
+
+v1.31.5
+-------
+
+Limited support for newline in ScreenBuffer#put(), replace other control chars by a space (#103)
+
+
+v1.31.4
+-------
+
+Add the x,y option to .progressBar() (may somewhat solve #99)
+
+
+v1.31.3
+-------
+
+Dependencies
+
+
+v1.31.2
+-------
+
+Reject bad RegExp for .inputField's tokenRegExp option: throw if the RegExp doesn't have the 'g' flag (fix #97)
+
+
+v1.31.1
+-------
+
+Fix gnome color reporting
+
+
+v1.31.0
+-------
+
+New: ScreenBuffer#fill() now supports a 'region' option, when specified only that region will be filled
+
+
+v1.30.0
+-------
+
+Finally ScreenBuffer* support fullwidth char
+WARNING: ScreenBufferHD breaking changes (beta API - not under SemVer)
+	* Support for *defaultColor is dropped because it is not compatible with alpha channel and blending
+	* attributes changed: now color channels are inside 'color', and bgColor is consistent, allowing to pass similar (standard) color object
+		 to both the foreground and background (see the doc)
+
+
+v1.29.3
+-------
+
+Emergency bugfix (#95)
+
+
+v1.29.2
+-------
+
+Fix a TextBuffer bug in .setText() when markup is on
+
+
+v1.29.1
+-------
+
+Palette now has a 256-colors fallback
+ANSI colors are available in complex markup
+
+
+v1.29.0
+-------
+
+New: 24 bits Palette for the ScreenBuffer, complex markup for using new colorscheme/color name of the Palette
+Lot of bug related to markup fixed (width, wordwrap, ...)
+
+
+v1.28.42
+--------
+
+Fixed markup's parameters pollution (markup + TextBuffer)
+
+
+v1.28.41
+--------
+
+Add some 256-color names (grayscale)
+
+
+v1.28.40
+--------
+
+Document model -- New ColumnMenu* attr option: 'buttonEvenBlurAttr', that match only even entries
+
+
+v1.28.39
+--------
+
+Fixed ScreenBuffer#put() regression ('reset' markup should reset to the provided 'attr' option, if any)
+
+
+v1.28.38
+--------
+
+Document model -- fixed Document#focusNext() regression, refacto of ScreenBuffer#put() to work with the new factorized markup parser
+
+
+v1.28.37
+--------
+
+Fix ScreenBufferHD#put() regression: 'markup' option is working again
+update the doc to add a list of supported markup
+
+
+v1.28.36
+--------
+
+Document model -- New: BaseMenu now has a .focusValue() method that give focus to the element having that value
+
+
+v1.28.35
+--------
+
+Document model -- New: Buttons now have a special action key bindings
+
+
+v1.28.34
+--------
+
+Document model -- better default colors for SelectList* and better default handling
+
+
+v1.28.33
+--------
+
+TextBuffer#setContent() now support markup
+
+
+v1.28.32
+--------
+
+Fix markup width bug
+
+
+v1.28.31
+--------
+
+Fix empty SelectList* bug
+
+
+v1.28.30
+--------
+
+Document model -- SelectList* now options.content is a shortcut for options.master.content
+
+
+v1.28.29
+--------
+
+Document model -- SelectListMulti now submit when reducing
+
+
+v1.28.28
+--------
+
+Document model -- New: Form now supports SelectListMulti
+
+
+v1.28.27
+--------
+
+Document model -- New: ColumnMenuMulti, SelectListMulti: for multiple choices
+
+
+v1.28.26
+--------
+
+Document model -- new widget: ToggleButton
+
+
+v1.28.25
+--------
+
+Document Model -- Fix zIndex trouble in Form when multiple SelectList exist, now there is a zIndex propagation mecanism
+
+
+v1.28.24
+--------
+
+TextBuffer: fixing the .setText() bug that stripped newLines (wasn't affecting display, only once .getText() is called)
+
+
+v1.28.23
+--------
+
+Document model -- Form: fix regression, multi-line text input are possible again
+
+
+v1.28.22
+--------
+
+Document model -- SelectList: initial value and .setValue() are fixed
+
+
+v1.28.21
+--------
+
+Document model -- Hidden element fixed to not interfere with any click or mouse motion, or whatever, SelectList dimension fixed, Form: support for SelectList added
+
+
+v1.28.20
+--------
+
+Fix .inputField() delete and backDelete bug under 'alwaysRedraw' behavior, e.g. when a tokenHook is provided (issue #79, replace PR #94)
+
+
+v1.28.19
+--------
+
+Document model -- New: SelectList
+
+
+v1.28.18
+--------
+
+Document model -- fixing z-aware click detection
+
+
+v1.28.17
+--------
+
+Document model -- new: zIndex, drawing and detecting click is now z-aware
+
+
+v1.28.16
+--------
+
+New methods for TextBuffer: .moveToEndOfWord() and .moveToStartOfWord()
+Document model: EditableTextBox and widget using it now supports moving from word to word using CTRL+LEFT/RIGHT
+
+
+v1.28.15
+--------
+
+Document model: better behavior of multi-line text-input in forms
+dependencies upgraded
+
+
+v1.28.14
+--------
+
+Document Model: now Document emit 'key' events only when no default nor shortcut prevailed
+
+
+v1.28.13
+--------
+
+Document Model: new: shortcut registration and 'shortcut' event on all Elements
+
+
+v1.28.12
+--------
+
+Document Model: improved ColumnMenu pagination
+Button now have an 'internalRole' property
+
+
+v1.28.11
+--------
+
+Document Model: very raw support for pagination in ColumnMenu
+
+
+v1.28.10
+--------
+
+Document model: now support those new events: 'clickOut', 'leave', 'enter'
+DropDownMenu disappear on clicked out
+
+
+v1.28.9
+-------
+
+Document model: fixing TextBox and non-string content
+
+
+v1.28.8
+-------
+
+New: document model's RowMenu now have 'buttonSeparator' and 'buttonSeparatorAttr' options
+
+
+v1.28.7
+-------
+
+Document model: DropDownMenu has ENTER/KP_ENTER key to submit top-level buttons (since it can be submittable now)
+
+
+v1.28.6
+-------
+
+Document model: now 'click' and 'hover' events are emitted on the first leaf Element that has a listener for either 'click' or 'hover'
+
+
+v1.28.5
+-------
+
+Document model: DropDownMenu now can have submittable top button (buttons from the row menu)
+
+
+v1.28.4
+-------
+
+Document model: TextInput now correctly set content/value on creation
+
+
+v1.28.3
+-------
+
+New: .singleLineMenu() has the 'selectedIndex' option just like .singleColumnMenu() (#93)
+
+
+v1.28.2
+-------
+
+Dependencies
+
+
+v1.28.1
+-------
+
+Fixing .singleLineMenu() 'highlight' event to correctly report the highlight index (#90)
+
+
+v1.28.0
+-------
+
+New: now term.color() and term.bgColor() accepts color names (#87)
+
+
+v1.27.3
+-------
+
+string-kit dependency
+
+
+v1.27.2
+-------
+
+Dependencies upgraded, CHANGELOG edited (missing Node engine v8.10+ requirement informations #86)
+
+
+v1.27.1
+-------
+
+Dependencies upgraded, CHANGELOG edited (missing Node engine v8.10+ requirement informations #86)
+
+
+v1.27.0
+-------
+
+New: 'highlight' event in .inputField(), .singleLineMenu() and .singleColumnMenu(), see the doc (issue #81, replace PR #82)
+
+
+v1.26.11
+--------
+
+Fix the doc, add a notice about .drawImage() and HTTP URL (#83)
+
+
+v1.26.10
+--------
+
+Now relying on string-kit@0.9.0 which completely remove xregexp dependency
+
+
+v1.26.9
+-------
+
+Emergency fix: xregexp does not work as of v4.2.2
+
+
+v1.26.8
+-------
+
+A progress bar controler now has a .reset() method #77
+
+
+v1.26.7
+-------
+
+Fix issue #76 (TextBuffer)
+
+
+v1.26.6
+-------
+
+Report bad escape sequence entry and continue anyway
+
+
+v1.26.5
+-------
+
+Dependencies upgraded
+
+
+v1.26.4
+-------
+
+Important notice: Node engine v8.10.0 Dubnium LTS is now required, but still it's not a minor semver because it's a fix:
+the lib uses async functions since v1.19.0 and thus won't load on Node v6, therefore the strict engine limitation
+should have been done on v1.19.0. This update just make thing clear. Sorry about that.
+
+Dependencies upgraded.
+
+
+v1.26.3
+-------
+
+Add the 'cancelable' option for .singleLineMenu() and .singleColumnMenu()
+
+
+v1.26.2
+-------
+
+Important String-kit dependency fixed (format %I %Y and %E had bug)
+Document model: fix focus cycling with Form
+
+
+v1.26.1
+-------
+
+If present, loads the original 'get-pixels' instead of '@cronvel/get-pixels'
+
+
+v1.26.0
+-------
+
+TextBuffer now supports the text-machine module (state machine)
+TextBox/EditableTextBox constructor now support the 'stateMachine' option
+
+
+v1.25.0
+-------
+
+Compatibility WARNING:
+Fix ScreenBuffer, so default fg/bg colors are... well... the default. (instead of black background)
+This behavior was a bug, but it may change existing app, especially when the terminal 'default' background color
+is different from the color register 0, and the app forgot to initialize the screenBuffer with
+a background color (many terminals use color 0 or 7 as the default for background, some like Gnome-Terminal have a special
+color for that).
+So before 1.25, when unspecified, the background color was 'black' (color register 0, it was a bug),
+starting from 1.25, when unspecified, the background color is 'default' (the terminal default).
+
+New: TextBox and EditableTextBox
+TextInput now rely on EditableTextBox
+TextBuffer#drawCursor() fixed
+
+
+v1.24.1
+-------
+
+TextBuffer: fixing misc data back to its old behavior
+
+
+v1.24.0
+-------
+
+TextBuffer minor fix ('misc' data)
+
+
+v1.23.0
+-------
+
+TextBuffer has been internally refactored
+
+
+v1.22.1
+-------
+
+Form now support default content
+
+
+v1.22.0
+-------
+
+Document Form submit value has changed (unstable/undocumented API, not under SemVer)
+
+
+v1.21.0
+-------
+
+New: lazy-load everything except core submodule
+
+
+v1.20.0
+-------
+
+Internal refacto, backward compatible API changes, document model and menu overhaul
+
+
+v1.19.2
+-------
+
+.getCursorLocation() bug fixed
+
+
+v1.19.1
+-------
+
+.inputField() now support promise returning function for its 'autoComplete' option.
+All promise API are now documented (#18).
+
+
+v1.19.0
+-------
+
+Breaking change: Node engine v8+ is now mandatory because of async functions, but I forgot to update the package.json until Terminal-kit@1.26.4.
+
+Almost all features now have a Promise variant (#18).
+Still not documented.
+
+
+v1.18.0
+-------
+
+Add promises to some API (#18).
+
+
+v1.17.13
+--------
+
+should provide a more insightful error when the terminal is not capable of requesting cursor location (#16)
+
+
+v1.17.12
+--------
+
+Dependencies
+
+
+v1.17.11
+--------
+
+This may fix an incomprehensible Windows bug (#16)
+
+
+v1.17.10
+--------
+
+.singleLineMenu(): added all improvements made to .singleColumnMenu() (full-width chars and escape sequence aware, see #68)
+
+
+v1.17.9
+-------
+
+.singleColumnMenu() with escape sequences in menu item improved: various minor fixes and now detect style reset (#68)
+
+
+v1.17.8
+-------
+
+.singleColumnMenu() with long entry and escape sequences fixed (#68)
+
+
+v1.17.7
+-------
+
+Fix .inputField() behavior with full-width chars (#70)
+
+
+v1.17.6
+-------
+
+.singleColumnMenu() now has a .cancel() method exposed on the returned controller ; Dependencies upgraded
+
+
+v1.17.5
+-------
+
+Small documentation fixes
+
+
+v1.17.4
+-------
+
+Many bugs on non-TTY output are now fixed ; minor .wrap() bugs fixed ; documentation improved on .wrap()/.wrapColumn()
+
+
+v1.17.3
+-------
+
+Fixed .wrap()'s auto-width for x > 1
+
+
+v1.17.2
+-------
+
+Word-wrapping is now documented and its API considered stable
+
+
+v1.17.1
+-------
+
+word-wrap API refined
+
+
+v1.17.0
+-------
+
+New: word-wrapping (EXPERIMENTAL/UNSTABLE API -- NEED DOC) using term.wrap() / term.wrapColumn()
+
+
+v1.16.1
+-------
+
+Documentation updated for new options 'isTTY' and 'isSSH' of termkit.createTerminal()
+
+
+v1.16.0
+-------
+
+Fixed: avoid sending escape sequences when the output is not a TTY (probably piping or redirecting to a file).
+
+Note: this is a bugfix and should theorically be a SEMVER PATCH, but since it could affect people actually wanting to write
+terminal's escape sequences inside a file/pipe, it will be flagged as a SEMVER MINOR.
+
+
+v1.15.6
+-------
+
+Bugfix: do not clean up when not inside a TTY
+
+
+v1.15.5 - v1.15.4
+-----------------
+
+Dependencies cleaned up.
+
+
+v1.15.2
+-------
+
+To solve 'npm audit' issues, I now use my own fork of the 'get-pixels' module, with everything not related to Terminal-kit
+pruned (it removes a lot of packages).
+
+
+v1.15.1
+-------
+
+PR #68 - Use stdout columns/rows properties for terminal size
+
+
+v1.15.0
+-------
+
+Moved from JSHint to ESLint, upgraded coding style
+
+
+v1.14.3
+-------
+
+Documentation fixed
+
+
+v1.14.2
+-------
+
+Documentation fixed
+
+
+v1.14.1
+-------
+
+Fixed issue #58 for all .*Menu()
+
+
+v1.14.0
+-------
+
+.inputField(): now it is possible to get/set cursor position at instantiation using a new 'cursorPosition' option, and real-time using the returned object to get/set the cursor position with the methods getCursorPosition() and setCursorPosition() (issue #56)
+
+
+v1.13.13
+--------
+
+Try to fix terminal resizing detection on windows (#54)
+
+
+v1.13.12
+--------
+
+New method: .eraseArea() -- a handy higher level method that erases a rectangular area on the screen (#51)
+
+
+v1.13.11
+--------
+
+Mitigated an issue with terminal detection on Windows
+
+
+v1.13.10
+--------
+
+.inputField(): new option echoChar (issue #45) ; + fixed few redraw bug
+
+
+v1.13.9
+-------
+
+New: term.tabSet() .tabClear() .tabClearAll() .forwardTab() and .backwardTab()
+
+
+v1.13.8
+-------
+
+.gridMenu() now supports an 'x' and 'width' option (issue #45)
+
+
+v1.13.7
+-------
+
+ScreenBufferHD is not considered unstable anymore, it is now under the SemVer contract
+
+
+v1.13.6
+-------
+
+Documentation improvements
+
+
+v1.13.5
+-------
+
+.stripEscapeSequences(), .stringWidth() and .truncateString() are now documentated and part of the SemVer contract
+
+
+v1.13.4
+-------
+
+Unstable API fixed: termkit.stringTruncate() -> termkit.truncateString()
+
+
+v1.13.3
+-------
+
+String-kit dependency upgraded.
+Utilities: termkit.stringWidth(), termkit.stringTruncate().
+
+
+v1.13.2
+-------
+
+New: termkit.stripEscapeSequences()
+
+
+v1.13.1
+-------
+
+New: term.eraseScrollback() -- erase the scrollback buffer, a.k.a. saved line.
+term.bindArgs() is now documented thus under the SemVer contract
+
+
+v1.13.0
+-------
+
+New: term.bindArgs() refacto, it is now a regular chainable method, returned bounded function is chainable as well.
+Too much chainable refacto, so this is a SemVer minor.
+
+
+v1.12.3
+-------
+
+Documentation improved (issue #42), more color utilities and term.bindArgs() (both beta/undocumented)
+
+
+v1.12.2
+-------
+
+New: term.colorNameForRgb()
+
+
+v1.12.1
+-------
+
+term.bar() bugfixed + new options: barStyle
+
+
+v1.12.0
+-------
+
+* New: term.bar() -- it creates a bar representing the value, it uses unicode to improve the precision
+* Undocumented spChars.enlargingBlocks and spChars.growingBlocks fixed: now index 0 is for whitespace like it should,
+  all other characters are shifted.
+
+
+v1.11.2
+-------
+
+New: .inputField() now supports a meta key binding (PR #40 by samizdatco)
+
+
+v1.11.1
+-------
+
+New: .inputField()'s .rebase() method now supports an x and y arguments to use as the new coordinates instead of the result of an asynchronous internal call to .getCursorLocation() (PR #38)
+
+
+v1.11.0
+-------
+
+New: .progressBar() now supports option 'inline', so it redraws itself at the begining of the current line instead of being locked in-place (fix issue #36)
+
+
+v1.10.2
+-------
+
+TextBuffer: bugfixing ScreenBufferHD backing
+
+
+v1.10.1
+-------
+
+ScreenBuffer*: Fixing bugs in the new default fg/bg color feature
+
+
+v1.10.0
+-------
+
+ScreenBuffer/ScreenBufferHD:
+* support for terminal default BG/FG color (#30), this works through the new attr options: 'defaultColor'
+  and 'bgDefaultColor', this is the default options for .fill() and at ScreenBuffer/ScreenBufferHD creation
+* support for full transparency in the terminal blitter (BTW partial transparency is not possible, since we can't
+  access terminal cells)
+
+
+v1.9.0
+------
+
+.inputField(): Cherry-picking (and improving) from @samizdatco PR: adding Ctrl-W/Alt-D to produce delete previous/next word (#21)
+
+
+v1.8.13
+-------
+
+Fixed Ctrl-U/Ctrl-K redraw issues when hint are turned off #21
+
+
+v1.8.12
+-------
+
+spChars: rounded box
+
+
+v1.8.11
+-------
+
+Fixed #29 (ndarray should be listed as direct dependency, so it would not break when node_modules/ is not flat)
+
+
+v1.8.10
+-------
+
+.singleColumnMenu(): more improvements
+
+
+v1.8.8 - v1.8.9
+---------------
+
+.inputField() fixed coordinate
+
+
+v1.8.7
+------
+
+.singleColumnMenu(): fixed minor initialization issues
+
+
+v1.8.6
+------
+
+Fixed issue when leaving mouse motion grabbing (e.g.: when exiting using term.processExit()),
+added an async mode to .grabInput() necessary to accomplish this.
+Basically, there is a delay between turning off mouse grabbing and turning off raw mode
+
+
+v1.8.5
+------
+
+Lot of minor fixes (exit cleanup, menu, .getCursorLocation(), etc)
+
+
+v1.8.4
+------
+
+.singleColumnMenu(): more minor fixes
+
+
+v1.8.3
+------
+
+.singleColumnMenu() and .gridMenu() extra lines fixed
+
+
+v1.8.2
+------
+
+.singleColumnMenu() fixed and improved, Terminal detection fixed and improved (fix #26)
+
+
+v1.8.1
+------
+
+Fix some shutdown issues in .processExit()
+
+
+v1.8.0
+------
+
+Fixed spelling error in options of .singleColumnMenu() and .gridMenu()
+
+
+v1.7.2
+------
+
+Image loader: better error handling
+
+
+v1.7.1
+------
+
+Image loader fixed: now the callback is optional
+
+
+v1.7.0
+------
+
+ScreenBuffer*#vScrollBuffer() is renamed ScreenBuffer*#vScroll(), is refactored,
+it manages dst terminal scrolling, and is now part of the public API
+
+
+v1.6.8
+------
+
+Greatly improved image drawing performance, + more ScreenBuffer* optimizations
+
+
+v1.6.7
+------
+
+Greatly improved the ScreenBufferHD performance
+
+
+v1.6.6
+------
+
+Adding missing escape sequence to set/reset the scrolling region, new (private?) method ScreenBuffer*#vScrollBuffer(),
+image-viewer sample code improved, ScreenBuffer#fill() improved and fixed
+
+
+v1.6.5
+------
+
+.singleColumnMenu() and .gridMenu(): fixed a minor bug (was adding one extra line when at the bottom of the terminal)
+and improved the documentation (example and screenshot)
+
+
+v1.6.4
+------
+
+Documentation on .singleColumnMenu() and .gridMenu()
+
+
+v1.6.3
+------
+
+.singleLineMenu() documentation updated
+
+
+v1.6.2
+------
+
+Added mouse support to .singleLineMenu()
+
+
+v1.6.1
+------
+
+.singleColumnMenu() and .gridMenu() now supports the mouse
+
+
+v1.6.0
+------
+
+New: .gridMenu(), bugfixed .singleColumnMenu()
+
+
+v1.5.4
+------
+
+.singleLineMenu() and .singleColumnMenu() now supports key bindings customization
+
+
+v1.5.3
+------
+
+Removed deprecated, undocumented and duplicated area mode for .inputField()
+
+
+v1.5.2
+------
+
+Bugfixed .singleColumnMenu(), and correctly wordwrap menu items
+
+
+v1.5.1
+------
+
+Many .singleColumnMenu() bugfixes
+
+
+v1.5.0
+------
+
+New: .singleColumnMenu()
+
+
+v1.4.4
+------
+
+Another .inputField() bug fixed
+
+
+v1.4.3
+------
+
+.inputField() history redraw bug fixed
+
+
+v1.4.2
+------
+
+Fixed: missing .scrollUp() and .scrollDown() ANSI escape sequences are now included in the lib
+
+
+v1.4.1
+------
+
+Fixed: missing term.reset*ColorRgb(), that reset anything set by term.set*ColorRgb().
+Fixed: term.windowTitle() now just set the window title, not the icon name anymore.
+Icon name can be set with term.iconName().
+
+
+v1.4.0
+------
+
+New: term.cwd() and term.notify()
+
+
+v1.3.0
+------
+
+New: term.colorRgbHex() and term.bgColorRgbHex()
+
+
+v1.2.8 - v1.2.12
+----------------
+
+Markup reset string
+
+
+v1.2.7
+------
+
+Markup shift/modifier support for background color
+
+
+v1.2.6
+------
+
+.inputField() fixed: now hints are removed on submit
+
+
+v1.2.5
+------
+
+Block special chars
+
+
+v1.2.4
+------
+
+Documentation improvements
+
+
+v1.2.1 - v1.2.3
+---------------
+
+Documentation on Terminal#drawImage(), ScreenBuffer*#loadImage() and fixed some escape sequences for the linux console
+
+
+v1.2.0
+------
+
+* .inputField(): Added support for Ctrl-Left/Ctrl-right moving to the previous/next word
+and support for Ctrl-U/Ctrl-K delete all characters before/after (issue #21)
+* 'gray' and 'bgGray' are now aliases of 'brightBlack' and 'bgBrightBlack' (issue #22)
+
+
+v1.1.5
+------
+
+ScreenBufferHD.loadImage() minor bug fixed. Added a shrink options.
+
+
+v1.1.4
+------
+
+Documentation improvements
+
+
+v1.1.3
+------
+
+New: Unleash incredible terminal gfx! Now the 32-bit ScreenBuffer supports image loading!
+
+
+v1.1.2
+------
+
+Documentation improved on ScreenBuffer HD
+
+
+v1.1.1
+------
+
+Documentation fixed and improved on ScreenBuffer HD
+
+
+v1.1.0
+------
+
+New: ScreenBufferHD, a 32-bit (RGBA) screen buffer with composition (issue #9).
+
+
+v1.0.5
+------
+
+24 bits colors are back:
+A couple of month ago (around nov 2016 and feb 2017), major terminals (gnome-terminal, Konsole, iTerm, ...)
+changed the behavior of the $COLORTERM environment variable (without much advertising, BTW...),
+and that totally messed up terminal detection.
+
+Instead of containing the terminal identifier, now it contains "truecolor" if the terminal supports true-color.
+Failing to find a terminal named "truecolor", Terminal-kit was falling back to "xterm".
+
+I noticed that just now. -_-'
+Fixed.
+
+
+v1.0.4
+------
+
+Dependency upgraded
+
+
+v1.0.3
+------
+
+.grabInput() bug introduced by the fix at v1.0.2 fixed (misleading Node.js stream's flowing/pause mode behavior)
+
+
+v1.0.2
+------
+
+.grabInput( false ) bug fixed: it was not switching stdin back to pause mode
+
+
+v1.0.1
+------
+
+Documentation
+
+
+v0.30.7
+-------
+
+Documentation fixed
+
+
+v0.30.6
+-------
+
+Documentation fixed
+
+
+v0.30.5
+-------
+
+.fileInput() documentation
+
+
+v0.30.4
+-------
+
+Documentation improvements
+
+
+v0.30.3
+-------
+
+TextBuffer documentation done
+
+
+v0.30.2
+-------
+
+Documentation
+
+
+v0.30.1
+-------
+
+Documentation
+
+
+v0.30.0
+-------
+
+Breaking change -- ScreenBuffer.create(): wrap is disabled by default. Documentation improvements.
+
+
+v0.29.0
+-------
+
+Breaking change: the long-time deprecated (since v0.16.0) 'SCREEN_RESIZE' sub-type of the 'terminal' event is dropped,
+in favor of the 'resize' event.
+Documentation improved.
+
+
+v0.28.4
+-------
+
+Documentation improvements
+
+
+v0.28.3
+-------
+
+The documentation has been totally restructured.
+
+
+v0.28.2
+-------
+
+.inputField(): tokenHook() can return a string now. (part of issue #19)
+
+
+v0.28.1
+-------
+
+Typo in the doc
+
+
+v0.28.0
+-------
+
+Breaking change: .inputField()'s tokenHook option has changed, the arguments of the function
+are now ( token , isEndOfInput , previousTokens , term , config ). See the doc. #19
+
+
+v0.27.4
+-------
+
+.inputField(): Auto-Completer can return an array having a 'postfix' property (similar than 'prefix')
+
+
+v0.27.3
+-------
+
+.inputField() documentation updated
+
+
+v0.27.2
+-------
+
+inputField(): fixed a bug introduced in v0.27.0, autoCompleteMenu was not exiting without choosing an existing alternative
+
+
+v0.27.1
+-------
+
+inputField() token hilighting API fixed, all features of issue #19 are coded, documentation not updated ATM
+
+
+v0.27.0
+-------
+
+New: inputField() support token hilighting
+
+
+v0.26.2
+-------
+
+Fixing TextBuffer#load()
+
+
+v0.26.1
+-------
+
+Bugfix: this was not returned when shutting down
+
+
+v0.26.0
+-------
+
+Breaking change: process exit refactoring
+
+
+v0.25.6
+-------
+
+ProgressBar sync mode
+
+
+v0.25.5
+-------
+
+A tool moved jshint from dev-dependency to dependency: fixing it now
+
+
+v0.25.4
+-------
+
+Dependencies
+
+
+v0.25.3
+-------
+
+Documentation fixed
+
+
+v0.25.2
+-------
+
+Dependencies
+
+
+v0.25.1
+-------
+
+Documentation: fixing the TOC
+
+
+v0.25.0
+-------
+
+Breaking changes: engine node >= 4.5, because of node v6 'new Buffer' deprecation migration
+
+
+v0.24.30
+--------
+
+Fixed bad right bitshift >> to >>>
+
+
+v0.24.28 - v0.24.29
+-------------------
+
+Replace the '&' in the package description by 'and' (because of a long running bug on npmjs.org)
+
+
+v0.24.27
+--------
+
+Dependencies
+
+
+v0.24.26
+--------
+
+termkit.autoComplete() now accept a fourth argument: 'prefix', useful to ease issue #13
+
+
+v0.24.25
+--------
+
+New: term.markupOnly()
+
+
+v0.24.24
+--------
+
+Badges
+
+
+v0.24.23
+--------
+
+NextGenEvents updated
+
+
+v0.24.22
+--------
+
+Bugfix: ^ caret in inputField() now works
+
+
+v0.24.21
+--------
+
+Dependencies
+
+
+v0.24.20
+--------
+
+Codewake badge
+
+
+v0.24.19
+--------
+
+Dependencies
+
+
+v0.24.18
+--------
+
+Markup not performing styleReset is now fixed
+
+
+v0.24.17
+--------
+
+Dependencies
+
+
+v0.24.15 - v0.24.16
+-------------------
+
+Force CRLF with `term.options.crlf = true`.
+Not official ATM.
+
+
+v0.24.14
+--------
+
+Fix issue #12 (when the TERM env variable does not exist)
+
+
+v0.24.13
+--------
+
+Dependencies
+
+
+v0.24.12
+--------
+
+Dependencies
+
+
+v0.24.11
+--------
+
+Dependencies
+
+
+v0.24.10
+--------
+
+Dependencies
+
+
+v0.24.9
+-------
+
+Yet another fix to progressBar. Using async-kit's setSafeTimeout() instead of an internal one.
+
+
+v0.24.8
+-------
+
+Minor fix in progressBar (bad size when progress/eta/item is undefined)
+
+
+v0.24.7
+-------
+
+Timeout issues fixed when CPU-bound/sync task kick in
+
+
+v0.24.6
+-------
+
+Dependencies
+
+
+v0.24.5
+-------
+
+More progressBar (minor) bugs fixed + using ES6 String#repeat()
+
+
+v0.24.4
+-------
+
+ProgressBar width fixed.
+
+
+v0.24.3
+-------
+
+Dependencies
+
+
+v0.24.2
+-------
+
+Dependencies
+
+
+v0.24.1
+-------
+
+Dependencies
+
+
+v0.24.0
+-------
+
+"use strict" everywhere
+
+
+v0.23.1
+-------
+
+Upgrade string-kit from v0.4.0 to v0.4.1, fixing an issue with formatter count and detection
+
+
+v0.23.0
+-------
+
+Breaking change: now rely on string-kit v0.4.x (.format()), so '%[]' -like markup becomes '%[]F'
+and '%/F3/f -like markup becomes '%[f3]f
+
+
+v0.22.4 - v0.22.7
+-----------------
+
+String-kit dependency.
+
+
+v0.22.3
+-------
+
+Documentation: spelling.
+
+
+v0.22.2
+-------
+
+Better doc on the 'realTerminal' feature.
+
+
+v0.22.1
+-------
+
+New: termkit.realTerminal -- like termkit.terminal but escape pipes.
+
+
+v0.22.0
+-------
+
+No more relying on Node.js core events, now using NextGenEvents for everything.
+
+
+v0.21.8
+-------
+
+Document: more cycle focus bugfixes
+
+
+v0.21.7
+-------
+
+Document: Element#focusNextChild() and Element#focusPreviousChild() bugfix
+
+
+v0.21.6
+-------
+
+Document#giveFocusTo() argument check.
+
+
+v0.21.5
+-------
+
+Dependencies.
+
+
+v0.21.4
+-------
+
+ScreenBuffer: optimized (delta) escape sequences for the terminal blitter are now working properly.
+
+
+v0.21.3
+-------
+
+ScreenBuffer improvements.
+
+
+v0.21.2
+-------
+
+Linux Console: repairing .color256(), thus repairing ScreenBuffer features.
+
+
+v0.21.1
+-------
+
+Document: .focusPrevious() bugfixed.
+
+
+v0.21.0
+-------
+
+Removing inline widget: .layout() and .form(), their Document counter-part should be used instead.
+
+
+v0.20.32
+--------
+
+Internally replacing home-made arrayKit.fill() with ES6 Array#fill().
+
+
+v0.20.31
+--------
+
+TextBuffer: 'hidden' option, .setHidden(), .getHidden(). Document TextInput Element now has the 'hidden' option for passwords.
+
+
+v0.20.30
+--------
+
+TextBuffer: 'hidden' option, .setHidden(), .getHidden(). Document TextInput Element now has the 'hidden' option for passwords.
+
+
+v0.20.29
+--------
+
+Document: Document#focusNext() infinite loop bugfixed, .redraw() for moving and resizing Element, Text#setContent() redraw bugfixed.
+
+
+v0.20.28
+--------
+
+Documentation spelling.
+
+
+v0.20.27
+--------
+
+Document: Text, Element Id and Layout bugfixes.
+
+
+v0.20.26
+--------
+
+Document: .draw() and detached Element bugfix.
+
+
+v0.20.25
+--------
+
+Exit minor bugfix.
+
+
+v0.20.24
+--------
+
+Document: .attach()/.detach()/.destroy() bugfixes.
+
+
+v0.20.23
+--------
+
+Document: .attach()/.detach()/.destroy() bugfixes.
+
+
+v0.20.22
+--------
+
+Document: ENTER and KP_ENTER move to next TextInput in Forms.
+
+
+v0.20.21
+--------
+
+Document: new method .clear() that remove all children
+
+
+v0.20.20
+--------
+
+Document: all Element now have a .destroy() method.
+
+
+v0.20.19
+--------
+
+Buttons are now blinking on submit
+
+
+v0.20.18
+--------
+
+New: all interactive Document Elements now react to the mouse 'click' and 'hover' event!
+
+
+v0.20.17
+--------
+
+Document: MenuBar is renamed DropDownMenu
+
+
+v0.20.15 - v0.20.16
+-------------------
+
+Document MenuBar is now working.
+
+
+v0.20.14
+--------
+
+Document Form navigation. TextBuffer .moveForward() bugfix
+
+
+v0.20.13
+--------
+
+Document MenuBar: better default settings.
+
+
+v0.20.12
+--------
+
+Document MenuBar: work in progress!
+
+
+v0.20.11
+--------
+
+Document ColumnMenu is working!
+
+
+v0.20.10
+--------
+
+Document: Menu is now known as RowMenu. ColumnMenu is in progress.
+(Those features are not under semver yet - i.e. not documented yet, so no minor version bump for that).
+
+
+v0.20.9
+-------
+
+Document: reversing the logic of preventing propagation of event to parent: now returning a truthy value prevent that.
+
+
+v0.20.8
+-------
+
+Document: event bubbling
+
+
+v0.20.7
+-------
+
+Document: event management changes
+
+
+v0.20.6
+-------
+
+Document Container now has a backgroundAttr option
+
+
+v0.20.5
+-------
+
+Document now rely on nextgen-events instead of Node.js' built-in events.
+
+
+v0.20.4
+-------
+
+New Document Element: Menu.
+
+
+v0.20.3
+-------
+
+ScreenBuffer clipping bugfixed. Document drawing algorithm refactored to support resizing.
+
+
+v0.20.2
+-------
+
+Document: redraw mecanism.
+
+
+v0.20.1
+-------
+
+Document Element Layout is now resizable like the deprecated inline layout was.
+
+
+v0.20.0
+-------
+
+Breaking API change: the Terminal 'resize' event now produces 2 args: width and height, instead of an object to be consistent
+with other internal events
+
+
+v0.19.4
+-------
+
+Inline layout ported to Document.
+
+
+v0.19.3
+-------
+
+Document: minor improvement, unique id, document.elements[ id ] access...
+
+
+v0.19.2
+-------
+
+Document element: now perform recursive draw() and drawCursor() automatically
+
+
+v0.19.1
+-------
+
+Document model: Container.
+
+
+v0.19.0
+-------
+
+Now require node.js v4. Document widget currently working: Button, Text, TextInput and Form.
+
+
+v0.18.0
+-------
+
+New feature in progress: Document! It mimics the browser somewhat: a document with element, etc... 
+layout, form and area-type inputField will move to this new Document feature (every 'inline' features will be kept separated).
+
+
+v0.17.0
+-------
+
+New: .inputField() now has an 'area' mode (standard mode is now known as 'inline' mode) that use ScreenBuffer and TextBuffer
+for its rendering, allowing confined text-area-like inputs. This is still a work in progress and many features of the 'inline' mode
+are missing. This will allow creation of terminal forms.
+
+
+v0.16.14
+--------
+
+.createLayout(): it is now possible to pass the x,y coordinate of the top-left corner of the layout
+
+
+v0.16.13
+--------
+
+.createLayout(): now creates accessible and resizable ScreenBuffer surfaces on layout's leaf
+
+
+v0.16.12
+--------
+
+Bugfix .createLayout(): now it creates cross-junction like it should when two tee-junction overlap
+
+
+v0.16.11
+--------
+
+Basic 'responsive' layout drawing is now working.
+
+
+v0.16.10
+--------
+
+Layout: work in progress.
+
+
+v0.16.9
+-------
+
+New feature: .createLayout() -- still in alpha.
+
+
+v0.16.8
+-------
+
+New terminal state: term.state.fullscreen
+
+
+v0.16.7
+-------
+
+Adding new spChars again.
+
+
+v0.16.6
+-------
+
+Adding new spChars.
+
+
+v0.16.5
+-------
+
+New: termkit.spChars now contains some useful utf-8 characters
+
+
+v0.16.4
+-------
+
+Upgrade the string-kit dependency (important bugfix on the style markup feature)
+
+
+v0.16.3
+-------
+
+Documentation on style markup.
+
+
+v0.16.2
+-------
+
+Fixing the new format feature so it works properly.
+
+
+v0.16.1
+-------
+
+Linux gpm patch for node v4.
+
+
+v0.16.0
+-------
+
+Using new string-kit's format feature.
+
+
+v0.15.12
+--------
+
+.yesOrNo(): now it returns a controler featuring the abort() method (see the doc).
+
+
+v0.15.11
+--------
+
+Dependencies: string-kit 0.2.x, async-kit 0.6.x.
+
+
+v0.15.10
+--------
+
+TextBuffer: miscBuffer for application data.
+
+
+v0.15.9
+-------
+
+ScreenBuffer/TextBuffer: Rect constructor improvement.
+
+
+v0.15.8
+-------
+
+ScreenBuffer: redraw delta bugfix.
+
+
+v0.15.7
+-------
+
+TextBuffer: work in progress! (minor bugfixes)
+
+
+v0.15.6
+-------
+
+fileInput() and inputField() improvement and options: 'style', 'default', 'cancelable'.
+
+
+v0.15.4 - v0.15.5
+-----------------
+
+TextBuffer: work in progress! (minor bugfixes)
+
+
+v0.15.3
+-------
+
+fileInput(): fixed few minor bugs.
+
+
+v0.15.2
+-------
+
+New method: fileInput(): it is build on an inputField() that auto-complete and display an auto-complete menu
+with all files available in the current directory.
+
+
+v0.15.1
+-------
+
+TextBuffer: work in progress! (TAB support)
+
+
+v0.15.0
+-------
+
+ScreenBuffer: backward incompatible change: "draw( { diffOnly: true } )" is now "draw( { delta: true } )".
+TextBuffer: work in progress!
+
+
+v0.14.8 - v0.14.10
+------------------
+
+TextBuffer: work in progress!
+
+
+v0.14.7
+-------
+
+TextBuffer: Basic support is ok!
+
+
+v0.14.6
+-------
+
+ScreenBuffer: delta optimization introduced in v0.14.5 is now disabled - not stable enough.
+
+
+v0.14.5
+-------
+
+ScreenBuffer: attribute delta optimization.
+
+
+v0.14.4
+-------
+
+.inputField(): fixed some issues with BACKSPACE when at the first column, and history UP and DOWN at the bottom line.
+
+
+v0.14.3
+-------
+
+On the previous version, 'prependText' becomes 'prefix' (this feature is still not documented, thus not in the SemVer contract).
+
+
+v0.14.2
+-------
+
+.inputField() autoComplete function: if an array is returned and it contains a custom property 'prependText', the autoCompleteMenu
+will display items normaly, but it will return the chosen entry prepended with that text.
+
+
+v0.14.1
+-------
+
+New method: .slowTyping(): it outputs some text with an old-fashioned slow-typing effect. See the doc.
+
+
+v0.14.0
+-------
+
+.singleLineMenu(): support for TAB and SHIFT_TAB keys that cycle forward and backward.
+.inputField(): same when in the auto-complete menu (since it uses .singleLineMenu() behind the scene)
+
+
+v0.13.16
+--------
+
+Improvement of cleanup code on exit.
+Issue #3 is fixed again (regression somewhere between 0.13.6 and 0.13.14).
+
+
+v0.13.15
+--------
+
+Documentation: 
+* nice animated gif for each example of: progressBar, inputField, singleLineMenu, yesOrNo
+* fixes in the examples
+* .processExit() is now documentated, thus under SemVer
+* .progressBar(): .stop() and .resume() method are now documentated, thus under SemVer
+
+
+v0.13.14
+--------
+
+.progressBar(): .stop() and .resume() method (should be documented)
+New method: .processExit() that exit cleanly (should be documented)
+.getCursorLocation(): do not run in concurrency anymore (fix some issue getting values for another call)
+
+
+v0.13.11 - v0.13.13
+-------------------
+
+.progressBar(): update immediately if the progress value is >= 1, to prevent program from quitting before the progress bar
+had a chance to display 'done'.
+
+
+v0.13.10
+--------
+
+.progressBar(): documentation of title and items.
+
+
+v0.13.9
+-------
+
+.progressBar() improvement: 'title mode'. Documentation will be written once stabilized.
+
+
+v0.13.8
+-------
+
+.progressBar() improvement: 'item mode'. Documentation will be written once stabilized.
+
+
+v0.13.7
+-------
+
+.progressBar() can display ETA (activated with the 'eta' option, see the doc)
+
+
+v0.13.6
+-------
+
+New method: .progressBar(), which creates a nice progress bar, see the documentation for details.
+
+
+v0.13.5
+-------
+
+Fix issue #3.
+
+
+v0.13.3 - v0.13.4
+-----------------
+
+Fixing issue #2 with Terminology and mouse reporting.
+
+
+v0.13.2
+-------
+
+.inputField():
+* now patched to support characters larger than 2 bytes, but it still has bugs due to full-width chars
+* new option 'maxLength': to not allow user to add more characters than this
+
+
+v0.13.0 - v0.13.1
+-----------------
+
+.beep() is deprecated, in favor of .bell().
+SHIFT / CTRL / ALT + INSERT / DELETE / PAGE_UP / PAGE_DOWN / HOME / END combo.
+
+
+v0.12.8
+-------
+
+Minor fixes in the demo and tests.
+
+
+v0.12.7
+-------
+
+Fixed an error in the code that may have produced unreported bugs.
+
+
+v0.12.6
+-------
+
+Try-catch when raw mode is not possible.
+
+
+v0.12.4 - v0.12.5
+-----------------
+
+Atomic-Terminal support.
+
+
+v0.12.3
+-------
+
+Bugfix: timeout detection for .getColor() and .getCursorLocation(), .inputField() is changed accordingly (and cleaned up)
+
+
+v0.12.2
+-------
+
+Documentation improvements.
+
+
+v0.12.1
+-------
+
+.singleLineMenu() callback's 'response' argument has 2 new properties: 'x' and 'y', the coordinates of the selected item.
+
+
+v0.12.0
+-------
+
+Backward compatibility broken: .singleLineMenu()'s callback is now:
+* callback( error , response ), where:
+	* error `mixed` truthy if an underlying error occurs
+	* response `Object` where
+		* selectedIndex `number` the user-selected menu item index
+		* selectedText `string` the user-selected menu item text
+		* unexpectedKey `string` when 'exitOnUnexpectedKey' option is set and an unexpected key is pressed, this contains
+		  the key that produced the exit
+
+Using named parameters for the callback is a more reliable and flexible API that will avoid breakage in the future,
+when feature will be added.
+
+
+v0.11.3
+-------
+
+* .inputField(): custom auto-completer can be asynchronous now, see the doc.
+
+* Documentation: static method termkit.autoComplete() is now documented.
+
+
+v0.11.2
+-------
+
+Improved documentation: formatting, Table of Contents, etc...
+
+
+v0.11.1
+-------
+
+Documentation: features introduced since v0.10.8.
+
+
+v0.11.0
+-------
+
+* .singleLineMenu() has more options: it is possible to define its own item separator, and customize the
+  new next/previous page hint feature
+
+* .inputField() option 'menuOption' has moved to/mixed with 'autoCompleteMenu'
+
+
+v0.10.9
+-------
+
+.inputField() now has the option 'autoCompleteMenu' to use in conjunction with 'autoComplete', it displays a single line menu
+displaying all the completion candidate, when more than one is possible.
+
+
+v0.10.8
+-------
+
+New method: .singleLineMenu(), which creates a simple menu, the user can select item with arrow keys and RETURN/ENTER.
+
+
+v0.10.7
+-------
+
+Documentation on .createTerminal() is now available.
+
+
+v0.10.6
+-------
+
+Stupid Gnome-terminal do not set COLORTERM environment variable anymore... this is a workaround to detect it.
+
+
+v0.10.5
+-------
+
+Gnome-terminal now supports 24bits colors, so the support for it has been added.
+
+
+v0.10.4
+-------
+
+.inputField() returned value, the inputControler, is now an event emitter (it emits 'ready'), and it features a 'redraw()' method.
+
+
+v0.10.3
+-------
+
+.inputField() now supports an 'autoComplete' option, see the doc
+
+
+v0.10.2
+-------
+
+.inputField() now supports an 'history' option, so UP and DOWN keys move up and down in the history
+
+
+v0.10.1
+-------
+
+.inputField() returns more way to control it:
+	* getPosition(): return an object containing 'x' and 'y' properties, the coordinates where the input field starts
+	* hide(): hide the input field, it still records keystrokes
+	* show(): show the input field again
+	* rebase(): rebase the input field to the current cursor position (it does NOT erase the previous one,
+	  use hide() before, see the doc)
+
+
+v0.10.0
+-------
+
+.inputField() now returns an object featuring some functions to control things during the input process:
+	* abort(): abort the input process and do not even call the inputField()'s callback
+	* stop(): stop the input process now, call the inputField()'s callback (same behaviour than a regular 'ENTER' key pressed)
+	* getInput(): get the current input string
+
+
+v0.9.14
+-------
+
+Added a link to the tutorials at blog.soulserv.net/tag/terminal.
+
+
+v0.9.13
+-------
+
+Upgraded dependencies.
+
+
+v0.9.11 - v0.9.12
+-----------------
+
+.noFormat() is now documented (thus under the SemVer contract).
+
+
+v0.9.10
+-------
+
+Upgraded to string-kit@0.1.5.
+
+
+v0.9.9
+------
+
+Just a small addition to the documentation: require() are added in most example (user's feedback).
+
+
+v0.9.8
+------
+
+Upgraded dependencies.
+
+
+v0.9.2 - v0.9.7
+---------------
+
+Package description & README.md that better fit the new npmjs.org site.
+
+
+v0.9.1
+-------
+
+Removing tools/sprite-editor.js: the editor has now its own package: 'leeted'.
+The demo located in demo/spaceship.js works again (sprites have been converted to file format V2).
+Some performance optimization have greatly improved CPU usage.
+
+
+v0.9.0
+-------
+
+File format has changed for ScreenBuffer.loadSync() and screenBuffer.saveSync().
+This is now the format version 2.
+File of format version 1 can still be loaded/saved using ScreenBuffer.loadSyncV1() and screenBuffer.saveSyncV1().
+This file format is more flexible, so improvement to the lib can be achieved without changing the file format each time.
+
+
+v0.8.0
+-------
+
+The Rect class has moved from termkit.ScreenBuffer.Rect to termkit.Rect
+The 'key' event callback's argument #2 (data) now contains a 'isCharacter' property, true for printable, false for control
+screenBuffer.clear() -> screenBuffer.fill()
+
+
+v0.7.1
+-------
+
+Sprite editor now support the mouse.
+
+
+v0.7.0
+-------
+
+ScreenBuffer now use Big Endian: there is no performance drop on Little Endian system and the code is less error prone.
+
+
+v0.6.14
+-------
+
+ScreenBuffer .put() now support the 'wrap' option, bypassing the default 'wrap' value of the current screenBuffer.
+
+
+v0.6.13
+-------
+
+ScreenBuffer .put() now support writing in any of the 4 directions.
+The sprite editor can set the writing direction.
+
+
+v0.6.12
+-------
+
+ScreenBuffer blending: style transparency bugfix.
+Improvement of the sprite editor (new features: fill colors/style, put only attributes).
+Improvement of the demo graphics.
+
+
+v0.6.11
+-------
+
+Improvement of the sprite editor (editor's background character is not customizable).
+
+
+v0.6.10
+-------
+
+Now it is possible to resize a ScreenBuffer.
+Improvement of the sprite editor (sprite resizing, editor's background colors are customizable).
+
+
+v0.6.9
+------
+
+Many type of transparencies: foreground color, background color, style & character.
+New: a sprite editor, located in demo/sprite-editor.js.
+
+
+v0.6.8
+------
+
+Refactoring, so the tile-variant & the wrap-variant of blitter are now available for the terminal blitter.
+
+
+v0.6.7
+------
+
+The 'tile' blitter is now faster and cleaner.
+Some bugfix on buffer creation (size should be integer, not float).
+
+
+v0.6.6
+------
+
+The buffer to buffer blitter now support the 'tile' option.
+
+
+v0.6.5
+------
+
+The buffer to buffer blitter now support the 'wrap' option.
+
+
+v0.6.2 - v0.6.4
+---------------
+
+Improved terminal's blitter.
+
+
+v0.6.1
+------
+
+ScreenBuffer refactoring.
+
+
+v0.6.0
+------
+
+Major change in the module.exports tree: the backward compatibility is broken, but it can be easily fixed.
+Just replace:
+
+var term = require( 'terminal-kit' ) ;
+
+... by:
+
+var term = require( 'terminal-kit' ).terminal ;
+
+Now, that is when the .terminal property is accessed for the first time that a terminal is guessed.
+
+This make the code cleaner and remove any trouble when circular require() occurs: the module does not perform
+anything until an userland code request so.
+
+
+v0.5.17
+-------
+
+Spaceship demo: added a spaceship moving with the arrow keys.
+
+
+v0.5.16
+-------
+
+Spaceship demo: scrolling space.
+
+
+v0.5.15
+-------
+
+New: term.ScreenBuffer object. Still a work in progress. Documentation will be available when stabilized.
+
+
+v0.5.14
+-------
+
+Great news: now GPM is supported, so if the daemon is running, the mouse is supported even in the Linux Console!
+
+
+v0.5.13
+-------
+
+Bugfix when COLORTERM is not defined, it causes a crash.
+
+
+v0.5.12
+-------
+
+Documentation on 'MOUSE_BUTTON_RELEASED'.
+
+
+v0.5.10 - v0.5.11
+-----------------
+
+SSH tests.
+
+
+v0.5.9
+------
+
+SSH detection, this does not improve things except that .getDetectedTerminal() use simple guessing
+rather than the expensive .getParentTerminalInfo().
+
+
+v0.5.8
+------
+
+Eterm support.
+
+
+v0.5.7
+------
+
+Better support for rxvt/urxvt.
+Better terminal guessing.
+
+
+v0.5.6
+------
+
+Bugfix: .grabInput() leak when called multiple times.
+Better support for rxvt/urxvt.
+
+
+v0.5.5
+------
+
+Better support for xfce4-terminal.
+
+
+v0.5.4
+------
+
+New terminals supported: Terminator, rxvt, urxvt, xfce4-terminal.
+
+
+v0.5.3
+------
+
+Documentation: DEPRECATE .requestScreenSize()
+
+
+v0.5.2
+------
+
+Refactoring
+.setColor() now accept a "names" argument
+
+
+v0.5.1
+------
+
+.getColorRegister() -> .getColor()
+Documentation on v0.4.4 features, and about the 24 bits feature.
+
+
+v0.4.5
+------
+
+Bugfix: now Konsole can use 24 bits colors.
+
+
+v0.4.4
+------
+
+.setColor() set a color register to RGB
+.getPalette() request from the terminal (if supported) the current 16 colors palette in use.
+.setPalette() set the 16 colors palette, it is possible to specify a color scheme name
+
+
+v0.4.3
+------
+
+Now the lib is aware of the default VGA palette for the Linux Console.
+
+
+v0.4.2
+------
+
+Bugfix: .getDetectedTerminal() do not issue error anymore if no terminal was detected, it simply returns
+the default terminal.
+New: the HSL cylender coordinate is now used to pick up the closest color register match for RGB.
+Status of the lib is now BETA.
+
+
+v0.4.1
+------
+
+New high-level function: .getColorRegister()
+
+
+v0.4.0
+------
+
+.color256rgb() -> .colorRgb()
+.bgColor256rgb() -> .bgColororRgb()
+.color256gray() -> .colorGrayscale()
+.bgColor256gray() -> .bgColorGrayscale()
+
+Fallback for 256 colors, if not supported by the terminal, it picks the closest color in the 16 colors.
+.setCursorColor() & .setCursorColorRgb() now work fine with the Linux Console.
+
+
+v0.3.8
+------
+
+.setCursorColor() & .setCursorColorRgb() to change the color of the cursor.
+
+
+v0.3.4 - v0.3.7
+---------------
+
+Dependency hell.
+
+
+v0.3.3
+------
+
+Upgraded dependencies (async-kit, tree-kit, string-kit).

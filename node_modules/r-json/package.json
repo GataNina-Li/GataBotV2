@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "r-json@1.2.10",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "r-json@1.2.10",
+  "_id": "r-json@1.2.10",
+  "_inBundle": false,
+  "_integrity": "sha512-hu9vyLjSlHXT62NAS7DjI9WazDlvjN0lgp3n431dCVnirVcLkZIpzSwA3orhZEKzdDD2jqNYI+w0yG0aFf4kpA==",
+  "_location": "/r-json",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "r-json@1.2.10",
+    "name": "r-json",
+    "escapedName": "r-json",
+    "rawSpec": "1.2.10",
+    "saveSpec": null,
+    "fetchSpec": "1.2.10"
+  },
+  "_requiredBy": [
+    "/git-package-json",
+    "/r-package-json"
+  ],
+  "_resolved": "https://registry.npmjs.org/r-json/-/r-json-1.2.10.tgz",
+  "_spec": "1.2.10",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "blah": {
+    "description": "If you want to write JSON files, check out [`w-json`](https://github.com/IonicaBizau/node-w-json)."
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-r-json/issues"
+  },
+  "description": "A small module to read JSON files.",
+  "directories": {
+    "example": "example"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "homepage": "https://github.com/IonicaBizau/node-r-json",
+  "keywords": [
+    "read",
+    "json",
+    "files"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "r-json",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/node-r-json.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.10"
+}

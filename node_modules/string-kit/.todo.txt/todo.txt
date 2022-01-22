@@ -1,0 +1,4 @@
+(B) +format add integer range syntaxe @code
+(A) document format.hasFormatting() @doc
+(A) document .ansi @doc
+(B) document and test the regexp module @test @ doc

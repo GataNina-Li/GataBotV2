@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      "render-gif@2.0.4",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "render-gif@2.0.4",
+  "_id": "render-gif@2.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-l5X7EwbEvdflnvVAzjL7njizwZN8ATqJ0rdaQ5WwMJ55vyWXIXIUE9Ut7W6hm+KE+HMYn5C0a+7t0B6JjGfxQA==",
+  "_location": "/render-gif",
+  "_phantomChildren": {
+    "@babel/runtime": "7.14.6",
+    "any-base": "1.1.0",
+    "bmp-js": "0.1.0",
+    "buffer": "5.7.1",
+    "exif-parser": "0.1.12",
+    "gifwrap": "0.9.2",
+    "jpeg-js": "0.4.2",
+    "load-bmfont": "1.4.1",
+    "mkdirp": "0.5.5",
+    "omggif": "1.0.10",
+    "phin": "2.9.3",
+    "pixelmatch": "4.0.2",
+    "pngjs": "3.4.0",
+    "regenerator-runtime": "0.13.7",
+    "timm": "1.7.1",
+    "tinycolor2": "1.4.2",
+    "utif": "2.0.1"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "render-gif@2.0.4",
+    "name": "render-gif",
+    "escapedName": "render-gif",
+    "rawSpec": "2.0.4",
+    "saveSpec": null,
+    "fetchSpec": "2.0.4"
+  },
+  "_requiredBy": [
+    "/terminal-image"
+  ],
+  "_resolved": "https://registry.npmjs.org/render-gif/-/render-gif-2.0.4.tgz",
+  "_spec": "2.0.4",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Richie Bendall",
+    "email": "richiebendall@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Richienb/render-gif/issues"
+  },
+  "dependencies": {
+    "cycled": "^1.2.0",
+    "decode-gif": "^1.0.1",
+    "delay": "^4.3.0",
+    "jimp": "^0.14.0"
+  },
+  "description": "Render a gif and provide frames to draw.",
+  "devDependencies": {
+    "ava": "^3.10.1",
+    "eslint-config-richienb": "^0.4.2",
+    "xo": "^0.32.1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/Richienb/render-gif#readme",
+  "keywords": [
+    "gif",
+    "render",
+    "animate",
+    "sequence",
+    "decode",
+    "parse",
+    "draw",
+    "write",
+    "buffer"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "render-gif",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richienb/render-gif.git"
+  },
+  "scripts": {
+    "lint": "xo",
+    "test": "xo && ava"
+  },
+  "version": "2.0.4",
+  "xo": {
+    "extends": "richienb",
+    "overrides": [
+      {
+        "files": "test.js",
+        "rules": {
+          "node/no-unsupported-features/node-builtins": 0
+        }
+      }
+    ]
+  }
+}

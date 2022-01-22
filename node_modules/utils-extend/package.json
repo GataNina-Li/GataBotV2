@@ -1,0 +1,31 @@
+{
+  "name": "utils-extend",
+  "version": "1.0.8",
+  "description": "Extend nodejs util api, and it is light weight and simple",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/douzi8/utils-extend"
+  },
+  "keywords": [
+    "util",
+    "utils",
+    "util-extend",
+    "extend",
+    "underscore",
+    "node underscore"
+  ],
+  "author": "douzi <liaowei08@gmail.com>",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "mocha": "^2.0.1"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douzi8/utils-extend/issues"
+  }
+}

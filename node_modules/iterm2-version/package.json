@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "iterm2-version@4.2.0",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "iterm2-version@4.2.0",
+  "_id": "iterm2-version@4.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-IoiNVk4SMPu6uTcK+1nA5QaHNok2BMDLjSl5UomrOixe5g4GkylhPwuiGdw00ysSCrXAKNMfFTu+u/Lk5f6OLQ==",
+  "_location": "/iterm2-version",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "iterm2-version@4.2.0",
+    "name": "iterm2-version",
+    "escapedName": "iterm2-version",
+    "rawSpec": "4.2.0",
+    "saveSpec": null,
+    "fetchSpec": "4.2.0"
+  },
+  "_requiredBy": [
+    "/term-img"
+  ],
+  "_resolved": "https://registry.npmjs.org/iterm2-version/-/iterm2-version-4.2.0.tgz",
+  "_spec": "4.2.0",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/iterm2-version/issues"
+  },
+  "dependencies": {
+    "app-path": "^3.2.0",
+    "plist": "^3.0.1"
+  },
+  "description": "Get the iTerm2 version",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/sindresorhus/iterm2-version#readme",
+  "keywords": [
+    "iterm2",
+    "iterm",
+    "terminal",
+    "app",
+    "version"
+  ],
+  "license": "MIT",
+  "name": "iterm2-version",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/iterm2-version.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "4.2.0"
+}

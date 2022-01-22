@@ -1,0 +1,40 @@
+{
+  "name": "@cronvel/get-pixels",
+  "version": "3.4.0",
+  "description": "Pruned version of the 'get-pixels' package by Mikola Lysenko (only node.js and local fs files)",
+  "main": "node-pixels.js",
+  "dependencies": {
+    "jpeg-js": "^0.4.1",
+    "ndarray": "^1.0.19",
+    "ndarray-pack": "^1.1.1",
+    "node-bitmap": "0.0.1",
+    "omggif": "^1.0.10",
+    "pngjs": "^5.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cronvel/get-pixels.git"
+  },
+  "keywords": [
+    "ndarray",
+    "pixel",
+    "get",
+    "read",
+    "pixel",
+    "image",
+    "png",
+    "jpeg",
+    "jpg",
+    "jpe",
+    "gif",
+    "decode",
+    "buffer",
+    "data",
+    "parse",
+    "node"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}

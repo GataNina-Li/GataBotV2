@@ -1,0 +1,58 @@
+{
+  "name": "seventh",
+  "version": "0.7.40",
+  "description": "A lean Promises and Async lib for ES6/ES7",
+  "main": "lib/seventh.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "setimmediate": "^1.0.5"
+  },
+  "scripts": {
+    "test": "tea-time -R dot -O"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/seventh.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "promise",
+    "foreach",
+    "map",
+    "reduce",
+    "filter",
+    "once",
+    "timeout",
+    "retry",
+    "debounce",
+    "serialize",
+    "es6",
+    "es7"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/seventh/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Seventh",
+    "years": [
+      2017,
+      2020
+    ],
+    "owner": "Cédric Ronvel"
+  }
+}

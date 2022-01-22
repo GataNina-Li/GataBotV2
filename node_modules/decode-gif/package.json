@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "decode-gif@1.0.1",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "decode-gif@1.0.1",
+  "_id": "decode-gif@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-L0MT527mwlkil9TiN1xwnJXzUxCup55bUT91CPmQlc9zYejXJ8xp17d5EVnwM80JOIGImBUk1ptJQ+hDihyzwg==",
+  "_location": "/decode-gif",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "decode-gif@1.0.1",
+    "name": "decode-gif",
+    "escapedName": "decode-gif",
+    "rawSpec": "1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "1.0.1"
+  },
+  "_requiredBy": [
+    "/render-gif"
+  ],
+  "_resolved": "https://registry.npmjs.org/decode-gif/-/decode-gif-1.0.1.tgz",
+  "_spec": "1.0.1",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Richie Bendall",
+    "email": "richiebendall@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Richienb/decode-gif/issues"
+  },
+  "dependencies": {
+    "array-range": "^1.0.1",
+    "omggif": "^1.0.10"
+  },
+  "description": "Decode the frames of a gif.",
+  "devDependencies": {
+    "ava": "^3.10.1",
+    "eslint-config-richienb": "^0.4.2",
+    "xo": "^0.32.1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/Richienb/decode-gif#readme",
+  "keywords": [
+    "gif",
+    "decode",
+    "array",
+    "items"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "decode-gif",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richienb/decode-gif.git"
+  },
+  "scripts": {
+    "lint": "xo",
+    "test": "xo && ava"
+  },
+  "version": "1.0.1",
+  "xo": {
+    "extends": "richienb",
+    "overrides": [
+      {
+        "files": "test.js",
+        "rules": {
+          "node/no-unsupported-features/node-builtins": 0
+        }
+      }
+    ]
+  }
+}

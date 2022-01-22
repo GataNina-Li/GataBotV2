@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      "abs@1.3.14",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "abs@1.3.14",
+  "_id": "abs@1.3.14",
+  "_inBundle": false,
+  "_integrity": "sha512-PrS26IzwKLWwuURpiKl8wRmJ2KdR/azaVrLEBWG/TALwT20Y7qjtYp1qcMLHA4206hBHY5phv3w4pjf9NPv4Vw==",
+  "_location": "/abs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "abs@1.3.14",
+    "name": "abs",
+    "escapedName": "abs",
+    "rawSpec": "1.3.14",
+    "saveSpec": null,
+    "fetchSpec": "1.3.14"
+  },
+  "_requiredBy": [
+    "/gry",
+    "/package-json-path"
+  ],
+  "_resolved": "https://registry.npmjs.org/abs/-/abs-1.3.14.tgz",
+  "_spec": "1.3.14",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/abs/issues"
+  },
+  "dependencies": {
+    "ul": "^5.0.0"
+  },
+  "description": "A library to convert a path into an absolute path.",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "homepage": "https://github.com/IonicaBizau/abs",
+  "keywords": [
+    "absolute",
+    "path"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "abs",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/abs.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "1.3.14"
+}

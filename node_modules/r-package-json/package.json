@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      "r-package-json@1.0.9",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "r-package-json@1.0.9",
+  "_id": "r-package-json@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-G4Vpf1KImWmmPFGdtWQTU0L9zk0SjqEC4qs/jE7AQ+Ylmr5kizMzGeC4wnHp5+ijPqNN+2ZPpvyjVNdN1CDVcg==",
+  "_location": "/r-package-json",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "r-package-json@1.0.9",
+    "name": "r-package-json",
+    "escapedName": "r-package-json",
+    "rawSpec": "1.0.9",
+    "saveSpec": null,
+    "fetchSpec": "1.0.9"
+  },
+  "_requiredBy": [
+    "/git-package-json"
+  ],
+  "_resolved": "https://registry.npmjs.org/r-package-json/-/r-package-json-1.0.9.tgz",
+  "_spec": "1.0.9",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "blah": {
+    "related": [
+      "w-package-json"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/r-package-json/issues"
+  },
+  "dependencies": {
+    "package-json-path": "^1.0.0",
+    "r-json": "^1.2.1"
+  },
+  "description": "Read package.json files.",
+  "devDependencies": {},
+  "directories": {
+    "example": "example"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "homepage": "https://github.com/IonicaBizau/r-package-json#readme",
+  "keywords": [
+    "package",
+    "npm",
+    "write",
+    "json"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "r-package-json",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/r-package-json.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.9"
+}

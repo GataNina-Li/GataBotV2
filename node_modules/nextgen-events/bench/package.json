@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "eventemitter3": "^4.0.7"
+  }
+}

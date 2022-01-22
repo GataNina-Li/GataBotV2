@@ -1,0 +1,4 @@
++defineLazyProperty document it @doc
+do not mix 'you' and 'we' in the @doc
++path document it @doc
+(B) +path path as array should support array walking @code

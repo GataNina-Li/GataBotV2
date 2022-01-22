@@ -1,0 +1,973 @@
+
+v0.12.8
+-------
+
+Brand new .naturalSort() code, it was previously borrowed code that was slow and vulnerable to RegExp DoS, the new code is made by myself, has no RegExp, only matching forward, is more flexible and easiest to maintain (#3)
+
+
+v0.12.7
+-------
+
+.format() and Babel-Tower interop, exposing stringKit.format.modes
+
+
+v0.12.6
+-------
+
+.format() and Babel-Tower interop, exposing stringKit.format.modes
+
+
+v0.12.5
+-------
+
+.format(): %n/%N improvements
+
+
+v0.12.4
+-------
+
+.format(): new Scientific Notation (e.g. 1.23 × 10²)
+
+
+v0.12.3
+-------
+
+.format()'s new float mode: 'g' for group separator (thousands)
+
+
+v0.12.2
+-------
+
+.format(): new %P/%p format for absolute/relative percent
+
+
+v0.12.1
+-------
+
+.inspect() new option: 'minimalPlusConstructor' and 'noTypeButConstructor' (for displaying non-trivial constructor)
+
+
+v0.12.0
+-------
+
+[Maybe breaking] .format() now use the new StringNumber class, used for number formatting
+
+
+v0.11.10
+--------
+
+Fix format %X to respect unicode
+
+
+v0.11.9
+-------
+
+New format argument: %X, turning a string into its hexadecimal representation
+
+
+v0.11.8
+-------
+
+string.unicode.getLastTruncateWidth()
+
+
+v0.11.7
+-------
+
+.format() %n and %N sort object keys
+
+
+v0.11.6
+-------
+
+.format(): new inspection argument 's' for max string length
+.inspect(): new option 'useInpectPropertyBlackList' that use target object own blacklist
+
+
+v0.11.5
+-------
+
+.format(): new inspect argument 'l' for outputMaxLength
+
+
+v0.11.4
+-------
+
+.format(): new inspect argument 'l' for outputMaxLength
+
+
+v0.11.3
+-------
+
+Minor .inspectError() tweaks
+
+
+v0.11.2
+-------
+
+.inpectError() improved (support for new elements in the latest Node.js stack trace)
+
+
+v0.11.1
+-------
+
+.format(): Add %m specifier for degrees/minutes/seconds notation
+
+
+v0.11.0
+-------
+
+.format() big improvements: generic parameters (parameters common to multiple specifiers), better API, more documentation. Also BREAKING change: %f zero-paddingdo not use the 'p' parameter but the 'z' (like Zero). Removed the 'P' parameter which would break the new standard of upper-case = generic parameter, and it is useless since any specifier can use the 'L' and 'R' parameter.
+
+
+v0.10.6
+-------
+
+Add number format space padding
+
+
+v0.10.5
+-------
+
+Fix format number 0 padding and negative numbers
+
+
+v0.10.4
+-------
+
+New: .format() %s now support padding
+
+
+v0.10.3
+-------
+
+.format(): improvement on the new %n/%N natural formatting
+
+
+v0.10.2
+-------
+
+New format %n and %N (WIP: behavior)
+
+
+v0.10.1
+-------
+
+New options 'indexOf' for fuzzy matcher
+
+
+v0.10.0
+-------
+
+BREAKING: fixing occurrenceCount() spelling, and add the overlap option
+
+
+v0.9.12
+-------
+
+Fuzzy string matcher improvements, more unit tests
+
+
+v0.9.11
+-------
+
+New: fuzzy string matcher
+
+
+v0.9.10
+-------
+
+Fix .wordwarp() options to the correct name: widthFn -> charWidthFn
+
+
+v0.9.9
+------
+
+New: .camelCaseToSeparated(): like .camelCaseToDashed() but with a customizable separator (default to space)
+
+
+v0.9.8
+------
+
+escape.unicodePercentEncode()
+
+
+v0.9.7
+------
+
+.format() %t option for time duration
+
+
+v0.9.6
+------
+
+.format(): %f mode greatly improved, new %e mode for scientific notation
+
+
+v0.9.5
+------
+
+.inspectError() now follow error.from
+
+
+v0.9.4
+------
+
+.inpect(): now correctly handle truncated output for style:color
+
+
+v0.9.3
+------
+
+New: .naturalSort()
+
+
+v0.9.2
+------
+
+New: .inspect() now support %S formatting: a string where ^ formatting is interpreted
+
+
+v0.9.1
+------
+
+.inspect() now detects holes in array
+
+
+v0.9.0
+------
+
+Breaking: removing xregexp
+
+
+v0.8.15
+-------
+
+.format() Node v6.x compatibility fix (PR #2)
+
+
+v0.8.14
+-------
+
+.inspect() fixing the missing new line for special object that turn to a string
+
+
+v0.8.13
+-------
+
+Format: J mode (json) now returns 'null' for undefined, instead on crashing when sanitizing
+
+
+v0.8.12
+-------
+
+.toCamelCase() uppercase preservation option
+
+
+v0.8.11
+-------
+
+.format(): new %r format (like %s, with no sanitize)
+
+
+v0.8.10
+-------
+
+.inspect(): inspection of rejected promise (with an error) improved
+
+
+v0.8.9
+------
+
+.inspect() now supports Promise inspection (Node.js only)
+
+
+v0.8.8
+------
+
+Fix a regression (since 0.7.14) with .format() and %I, %Y and %E format, when color: true
+
+
+v0.8.7
+------
+
+.toCells()/.fromCells() private API changed (again)
+
+
+v0.8.6
+------
+
+.toCells()/.fromCells() private API changed
+
+
+v0.8.5
+------
+
+.unicode.toCells(): tabs filler fixed
+
+
+v0.8.4
+------
+
+.unicode.toCells(): added a fourth argument (the initial position in the line)
+
+
+v0.8.3
+------
+
+New: .unicode.toCells() and .unicode.fromCells()
+
+
+v0.8.2
+------
+
+Fix in the private API: .wordwrap()'s 'regroupFn' option (again)
+
+
+v0.8.1
+------
+
+Fix in the private API: .wordwrap()'s 'regroupFn' option
+
+
+v0.8.0
+------
+
+Private API breaking change: .wordwrap() option 'sequenceSkip' is now 'skipFn' ; more .wordwrap() private options ; New: .unicode.codePointWidth() and .unicode.charWidth()
+
+
+v0.7.18
+-------
+
+Deprecate .unicode.widthLimit() in favor of .unicode.truncateWidth()
+
+
+v0.7.17
+-------
+
+Internal improvements
+
+
+v0.7.16
+-------
+
+.format() new option: 'noMarkup'
+
+
+v0.7.15
+-------
+
+.format() Fix extension issues
+
+
+v0.7.14
+-------
+
+.format() Fixing control chars in non-function arguments
+
+
+v0.7.13
+-------
+
+New: .unicode.firstCodePoint(), .unicode.firstChar()
+
+
+v0.7.12
+-------
+
+.format() %Y now has 'useInspect' option on
+
+
+v0.7.11
+-------
+
+.inspect(): new options 'useInspect' that use object .inspect() method if available
+
+
+v0.7.10
+-------
+
+Fixed .inspect() on empty array
+
+
+v0.7.9
+------
+
+New: .widthLimit()
+
+
+v0.7.8
+------
+
+.wordwrap() width fixed ; new option 'fill' that add space at the right to fill lines
+
+
+v0.7.7
+------
+
+New: .format() now has the %k formatter (metric prefix)
+
+
+v0.7.6
+------
+
+New: unicode.arrayWidth() has a second argument (limit)
+
+
+v0.7.5
+------
+
+New: unicode.arrayWidth()
+
+
+v0.7.4
+------
+
+.inspect(): raise string inspection default limit from 200 to 250, since all people have big screens
+
+
+v0.7.3
+------
+
+Fixed .wordwrap() edge-case behavior with spaces at the end of lines and explicit new lines (plus the noTrim option to controle it)
+
+
+v0.7.2
+------
+
+.wordwrap() API issues fixed
+
+
+v0.7.1
+------
+
+Fix .wordwrap() behavior with offset and first word wrapping
+
+
+v0.7.0
+------
+
+Breaking change: .wordwrap() signature changed, either .wordwrap( str , width )  or .wordwrap( str, optionObject ) 
+
+
+v0.6.18
+-------
+
+New: .wordwrap() now support a 4th argument, a function used to skip some special chars (e.g.: useful for skipping ANSI colors)
+
+
+v0.6.17
+-------
+
+Fixed an exception in .inspect() when an object has no constructor
+
+
+v0.6.16
+-------
+
+Unit tests are now using Tea-Time and its builtin 'expect' assertion
+
+
+v0.6.15
+-------
+
+.inspect() now display RegExp with .toString()
+
+
+v0.6.14
+-------
+
+Aaaargh, a console.log() was left
+
+
+v0.6.13
+-------
+
+outputMaxLength option for .inspect() ; documentation
+
+
+v0.6.12
+-------
+
+.inspect() improved -- new style: inline, new option: noArrayProperty
+
+
+v0.6.11
+-------
+
+.wordwrap() is now french typography aware
+
+
+v0.6.10
+-------
+
+.wordwrap() is now unicode aware and full-width aware
+
+
+v0.6.9
+------
+
+.inspect() now has a 'maxLength' option that truncates big strings (default: 200)
+
+
+v0.6.8
+------
+
+.inspect(): proper display for String instances
+
+
+v0.6.7
+------
+
+New function: .occurenceCount() -- count occurences of a substring
+
+
+v0.6.6
+------
+
+Adding a 'propertyBlackList' options to .inspect() to prevent to skip properties based by name ; documentation has been updated
+
+
+v0.6.5
+------
+
+Adding a 'protoBlackList' options to .inspect() to prevent from recursing inside some objects based on their prototype
+
+
+v0.6.4
+------
+
+camelCaseToDash() alias of camelCaseToDashed()
+
+
+v0.6.3
+------
+
+Merging pull request #1: .inspect() now supports passing an object to customize the style
+
+
+v0.6.2
+------
+
+.toTitleCase(): mino refacto
+
+
+v0.6.1
+------
+
+Removed tree-kit dependency, using ES6 Object.assign() instead
+
+
+v0.6.0
+------
+
+Breaking change: require node >= 6. Punycode module independance, unicode sub-module performance improved
+
+
+v0.5.27
+-------
+
+New: string.unicode.width() that return the width of a string when displayed on a terminal or when using a monospace font
+
+
+v0.5.26
+-------
+
+inspectError() non-error fallback to inspect()
+
+
+v0.5.25
+-------
+
+inspectError() fix: now return '(not an error)' if it was not inspecting an error
+
+
+v0.5.24
+-------
+
+.toTitleCase() improved
+
+
+v0.5.23
+-------
+
+New: .toTitleCase()
+
+
+v0.5.22
+-------
+
+New: .format() accept %z and %Z that transform to base64 and base64url
+
+
+v0.5.21
+-------
+
+New: .wordwrap()
+
+
+v0.5.20
+-------
+
+Added XRegExp as a dependency
+
+
+v0.5.19
+-------
+
+Markup: starting markup reset option
+
+
+v0.5.18
+-------
+
+Markup shift/modifier documentation
+
+
+v0.5.17 - v0.5.16
+-----------------
+
+Markup: shift
+
+
+v0.5.15
+-------
+
+.format() option %I and %Y accept a 'depth' integer argument
+
+
+v0.5.14
+-------
+
+New: escape.jsSingleQuote() and escape.jsDoubleQuote()
+
+
+v0.5.13
+-------
+
+New: .resize()
+
+
+v0.5.12
+-------
+
+Documentation fixed, unit tests fixed for node v6
+
+
+v0.5.11
+-------
+
+.format() now supports %Y, like %I but without non-enum, func, and descriptor
+
+
+v0.5.10
+-------
+
+Stack trace inspector fixed for anonymous function in V8
+
+
+v0.5.9
+------
+
+New: string.markup(), a stand-alone version of the markup existing in string.format()
+
+
+v0.5.8
+------
+
+Dependencies
+
+
+v0.5.6 - v0.5.7
+---------------
+
+inspectError(): firefox stack trace improvements
+
+
+v0.5.5
+------
+
+inspectError(): 'browser' option
+
+
+v0.5.4
+------
+
+Html error inspector improvements
+
+
+v0.5.3
+------
+
+Dependency organization
+
+
+v0.5.2
+------
+
+.inspect(): 'sort' option that sort keys
+
+
+v0.5.1
+------
+
+Abort the home-made diff algorithm project in .inspect().
+
+
+v0.5.0
+------
+
+Breaking changes: more options to .inspect().
+
+
+v0.4.4
+------
+
+New function: latinize().
+
+
+v0.4.3
+------
+
+"use strict" everywhere.
+
+
+v0.4.2
+------
+
+"use strict" everywhere.
+
+
+v0.4.1
+------
+
+.format(): .format.count() and .format.hasFormatting() have had bugs with the new v0.4.0 format syntax
+
+
+v0.4.0
+------
+
+Breaking changes: format() now uses a generic %L and %[]L where L is any letter, so %[func:%a%a] is now %[func:%a%a]F and %/F1/f is now %[f1]f
+
+
+v0.3.14
+-------
+
+Breaking changes: format() now uses a generic %L and %[]L where L is any letter, so %[func:%a%a] is now %[func:%a%a]F and %/F1/f is now %[f1]f
+
+
+v0.3.13
+-------
+
+format(): custom formatter gains more flexibility
+
+
+v0.3.12
+-------
+
+Format cleanup
+
+
+v0.3.11
+-------
+
+.inspect() now inspect Date instance
+
+
+v0.3.10
+-------
+
+.inspect() now inspect ES6 Set & Map, and MongoDB ObjectID
+
+
+v0.3.9
+------
+
+string.unicode.isFullWidth(): check if the given char is a full-width char or not
+
+
+v0.3.8
+------
+
+string.unicode.surrogatePair(): it does not check input anymore, to gain perfs
+
+
+v0.3.7
+------
+
+string.unicode.toFullWidth(): convert normal ASCII chars to their full-width counterpart
+
+
+v0.3.6
+------
+
+Bugfix on the new .format()'s style markup feature
+
+
+v0.3.5
+------
+
+Documentation.
+
+
+v0.3.4
+------
+
+Documentation: precision on .format() and style markup.
+
+
+v0.3.3
+------
+
+Documentation on the new caret ^ feature (style markup) for the .format() method.
+
+
+v0.3.2
+------
+
+Expose the default formatter option.
+
+
+v0.3.1
+------
+
+.format(): fixing a bug when no markup exists in the object.
+
+
+v0.3.0
+------
+
+New [breaking compatibilities]: .format() now accepts style markup using the caret ^ sign.
+
+
+
+v0.2.10
+-------
+
+New method: .camelCaseToDashed().
+
+
+v0.2.3 - v0.2.9
+---------------
+
+.inspectError() improvement and bugfixes.
+.inspectStack() that just inspect a stack string.
+
+
+v0.2.0 - v0.2.2
+---------------
+
+format(): custom filters should use formatMethod() instead.
+
+
+v0.1.21
+-------
+
+Option %E for format(): call inspectError() on the argument.
+
+
+v0.1.20
+-------
+
+New method: inspectError().
+
+
+v0.1.19
+-------
+
+Option %I for format(): call inspect() on the argument.
+
+
+v0.1.18
+-------
+
+Dependencies.
+
+
+v0.1.15 - v0.1.17
+-----------------
+
+Introducing the .toCamelCase() method.
+
+
+v0.1.13 - v0.1.14
+-----------------
+
+Adding few MDN polyfill for the native String object.
+
+
+v0.1.12
+--------
+
+Improvement on the unicode submodule.
+
+
+v0.1.11
+--------
+
+New submodule: 'unicode'. Still a work in progress, so no doc and no API contract for instance.
+
+
+v0.1.10
+-------
+
+.inspect() displays empty keys between quotes.
+
+
+v0.1.9
+------
+
+New submodule: 'regexp'. Still a work in progress, so no doc and no API contract for instance.
+
+
+v0.1.8
+------
+
+.inspect() with 'proto' option now reports correctly prototype of empty objects.
+
+
+v0.1.7
+------
+
+Dependencies.
+
+
+v0.1.6
+------
+
+* .ansi now contains code for dim and inverse.
+
+
+v0.1.5
+------
+
+* Bugfix: .format.count() now works correctly when indexed formating are in use.
+
+
+v0.1.4
+------
+
+* NEW! .ansi contains an object with ansi code, e.g. .ansi.red is the ansi code for red, etc.
+
+
+v0.1.3
+------
+
+* .inspect(): fixed a bug displaying false circular references when dealing with arrays (because of .concat() unexpected behaviour)
+
+
+v0.1.1 - v0.1.2
+---------------
+
+* .inspect() should handle exception when dealing with native object that raise exceptions when accessing properties.
+e.g.: "Uncaught SecurityError: Failed to read the 'cookie' property from 'Document': Access is denied for this document."
+raised by Chromium.
+
+* Upgraded dependencies.
+
+
+v0.1.0
+------
+
+Refactoring.
+

@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "node-os-utils@1.3.5",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "node-os-utils@1.3.5",
+  "_id": "node-os-utils@1.3.5",
+  "_inBundle": false,
+  "_integrity": "sha512-bIJIlk+hA+7/ATnu3sQMtF697iw9T/JksDhKMe9uENG0OhzIG7hLM6fbcyu18bOuajlYWnSlj0IhDo2q7k0ebg==",
+  "_location": "/node-os-utils",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "node-os-utils@1.3.5",
+    "name": "node-os-utils",
+    "escapedName": "node-os-utils",
+    "rawSpec": "1.3.5",
+    "saveSpec": null,
+    "fetchSpec": "1.3.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-os-utils/-/node-os-utils-1.3.5.tgz",
+  "_spec": "1.3.5",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "SunilWang",
+    "email": "ahwangshu@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/SunilWang/node-os-utils/issues"
+  },
+  "dependencies": {},
+  "description": "An operating system utility library.",
+  "devDependencies": {
+    "mocha": "^6.2.3"
+  },
+  "homepage": "https://github.com/SunilWang/node-os-utils#readme",
+  "keywords": [
+    "os",
+    "operating system",
+    "server",
+    "netstat",
+    "memory",
+    "cpu",
+    "monitor",
+    "stats",
+    "processes",
+    "openfiles",
+    "harddrive"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "node-os-utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunilWang/node-os-utils.git"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "version": "1.3.5"
+}

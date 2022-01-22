@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "term-img@5.0.0",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "term-img@5.0.0",
+  "_id": "term-img@5.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Wpi50MA7bJwJKi5bVYu/t+xu9kNqesdzg6gWHOh3+1R9NRx1LmYoCMly9bUiabMZPNPH3juT8lOhZxUYxPEIBw==",
+  "_location": "/term-img",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "term-img@5.0.0",
+    "name": "term-img",
+    "escapedName": "term-img",
+    "rawSpec": "5.0.0",
+    "saveSpec": null,
+    "fetchSpec": "5.0.0"
+  },
+  "_requiredBy": [
+    "/terminal-image"
+  ],
+  "_resolved": "https://registry.npmjs.org/term-img/-/term-img-5.0.0.tgz",
+  "_spec": "5.0.0",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/term-img/issues"
+  },
+  "dependencies": {
+    "ansi-escapes": "^4.1.0",
+    "iterm2-version": "^4.1.0"
+  },
+  "description": "Display images in iTerm",
+  "devDependencies": {
+    "@types/node": "^14.0.4",
+    "ava": "^2.0.0",
+    "tsd": "^0.11.0",
+    "xo": "^0.30.0"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "homepage": "https://github.com/sindresorhus/term-img#readme",
+  "keywords": [
+    "term",
+    "image",
+    "iterm",
+    "iterm2",
+    "terminal",
+    "shell",
+    "console",
+    "command-line",
+    "img",
+    "pic",
+    "picture",
+    "photo",
+    "app",
+    "version",
+    "ansi",
+    "escape",
+    "gif",
+    "gifs",
+    "jpg",
+    "jpeg"
+  ],
+  "license": "MIT",
+  "name": "term-img",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/term-img.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "5.0.0"
+}

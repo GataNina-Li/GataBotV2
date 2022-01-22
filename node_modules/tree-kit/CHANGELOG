@@ -1,0 +1,263 @@
+
+v0.7.3
+------
+
+.extend() option 'mask' now supports a number, the rank at which the masking starts
+
+
+v0.7.2
+------
+
+.extend(): fix the 'preserve' option bug when replacing with an object. New option 'mask' that is the revert of 'preserve': only update an object, but do not create new keys
+
+
+v0.7.1
+------
+
+path/dotPath with path in array mode now checks that there is no object in the array
+
+
+v0.7.0
+------
+
+BREAKING CHANGE -- .path()/.dotPath(): drop the function's subtree support, fix prototype pollution
+
+
+v0.6.2
+------
+
+.clone() with Date support
+
+
+v0.6.1
+------
+
+New: .dotPath.*(): a faster alternative to .path.*(), supporting only dot-separated path
+
+
+v0.6.0
+------
+
+Breaking change: .extend() 'deepFilter' option is gone 'deepFilter.whitelist' has moved to 'deep' and 'deepFilter.blacklist' has moved to 'immutables'
+
+
+v0.5.27
+-------
+
+Fixed a vulnerability in .extend(), moved to ESLint, moved to Tea-Time builtin 'expect'
+
+
+v0.5.26
+-------
+
+New: Browser lib!
+
+
+v0.5.25
+-------
+
+tree.path -- new operations: concat and insert
+
+
+v0.5.24
+-------
+
+IMPORTANT BUGFIX: clone was not working well with arrays
+
+
+v0.5.23
+-------
+
+clone interface
+
+
+v0.5.22
+-------
+
+Tree.path.* now supports empty keys
+
+
+v0.5.21
+-------
+
+tree.path() now return undefined if the source object, well, is not an object (instead of throwing)
+
+
+v0.5.20
+-------
+
+Bugfix: make require( 'tree-kit/lib/path.js' ) works as expected (was encapsulating everything in a 'path' sub-object)
+
+
+v0.5.19
+-------
+
+New: tree.path.autoPush()
+
+
+v0.5.18
+-------
+
+tree.json was removed (get its own module: json-kit)
+
+
+v0.5.17
+-------
+
+json: parser run a bit faster
+
+
+v0.5.16
+-------
+
+json: parser run a bit faster
+
+
+v0.5.15
+-------
+
+json: parser is now working
+
+
+v0.5.14
+-------
+
+json.stringify() improvements
+
+
+v0.5.13
+-------
+
+"use strict" everywhere
+
+
+v0.5.12
+-------
+
+Bechmark: ubench v0.2.x ; "use strict" everywhere
+
+
+v0.5.11
+-------
+
+ubench benchmark
+
+
+v0.5.10
+-------
+
+json: some fixes
+
+
+v0.5.9
+------
+
+json.stringify() is now on par with native JSON.stringify()!
+
+
+v0.5.8
+------
+
+json utilities: wip
+
+
+v0.5.7
+------
+
+New: tree.path.append() and tree.path.prepend()
+
+
+v0.5.6
+------
+
+New feature: tree.path() now support the bracket syntax for arrays.
+
+
+v0.5.5
+------
+
+Documentation: just added link to http://blog.soulserv.net/tag/tree-kit that points to tree-kit tutorials.
+
+
+v0.5.4
+------
+
+path: all methods return the targeted object like path.get() does.
+
+
+v0.5.3
+------
+
+New path.*() method: path.define(), like set, but only if the targeted item does not exist
+
+
+v0.5.2
+------
+
+New path.*() methods: path.inc() & path.dec(), that increment and decrement values
+
+
+v0.5.1
+------
+
+path.*():
+	* tree.path.prototype can be used for inheritance, using Object.create( tree.path.prototype )
+	* path.*() now supports path as array too (but it's still not done for array walking)
+
+
+v0.5.0
+------
+
+path.*(): pseudo-element notation use '#' instead of ':'
+
+
+v0.4.3 - v0.4.4
+---------------
+
+path.*() now support a semi-colon syntax for accessing arrays, featuring pseudo-element like :last and :next, etc.
+
+
+v0.4.2
+------
+
+New: path submodule featuring path.get(), path.set() and path.delete(). It allows setting, getting deleting by a
+	dot-separated path scheme.
+
+
+v0.4.1
+------
+
+clone() have now its own module/file: clone.js.
+
+
+v0.4.0
+------
+
+extend():
+	* 'circular' & 'maxDepth' options finished, 'descriptor' option bugfix
+
+clone():
+	* does not depend upon extend() anymore, it has been fully rewritten with optimization in mind
+	* it does not use recursive function call but loops, which is super-efficient ;)
+	* it now accepts a *circular* boolean argument, just like extend(), see the doc!
+
+
+v0.3.5
+------
+
+Doc: table of content.
+
+
+v0.3.4
+------
+
+New method: clone(), providing the best object-cloning facility that this lib can offer.
+
+
+v0.3.3
+------
+
+extend()
+- 'nonEnum' option that copy non-enumerable properties as well (in conjunction with 'own')
+- 'descriptor' option that preserve property's descriptor
+

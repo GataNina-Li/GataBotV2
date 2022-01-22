@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "cycled@1.2.0",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "cycled@1.2.0",
+  "_id": "cycled@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-/BOOCEohSBflVHHtY/wUc1F6YDYPqyVs/A837gDoq4H1pm72nU/yChyGt91V4ML+MbbAmHs8uo2l1yJkkTIUdg==",
+  "_location": "/cycled",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cycled@1.2.0",
+    "name": "cycled",
+    "escapedName": "cycled",
+    "rawSpec": "1.2.0",
+    "saveSpec": null,
+    "fetchSpec": "1.2.0"
+  },
+  "_requiredBy": [
+    "/render-gif"
+  ],
+  "_resolved": "https://registry.npmjs.org/cycled/-/cycled-1.2.0.tgz",
+  "_spec": "1.2.0",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/cycled/issues"
+  },
+  "description": "Cycle through the items of an array",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "homepage": "https://github.com/sindresorhus/cycled#readme",
+  "keywords": [
+    "cycle",
+    "cycled",
+    "iterable",
+    "iterables",
+    "array",
+    "item",
+    "next",
+    "previous",
+    "loop",
+    "repeat",
+    "value",
+    "values",
+    "iterator"
+  ],
+  "license": "MIT",
+  "name": "cycled",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/cycled.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "1.2.0"
+}

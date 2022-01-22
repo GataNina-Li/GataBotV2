@@ -1,0 +1,3 @@
+(A) Document all the 'interrupt' feature @doc
+(C) NextGenEvents.upgrade(): upgrade a regular node.js EventsEmitter to a NextGen emitter @code
+x 2015-12-18 Document the .emit() completion callback feature @doc

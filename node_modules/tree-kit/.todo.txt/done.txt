@@ -1,0 +1,8 @@
+x 2014-11-04 +extend deep:true bug with function, there are copied as undefined @bug
+x 2014-11-04 +extend document 'deepFunc' option @doc
+x 2014-12-23 +extend finish the 'descriptor' option: what to do with 'deep' when a property is a getter/setter? @code
+x 2015-01-09 +extend options 'descriptor': copy property descriptor as well, using Object.getOwnPropertyDescriptor() & Object.defineProperty() @code
+x 2015-01-09 +extend options 'nonEnum': get non-enumerable properties as well, using Object.getOwnPropertyNames() @code
+x 2015-01-10 +extend still trouble with getter: direct access rather than descriptor.value on the /!\ mark @bug
+x 2015-01-10 +extend document 'circular' option @doc
+x 2015-01-10 +extend document 'maxDepth' option @doc

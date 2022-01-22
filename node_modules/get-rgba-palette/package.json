@@ -1,0 +1,44 @@
+{
+  "name": "get-rgba-palette",
+  "version": "2.0.1",
+  "description": "gets a palette of prominent colors from an array of pixels",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "quantize": "^1.0.1"
+  },
+  "devDependencies": {
+    "array-range": "^1.0.1",
+    "almost-equal": "0.0.0",
+    "tape": "^3.0.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "get",
+    "image",
+    "palette",
+    "palet",
+    "pallet",
+    "pallette",
+    "colors",
+    "primary",
+    "main",
+    "quantize",
+    "pixels"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/get-rgba-palette.git"
+  },
+  "homepage": "https://github.com/mattdesl/get-rgba-palette",
+  "bugs": {
+    "url": "https://github.com/mattdesl/get-rgba-palette/issues"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "warn@1.0.1",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "warn@1.0.1",
+  "_id": "warn@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-+ETynn8MvtL5zQhO8rvDAPxen+A=",
+  "_location": "/warn",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "warn@1.0.1",
+    "name": "warn",
+    "escapedName": "warn",
+    "rawSpec": "1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "1.0.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/warn/-/warn-1.0.1.tgz",
+  "_spec": "1.0.1",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Stanley Stuart",
+    "email": "dstanley.stuart@gmail.com"
+  },
+  "bin": {
+    "warn.js": "bin/main"
+  },
+  "bugs": {
+    "url": "https://github.com/fivetanley/warn.js/issues"
+  },
+  "dependencies": {
+    "amdefine": "0.0.2",
+    "commander": "~0.6.0"
+  },
+  "description": "A JSHint configuration / management tool.",
+  "devDependencies": {
+    "grunt": "^0.3.17",
+    "mocha": "^2.1.0",
+    "mocha-cakes": "~0.9.0",
+    "should": "^4.6.5"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "homepage": "https://github.com/fivetanley/warn.js#readme",
+  "name": "warn",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fivetanley/warn.js.git"
+  },
+  "version": "1.0.1"
+}

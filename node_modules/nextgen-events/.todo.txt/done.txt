@@ -1,0 +1,1 @@
+x 2015-12-18 Document the .emit() completion callback feature @doc

@@ -1,0 +1,54 @@
+{
+  "_args": [
+    [
+      "nekos.life@2.0.7",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "nekos.life@2.0.7",
+  "_id": "nekos.life@2.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-kL5sYOqaDTIdVH40YVrtWQPX60bGK3Ri/j2jnHugZ86lxc4xIytUmGelspFwKAs4TOHDSZh4jiJGGL8dQ55HNA==",
+  "_location": "/nekos.life",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nekos.life@2.0.7",
+    "name": "nekos.life",
+    "escapedName": "nekos.life",
+    "rawSpec": "2.0.7",
+    "saveSpec": null,
+    "fetchSpec": "2.0.7"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nekos.life/-/nekos.life-2.0.7.tgz",
+  "_spec": "2.0.7",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "cyberronin"
+  },
+  "bugs": {
+    "url": "https://github.com/Nekos-life/nekos-dot-life/issues"
+  },
+  "description": "JS wrapper for https://nekos.life",
+  "homepage": "https://github.com/Nekos-life/nekos-dot-life#readme",
+  "keywords": [
+    "nekos",
+    "nekos.life"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nekos.life",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nekos-life/nekos-dot-life.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "./typings/index.d.ts",
+  "version": "2.0.7"
+}

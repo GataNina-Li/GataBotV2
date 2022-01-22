@@ -1,0 +1,49 @@
+{
+  "_args": [
+    [
+      "node-webpmux@2.0.3",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "node-webpmux@2.0.3",
+  "_id": "node-webpmux@2.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-jrR6wnmWGK8nUdmpHyk1RwLamZUtoupYpZOzLa212DbDLqAcWbEt0M/0CTiQDptduQOXg1EPHmfSPyjtn2U30g==",
+  "_location": "/node-webpmux",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "node-webpmux@2.0.3",
+    "name": "node-webpmux",
+    "escapedName": "node-webpmux",
+    "rawSpec": "2.0.3",
+    "saveSpec": null,
+    "fetchSpec": "2.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-webpmux/-/node-webpmux-2.0.3.tgz",
+  "_spec": "2.0.3",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "ApeironTsuka"
+  },
+  "bugs": {
+    "url": "https://github.com/ApeironTsuka/node-webpmux/issues"
+  },
+  "description": "A pure Javascript/WebAssembly re-implementation of webpmux",
+  "homepage": "https://github.com/ApeironTsuka/node-webpmux#readme",
+  "license": "ISC",
+  "main": "webp.js",
+  "name": "node-webpmux",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApeironTsuka/node-webpmux.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.3"
+}

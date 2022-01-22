@@ -1,0 +1,42 @@
+{
+  "name": "get-image-colors",
+  "version": "4.0.0",
+  "description": "Extract colors from images. Supports GIF, JPG, PNG, and even SVG!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && standard && standard-markdown *.md",
+    "lint": "standard"
+  },
+  "repository": "https://github.com/colorjs/get-image-colors",
+  "keywords": [
+    "color",
+    "palette",
+    "svg",
+    "gif",
+    "png",
+    "jpg",
+    "canvas",
+    "pixels",
+    "rgb",
+    "rgba"
+  ],
+  "author": "zeke",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.1.1",
+    "standard": "^14.3.4",
+    "standard-markdown": "^6.0.0"
+  },
+  "dependencies": {
+    "pify": "^5.0.0",
+    "chroma-js": "^2.1.0",
+    "get-pixels": "^3.3.2",
+    "get-rgba-palette": "^2.0.1",
+    "get-svg-colors": "^1.5.1"
+  },
+  "standard": {
+    "env": {
+      "mocha": true
+    }
+  }
+}

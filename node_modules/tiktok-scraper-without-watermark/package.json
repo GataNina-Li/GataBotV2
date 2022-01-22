@@ -1,0 +1,30 @@
+{
+  "name": "tiktok-scraper-without-watermark",
+  "version": "1.0.6",
+  "description": "Tiktok Scraper, Download Video From Tiktok Without Watermark.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRHRTZ/Tiktok-Scraper-Without-Watermark.git"
+  },
+  "keywords": [
+    "Tiktok Downloader",
+    "Tiktok Scraper",
+    "Tiktok No WM",
+    "Tiktok No Watermark"
+  ],
+  "author": "MRHRTZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MRHRTZ/Tiktok-Scraper-Without-Watermark/issues"
+  },
+  "homepage": "https://github.com/MRHRTZ/Tiktok-Scraper-Without-Watermark#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
+    "form-data": "^4.0.0"
+  }
+}

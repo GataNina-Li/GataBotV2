@@ -1,0 +1,38 @@
+{
+  "_from": "expressjs",
+  "_id": "expressjs@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-IgMoRpoY31rWFeK3oM6ZXxf7ru8=",
+  "_location": "/expressjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "expressjs",
+    "name": "expressjs",
+    "escapedName": "expressjs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/expressjs/-/expressjs-1.0.1.tgz",
+  "_shasum": "220328469a18df5ad615e2b7a0ce995f17fbaeef",
+  "_spec": "expressjs",
+  "_where": "/data/data/com.termux/files/home",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": "This is a typosquat on the popular Express package. This is not maintained nor is the original Express package.",
+  "description": "this is an experiment.",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "expressjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

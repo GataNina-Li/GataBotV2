@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "translate-google-api@1.0.4",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "translate-google-api@1.0.4",
+  "_id": "translate-google-api@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-KVXmo4+64/H1vIbnzf2zNiJ2JLeEB3jrEnNRP2EFNAGNqna/5bmw/Cps3pCHu0n3BzTOoWh9u6wFvrRYdzQ6Iw==",
+  "_location": "/translate-google-api",
+  "_phantomChildren": {
+    "follow-redirects": "1.14.1"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "translate-google-api@1.0.4",
+    "name": "translate-google-api",
+    "escapedName": "translate-google-api",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/translate-google-api/-/translate-google-api-1.0.4.tgz",
+  "_spec": "1.0.4",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "LuanNguyen"
+  },
+  "bugs": {
+    "url": "https://github.com/Binhluan1234/react-google-translate-api/issues"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "description": "A free and unlimited API for Google Translate（contains single and multiple）",
+  "homepage": "https://github.com/Binhluan1234/react-google-translate-api#readme",
+  "keywords": [
+    "google",
+    "translate",
+    "multiple",
+    "language",
+    "react",
+    "react-native"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "translate-google-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binhluan1234/react-google-translate-api.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}

@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      "exec-limiter@3.2.13",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "exec-limiter@3.2.13",
+  "_id": "exec-limiter@3.2.13",
+  "_inBundle": false,
+  "_integrity": "sha512-86Ri699bwiHZVBzTzNj8gspqAhCPchg70zPVWIh3qzUOA1pUMcb272Em3LPk8AE0mS95B9yMJhtqF8vFJAn0dA==",
+  "_location": "/exec-limiter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "exec-limiter@3.2.13",
+    "name": "exec-limiter",
+    "escapedName": "exec-limiter",
+    "rawSpec": "3.2.13",
+    "saveSpec": null,
+    "fetchSpec": "3.2.13"
+  },
+  "_requiredBy": [
+    "/gry"
+  ],
+  "_resolved": "https://registry.npmjs.org/exec-limiter/-/exec-limiter-3.2.13.tgz",
+  "_spec": "3.2.13",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "blah": {
+    "cli": "exec-limiter-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/exec-limiter/issues"
+  },
+  "contributors": [
+    {
+      "name": "Gabriel Petrovay",
+      "email": "gabipetrovay@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "limit-it": "^3.0.0",
+    "typpy": "^2.1.0"
+  },
+  "description": "Limit the shell execution commands to <x> calls same time.",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "homepage": "https://github.com/IonicaBizau/exec-limiter",
+  "keywords": [
+    "exec",
+    "limiter",
+    "shell"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "exec-limiter",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/exec-limiter.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "3.2.13"
+}

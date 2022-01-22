@@ -1,0 +1,3 @@
++defineLazyProperty document it @doc
+x 2015-01-10 +extend document 'maxDepth' option @doc
+do not mix 'you' and 'we' in the @doc

@@ -1,0 +1,1 @@
+clear && byzanz-record -x 0 -y 116 -w 120 -h 24 -d 5 record.gif & sleep 0.2 && ./spinner-test.js && fg ; gnome-open record.gif

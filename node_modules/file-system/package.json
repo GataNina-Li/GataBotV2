@@ -1,0 +1,40 @@
+{
+  "name": "file-system",
+  "version": "2.2.2",
+  "description": "Strengthen the ability of file system",
+  "main": "file-system.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/douzi8/file-system"
+  },
+  "keywords": [
+    "file",
+    "recursive",
+    "recurse",
+    "fs",
+    "maker",
+    "node file",
+    "mkdir",
+    "rmdir",
+    "fs extra",
+    "file system"
+  ],
+  "author": "douzi <liaowei08@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douzi8/file-system/issues"
+  },
+  "homepage": "https://github.com/douzi8/file-system",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "file-match": "^1.0.1",
+    "utils-extend": "^1.0.4"
+  }
+}

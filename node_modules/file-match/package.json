@@ -1,0 +1,32 @@
+{
+  "name": "file-match",
+  "version": "1.0.2",
+  "description": "Match filepath is validated, or exclude filepath that don't need.",
+  "main": "file-match.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/douzi8/file-match"
+  },
+  "keywords": [
+    "filepath",
+    "match",
+    "minimatch",
+    "grunt filematch"
+  ],
+  "author": "douzi <liaowei08@gmail.com>",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "mocha": "^2.0.1"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douzi8/file-match/issues"
+  },
+  "dependencies": {
+    "utils-extend": "^1.0.6"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "lazyness",
+  "version": "1.2.0",
+  "description": "Various lazy loaders.",
+  "main": "lib/Lazyness.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/lazyness.git"
+  },
+  "keywords": [
+    "lazy",
+    "loader"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/lazyness/issues"
+  },
+  "copyright": {
+    "title": "Lazyness",
+    "years": [
+      2018
+    ],
+    "owner": "Cédric Ronvel"
+  }
+}

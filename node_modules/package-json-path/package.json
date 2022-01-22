@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "package-json-path@1.0.9",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "package-json-path@1.0.9",
+  "_id": "package-json-path@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-uNu7f6Ef7tQHZRnkyVnCtzdSYVN9uBtge/sG7wzcUaawFWkPYUq67iXxRGrQSg/q0tzxIB8jSyIYUKjG2Jn//A==",
+  "_location": "/package-json-path",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "package-json-path@1.0.9",
+    "name": "package-json-path",
+    "escapedName": "package-json-path",
+    "rawSpec": "1.0.9",
+    "saveSpec": null,
+    "fetchSpec": "1.0.9"
+  },
+  "_requiredBy": [
+    "/r-package-json"
+  ],
+  "_resolved": "https://registry.npmjs.org/package-json-path/-/package-json-path-1.0.9.tgz",
+  "_spec": "1.0.9",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/package-json-path/issues"
+  },
+  "dependencies": {
+    "abs": "^1.2.1"
+  },
+  "description": "Get the package.json path in a specific directory.",
+  "devDependencies": {},
+  "directories": {
+    "example": "example"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "homepage": "https://github.com/IonicaBizau/package-json-path#readme",
+  "keywords": [
+    "package.json",
+    "npm",
+    "path"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "package-json-path",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/package-json-path.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.9"
+}

@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      "tlds@1.221.1",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "tlds@1.221.1",
+  "_id": "tlds@1.221.1",
+  "_inBundle": false,
+  "_integrity": "sha512-N1Afn/SLeOQRpxMwHBuNFJ3GvGrdtY4XPXKPFcx8he0U9Jg9ZkvTKE1k3jQDtCmlFn44UxjVtouF6PT4rEGd3Q==",
+  "_location": "/tlds",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "tlds@1.221.1",
+    "name": "tlds",
+    "escapedName": "tlds",
+    "rawSpec": "1.221.1",
+    "saveSpec": null,
+    "fetchSpec": "1.221.1"
+  },
+  "_requiredBy": [
+    "/url-regex"
+  ],
+  "_resolved": "https://registry.npmjs.org/tlds/-/tlds-1.221.1.tgz",
+  "_spec": "1.221.1",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Stephen Mathieson",
+    "email": "me@stephenmathieson.com"
+  },
+  "bin": {
+    "tlds": "bin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/stephenmathieson/node-tlds/issues"
+  },
+  "description": "A list of TLDs.",
+  "devDependencies": {
+    "ava": "^3.11.0",
+    "eslint": "^7.6.0",
+    "execa": "^4.0.3",
+    "got": "^11.5.1",
+    "is-git-dirty": "^2.0.1",
+    "is-punycode": "^1.0.1",
+    "load-json-file": "^6.2.0",
+    "prepend-file": "^2.0.0",
+    "punycode": "^2.1.1",
+    "semver": "^7.3.2",
+    "write-json-file": "^4.3.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true,
+      "es2020": true
+    },
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "files": [
+    "index.json",
+    "index.d.ts",
+    "bin.js"
+  ],
+  "homepage": "https://github.com/stephenmathieson/node-tlds#readme",
+  "keywords": [
+    "data",
+    "tld",
+    "tlds",
+    "top",
+    "level",
+    "domains"
+  ],
+  "license": "MIT",
+  "main": "index.json",
+  "name": "tlds",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenmathieson/node-tlds.git"
+  },
+  "scripts": {
+    "build": "node update.js",
+    "lint": "eslint .",
+    "prepublishOnly": "eslint . && ava",
+    "test": "ava"
+  },
+  "version": "1.221.1"
+}

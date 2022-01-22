@@ -1,0 +1,66 @@
+{
+  "name": "chroma-js",
+  "description": "JavaScript library for color conversions",
+  "version": "2.1.2",
+  "author": "Gregor Aisch",
+  "homepage": "https://github.com/gka/chroma.js",
+  "keywords": [
+    "color"
+  ],
+  "maintainers": [
+    {
+      "name": "Gregor Aisch",
+      "email": "mail@driven-by-data.net",
+      "web": "https://vis4.net"
+    }
+  ],
+  "bugs": "https://github.com/gka/chroma.js/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gka/chroma.js.git"
+  },
+  "main": "chroma.js",
+  "scripts": {
+    "prepublishOnly": "npm run build && npm test",
+    "build": "rollup -c && cross-env DEV=1 rollup -c ",
+    "docs": "cd docs && make",
+    "docs-preview": "cd docs && make && make preview",
+    "test": "vows --dot-matrix test/*.js",
+    "lint": "eslint index.js index-light.js src"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "es6-shim": "^0.18.0",
+    "eslint": "^5.10.0",
+    "http-server": "^0.11.1",
+    "husky": "^1.2.1",
+    "markdown-to-html": "0.0.13",
+    "minimatch": "^3.0.4",
+    "rollup": "^0.67.4",
+    "rollup-plugin-buble": "^0.19.4",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-license": "^0.12.1",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "vows": "^0.8.2"
+  },
+  "license": "(BSD-3-Clause AND Apache-2.0)",
+  "spm": {
+    "main": "chroma.js",
+    "ignore": [
+      "src",
+      "doc",
+      "test"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm test"
+    }
+  },
+  "dependencies": {
+    "cross-env": "^6.0.3"
+  }
+}

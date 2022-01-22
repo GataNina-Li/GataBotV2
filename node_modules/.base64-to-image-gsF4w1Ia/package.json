@@ -1,0 +1,27 @@
+{
+  "name": "base64-to-image",
+  "version": "1.0.2",
+  "description": "base64 to image converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": "https://github.com/helensy/base64-to-image.git",
+   "bugs": {
+    "url": "https://github.com/helensy/base64-to-image/issues"
+  },
+  "keywords": [
+    "base64",
+    "to",
+    "image",
+    "converter",
+	"node",
+    "base64toimage"
+  ],
+  "author": "helenys",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
+}

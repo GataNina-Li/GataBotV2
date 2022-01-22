@@ -1,0 +1,56 @@
+{
+  "_args": [
+    [
+      "brainly-scraper-v2@1.1.2",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "brainly-scraper-v2@1.1.2",
+  "_id": "brainly-scraper-v2@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-kfaZkJi+Sp41pQlRIsEqHzXZtgHjs77/uKNWQ8jz5pkb5e707vz5+vCdmCfSyxaNYbKw5IphOblEib4v9ozIPw==",
+  "_location": "/brainly-scraper-v2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "brainly-scraper-v2@1.1.2",
+    "name": "brainly-scraper-v2",
+    "escapedName": "brainly-scraper-v2",
+    "rawSpec": "1.1.2",
+    "saveSpec": null,
+    "fetchSpec": "1.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/brainly-scraper-v2/-/brainly-scraper-v2-1.1.2.tgz",
+  "_spec": "1.1.2",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Hanif"
+  },
+  "bugs": {
+    "url": "https://github.com/hansputera/brainly-scraper-languages/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "random-useragent": "^0.5.0"
+  },
+  "description": "Brainly-Scraper version 2.",
+  "devDependencies": {
+    "@types/random-useragent": "^0.3.0"
+  },
+  "homepage": "https://github.com/hansputera/brainly-scraper-languages#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "brainly-scraper-v2",
+  "repository": {
+    "url": "git+https://github.com/hansputera/brainly-scraper-languages.git"
+  },
+  "scripts": {
+    "start": "node ./dist",
+    "test": "node ./dist/test/index.test.js"
+  },
+  "version": "1.1.2"
+}

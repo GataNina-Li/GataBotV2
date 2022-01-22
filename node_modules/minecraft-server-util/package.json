@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "minecraft-server-util@3.5.2",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "minecraft-server-util@3.5.2",
+  "_id": "minecraft-server-util@3.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-cJ4UIE9gDBU8n+YJqVhaTfPKrEKJj1FvgloDydLXXnFWeuLCzPKfWdM7uYqRIXBlauvNFmOojbdm7H8JjIkiJg==",
+  "_location": "/minecraft-server-util",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "minecraft-server-util@3.5.2",
+    "name": "minecraft-server-util",
+    "escapedName": "minecraft-server-util",
+    "rawSpec": "3.5.2",
+    "saveSpec": null,
+    "fetchSpec": "3.5.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/minecraft-server-util/-/minecraft-server-util-3.5.2.tgz",
+  "_spec": "3.5.2",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Jacob Gunther"
+  },
+  "bugs": {
+    "url": "https://github.com/PassTheMayo/minecraft-server-util"
+  },
+  "dependencies": {
+    "ansi-styles": "^5.0.0"
+  },
+  "description": "A Node.js library for Minecraft servers that can retrieve status, perform queries, and RCON into servers.",
+  "devDependencies": {
+    "@types/node": "^14.14.13",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "eslint": "^7.15.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "homepage": "https://github.com/PassTheMayo/minecraft-server-util#readme",
+  "keywords": [
+    "minecraft",
+    "java",
+    "bedrock",
+    "server",
+    "status",
+    "ping",
+    "query",
+    "rcon"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "minecraft-server-util",
+  "repository": {
+    "url": "git+https://github.com/PassTheMayo/minecraft-server-util.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf build/",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run clean && npm run build && npm run lint"
+  },
+  "typings": "dist/index.d.ts",
+  "version": "3.5.2"
+}

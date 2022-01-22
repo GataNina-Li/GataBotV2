@@ -1,0 +1,32 @@
+{
+	"tags": {
+		"allowUnknownTags": true,
+		"dictionaries": [ "jsdoc" ]
+	},
+	"source": {
+		"include": [ ".", "package.json", "README.md" ],
+		"includePattern": "src.*\\.js$",
+		"excludePattern": "(node_modules|docs|test|dist|rollup.config.js)"
+	},
+	"plugins": [
+		"plugins/markdown"
+	],
+	"templates": {
+		"name": "nhentai-api",
+		"footerText": "nhentai-api",
+		"useCollapsibles": true,
+		"logo": {
+			"url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCA1Ij48dGV4dCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjEwMCUiIGZpbGw9IndoaXRlIiB0ZXh0TGVuZ3RoPSIzMCIgZm9udC1zaXplPSI1IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgc3R5bGU9InRleHQtdHJhbnNmb3JtOnVwcGVyY2FzZSI+bmhlbnRhaS1hcGk8L3RleHQ+PC9zdmc+",
+			"width": "65px",
+			"height": "13px",
+			"link": "index.html"
+		}
+	},
+	"opts": {
+		"destination": "./docs/",
+		"encoding": "utf8",
+		"private": true,
+		"recurse": true,
+		"template": "./node_modules/tui-jsdoc-template"
+	}
+}

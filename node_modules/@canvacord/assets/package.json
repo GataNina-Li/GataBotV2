@@ -1,0 +1,62 @@
+{
+  "_from": "@canvacord/assets@^2.0.5",
+  "_id": "@canvacord/assets@2.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-MceWZe5TzOymfvgf8ZU5m1oxWg6rGyH5anCgANARa47+CjVcppe6+Bd1+36pXiDTOyE4uRJk6T5RgOEJOgciug==",
+  "_location": "/@canvacord/assets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@canvacord/assets@^2.0.5",
+    "name": "@canvacord/assets",
+    "escapedName": "@canvacord%2fassets",
+    "scope": "@canvacord",
+    "rawSpec": "^2.0.5",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.5"
+  },
+  "_requiredBy": [
+    "/canvacord"
+  ],
+  "_resolved": "https://registry.npmjs.org/@canvacord/assets/-/assets-2.0.5.tgz",
+  "_shasum": "2f23f69aa16bca49029a5a32df2bdfed4c9fa03b",
+  "_spec": "@canvacord/assets@^2.0.5",
+  "_where": "/data/data/com.termux/files/home/BAKA13/node_modules/canvacord",
+  "author": {
+    "name": "Snowflake107",
+    "email": "devsnowflake107@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/DevSnowflake/canvacord-assets/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Assets used in Canvacord",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "homepage": "https://github.com/DevSnowflake/canvacord-assets#readme",
+  "keywords": [
+    "canvacord",
+    "assets"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "@canvacord/assets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/canvacord-assets.git"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && tsc"
+  },
+  "types": "./dist/index.d.ts",
+  "version": "2.0.5"
+}

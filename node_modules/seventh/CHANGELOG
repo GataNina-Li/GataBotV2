@@ -1,0 +1,104 @@
+
+v0.7.40
+-------
+
+Queue: .addBatch()
+
+
+v0.7.39
+-------
+
+Queue: adding a job with no data (=undefined) set its id as its data
+
+
+v0.7.38
+-------
+
+Queue: job/queue stats
+
+
+v0.7.37
+-------
+
+New: Promise.Queue(), a queue with dependencies, that can be ever-growing
+
+
+v0.7.36
+-------
+
+New: Promise#isSettled()
+
+
+v0.7.35
+-------
+
+Factorize .onceEvent*OrError()
+
+
+v0.7.34
+-------
+
+.debounceSync() support a batch no delay mode
+
+
+v0.7.33
+-------
+
+.debounceSync has a .onDebounce property for syncGet params
+
+
+v0.7.32
+-------
+
+.debounceSync() decoratee now accepts a final Promise.NO_DELAY option to force syncing without delay when not busy
+
+
+v0.7.31
+-------
+
+New: .debounceDelay()
+
+
+v0.7.30
+-------
+
+New: Promise.resolveAtAnimationFrame() and Promise.rejectAtAnimationFrame()
+
+
+v0.7.29
+-------
+
+Browser build
+
+
+v0.7.28
+-------
+
+New: Promise.resolveNextTick(), Promise.rejectNextTick()
+
+
+v0.7.27
+-------
+
+Fixed bad foreign promise usage
+
+
+v0.7.26
+-------
+
+Fixed decorators thisBinding bugs
+New: .debounceSync() to debounce synchronization algorithms
+
+
+v0.7.25
+-------
+
+Fix bugged .finally() behavior, splitting into .finally() and .tapFinally()
+
+
+v0.7.24
+-------
+
+New: .promisify()/.promisifyAll() now add extra property 'arg'/'args' to Error instances on rejection
+
+

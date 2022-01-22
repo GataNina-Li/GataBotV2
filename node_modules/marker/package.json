@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      "marker@0.1.2",
+      "/data/data/com.termux/files/home/ThunderX7BotWa"
+    ]
+  ],
+  "_from": "marker@0.1.2",
+  "_id": "marker@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-CbvjWtBeapKEA1qPyDPUmseqkW0=",
+  "_location": "/marker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "marker@0.1.2",
+    "name": "marker",
+    "escapedName": "marker",
+    "rawSpec": "0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "0.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/marker/-/marker-0.1.2.tgz",
+  "_spec": "0.1.2",
+  "_where": "/data/data/com.termux/files/home/ThunderX7BotWa",
+  "author": {
+    "name": "Kurtis Schmidt",
+    "email": "kurtisschmidt@gmail.com"
+  },
+  "bin": {
+    "marker": "bin/marker"
+  },
+  "bugs": {
+    "url": "http://github.com/kschmidt/marker/issues"
+  },
+  "dependencies": {
+    "commander": ">= 0.6.0",
+    "marked": ">= 0.2.4-1"
+  },
+  "description": "A live compiler for markdown files.",
+  "homepage": "https://github.com/kschmidt/marker",
+  "keywords": [
+    "markdown",
+    "markup",
+    "html"
+  ],
+  "main": "./lib/marker",
+  "name": "marker",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kschmidt/marker.git"
+  },
+  "tags": [
+    "markdown",
+    "markup",
+    "html"
+  ],
+  "version": "0.1.2"
+}

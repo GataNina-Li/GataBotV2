@@ -1,0 +1,58 @@
+{
+  "name": "nextgen-events",
+  "version": "1.5.2",
+  "description": "The next generation of events handling for javascript! New: abstract away the network!",
+  "main": "lib/NextGenEvents.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "directories": {
+    "test": "test",
+    "bench": "bench"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "uglify-js-es6": "^2.8.9",
+    "ws": "^7.4.6"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/nextgen-events.git"
+  },
+  "keywords": [
+    "events",
+    "async",
+    "emit",
+    "listener",
+    "context",
+    "series",
+    "serialize",
+    "namespace",
+    "proxy",
+    "network"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/nextgen-events/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Next-Gen Events",
+    "years": [
+      2015,
+      2021
+    ],
+    "owner": "Cédric Ronvel"
+  }
+}

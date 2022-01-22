@@ -1,0 +1,9 @@
+# Travis CI build system config.
+
+language: node_js
+node_js:
+        - 0.10
+        - 0.12
+before_script: 
+        - "npm install -g grunt@0.3"
+        - "grunt build"

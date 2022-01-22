@@ -1,0 +1,603 @@
+[
+  {
+    index: 0,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-1.jpg',
+    jawaban: 'TANTANGAN SERU',
+    deskripsi: 'Gambar tang (huruf G dicoret), tangan dan tanda seru (pentung).'
+  },
+  {
+    index: 1,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-2.jpg',
+    jawaban: 'TENAGA LISTRIK',
+    deskripsi: 'Gambar huruf TE, ular naga dan tegangan listrik (petir).'
+  },
+  {
+    index: 2,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-3.jpg',
+    jawaban: 'SARUNG BANTAL',
+    deskripsi: 'Gambar sarung dan bantal.'
+  },
+  {
+    index: 3,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-4.jpg',
+    jawaban: 'ALAS KAKI',
+    deskripsi: 'Gambar huruf A, orang mengelas dan kaki.'
+  },
+  {
+    index: 4,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-5.jpg',
+    jawaban: 'POTONGAN HARGA',
+    deskripsi: 'Gambar pot bunga, tong, huruf AN, dan harga diskon (bandrol 5$).'
+  },
+  {
+    index: 5,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-6.jpg',
+    jawaban: 'TUANG AIR',
+    deskripsi: 'Gambar orang tua membawa tongkat, huruf NG, dan tetesan air.'
+  },
+  {
+    index: 6,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-7.jpg',
+    jawaban: 'JAM TANGAN',
+    deskripsi: 'Gambar jam dinding dan tangan.'
+  },
+  {
+    index: 7,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-8.jpg',
+    jawaban: 'JAMBU BATU',
+    deskripsi: 'Gambar jam dinding, huruf BU, dan bebatuan.'
+  },
+  {
+    index: 8,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-9.jpg',
+    jawaban: 'MATI RASA',
+    deskripsi: 'Gambar kuburan/pusara dengan tulisan RIP, dan hewan rusa (huruf U diganti A).'
+  },
+  {
+    index: 9,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-10.jpg',
+    jawaban: 'UDANG REBUS',
+    deskripsi: 'Gambar udang, huruf RE, dan kendaraan bus.'
+  },
+  {
+    index: 10,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-11.jpg',
+    jawaban: 'TAHI LALAT',
+    deskripsi: 'Gambar tahu (huruf U diganti I), dan lalat.'
+  },
+  {
+    index: 11,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-12.jpg',
+    jawaban: 'MINTA UANG',
+    deskripsi: 'Gambar semangkuk mie, huruf N, tas (huruf S dicoret), dan karung tulisan Rp (rupiah).'
+  },
+  {
+    index: 12,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-13.jpg',
+    jawaban: 'SATU JALAN',
+    deskripsi: 'Gambar dua tusuk sate (huruf E diganti U), dan jalan aspal.'
+  },
+  {
+    index: 13,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-14.jpg',
+    jawaban: 'OBAT NYAMUK',
+    deskripsi: 'Gambar pil obat dan nyamuk.'
+  },
+  {
+    index: 14,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-15.jpg',
+    jawaban: 'MARI MAKAN',
+    deskripsi: 'Gambar orang lari (huruf L diganti M), dan orang makan nasi.'
+  },
+  {
+    index: 15,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-16.jpg',
+    jawaban: 'PISAU TAJAM',
+    deskripsi: 'Gambar pisau, raja (huruf R diganti T), dan huruf M.'
+  },
+  {
+    index: 16,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-17.jpg',
+    jawaban: 'IGA BAKAR',
+    deskripsi: 'Gambar angka 3 (huruf T dicoret), dan akar (ditambah huruf B).'
+  },
+  {
+    index: 17,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-18.jpg',
+    jawaban: 'DAUN BAYAM',
+    deskripsi: 'Gambar daun, huruf B, dan ayam.'
+  },
+  {
+    index: 18,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-19.jpg',
+    jawaban: 'KAMBING GULING',
+    deskripsi: 'Gambar kambing, dan seruling/suling (huruf S diganti G).'
+  },
+  {
+    index: 19,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-1-nomor-20.jpg',
+    jawaban: 'AKU SAYANG AYAH',
+    deskripsi: 'Gambar saku (huruf S dicoret), wayang (huruf W diganti S), dan ayam (huruf M diganti H).'
+  },
+  {
+    index: 20,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-1.jpg',
+    jawaban: 'NASIB BURUK',
+    deskripsi: 'Gambar nasi, huruf B, burung (huruf NG dicoret), dan huruf K.'
+  },
+  {
+    index: 21,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-2.jpg',
+    jawaban: 'RACUN TIKUS',
+    deskripsi: 'Gambar botol beracun (tengkorak) dan tikus.'
+  },
+  {
+    index: 22,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-3.jpg',
+    jawaban: 'LEBIH BAIK',
+    deskripsi: 'Gambar lebah madu (huruf A diganti I) dan kain batik (huruf T dicoret).'
+  },
+  {
+    index: 23,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-4.jpg',
+    jawaban: 'BUKU CERITA',
+    deskripsi: 'Gambar buku, buah cherry, dan huruf TA.'
+  },
+  {
+    index: 24,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-5.jpg',
+    jawaban: 'TANGAN KESEMUTAN',
+    deskripsi: 'Gambar tangan, huruf KE, semut, dan huruf AN.'
+  },
+  {
+    index: 25,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-6.jpg',
+    jawaban: 'POLISI TIDUR',
+    deskripsi: 'Gambar petugas (polisi) tidur dengan tulisan zzz…'
+  },
+  {
+    index: 26,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-7.jpg',
+    jawaban: 'HIDUP SENANG',
+    deskripsi: 'Gambar hidung (huruf NG dicoret), huruf P, dan orang berenang (huruf R diganti S).'
+  },
+  {
+    index: 27,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-8.jpg',
+    jawaban: 'SENAM OTAK',
+    deskripsi: 'Gambar huruf S, angka 6, dan otak.'
+  },
+  {
+    index: 28,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-9.jpg',
+    jawaban: 'TEMPAT MAKAN',
+    deskripsi: 'Gambar huruf T, angka 4, dan orang makan.'
+  },
+  {
+    index: 29,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-10.jpg',
+    jawaban: 'KUCING BELANG',
+    deskripsi: 'Gambar kucing, bel ditekan, dan uang (huruf U dicoret).'
+  },
+  {
+    index: 30,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-11.jpg',
+    jawaban: 'UNTAIAN BUNGA',
+    deskripsi: 'Gambar unta, ikan (huruf K dicoret), dan bunga.'
+  },
+  {
+    index: 31,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-12.jpg',
+    jawaban: 'RUMAH TANGGA',
+    deskripsi: 'Gambar rumah dan tangga.'
+  },
+  {
+    index: 32,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-13.jpg',
+    jawaban: 'MINUM JAMU',
+    deskripsi: 'Gambar orang minum, jam dinding dan huruf U.'
+  },
+  {
+    index: 33,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-14.jpg',
+    jawaban: 'PETENIS HANDAL',
+    deskripsi: 'Gambar pete (ditambah huruf NIS), dan sandal (huruf S diganti H).'
+  },
+  {
+    index: 34,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-15.jpg',
+    jawaban: 'HARGA PAS',
+    deskripsi: 'Gambar bandrol harga, huruf P dan kartu remi AS.'
+  },
+  {
+    index: 35,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-16.jpg',
+    jawaban: 'PULANG SEKOLAH',
+    deskripsi: 'Gambar tulang (huruf T diganti P) dan anak sekolah.'
+  },
+  {
+    index: 36,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-17.jpg',
+    jawaban: 'PINJAM KEMEJA',
+    deskripsi: 'Gambar huruf PIN, jam dinding, huruf KE, dan meja.'
+  },
+  {
+    index: 37,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-18.jpg',
+    jawaban: 'JANGKA KAKI',
+    deskripsi: 'Gambar jangkar (huruf R dicoret), dan kaki.'
+  },
+  {
+    index: 38,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-19.jpg',
+    jawaban: 'RUMPUT KERING',
+    deskripsi: 'Gambar rumput, huruf KE, dan ring tinju.'
+  },
+  {
+    index: 39,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-2-nomor-20.jpg',
+    jawaban: 'POHON RAMBUTAN ROBOH',
+    deskripsi: 'Gambar pohonGambar huruf RAM, orang buta, dan huruf NGambar robot (huruf T diganti H)'
+  },
+  {
+    index: 40,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-1.jpg',
+    jawaban: 'RADIASI MATAHARI',
+    deskripsi: 'Gambar radio (huruf O dicoret), dasi (huruf D dicoret), dan matahari.'
+  },
+  {
+    index: 41,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-2.jpg',
+    jawaban: 'BUAH TANGAN',
+    deskripsi: 'Gambar buah-buahan dan tangan.'
+  },
+  {
+    index: 42,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-3.jpg',
+    jawaban: 'BATU AKIK',
+    deskripsi: 'Gambar ratu (huruf R diganti B), huruf A, dan kok/bola bulutangkis (huruf O diganti I).'
+  },
+  {
+    index: 43,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-4.jpg',
+    jawaban: 'UANG HABIS',
+    deskripsi: 'Gambar uang, huruf HA, dan kendaraan bus/bis.'
+  },
+  {
+    index: 44,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-5.jpg',
+    jawaban: 'MENANGKAP ULAR',
+    deskripsi: 'Gambar orang menang (juara), huruf KAP, dan ular.'
+  },
+  {
+    index: 45,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-6.jpg',
+    jawaban: 'PANJANG UMUR',
+    deskripsi: 'Gambar ranjang/kasur (huruf R diganti P) dan sumur (huruf S dicoret).'
+  },
+  {
+    index: 46,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-7.jpg',
+    jawaban: 'JALAN BECEK',
+    deskripsi: 'Gambar jalan dan kendaraan becak (huruf A diganti E).'
+  },
+  {
+    index: 47,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-8.jpg',
+    jawaban: 'DARAH MUDA',
+    deskripsi: 'Gambar darah dan kuda (huruf K diganti M).'
+  },
+  {
+    index: 48,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-9.jpg',
+    jawaban: 'RAJIN BELAJAR',
+    deskripsi: 'Gambar huruf RA, jin dan orang belajar.'
+  },
+  {
+    index: 49,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-10.jpg',
+    jawaban: 'PANCING IKAN',
+    deskripsi: 'Gambar panci, huruf NG, dan ikan.'
+  },
+  {
+    index: 50,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-11.jpg',
+    jawaban: 'DAUR ULANG',
+    deskripsi: 'Gambar daun (huruf N diganti R) dan tulang (huruf T dicoret).'
+  },
+  {
+    index: 51,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-12.jpg',
+    jawaban: 'PELAMPUNG RENANG',
+    deskripsi: 'Gambar alat pel, lampu, huruf NG, dan orang berenang.'
+  },
+  {
+    index: 52,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-13.jpg',
+    jawaban: 'CALON PENARI',
+    deskripsi: 'Gambar galon (huruf G diganti C), pena, dan huruf RI.'
+  },
+  {
+    index: 53,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-14.jpg',
+    jawaban: 'PATAH HATI',
+    deskripsi: 'Gambar kayu dipatahkan dan hati.'
+  },
+  {
+    index: 54,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-15.jpg',
+    jawaban: 'FERMENTASI SUSU',
+    deskripsi: 'Gambar permen (huruf P diganti F), tas, huruf I, dan susu.'
+  },
+  {
+    index: 55,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-16.jpg',
+    jawaban: 'PENDUDUK ASLI',
+    deskripsi: 'Gambar huruf PEN, orang duduk, kartu AS remi, dan huruf LI.'
+  },
+  {
+    index: 56,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-17.jpg',
+    jawaban: 'KAPAL KERUK',
+    deskripsi: 'Gambar kapal dan buah jeruk (huruf J diganti K).'
+  },
+  {
+    index: 57,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-18.jpg',
+    jawaban: 'SAKIT PERUT',
+    deskripsi: 'Gambar orang sakit, pegas (per), dan huruf UT.'
+  },
+  {
+    index: 58,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-19.jpg',
+    jawaban: 'KOMPUTER LELET',
+    deskripsi: 'Gambar komputer, lele, dan huruf T.'
+  },
+  {
+    index: 59,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-3-nomor-20.jpg',
+    jawaban: 'SEBELAS KORBAN KEBAKARAN',
+    deskripsi: 'Gambar huruf SE, dan gelas (huruf G diganti B)Gambar ekor (huruf E dicoret), dan ban/rodaGambar kera (huruf R diganti B), dan koran (huruf O diganti A).'
+  },
+  {
+    index: 60,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-1.jpg',
+    jawaban: 'PEMIMPIN BANGSA',
+    deskripsi: 'Gambar huruf PE, orang tidur, huruf N, huruf B, dan angsa/unggas/itik.'
+  },
+  {
+    index: 61,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-2.jpg',
+    jawaban: 'KERAMIK LANTAI',
+    deskripsi: 'Gambar kera/monyet, mix/microphone, dan rantai (huruf R diganti L).'
+  },
+  {
+    index: 62,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-3.jpg',
+    jawaban: 'ANGKAT KAKI',
+    deskripsi: 'Gambar angka 1 s/d 9, huruf T, dan kaki.'
+  },
+  {
+    index: 63,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-4.jpg',
+    jawaban: 'TANDUK SAPI',
+    deskripsi: 'Gambar tandu, huruf K, dan sapi.'
+  },
+  {
+    index: 64,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-5.jpg',
+    jawaban: 'KUNCIR KUDA',
+    deskripsi: 'Gambar kunci, huruf R, dan kuda.'
+  },
+  {
+    index: 65,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-6.jpg',
+    jawaban: 'SURAT PERIJINAN',
+    deskripsi: 'Gambar amplop surat, peri/malaikat, jin dan huruf AN.'
+  },
+  {
+    index: 66,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-7.jpg',
+    jawaban: 'GAGAL JANTUNG',
+    deskripsi: 'Gambar burung gagak (huruf K diganti L) dan jantung.'
+  },
+  {
+    index: 67,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-8.jpg',
+    jawaban: 'MENITI WAKTU',
+    deskripsi: 'Gambar peniti (huruf P diganti M) dan jam.'
+  },
+  {
+    index: 68,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-9.jpg',
+    jawaban: 'HITUNG PERSENTASE',
+    deskripsi: 'Gambar hidung (huruf D diganti T), per/pegas, huruf SEN, tas, dan huruf E.'
+  },
+  {
+    index: 69,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-10.jpg',
+    jawaban: 'PASUKAN KHUSUS',
+    deskripsi: 'Gambar paku (huruf K diganti S), ikan (huruf I dicoret), huruf KH, dan usus.'
+  },
+  {
+    index: 70,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-11.jpg',
+    jawaban: 'PULAU BATAM',
+    deskripsi: 'Gambar pulau ditengah laut, batu bata merah, dan huruf M.'
+  },
+  {
+    index: 71,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-12.jpg',
+    jawaban: 'GELANG PERAK',
+    deskripsi: 'Gambar tangan memakai gelang, per/pegas dan rak.'
+  },
+  {
+    index: 72,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-13.jpg',
+    jawaban: 'JAMU KUAT',
+    deskripsi: 'Gambar jamur (huruf R dicoret), dan orang berotot.'
+  },
+  {
+    index: 73,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-14.jpg',
+    jawaban: 'MATADOR BANTENG',
+    deskripsi: 'Gambar mata, huruf DOR, ban (roda) dan tank.'
+  },
+  {
+    index: 74,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-15.jpg',
+    jawaban: 'KURANG PEDAS',
+    deskripsi: 'Gambar kura-kura, huruf NG, pedang (huruf NG dicoret), dan huruf S.'
+  },
+  {
+    index: 75,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-16.jpg',
+    jawaban: 'DATANG PETAKA',
+    deskripsi: 'Gambar huruf DA, tang, peta, dan huruf KA.'
+  },
+  {
+    index: 76,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-17.jpg',
+    jawaban: 'BAU BADAN',
+    deskripsi: 'Gambar paku (huruf T dicoret), dan badak (huruf K diganti N).'
+  },
+  {
+    index: 77,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-18.jpg',
+    jawaban: 'KOPI SUSU',
+    deskripsi: 'Gambar topi (huruf T diganti K) dan susu.'
+  },
+  {
+    index: 78,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-19.jpg',
+    jawaban: 'TANDA JASA',
+    deskripsi: 'Gambar tenda (huruf E diganti A) dan baju/jas (dengan huruf A).'
+  },
+  {
+    index: 79,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-4-nomor-20.jpg',
+    jawaban: 'KITA HARUS HORMATI BUNDA',
+    deskripsi: 'Gambar pita (huruf P diganti K).Gambar paru-paru (huruf P diganti H) dan huruf S.Gambar orang hormat, huruf I, dan bunga (huruf G diganti D).'
+  },
+  {
+    index: 80,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-1.jpg',
+    jawaban: 'TANAH AIR',
+    deskripsi: 'Gambar panah (huruf P diganti T) dan tetesan air.'
+  },
+  {
+    index: 81,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-2.jpg',
+    jawaban: 'DEMAM TINGGI',
+    deskripsi: 'Gambar orang sakit demam, tang (huruf A diganti I), dan huruf GI.'
+  },
+  {
+    index: 82,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-3.jpg',
+    jawaban: 'UKURAN SEPATU',
+    deskripsi: 'Gambar huruf U, kura-kura, huruf N, dan sepatu.'
+  },
+  {
+    index: 83,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-4.jpg',
+    jawaban: 'SATELIT INDONESIA',
+    deskripsi: 'Gambar sate, huruf LIT, dan bendera Indonesia.'
+  },
+  {
+    index: 84,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-5.jpg',
+    jawaban: 'ANGKATAN PERANG',
+    deskripsi: 'Gambar orang mengangkat benda, huruf AN, dan pedang (huruf D diganti R).'
+  },
+  {
+    index: 85,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-6.jpg',
+    jawaban: 'KARTU NAMA',
+    deskripsi: 'Gambar kartu remi dan naga (huruf G diganti M).'
+  },
+  {
+    index: 86,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-7.jpg',
+    jawaban: 'TAHAN AMARAH',
+    deskripsi: 'Gambar daging paha (huruf P diganti T), huruf N, dan orang marah (ditambah huruf A).'
+  },
+  {
+    index: 87,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-8.jpg',
+    jawaban: 'DEKORASI RUANG',
+    deskripsi: 'Gambar huruf D, ekor, dasi (huruf D dicoret), huruf R, dan uang.'
+  },
+  {
+    index: 88,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-9.jpg',
+    jawaban: 'KRITIK TAJAM',
+    deskripsi: 'Gambar huruf KR, bebek/itik, huruf TA, dan jam.'
+  },
+  {
+    index: 89,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-10.jpg',
+    jawaban: 'TARIF BULANAN',
+    deskripsi: 'Gambar orang menari, huruf F, bulan, dan huruf AN.'
+  },
+  {
+    index: 90,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-11.jpg',
+    jawaban: 'LABA BISNIS',
+    deskripsi: 'Gambar laba-laba, dan bus (dengan huruf NIS).'
+  },
+  {
+    index: 91,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-12.jpg',
+    jawaban: 'KERANGKA RUMAH',
+    deskripsi: 'Gambar kerang, huruf KA, dan rumah.'
+  },
+  {
+    index: 92,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-13.jpg',
+    jawaban: 'ASAH GOLOK',
+    deskripsi: 'Gambar asap pabrik (huruf P diganti H), jala gol, dan huruf OK.'
+  },
+  {
+    index: 93,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-14.jpg',
+    jawaban: 'CAKAR KUCING',
+    deskripsi: 'Gambar huruf C, akar, dan kucing.'
+  },
+  {
+    index: 94,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-15.jpg',
+    jawaban: 'PIRING TERBANG',
+    deskripsi: 'Gambar ring bersayap (ditambah huruf PI).'
+  },
+  {
+    index: 95,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-16.jpg',
+    jawaban: 'BERUANG KUTUB',
+    deskripsi: 'Gambar beruang, kutu, dan huruf B.'
+  },
+  {
+    index: 96,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-17.jpg',
+    jawaban: 'CALON MERTUA',
+    deskripsi: 'Gambar balon (huruf B diganti C), huruf MER, dan orang tua.'
+  },
+  {
+    index: 97,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-18.jpg',
+    jawaban: 'PINTU TOBAT',
+    deskripsi: 'Gambar pintu, huruf T, dan obat.'
+  },
+  {
+    index: 98,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-19.jpg',
+    jawaban: 'PENYUMBATAN PIPA',
+    deskripsi: 'Gambar penyu/kura-kura (dengan huruf M), bata (dengna huruf N), dan pipa.'
+  },
+  {
+    index: 99,
+    img: 'https://www.cademedia.com/wp-content/uploads/2020/12/tebak-gambar-level-5-nomor-20.jpg',
+    jawaban: 'KERAJINAN BUATAN WARGA KAMPUNG',
+    deskripsi: 'Gambar kera, jin, dan huruf AN.Gambar huruf BU, dan awan (huruf W diganti T).Gambar bandrol harga (huruf H diganti W), lampu (huruf L diganti K), dan huruf NG.'
+  },
+  ... 900 more items
+]

@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      "oargv@3.4.10",
+      "/data/data/com.termux/files/home/BAKA13"
+    ]
+  ],
+  "_from": "oargv@3.4.10",
+  "_id": "oargv@3.4.10",
+  "_inBundle": false,
+  "_integrity": "sha512-SXaMANv9sr7S/dP0vj0+Ybipa47UE1ntTWQ2rpPRhC6Bsvfl+Jg03Xif7jfL0sWKOYWK8oPjcZ5eJ82t8AP/8g==",
+  "_location": "/oargv",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "oargv@3.4.10",
+    "name": "oargv",
+    "escapedName": "oargv",
+    "rawSpec": "3.4.10",
+    "saveSpec": null,
+    "fetchSpec": "3.4.10"
+  },
+  "_requiredBy": [
+    "/git-package-json"
+  ],
+  "_resolved": "https://registry.npmjs.org/oargv/-/oargv-3.4.10.tgz",
+  "_spec": "3.4.10",
+  "_where": "/data/data/com.termux/files/home/BAKA13",
+  "author": {
+    "name": "Ionică Bizău",
+    "email": "bizauionica@gmail.com",
+    "url": "https://ionicabizau.net"
+  },
+  "blah": {
+    "h_img": "http://i.imgur.com/TgmKSGy.png"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-oargv/issues"
+  },
+  "dependencies": {
+    "iterate-object": "^1.1.0",
+    "ul": "^5.0.0"
+  },
+  "description": "Turns an object into a bash command.",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "homepage": "https://github.com/IonicaBizau/node-oargv",
+  "keywords": [
+    "oargv",
+    "arguments",
+    "commands",
+    "bash"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "oargv",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/node-oargv.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "version": "3.4.10"
+}

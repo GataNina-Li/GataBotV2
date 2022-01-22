@@ -1,0 +1,17 @@
+const versos = [
+    "Mi confianza esta solo enti",
+    "Tu eres todo para mi",
+    "En ti confia mi corazon",
+    "Dios de lo imposible",
+    "Tuyo es el honor",
+    "Este es mi deseo"
+]
+
+const randomMsg = () => {
+    const message = versos[Math.floor(Math.random()* versos.length)]
+    console.log(message)
+}
+
+// Exportar como un módulo
+
+module.exports = { randomMsg }

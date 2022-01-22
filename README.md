@@ -77,7 +77,7 @@ fue en via archivos solo debera escribir:
 
 > cada vez que realices una modificacion en el
 repositorio del Bot (tu GitHub), puedes usar 
-el comando #update para que se actualicen los datos 
+el comando #actualizar para que se actualicen los datos 
 
 > Aconsejable maximo 40 grupos, despues 
 de esa cantidad el Bot empieza a ir 

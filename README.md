@@ -64,6 +64,11 @@ fue en via GitHub solo debera escribir:
 > cd ShadowBotV3
 > npm start 
 
+> Si el termux se cierra para volver activar si la instlacion 
+fue en via archivos solo debera escribir:
+> cd storage/downloads/ShadowBotV3-master
+> npm start
+
 > Aconsejable maximo 40 grupos, despues 
 de esa cantidad el Bot empieza a ir 
 excesivamente lento (depende del WhatsApp igual)

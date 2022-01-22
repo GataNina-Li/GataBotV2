@@ -65,7 +65,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 handler.help = ['menu2']
 handler.tags = ['General']
-handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios)$/i
+handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

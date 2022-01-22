@@ -21,7 +21,7 @@
 > apt install nodejs -y
 > apt install ffmpeg -y
 > apt install imagemagick -y
-> git clone https://github.com/BrunoSobrino/ShadowBot
+> git clone https://github.com/BrunoSobrino/ShadowBotV3
 > cd ShadowBotV3
 > npm install
 > npm install -g npm@8.3.1
@@ -59,9 +59,9 @@ obtener nuevamente el codigo QR, escribe en el termux:
 > rm session.data.json
 > npm start 
 
-> Si el termux se cierra para volver activar 
-el Bot solo debera escribir:
-> cd ShadowBot
+> Si el termux se cierra para volver activar si la instlacion 
+fue en via GitHub solo debera escribir:
+> cd ShadowBotV3
 > npm start 
 
 > Aconsejable maximo 40 grupos, despues 

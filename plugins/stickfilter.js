@@ -39,7 +39,7 @@ ${effects.map(effect => `_> ${effect}_`).join('\n')}
 
 handler.help = ['stickfilter (caption|reply media)']
 handler.tags = ['General']
-handler.command = /^(stickerfilter|stikerfilter)$/i
+handler.command = /^(stickerfilter|stikerfilter|cs2)$/i
 handler.limit = false
 handler.group = false
 handler.register = false

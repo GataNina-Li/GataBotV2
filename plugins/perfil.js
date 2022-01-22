@@ -14,9 +14,12 @@ let handler = async (m, { conn }) => {
 ┏━━°❀❬ *PERFIL* ❭❀°━━┓
 ┃
 ┃• *🔥Nombre🔥 :* ${username} 
-┃• *🔰Etiqueta🔰 :* @${who.replace(/@.+/, '')}${about ? '\n┃• *🦙Descripcion🦙 :* ' + about : ''}
-┃• *✨Numero✨ :* ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-┃• *💢Link💢 :* wa.me/${who.split`@`[0]}${registered ? '\n┃• *Edad:* ' + age : ''}
+┃• *🔰Etiqueta🔰 :* @${who.replace(/@.+/, '')}${about ? 
+'\n┃• *🦙Descripcion🦙 :* ' + about : ''}
+┃• *✨Numero✨ :* 
+┃${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+┃• *💢Link💢 :* 
+┃wa.me/${who.split`@`[0]}${registered ? '\n┃• *Edad:* ' + age : ''}
 ┗━━━━━━━━━━━━━━━━
 `.trim()
     let mentionedJid = [who]

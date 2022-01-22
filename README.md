@@ -49,7 +49,13 @@ https://github.com/BrunoSobrino/ShadowBotV3/archive/refs/heads/master.zip
 ```
 ### `NOTAS`
 ```bash
-> Si instalas el Bot con los archvios
+> Para activar algunos comandos como 
+el #añadir y #sacar el propietario del 
+Bot debera usar el comando #enable restrict 
+desde el numero que haya puesto en el archivo 
+config.js
+
+> Si instalas el Bot con los archivos
 para obtener nuevamente el codigo QR,
 elimina el archivo session.data.json
 en la carpeta del Bot 

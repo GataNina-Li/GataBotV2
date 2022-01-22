@@ -1,7 +1,7 @@
 let handler = m => m
 handler.before = async function (m) {
   this.suit = this.suit ? this.suit : {}
-  if (db.data.users[m.sender].suit < 0) db.data.users[m.sender].suit = 0
+ // if (db.data.users[m.sender].suit < 0) db.data.users[m.sender].suit = 0
   let room = Object.values(this.suit).find(room => room.id && room.status && [room.p, room.p2].includes(m.sender))
   if (room) {
     let win = ''
@@ -33,8 +33,8 @@ klik wa.me/${conn.user.jid.split`@`[0]}`, m.chat, {
         else if (!room.pilih || !room.pilih2) {
           win = !room.pilih ? room.p2 : room.p
           this.reply(m.chat, `@${(room.pilih ? room.p2 : room.p).split`@`[0]} tidak memilih suit, game berakhir`, m)
-          db.data.users[win == room.p ? room.p : room.p2].exp += room.poin
-          db.data.users[win == room.p ? room.p2 : room.p].exp -= room.poin_lose
+         // db.data.users[win == room.p ? room.p : room.p2].exp += room.poin
+         // db.data.users[win == room.p ? room.p2 : room.p].exp -= room.poin_lose
         }
         delete this.suit[room.id]
         return !0

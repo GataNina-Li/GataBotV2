@@ -1,5 +1,4 @@
 // NO MODIFIQUES EL NÚMERO DEL CREADOR NI EL NOMBRE.. SOLO AGREGA LA INFORMACIÓN QUE TU QUIERAS O EDITALO A TU MANERA PERO DEJANDO LOS CREDITOS <3 
-
 //PUEDES AGREGAR OTRA FILAS DE PAYPAL, GRUPOS, PERO DEJA ALGUNOS CREDITOS, YA QUE ES LA UNICA MANERA DE INGRESOS DEL BOT
 let PhoneNumber = require('awesome-phonenumber')
 let levelling = require('../lib/levelling')
@@ -216,7 +215,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟👾 _${usedPrefix}zodiac *AAAA MM DD*_
 ° ඬ⃟👾 _${usedPrefix}scan_
 ° ඬ⃟👾 _${usedPrefix}kpop_
-° ඬ⃟👾 _${usedPrefix}translate es *texto*_
+° ඬ⃟👾 _${usedPrefix}traducir es *texto*_
 
 *<COMANDOS +18/>*
 

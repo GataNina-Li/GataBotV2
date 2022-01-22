@@ -100,6 +100,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟💎 _${usedPrefix}link_
 ° ඬ⃟💎 _${usedPrefix}notificar_
 ° ඬ⃟💎 _${usedPrefix}setname_
+° ඬ⃟💎 _${usedPrefix}setdesc_
 ° ඬ⃟💎 _${usedPrefix}infogrupo_
 ° ඬ⃟💎 _${usedPrefix}invocar_
 ° ඬ⃟💎 _${usedPrefix}del_

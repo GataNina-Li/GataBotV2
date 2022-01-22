@@ -22,7 +22,7 @@
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > git clone https://github.com/BrunoSobrino/ShadowBot
-> cd ShadowBot
+> cd ShadowBotV3
 > npm install
 > npm install -g npm@8.3.1
 > npm update
@@ -41,7 +41,7 @@ https://github.com/BrunoSobrino/ShadowBot/archive/refs/heads/master.zip
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > termux-setup-storage
-> cd storage/downloads/ShadowBot-master
+> cd storage/downloads/ShadowBotV3-master
 > npm install
 > npm install -g npm@8.3.1
 > npm update

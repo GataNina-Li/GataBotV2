@@ -141,6 +141,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟💎 _${usedPrefix}link_
 ° ඬ⃟💎 _${usedPrefix}notificar *texto*_
 ° ඬ⃟💎 _${usedPrefix}setname *Nuevo nombre del grupo*_
+° ඬ⃟💎 _${usedPrefix}setdesc *Nueva descripción del grupo*_
 ° ඬ⃟💎 _${usedPrefix}infogrupo_
 ° ඬ⃟💎 _${usedPrefix}invocar *texto*_
 ° ඬ⃟💎 _${usedPrefix}del *responder a un mensaje del bot*_

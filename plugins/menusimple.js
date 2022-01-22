@@ -192,25 +192,15 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🏷 _${usedPrefix}jadibot_
 ° ඬ⃟🏷 _${usedPrefix}stop_
 ° ඬ⃟🏷 _${usedPrefix}getcode_
-° ඬ⃟📝 _${usedPrefix}galaxia_ 
-° ඬ⃟📝 _${usedPrefix}gamergirl_
-° ඬ⃟📝 _${usedPrefix}proyector_
-° ඬ⃟📝 _${usedPrefix}logocorazon_
-° ඬ⃟📝 _${usedPrefix}ruby_
-° ඬ⃟📝 _${usedPrefix}freefire_
-° ඬ⃟📝 _${usedPrefix}lblackpink_
-° ඬ⃟📝 _${usedPrefix}starlogo_
-° ඬ⃟📝 _${usedPrefix}tahta_
-° ඬ⃟📝 _${usedPrefix}nulis_
-° ඬ⃟📝 _${usedPrefix}nulis2_
-° ඬ⃟📝 _${usedPrefix}crismeslogo_
-° ඬ⃟📝 _${usedPrefix}phlogo_
-° ඬ⃟📝 _${usedPrefix}wolflogo_
-° ඬ⃟📝 _${usedPrefix}ytcomment_
-° ඬ⃟📝 _${usedPrefix}botondeyt_
-° ඬ⃟📝 _${usedPrefix}hornycard_ 
-° ඬ⃟📝 _${usedPrefix}lolice_
-° ඬ⃟📝 _${usedPrefix}simpcard_
+° ඬ⃟📝️ _${usedPrefix}logos_ (lista de efectos)
+° ඬ⃟📝️ _${usedPrefix}logocorazon_
+° ඬ⃟📝️ _${usedPrefix}lblackpink_
+° ඬ⃟📝️ _${usedPrefix}tahta *texto*_
+° ඬ⃟📝️ _${usedPrefix}nulis *texto*_
+° ඬ⃟📝️ _${usedPrefix}nulis2 *texto*_
+° ඬ⃟📝️ _${usedPrefix}hornycard_ 
+° ඬ⃟📝️ _${usedPrefix}lolice *me / @tag*_
+° ඬ⃟📝️ _${usedPrefix}simpcard *me / @tag*_
 
 
 *「 𝕋̸̳̝̺̎͌̔̍̍͋͑̕͜ͅ𝕙̸̼̮̹̞̪̜̤̎̂͗̓̉𝕖̶̯͒͑͘͜ ̶͍͓͖̳̭̗͈̘̼̾̍̔̆ͅ𝕊̵͔̔̎̓𝕙̸̡͙͕̫̮̥̫͎͍̊𝕒̴͕̖̻̥̈̊̐̄̈́̌͂̂̑͠𝕕̶̢̨͙͙̙̺̭̎̂ͅ𝕠̸̢̛̛̞̫̹͈̭̪͌ͅ𝕨̵̢̡̧̛̺̜͖̬̩̓̒͛̇̓̍̆͠ ̶̘̘̺̦̝̬̊͆̒𝔹̷̛̪̪̀̽̆̓𝕣̶̺̳̈́̃̒̉͐̇̉͐̉ͅ𝕠̴̩̖̺̺͍̦̳̀́͒̃͠ͅ𝕜̸̗͋̐̅̂𝕖̵̡̺͈̊𝕣̴̢̞͈̪̲͇͖̲̹̓͒̃͐ͅ𝕤̸̛͎͔̗̈̏͋͗̓͊̚ ̶̰͉̼̥̬̭̱̠̄̎̌͑̾̇́͘-̶̪̑ ̸͕̟͙͍̼̥̎̑͜𝔹̵̛͔̘͎̞̝̾̂̾̐̄̄̇͝͝𝕠̷̢̡̭̗̠̜̳͙̱̐̇̃͜𝕥̴̛̝̝̹̄́̒ 」*

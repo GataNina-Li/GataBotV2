@@ -30,7 +30,7 @@
 ```
 ### `INSTALACION TERMUX OPCION 2 (Archivos)`
 > Descarga aqui los achivos: 
-https://github.com/BrunoSobrino/ShadowBot/archive/refs/heads/master.zip
+https://github.com/BrunoSobrino/ShadowBotV3/archive/refs/heads/master.zip
 ```bash
 > No olvides descomprimir el archivo .zip
 ```

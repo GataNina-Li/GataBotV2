@@ -1,0 +1,24 @@
+version: 2.1
+orbs:
+  node: circleci/node@4.7.0
+
+jobs: 
+  test:
+    parameters:
+      node-version:
+        type: string
+    docker:
+      - image: cimg/node:<< parameters.node-version >>
+    steps:
+      - checkout
+      - run:
+          name: Run test using nodejs << parameters.node-version >>
+          command: node test.js
+        
+workflows:
+  all-test:
+    jobs:
+      - test: 
+          matrix:
+            parameters:
+              node-version: [12.22.6, 14.17.6, 16.8.0]

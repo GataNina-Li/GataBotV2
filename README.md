@@ -75,6 +75,10 @@ fue en via archivos solo debera escribir:
 > cd storage/downloads/ShadowBotV3-master
 > npm start
 
+> cada vez que realices una modificacion en el
+repositorio del Bot (tu GitHub), puedes usar 
+el comando #update para que se actualicen los datos 
+
 > Aconsejable maximo 40 grupos, despues 
 de esa cantidad el Bot empieza a ir 
 excesivamente lento (depende del WhatsApp igual)

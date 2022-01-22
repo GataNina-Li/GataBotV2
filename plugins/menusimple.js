@@ -169,7 +169,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟👾 _${usedPrefix}zodiac_
 ° ඬ⃟👾 _${usedPrefix}scan_
 ° ඬ⃟👾 _${usedPrefix}kpop_
-° ඬ⃟👾 _${usedPrefix}translate es_
+° ඬ⃟👾 _${usedPrefix}traducir es_
 ° ඬ⃟🔞 _${usedPrefix}labiblia_
 ° ඬ⃟🎤 _${usedPrefix}bass_
 ° ඬ⃟🎤 _${usedPrefix}deep_

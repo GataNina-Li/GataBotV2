@@ -16,11 +16,11 @@
 
 ### `INSTALACION TERMUX OPCION 1 (GitHub)`
 ```bash
-> pkg update && pkg upgrade
-> pkg install git -y
-> pkg install nodejs -y
-> pkg install ffmpeg -y
-> pkg install imagemagick -y
+> apt update && apt upgrade
+> apt install git -y
+> apt install nodejs -y
+> apt install ffmpeg -y
+> apt install imagemagick -y
 > git clone https://github.com/BrunoSobrino/ShadowBot
 > cd ShadowBotV3
 > npm install
@@ -35,11 +35,11 @@ https://github.com/BrunoSobrino/ShadowBot/archive/refs/heads/master.zip
 > No olvides descomprimir el archivo .zip
 ```
 ```bash
-> pkg update && pkg upgrade
-> pkg install git -y
-> pkg install nodejs -y
-> pkg install ffmpeg -y
-> pkg install imagemagick -y
+> apt update && apt upgrade
+> apt install git -y
+> apt install nodejs -y
+> apt install ffmpeg -y
+> apt install imagemagick -y
 > termux-setup-storage
 > cd storage/downloads/ShadowBotV3-master
 > npm install
@@ -66,7 +66,7 @@ el Bot solo debera escribir:
 
 > Aconsejable maximo 40 grupos, despues 
 de esa cantidad el Bot empieza a ir 
-excesivamente lento (depende el WhatsApp igual)
+excesivamente lento (depende del WhatsApp igual)
 ```
 ## `EDITOR Y PORPIETARIO DEL BOT` 
 [![BrunoSobrino](https://avatars.githubusercontent.com/u/90165013?s=400&u=946f5c00c527c7e6fa2ef5148c6ad56270bb600e&v=4size=100)](https://avatars.githubusercontent.com/u/90165013?s=400&u=cdf7fd989e2a787c9f400545147865615c336002&v=4) 

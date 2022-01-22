@@ -12,6 +12,6 @@ let handler = async (m, { conn, args: [effect], text: txt }) => {
 }
 handler.help = ['textpro'].map(v => v + ' <effect> <text>|[text2]')
 handler.tags = ['tools']
-handler.command = /^(textpro)$/i
+handler.command = /^(logos)$/i
 
 module.exports = handler

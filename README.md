@@ -24,7 +24,7 @@
 > git clone https://github.com/BrunoSobrino/ShadowBotV3
 > cd ShadowBotV3
 > npm install
-> npm install -g npm@8.3.1
+> npm install -g npm@8.3.2
 > npm update
 > npm start
 ```
@@ -43,7 +43,7 @@ https://github.com/BrunoSobrino/ShadowBotV3/archive/refs/heads/master.zip
 > termux-setup-storage
 > cd storage/downloads/ShadowBotV3-master
 > npm install
-> npm install -g npm@8.3.1
+> npm install -g npm@8.3.2
 > npm update
 > npm start
 ```

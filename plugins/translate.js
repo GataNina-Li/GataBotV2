@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { args, usedPrefix, command }) => {
-    let msg = `*[❗] Uso correcto del comando: ${usedPrefix}${command} idioma texto*\n*Ejemplo*\n*${usedPrefix}${command} es Shadow*`
+    let msg = `*[❗] Uso correcto del comando ${usedPrefix}${command} idioma texto*\n*Ejemplo:*\n*${usedPrefix}${command} es Hello*`
     if (!args || !args[0]) return m.reply(msg)
     let lang = 'es'
     let text = args.join(' ')
@@ -19,6 +19,6 @@ let handler = async (m, { args, usedPrefix, command }) => {
 *${lang}:* ${json.result.text}
 `.trim())
 }
-handler.command = /^(tr(anslate)?)$/i
+handler.command = /^(tr(anslate)|traducir?)$/i
 
 module.exports = handler

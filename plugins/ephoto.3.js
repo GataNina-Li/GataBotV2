@@ -13,7 +13,7 @@ await conn.sendFile(m.chat, uh,'p.jpg', '*El amor es lo mejor del mundo*', m,fal
 
 handler.help = ['flashlight']
 handler.tags = ['ep']
-handler.command = /^logocorazon|logocorazón$/i
+handler.command = /^logocorazon|logocorazón|logoheart$/i
 handler.group = false
 handler.private = false
 

@@ -19,6 +19,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 *<MENU SIMPLE/>*
 
+° ඬ⃟👑 _${usedPrefix}Beet-Nodes_
 ° ඬ⃟💟 _${usedPrefix}grupos_
 ° ඬ⃟❤️ _${usedPrefix}donar_
 ° ඬ⃟🤖 _${usedPrefix}join_ 

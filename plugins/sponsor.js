@@ -5,13 +5,13 @@ let info = `
 *➤ Beet-Nodes viene para quedarse!! Beet-Nodes es un servidor/host que mantendrá tu Bot activado 24/7 y sin la necesidad de que este viendo que no se apague, con una interfaz muy sencilla, precios accesibles y un soporte excelente podrás activar cualquier Bot para tenerlo a tu disposición* 
 
 *➤ Host: https://billing.hirobeet.xyz*
-*➤ Para mas informacion contacta a Hiro al wa.me/447309247974*
+*➤ Para mas informacion contacta con Hiro al wa.me/447309247974*
 *➤ ¿Necesitas ayuda? unete a su grupo OFC https://chat.whatsapp.com/KYGR5bIPuMA3tL9OzjMWmN*
 
-_Coᴘʏʀɪɢʜᴛ 2021-2022_
-_Cᴏɴғᴜ ᴘʀᴏᴘɪᴇᴅᴀᴅ ᴅᴇ ʜɪʀᴏ_
-_Hɪʀᴏ ᴘʀᴏᴘɪᴇᴅᴀᴅ ᴅᴇ ᴄᴏɴғᴜ_
-_Tᴏᴅᴏs ʟᴏs ᴅᴇʀᴇᴄʜᴏs ʀᴇsᴇʀᴠᴀᴅᴏs_
+*_Coᴘʏʀɪɢʜᴛ 2021-2022_*
+*_Cᴏɴғᴜ ᴘʀᴏᴘɪᴇᴅᴀᴅ ᴅᴇ ʜɪʀᴏ_*
+*_Hɪʀᴏ ᴘʀᴏᴘɪᴇᴅᴀᴅ ᴅᴇ ᴄᴏɴғᴜ_*
+*_Tᴏᴅᴏs ʟᴏs ᴅᴇʀᴇᴄʜᴏs ʀᴇsᴇʀᴠᴀᴅᴏs_*
 `.trim() 
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 BEET-NODES 🔥*', 'status@broadcast')

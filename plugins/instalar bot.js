@@ -1,59 +1,44 @@
 let handler = async m => m.reply(`
 *◄┢┅͜͡✇⟬↯ື ►ஜ۩💥۩ஜ◄ ↯ື⟭✇͜͡┅┧►*
 
-*Bot para WhatsApp - Termux - The Shadow Brokers - Bot - Actualizado - Bot editable*
-
-*VIDEO TUTORIAL: https://www.youtube.com/watch?v=Tk_zpWhtU44*
+*VIDEO TUTORIAL: Proximamente https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA?sub_confirmation=1* 
 
 💥 𝐑𝐄𝐐𝐔𝐈𝐒𝐈𝐓𝐎𝐒 𝐏𝐀𝐑𝐀 𝐋𝐀 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 💥
-➤ Termux 
-➤ MT Manager 
-➤ Tiempo 
-➤ Descomprimidor de archivos (recomiendo ZArchiver)
+➤ Termux  
+➤ Descomprimidor de archivos (recomiendo RAR)
 ➤ 1 GB de memoria en el teléfono
-➤ Un WhatsApp secundario 
+➤ Aconsejable un WhatsApp secundario
+➤ Aconsejable un numero secundario
 ➤ 2 teléfonos o un 1 teléfono y una PC (es solo para escanear un código QR)
 
-💥 ARCHIVO𝐒 DEL BOT 💥
-➤ https://www.mediafire.com/file/sxobmn6pmu96yzn/The_Shadow_Brokers_-_Bot.rar/file
+💥 𝐑𝐄𝐏𝐎𝐒𝐈𝐓𝐎𝐑𝐈𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 💥
+➤ https://github.com/BrunoSobrino/ShadowBotV3
 
 💥 𝐀𝐑𝐄𝐀 𝐃𝐄 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 💥
 ➤ Termux: https://f-droid.org/en/packages/com.termux/
-➤ ZArchiver: https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver
-➤ MT Manager: https://apkcombo.com/es/mt-manager/bin.mt.plus/
-
-💥 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 💥
-➤ pkg update && pkg upgrade
-➤ pkg install git -y
-➤ pkg install nodejs -y
-➤ pkg install ffmpeg -y
-➤ pkg install imagemagick -y
-➤ termux-setup-storage
-➤ cd storage/downloads/Shadow2/Shadow2
+➤ RAR: https://play.google.com/store/apps/details?id=com.rarlab.rar&hl=es_MX&gl=US
+➤ WhatsApp recomendado: https://www.mediafire.com/file/j5vmyudprv012ol/%25E2%259E%25A2_SOLITARIO_BUSINESS_%25E2%259E%25A2_2.21.19.21.apk/file
+   
+💥 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 𝐕𝐈𝐀 𝐆𝐈𝐓𝐇𝐔𝐁 💥
+➤ apt update && apt upgrade
+➤ apt install git -y
+➤ apt install nodejs -y
+➤ apt install ffmpeg -y
+➤ apt install imagemagick -y
+➤ cd ShadowBotV3
 ➤ ls
 ➤ npm install
-➤ npm install -g npm@8.1.4
+➤ npm install -g npm@8.3.2
 ➤ npm update
 ➤ npm start
 ° Escaneas el código QR tienes 30 segundos para hacerlo
 
 💥 INFO EXTRA 💥
-➤ Si se les cierra el termux o se les apaga el Bot solo cierren el termux por completo y escriba:
-- cd storage/downloads/Shadow2
-- npm start
-➤ Para habilitar el add y el kick usa #enable autoread
+➤ Se sugiere leer el archivo README.md 
+➤ Para habilitar el /añadir y el /sacar usa #enable autoread
 - Puede ocasionar que el numero se vaya a soporte 
-➤ PayPal: https://www.paypal.me/TheShadowBrokers133
-➤ Grupos oficiales del Bot:
-1.- https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ
-2.- https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs
-3.- https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F
-4.- https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC
-5.- https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb
-➤ Creador del Bot: Bruno Sobrino
-➤ Numero: wa.me/48699526313 
-➤ Numero del Bot oficial: wa.me/972557048356
-➤ Numero del Bot oficial (en caso de suspensión): wa.me/17728012701
+➤ PayPal para apoyo voluntario: https://www.paypal.me/TheShadowBrokers133
+➤ Numero de ayuda durante la instalacion: wa.me/5219992095479 
 
 *◄┢┅͜͡✇⟬↯ື ►ஜ۩💥۩ஜ◄ ↯ື⟭✇͜͡┅┧►*
 `.trim()) 

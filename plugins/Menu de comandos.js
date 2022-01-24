@@ -258,6 +258,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 *<LOGOS PERSONALIZADOS/>*
 
 ° ඬ⃟📝️ _${usedPrefix}logos_ (lista de efectos)
+° ඬ⃟📝️ _${usedPrefix}logos2_ (lista de efectos)
 ° ඬ⃟📝️ _${usedPrefix}logocorazon_
 ° ඬ⃟📝️ _${usedPrefix}lblackpink_
 ° ඬ⃟📝️ _${usedPrefix}tahta *texto*_

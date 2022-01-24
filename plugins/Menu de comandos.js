@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 -------------------------------------------------
 *_➤ Numero del Bot oficial:_* *wa.me/5219991402134*
 -------------------------------------------------
-*_➤ Numero del Sub Bot oficial:_* *wa.me/14508092584*
+*_➤ Numero del Sub Bot oficial:_* *wa.me/14509002785*
 ------------- 𝐁𝚬𝚬𝐓•𝚴𝚯𝐃𝐄𝐒 -------------
 *=> ¿ℚ𝕦𝕚𝕖𝕣𝕖𝕤 𝕥𝕖𝕟𝕖𝕣 𝕦𝕟 𝔹𝕠𝕥 𝕒𝕔𝕥𝕚𝕧𝕒𝕕𝕠 𝟚𝟜/𝟟 𝕪 𝕤𝕚𝕟 𝕦𝕥𝕚𝕝𝕚𝕫𝕒𝕣 𝕥𝕖𝕣𝕞𝕦𝕩?* 
 ° ඬ⃟👑 _${usedPrefix}Beet-Nodes_

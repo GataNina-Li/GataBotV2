@@ -8,6 +8,7 @@ let info = `
 *➤ Para mas informacion contacta con Hiro al wa.me/447309247974*
 *➤ ¿Necesitas ayuda? unete a su grupo OFC https://chat.whatsapp.com/KYGR5bIPuMA3tL9OzjMWmN*
 *[ ⚠ ️] Solo interesados en el abrir su servidor*
+*[ ⚠ ️] No permitido Bots*
 
 *_Coᴘʏʀɪɢʜᴛ 2021-2022_*
 *_Cᴏɴғᴜ ᴘʀᴏᴘɪᴇᴅᴀᴅ ᴅᴇ ʜɪʀᴏ_*

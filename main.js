@@ -44,16 +44,16 @@ if (opts['trace']) conn.logger.level = 'trace'
 if (opts['debug']) conn.logger.level = 'debug'
 if (opts['big-qr'] || opts['server']) conn.on('qr', qr => generate(qr, { small: false }))
 let lastJSON = JSON.stringify(global.DATABASE.data)
-//if (!opts['test']) setInterval(() => {
-//  conn.logger.info('Saving database . . .')
-//  if (JSON.stringify(global.DATABASE.data) == lastJSON) conn.logger.info('Database is up to date')
-//  else {
-//    global.DATABASE.save()
-//    conn.logger.info('Done saving database!')
-//    lastJSON = JSON.stringify(global.DATABASE.data)
-//  }
-//}, 60 * 1000) // Save every minute
-//if (opts['server']) require('./server')(global.conn, PORT)
+if (!opts['test']) setInterval(() => {
+  conn.logger.info('Guardando database...')
+  if (JSON.stringify(global.DATABASE.data) == lastJSON) conn.logger.info('Database actualizada!!')
+  else {
+    global.DATABASE.save()
+    conn.logger.info('Database guardada!!')
+    lastJSON = JSON.stringify(global.DATABASE.data)
+  }
+}, 2700 * 1000) // Autoguardado realizandose cada 45 minutos
+if (opts['server']) require('./server')(global.conn, PORT)
 
 conn.version = [2, 2143, 3]
 conn.connectOptions.maxQueryResponseTime = 60_000

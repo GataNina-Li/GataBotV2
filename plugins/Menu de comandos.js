@@ -125,9 +125,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 *<GESTION DE GRUPOS/>* 
 
+° ඬ⃟💎 _${usedPrefix}admins *texto*_ 
 ° ඬ⃟💎 _${usedPrefix}añadir *numero*_ (desactivado)
 ° ඬ⃟💎 _${usedPrefix}sacar @tag_ (desactivado)
-° ඬ⃟💎 _${usedPrefix}save *@tag nombre de contacto*_
+° ඬ⃟💎 _${usedPrefix}save *@tag + nombre de contacto*_
 ° ඬ⃟💎 _${usedPrefix}daradmin *@tag*_
 ° ඬ⃟💎 _${usedPrefix}quitaradmin *@tag*_
 ° ඬ⃟💎 _${usedPrefix}grupo *abierto / cerrado*_

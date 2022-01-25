@@ -84,6 +84,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟📥 _${usedPrefix}acortar_
 ° ඬ⃟📥 _${usedPrefix}ssweb_
 ° ඬ⃟📥 _${usedPrefix}animeinfo_
+° ඬ⃟💎 _${usedPrefix}admins
 ° ඬ⃟💎 _${usedPrefix}añadir_
 ° ඬ⃟💎 _${usedPrefix}sacar_ 
 ° ඬ⃟💎 _${usedPrefix}save_

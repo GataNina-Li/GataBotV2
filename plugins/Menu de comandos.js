@@ -104,6 +104,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 ° ඬ⃟📥 _${usedPrefix}imagen *texto*_
 ° ඬ⃟📥 _${usedPrefix}ytsearch *texto*_
+° ඬ⃟📥 _${usedPrefix}dlyt *link yt*_
 ° ඬ⃟📥 _${usedPrefix}ytmp3 *link yt*_
 ° ඬ⃟📥 _${usedPrefix}ytmp4 *link yt*_
 ° ඬ⃟📥 _${usedPrefix}play *titulo del audio*_

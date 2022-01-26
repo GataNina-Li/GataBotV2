@@ -19,13 +19,13 @@ let handler = async (m, { conn, usedPrefix }) => {
     let str = `
 *ミ💖 Hola ${username}, aquí tienes el menu de comandos 💖彡*
 
-*_➤ Creador del Bot:_* *Bruno Sobrino*
-*_➤ Numero del creador:_* *wa.me/14502335923 (No Bot)*
-*_➤ PayPal:_* *https://www.paypal.me/TheShadowBrokers133*
+*➤ Creador del Bot:* *Bruno Sobrino*
+*➤ Numero del creador:* *wa.me/17722386341 (No Bot)*
+*➤ PayPal:* *https://www.paypal.me/TheShadowBrokers133*
 -------------------------------------------------
-*_➤ Numero del Bot oficial:_* *wa.me/5219991402134*
+*➤ Numero del Bot oficial:* *wa.me/5219991402134*
 -------------------------------------------------
-*_➤ Numero del Sub Bot oficial:_* *wa.me/14509002785*
+*➤ Numero del Sub Bot oficial:* *wa.me/5219992095479*
 ------------- 𝐁𝚬𝚬𝐓•𝚴𝚯𝐃𝐄𝐒 -------------
 *=> ¿ℚ𝕦𝕚𝕖𝕣𝕖𝕤 𝕥𝕖𝕟𝕖𝕣 𝕦𝕟 𝔹𝕠𝕥 𝕒𝕔𝕥𝕚𝕧𝕒𝕕𝕠 𝟚𝟜/𝟟 𝕪 𝕤𝕚𝕟 𝕦𝕥𝕚𝕝𝕚𝕫𝕒𝕣 𝕥𝕖𝕣𝕞𝕦𝕩?* 
 ° ඬ⃟👑 _${usedPrefix}Beet-Nodes_

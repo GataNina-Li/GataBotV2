@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-  await m.reply(wait)
+  //await m.reply(wait)
   let res = `https://api-reysekha.herokuapp.com/api/wallpaper/itachi?apikey=APIKEY`
   conn.sendFile(m.chat, res, 'itachi.jpg', `© sekha`, m)
 }

@@ -1,11 +1,14 @@
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ'] // No sirve para nada 
-global.channelYT = ['https://youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'] // No sirve para nada
-global.owner = ['14502335923' , '5219996125657' , '17722386341'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
-global.mods = ['972557048356' , '5219991402134' , '14504852350'] // Cambia el numero/s y escribe el/los numero/s que sera/n del Bot/s
-global.prems = ['14503280343'] 
+global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ' , 'https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs' , 'https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F' , 'https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC' , 'https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb'] // No tiene utilidad 
+global.channelYT = ['https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'] // No tiene utilidad
+global.owner = ['17722386341' , '14503280343'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
+global.mods = ['5219996125657' , '972557048356'] // No tiene utilidad
+global.prems = ['5219992095479' , '5219991402134'] // No tiene utilidad
 
-//Nota para ti xD: Puedes contactarme si necesitas ayuda con algo al +5219996125657
+// Nota: Puedes contactarme si necesitas ayuda con algo al +5219996125657 (este es mi numero personal/real bloqueo personas que no sean temas de la instalación)
+// => Solo dudas sobre la instalación, temas generales contactarme al +17722386341 o al +14503280343
+// => NO ayudo a hacer Bots, ni crearlos, ni editarlos 
+// - Haré tutoriales de como editar el Bot, los videos los podran encontrar en mi canal de YouTube en https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA
 
 global.APIs = { // API Prefix
   // name: 'https://website'

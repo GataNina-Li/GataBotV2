@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
 }
 handler.help = ['mp4', 'v', ''].map(v => 'yt' + v + ` <url> [server: ${servers.join(', ')}]`)
 handler.tags = ['downloader']
-handler.command = /^dlvid|dlyt2$/i
+handler.command = /^dlvid|dlyt2|dlvideo$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

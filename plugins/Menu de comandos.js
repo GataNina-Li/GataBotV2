@@ -117,7 +117,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟📥 _${usedPrefix}tiktokaudio *link del tiktok*_
 ° ඬ⃟📥 _${usedPrefix}tiktok *link*_
 ° ඬ⃟📥 _${usedPrefix}pinterest2 *texto*_
-° ඬ⃟📥 _${usedPrefix}Spotify *Artista, nombre de la canción*_
 ° ඬ⃟📥 _${usedPrefix}xnxx *link de xnxx*_
 ° ඬ⃟📥 _${usedPrefix}xnxxsearch *texto*_
 ° ඬ⃟📥 _${usedPrefix}acortar *link*_

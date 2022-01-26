@@ -29,7 +29,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 //  asDocument: chat.useDocument
 })
 }
-handler.command = /^dlyt$/i
+handler.command = /^dlyt|dlaudio|dlytaud|dlaud$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

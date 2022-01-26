@@ -1,8 +1,8 @@
-const axios = require('axios')
- let handler = async(m, { conn }) => {
-let les = await axios.get('https://meme-api.herokuapp.com/gimme/naruto')
-            conn.sendFile(m.chat, `${les.data.url}`, '', `${les.data.title}`, m)
-  }
+let handler = async (m, { conn }) => {
+  await m.reply(wait)
+  let res = `https://api-reysekha.herokuapp.com/api/wallpaper/boruto?apikey=APIKEY`
+  conn.sendFile(m.chat, res, 'Error.jpg', `*©The Shadow Brokers - Bot*`, m)
+}
 handler.help = ['naruto']
 handler.tags = ['General']
 handler.command = /^(naruto)$/i

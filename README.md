@@ -70,7 +70,7 @@ fue en via GitHub solo debera escribir:
 
 > Si el termux se cierra para volver activar si la instlacion 
 fue en via archivos solo debera escribir:
-> cd storage/downloads/ShadowBotV3-master
+> cd storage/downloads/ShadowBotV3
 > npm start
 
 > cada vez que realices una modificacion en el

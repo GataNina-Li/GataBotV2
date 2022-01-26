@@ -39,6 +39,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🔞 _${usedPrefix}yaoigif_
 ° ඬ⃟🔞 _${usedPrefix}yurigif_
 ° ඬ⃟🔞 _${usedPrefix}pack_
+° ඬ⃟🔞 _${usedPrefix}pack2_
+° ඬ⃟🔞 _${usedPrefix}pack3_
 ° ඬ⃟🔞 _${usedPrefix}loli2_
 ° ඬ⃟🔞 _${usedPrefix}muslos_
 ° ඬ⃟🔞 _${usedPrefix}htrap_

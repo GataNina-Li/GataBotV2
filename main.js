@@ -52,7 +52,7 @@ if (!opts['test']) setInterval(() => {
     conn.logger.info('Database guardada!!')
     lastJSON = JSON.stringify(global.DATABASE.data)
   }
-}, 2700 * 1000) // Autoguardado realizandose cada 45 minutos
+}, 1800 * 1000) // Autoguardado realizandose cada 30 minutos
 if (opts['server']) require('./server')(global.conn, PORT)
 
 conn.version = [2, 2143, 3]

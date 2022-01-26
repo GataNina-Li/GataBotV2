@@ -29,11 +29,7 @@
 > npm start
 ```
 ### `INSTALACION TERMUX OPCION 2 (Archivos)`
-> Descarga aqui los achivos: 
-https://github.com/BrunoSobrino/ShadowBotV3/archive/refs/heads/master.zip
-```bash
-> No olvides descomprimir el archivo .zip
-```
+> Los archivos del Bot estaran en la carpeta de downloads (descargas)
 ```bash
 > apt update && apt upgrade
 > apt install git -y
@@ -41,7 +37,9 @@ https://github.com/BrunoSobrino/ShadowBotV3/archive/refs/heads/master.zip
 > apt install ffmpeg -y
 > apt install imagemagick -y
 > termux-setup-storage
-> cd storage/downloads/ShadowBotV3-master
+> cd storage/downloads
+> git clone https://github.com/BrunoSobrino/ShadowBotV3
+> cd ShadowBotV3
 > npm install
 > npm install -g npm@8.3.2
 > npm update

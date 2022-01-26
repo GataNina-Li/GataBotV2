@@ -29,7 +29,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 *🔥 Titulo:* _${title}_
 *📂 Peso del audio:* _${filesizeF}_
 *📂 Peso del video:* _${yt2.filesizeF}_
-`.trim(), '©The Shadow Borkers - Bot', '🎵 AUDIO 🎵 ', `.yta ${vid.url}`, '🎞️ VIDEO 🎞️', `.yt ${vid.url}`)
+`.trim(), '©The Shadow Borkers - Bot', '🎵 AUDIO 💽 ', `.yta ${vid.url}`, '🎥 VIDEO 🎞️', `.yt ${vid.url}`)
 }
 handler.help = ['play'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']

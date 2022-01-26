@@ -50,5 +50,15 @@ global.muslos = [
 "https://i.imgur.com/6LoLi5T.jpg",
 "https://i.imgur.com/vMdbESU.jpg",
 "https://i.imgur.com/0wTQqWo.jpg",
-"https://i.imgur.com/h5Uzg3B.jpg"
+"https://i.imgur.com/h5Uzg3B.jpg",
+"https://i.imgur.com/hD2ZDaL.jpg",
+"https://i.imgur.com/xQdMTML.jpg",
+"https://i.imgur.com/0l5nTKw.jpg",
+"https://i.imgur.com/55SqTTm.jpg",
+"https://i.imgur.com/SIqr2Ju.jpg",
+"https://i.imgur.com/YxAw706.jpg",	
+"https://i.imgur.com/rssXY6l.jpg",
+"https://i.imgur.com/sh9KrZP.jpg",	
+"https://i.imgur.com/RJFX4Md.jpg",
+"https://i.imgur.com/eDZ1qIC.jpg"	
 ]

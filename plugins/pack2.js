@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn }) => {
-	let url = pack[Math.floor(Math.random() * pack.length)]
+	let url = packgirl[Math.floor(Math.random() * packgirl.length)]
 	await conn.sendMessage(m.chat, {
 		contentText: 'Pack xxx By ShadowBot',
 		footerText: '©The Shadow Brokers - Bot',
@@ -17,7 +17,7 @@ handler.tags = ['internet']
 handler.help = ['pack']
 module.exports = handler
 
-global.pack = [
+global.packgirl = [
   "https://i.imgur.com/mwLJaxU.jpg",
   "https://i.imgur.com/9ptmlPl.jpg",
   "https://i.imgur.com/38tVliz.jpg",

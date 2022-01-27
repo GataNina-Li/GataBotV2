@@ -155,6 +155,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟👾 _${usedPrefix}gawrgura_
 ° ඬ⃟👾 _${usedPrefix}nyan_
 ° ඬ⃟👾 _${usedPrefix}naruto_
+° ඬ⃟👾 _${usedPrefix}sakura_
+° ඬ⃟👾 _${usedPrefix}sasuke_
+° ඬ⃟👾 _${usedPrefix}miku_
 ° ඬ⃟👾 _${usedPrefix}pat_
 ° ඬ⃟👾 _${usedPrefix}itachi_
 ° ඬ⃟👾 _${usedPrefix}slap_

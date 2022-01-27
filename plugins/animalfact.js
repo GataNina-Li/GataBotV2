@@ -5,6 +5,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     throw `
 *[❗] Uso correcto:*    
 *${usedPrefix}${command} opción*
+
 *Ejemplo de uso:*
 *${usedPrefix}${command} dog*\n
 *┌〔 OPCIONES 〕*

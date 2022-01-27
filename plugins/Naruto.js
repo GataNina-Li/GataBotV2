@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
   //await m.reply(wait)
-  let res = `https://api-reysekha.herokuapp.com/api/wallpaper/boruto?apikey=APIKEY`
+  let res = `https://api-reysekha.herokuapp.com/api/wallpaper/naruto?apikey=APIKEY`
   conn.sendFile(m.chat, res, 'Error.jpg', `*©The Shadow Brokers - Bot*`, m)
 }
 handler.help = ['naruto']

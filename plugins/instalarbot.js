@@ -18,7 +18,7 @@ let handler = async m => m.reply(`
 ➤ WhatsApp recomendado: https://www.mediafire.com/file/j5vmyudprv012ol/%25E2%259E%25A2_SOLITARIO_BUSINESS_%25E2%259E%25A2_2.21.19.21.apk/file
    
 💥 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 𝐕𝐈𝐀 𝐆𝐈𝐓𝐇𝐔𝐁 💥
-➤ apt update && apt upgrade -y 
+➤ apt update && apt upgrade -y -y
 ➤ apt install git -y
 ➤ apt install nodejs -y
 ➤ apt install ffmpeg -y

@@ -10,7 +10,7 @@ let handler = async (m, { conn, command, text }) => {
   let isVideo = /2$/.test(command)
   let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(vid.url, 'id4')
   //let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesizesLimit
-m.reply('*⏳Procesando⏳*\n\n*[ ⚠ ️] Presentamos fallas con el servidor de música. Los comandos con fallas son {#play, #play2, #play3, #ytmp3, #ytmp4} ya trabajamos en una solución*')
+m.reply('*⏳Procesando⏳*')
   conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
 *⏯ ️Reproductor By Shadow Brokers - Bot ⏯️*
 *${title}*

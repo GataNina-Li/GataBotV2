@@ -18,15 +18,15 @@ let handler = async m => m.reply(`
 ➤ WhatsApp recomendado: https://www.mediafire.com/file/j5vmyudprv012ol/%25E2%259E%25A2_SOLITARIO_BUSINESS_%25E2%259E%25A2_2.21.19.21.apk/file
    
 💥 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐃𝐄 𝐈𝐍𝐒𝐓𝐀𝐋𝐀𝐂𝐈𝐎𝐍 𝐕𝐈𝐀 𝐆𝐈𝐓𝐇𝐔𝐁 💥
-➤ apt update && apt upgrade
+➤ apt update && apt upgrade -y 
 ➤ apt install git -y
 ➤ apt install nodejs -y
 ➤ apt install ffmpeg -y
 ➤ apt install imagemagick -y
+➤ git clone https://github.com/BrunoSobrino/ShadowBotV3
 ➤ cd ShadowBotV3
-➤ ls
 ➤ npm install
-➤ npm install -g npm@8.3.2
+➤ npm install -g npm@8.4.0
 ➤ npm update
 ➤ npm start
 ° Escaneas el código QR tienes 30 segundos para hacerlo

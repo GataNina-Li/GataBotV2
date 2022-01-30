@@ -17,7 +17,7 @@
 ### `INSTALACION TERMUX OPCION 1 (GitHub)`
 ```bash
 > termux-setup-storage
-> apt update && apt upgrade
+> apt update && apt upgrade -y -y
 > apt install git -y
 > apt install nodejs -y
 > apt install ffmpeg -y
@@ -32,7 +32,7 @@
 ### `INSTALACION TERMUX OPCION 2 (Archivos)`
 > Los archivos del Bot estaran en la carpeta de downloads (descargas)
 ```bash
-> apt update && apt upgrade
+> apt update && apt upgrade -y -y
 > apt install git -y
 > apt install nodejs -y
 > apt install ffmpeg -y

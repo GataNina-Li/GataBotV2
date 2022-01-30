@@ -1,8 +1,4 @@
-<h1 align="center">
-  <b>🔥𝗧𝗵𝗲 𝗦𝗵𝗮𝗱𝗼𝘄 𝗕𝗿𝗼𝗸𝗲𝗿𝘀 - 𝗕𝗼𝘁🔥</b>
-</h1>
-```bash
-```
+# **🔥𝗧𝗵𝗲 𝗦𝗵𝗮𝗱𝗼𝘄 𝗕𝗿𝗼𝗸𝗲𝗿𝘀 - 𝗕𝗼𝘁🔥**
 ### `Si necesitas ayuda mandame mensaje`
 <a href="http://wa.me/5219996125657" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
 ### `Unete a los grupos oficales para conocer novedades del Bot`

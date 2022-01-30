@@ -16,6 +16,7 @@
 
 ### `INSTALACION TERMUX OPCION 1 (GitHub)`
 ```bash
+> termux-setup-storage
 > apt update && apt upgrade
 > apt install git -y
 > apt install nodejs -y
@@ -24,7 +25,7 @@
 > git clone https://github.com/BrunoSobrino/ShadowBotV3
 > cd ShadowBotV3
 > npm install
-> npm install -g npm@8.3.2
+> npm install -g npm@8.4.0
 > npm update
 > npm start
 ```

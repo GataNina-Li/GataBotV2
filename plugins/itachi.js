@@ -1,8 +1,8 @@
-let handler = async (m, { conn }) => {
-  //await m.reply(wait)
-  let res = `https://api-reysekha.herokuapp.com/api/wallpaper/itachi?apikey=APIKEY`
-  conn.sendFile(m.chat, res, 'itachi.jpg', `© sekha`, m)
-}
+const axios = require('axios')
+ let handler = async(m, { conn }) => {
+let les = await axios.get('https://meme-api.herokuapp.com/gimme/itachi')
+            conn.sendFile(m.chat, `${les.data.url}`, '', `*¿Si me pongo de perrito, me adoptas? 🔥🥴*`, m)
+  }
 handler.help = ['Itachi']
 handler.tags = ['General']
 handler.command = /^(itachi)$/i

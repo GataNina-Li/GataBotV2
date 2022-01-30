@@ -13,10 +13,8 @@ let handler = async (m, { conn, command, text }) => {
 m.reply('*⏳Procesando⏳*\n\n*[ ⚠ ️] Presentamos fallas con el servidor de música. Los comandos con fallas son {#play, #play2, #play3, #ytmp3, #ytmp4} ya trabajamos en una solución*')
   conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
 *⏯ ️Reproductor By Shadow Brokers - Bot ⏯️*
-
 *${title}*
 *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
-
 *📂Tamaño del archivo:* ${filesizeF}
 *👉🏻Aguarde un momento en lo que envío su audio/video*
 `.trim(), m)
@@ -25,7 +23,6 @@ m.reply('*⏳Procesando⏳*\n\n*[ ⚠ ️] Presentamos fallas con el servidor de
   catch (e) { }
   conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
 *🔰 Aquí esta su video*
-
 *🔥Título:* ${title}
 *📂Tamaño del archivo:* ${filesizeF}
 `.trim(), m, false, _thumb || {})

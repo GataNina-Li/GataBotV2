@@ -1,4 +1,4 @@
-let limit = 30
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const { servers, yta } = require('../lib/y2mate')
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
 let chat = global.DATABASE.data.chats[m.chat]

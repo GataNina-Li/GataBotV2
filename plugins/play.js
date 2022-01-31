@@ -12,6 +12,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   let yt = false
   let yt2 = false
   let usedServer = servers[0]
+  m.reply('*⏳Procesando⏳*\n\n*[❗] Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
   for (let i in servers) {
     let server = servers[i]
     try {
@@ -26,7 +27,6 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   if (yt === false) throw '*Todos los servidores fallaron*'
   if (yt2 === false) throw '*Todos los servidores fallaron*'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
-  m.reply('*⏳Procesando⏳*\n\n*[❗] Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
   await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
 *🔥 Titulo:* _${title}_
 *📂 Peso del audio:* _${filesizeF}_

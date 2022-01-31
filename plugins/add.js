@@ -18,13 +18,13 @@ let handler = async (m, { conn, text, participants }) => {
       invite_code,
       invite_code_exp
     }]] = Object.entries(user)
-    let teks = `Invitando a @${jid.split('@')[0]} utilizando invitacion...`
+    let teks = `*El numero ingresado salio del grupo recientemente o tiene configuracion especial en su WhatsApp por lo que es imposible añadir a @${jid.split('@')[0]}*\n*Enviando invitacion...*`
     m.reply(teks, null, {
       contextInfo: {
         mentionedJid: conn.parseMention(teks)
       }
     })
-    await conn.sendGroupV4Invite(m.chat, jid, invite_code, invite_code_exp, false, 'Invitation to join my WhatsApp group', jpegThumbnail ? {
+    await conn.sendGroupV4Invite(m.chat, jid, invite_code, invite_code_exp, false, 'Hey!! Hola, me presento, soy The Shadow Brokers - Bot, y soy un Bot para WhatsApp, una persona del grupo utilizo el comando para añadirte al grupo, pero no pude agregarte, asi que te mando la invitacion para que te agregues, te esperamos!! ', jpegThumbnail ? {
       jpegThumbnail
     } : {})
   }

@@ -112,7 +112,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🧧 _${usedPrefix}stickerfilter_
 ° ඬ⃟🧧 _${usedPrefix}stickermaker_
 ° ඬ⃟🧧 _${usedPrefix}style_
-° ඬ⃟🧧 _${usedPrefix}hitler_
 ° ඬ⃟🧧 _${usedPrefix}blur_
 ° ඬ⃟🧧 _${usedPrefix}s_
 ° ඬ⃟🧧 _${usedPrefix}sticker_

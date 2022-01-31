@@ -10,7 +10,7 @@ let handler = async (m, { conn, command, text }) => {
   let isVideo = /2$/.test(command)
   let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(vid.url, 'id4')
   //let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesizesLimit
-m.reply('*⏳Procesando⏳*')
+m.reply('*⏳Procesando⏳*\n\n*[❗] Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
   conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
 *⏯ ️Reproductor By Shadow Brokers - Bot ⏯️*
 *${title}*

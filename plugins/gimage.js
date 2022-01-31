@@ -1,16 +1,14 @@
 let { promisify } = require('util')
 let _gis = require('g-i-s')
 let gis = promisify(_gis)
+let fetch = require('node-fetch')
 
-let handler  = async (m, { conn, args, text }) => {
-  if (!text) return m.reply('*🔰 Que texto quiere que busque..?*')
+let handler = async (m, { conn, text, command, usedPrefix, watermark }) => {
+  if (!text) throw `*Sobre que texto quiere buscar imagenes..?*\n\n*Ejemplo:*\n${usedPrefix + command} hoja`
   let results = await gis(text) || []
   let { url, width, height } = pickRandom(results) || {}
-  if (!url) return m.reply('404 Not Found')
-  conn.sendFile(m.chat, url, 'error', `
-*── 「 GOOGLE IMAGEN 」 ──*
-ㅤ*── 「 Aqui tienes 」 ──* 
-`.trim(), m)
+  if (!url) throw '404 Not Found'
+  conn.sendButtonImg(m.chat, await (await fetch(url)).buffer(), `*◅─ 「 Google imagen 」 ─▻*\n*➸「 ${text} 」*`, watermark, 'SIGUIENTE', `.gimage ${text}`, m)
 }
 handler.help = ['gimage <query>', 'image <query>']
 handler.tags = ['internet', 'tools']

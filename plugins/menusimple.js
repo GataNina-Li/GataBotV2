@@ -193,7 +193,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🏷 _${usedPrefix}stop_
 ° ඬ⃟🏷 _${usedPrefix}getcode_
 ° ඬ⃟📝️ _${usedPrefix}logos_ 
-° ඬ⃟📝️ _${usedPrefix}logos2_ 
 ° ඬ⃟📝️ _${usedPrefix}logocorazon_
 ° ඬ⃟📝️ _${usedPrefix}lblackpink_
 ° ඬ⃟📝️ _${usedPrefix}tahta *texto*_

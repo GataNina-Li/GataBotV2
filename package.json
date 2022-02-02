@@ -36,7 +36,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@adiwajshing/baileys": "github:BochilGaming/Baileys#fix",
+    "@adiwajshing/baileys": "github:melcanz/baileys",
     "@adiwajshing/baileys-md": "github:ilmanhdyt/baileys#multi-device",
     "awesome-phonenumber": "^2.54.0",
     "axios": "^0.21.1",

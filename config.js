@@ -2,8 +2,8 @@ global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ' , 'https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs' , 'https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F' , 'https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC' , 'https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb'] // No tiene utilidad 
 global.channelYT = ['https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'] // No tiene utilidad
 global.owner = ['17722386341' , '14503280343'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
-global.mods = ['5219996125657' , '972557048356'] // No tiene utilidad
-global.prems = ['5219992095479' , '5219991402134'] // No tiene utilidad
+global.mods = ['5219992095479' , '972557048356'] // No tiene utilidad
+global.prems = ['5219996125657' , '5219991402134'] // No tiene utilidad
 
 // Nota: Puedes contactarme si necesitas ayuda con algo al +5219996125657 (este es mi numero personal/real bloqueo personas que no sean temas de la instalación)
 // => Solo dudas sobre la instalación, temas generales contactarme al +17722386341 o al +14503280343

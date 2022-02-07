@@ -43,10 +43,13 @@ let handler = async (m, { conn, usedPrefix }) => {
   let old = performance.now()
   //await m.reply('_Realizando test_')
   let neww = performance.now()
+  let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
   let speed = neww - old
   let info = `
 ╠═〘 *Informacion del Bot* 〙 ═
 ╠
+╠➥ [🤴🏻] Creador del Bot: *Bruno Sobrino*
+╠➥ [#️⃣] Numero del creador: *+1 (772) 238-6341*
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
 ╠➥ [✅] version: *${conn.browserDescription[2]}*
 ╠➥ [🎳] Prefijo: *${usedPrefix}*
@@ -59,6 +62,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [🔋] Bateria: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
 ╠➥ [📲] Sistema operativo: *${conn.user.phone.device_manufacturer}*
 ╠➥ [🪀] version de WhatsApp: *${conn.user.phone.wa_version}*
+╠➥ [🤖] Bots secundarios activos: *${totaljadibot.length}*
 ╠
 ╠═〘 *The Shadow Brokers - Bot* 〙 ═
 `.trim() 

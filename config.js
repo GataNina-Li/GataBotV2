@@ -22,13 +22,14 @@ global.APIs = { // API Prefix
   dzx: 'https://api.dhamzxploit.my.id',
   bsbt: 'https://bsbt-api-rest.herokuapp.com',
   zahir: 'https://zahirr-web.herokuapp.com',
-  zeks: 'https://api.zeks.xyz',
+  zeks: 'https://api.zeks.me',
   hardianto: 'https://hardianto-chan.herokuapp.com',
   pencarikode: 'https://pencarikode.xyz', 
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   lol: 'https://api.lolhuman.xyz',
   pencarikode: 'https://pencarikode.xyz',
   Velgrynd: 'https://velgrynd.herokuapp.com',
+  rey: 'https://server-api-rey.herokuapp.com',
   hardianto: 'http://hardianto-chan.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
@@ -38,11 +39,12 @@ global.APIKeys = { // APIKey Here
   'https://api.xteam.xyz': '5bd33b276d41d6b4',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
-  'https://api.zeks.xyz': 'apivinz',
+  'https://api.zeks.me': 'apivinz',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://pencarikode.xyz': 'pais', 
   'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
-  'https://api.lolhuman.xyz': 'HIRO'
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://api.lolhuman.xyz': 'rey2k21'
 }
 
 // Sticker WM

@@ -41,26 +41,28 @@ let handler = async (m, { conn, usedPrefix }) => {
     }
   })
   let old = performance.now()
-  await m.reply('_Realizando test_')
+  //await m.reply('_Realizando test_')
   let neww = performance.now()
   let speed = neww - old
-  m.reply(`
+  let info = `
 ╠═〘 *Informacion del Bot* 〙 ═
 ╠
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
+╠➥ [✅] version: *${conn.browserDescription[2]}*
 ╠➥ [🎳] Prefijo: *${usedPrefix}*
 ╠➥ [👨‍🦯] Velocidad: *${speed} milisegundos*
 ╠➥ [🔐] Chat Privado: *${chats.length - groups.length}*
 ╠➥ [🦜] Chat de Grupos: *${groups.length}* 
 ╠➥ [💡] Chat Totales: *${chats.length}* 
 ╠➥ [🚀] Tiempo activo: *${uptime}*
-╠➥ [🎩] Usuarios: *${totalreg}* numeros
-╠➥ [🔋] Bateria: ${conn.battery ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Cargando...' : '⚡ Desconectado'}` : 'Desconocido'}
+╠➥ [🎩] Usuarios: *${totalreg} numeros*
+╠➥ [🔋] Bateria: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
 ╠➥ [📲] Sistema operativo: *${conn.user.phone.device_manufacturer}*
 ╠➥ [🪀] version de WhatsApp: *${conn.user.phone.wa_version}*
 ╠
 ╠═〘 *The Shadow Brokers - Bot* 〙 ═
-`.trim())
+`.trim() 
+  conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')
 }
 //handler.help = ['ping', 'speed']
 //handler.tags = ['info', 'tools']

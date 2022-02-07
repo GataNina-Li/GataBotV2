@@ -23,16 +23,16 @@ let handler = async (m, { conn, usedPrefix }) => {
     let username = conn.getName(who)
     let str = `
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║
+║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *✨𝗛ola, ${username}!!*
-║
-║➤ *Bot:* *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *Creador del Bot: Bruno Sobrino* 
 ║➤ *Numero del creador:* *wa.me/17722386341 (No Bot)*
 ║➤ *PayPal:* *https://www.paypal.me/TheShadowBrokers133*
 ║➤ *Numero del Bot oficial:* *wa.me/5219991402134*
 ║➤ *Numero del Sub Bot oficial:* *wa.me/5219992095479*
-║
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ┏━━━━━━━━━━━━━┓
 ┃ *<INFORMACIÓN|MENUS/>*
@@ -124,6 +124,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ඬ⃟📥 _${usedPrefix}pinterestvideo *link de pinterest*_
 ┣ ඬ⃟📥 _${usedPrefix}tiktokaudio *link del tiktok*_
 ┣ ඬ⃟📥 _${usedPrefix}tiktok *link*_
+┣ ඬ⃟📥 _${usedPrefix}spotify *autor, cancion*_
+┣ ඬ⃟📥 _${usedPrefix}acortar *link*_
 ┣ ඬ⃟📥 _${usedPrefix}pinterest2 *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}xnxx *link de xnxx*_
 ┣ ඬ⃟📥 _${usedPrefix}xnxxsearch *texto*_

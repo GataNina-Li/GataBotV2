@@ -1,11 +1,9 @@
-let handler = async (m, { conn }) => {
-  //await m.reply(wait)
-  let res = `https://server-api-rey.herokuapp.com/api/wallpaper/nsfwloli?apikey=apirey`
-  conn.sendFile(m.chat, res, 'Error.jpg', `*Disfrutalo!!*`, m)
+let fetch = require('node-fetch')
+     let handler  = async (m, { conn, usedPrefix, command }) => {
+    heum = await fetch(`https://server-api-rey.herokuapp.com/api/wallpaper/nsfwloli?apikey=apirey`)
+    json = await heum.buffer()
+   conn.sendButtonImg(m.chat, json, '*Disfrutalo!!*', '©The Shadow Brokers - Bot', 'SIGUIENTE', `${usedPrefix + command}`, m, false)
 }
-handler.help = ['nsfwloli']
-handler.tags = ['nsfw']
 handler.command = /^(nsfwloli)$/i
-handler.limit = false
 
 module.exports = handler

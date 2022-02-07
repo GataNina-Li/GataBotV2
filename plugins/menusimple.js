@@ -79,6 +79,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟📥 _${usedPrefix}pinterestvideo_
 ° ඬ⃟📥 _${usedPrefix}tiktokaudio_
 ° ඬ⃟📥 _${usedPrefix}tiktok_
+° ඬ⃟📥 _${usedPrefix}spotify_
+° ඬ⃟📥 _${usedPrefix}acortar_
 ° ඬ⃟📥 _${usedPrefix}pinterest2_
 ° ඬ⃟📥 _${usedPrefix}xnxx_
 ° ඬ⃟📥 _${usedPrefix}xnxxsearch_

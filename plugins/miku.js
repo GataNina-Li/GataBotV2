@@ -1,11 +1,9 @@
-const axios = require('axios')
- let handler = async(m, { conn }) => {
-let les = await axios.get('https://meme-api.herokuapp.com/gimme/miku')
-            conn.sendFile(m.chat, `${les.data.url}`, '', `*Hatsune Miku*`, m)
-  }
-handler.help = ['miku']
-handler.tags = ['random']
-handler.command = /^(miku)$/i
-handler.limit = false
+let fetch = require('node-fetch')
+     let handler  = async (m, { conn, usedPrefix, command }) => {
+    heum = await fetch(`https://api-reysekha.herokuapp.com/api/wallpaper/miku?apikey=APIKEY`)
+    json = await heum.buffer()
+   conn.sendButtonImg(m.chat, json, '*Hatsune Miku*', '©The Shadow Brokers - Bot', 'SIGUIENTE', `${usedPrefix + command}`, m, false)
+}
+handler.command = /^(hentai|hentay)$/i
 
 module.exports = handler

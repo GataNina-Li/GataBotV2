@@ -13,8 +13,10 @@ let handler = async (m, { conn, command, text }) => {
   //let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesizesLimit
   conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
 *⏯ ️Reproductor By Shadow Brokers - Bot ⏯️*
+
 *${title}*
 *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
+
 *📂Tamaño del archivo:* ${filesizeF}
 *👉🏻Aguarde un momento en lo que envío su audio/video*
 `.trim(), m)
@@ -22,7 +24,6 @@ let handler = async (m, { conn, command, text }) => {
   try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
   catch (e) { }
   conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
-*🔰 Aquí esta su video*
 *🔥Título:* ${title}
 *📂Tamaño del archivo:* ${filesizeF}
 `.trim(), m, false, _thumb || {})

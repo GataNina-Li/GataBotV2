@@ -34,16 +34,6 @@ await conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '
 				   let name = conn.getName(m.sender)
     let d = new Date
     let locale = 'en'
-				    let time = d.toLocaleTimeString(locale, {
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric'
-    })
-        let date = d.toLocaleDateString(locale, {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric'
-    })
        let { exp, limit, registered, regTime, level, role } = global.DATABASE.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
        let _uptime = process.uptime() * 1000
@@ -55,9 +45,7 @@ await conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '
         setTimeout(resolve, 1000)
       }) * 1000
     }
-    let muptime = clockString(_muptime)
-    let uptime = clockString(_uptime)
-    let username = conn.getName(who)
+  let username = conn.getName(who)
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*

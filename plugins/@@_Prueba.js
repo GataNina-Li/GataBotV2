@@ -42,6 +42,7 @@ let menu =`
 ┣ ඬ⃟ℹ️ _${usedPrefix}reglas_
 ┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
+┣ ඬ⃟ℹ️️ _${usedPrefix}menu1.2_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
 ┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_
 ┣ ඬ⃟ℹ️ _${usedPrefix}estado_

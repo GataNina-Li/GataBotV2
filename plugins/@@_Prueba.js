@@ -17,7 +17,7 @@ pp = await conn.getProfilePicture(who)
 } catch (e) {
 
 } finally {
-m.reply('*[ ⚠️ ]  Cargando menú...*\n\n*[❗] Si no puede visualizar el menú, use el comando ${usedPrefix}menu1.2*)'
+m.reply('*[ ⚠️ ]  Cargando menú...*\n\n*[❗] Si no puede visualizar el menú, use el comando ${usedPrefix}menu1.2*)',
 let username = conn.getName(who)
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮

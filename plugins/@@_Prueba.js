@@ -19,6 +19,7 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
   } finally {
 await conn.reply(m.chat, '*「 ⚠️ 」Loading...*', { thumbnail: await (await fetch(safusimage)).buffer()})
 let username = conn.getName(who)
+let name = conn.getName(m.sender)
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*

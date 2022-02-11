@@ -17,14 +17,52 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
   } catch (e) {
 
   } finally {
-await conn.reply(m.chat, '*「 ⚠️ 」Loading...*', { thumbnail: await (await fetch(safusimage)).buffer()})
-let username = conn.getName(who)
-let name = conn.getName(m.sender)
+m.reply(m.chat, '*[ ⚠️ ]  Cargando menú...*\n\n*[❗] Si no puede visualizar el menú, use el comando ${usedPrefix}menu1.2*)'
+    let jam = moment.tz('Asia/Kolkata').format('HH')
+    var ucapanWaktu = 'Good Morning 🌄'
+				if (jam >= '03' && jam <= '10') {
+				ucapanWaktu = 'Good Morning 🌄'
+				} else if (jam >= '10' && jam <= '13') {
+				ucapanWaktu = 'Good Afternoon ☀️'
+				} else if (jam >= '13' && jam <= '18') {
+				ucapanWaktu = 'Good eavening 🌅'
+				} else if (jam >= '18' && jam <= '23') {
+				ucapanWaktu = 'Good Night 🌙'
+				} else {
+				ucapanWaktu = 'Good Night 🌙'
+				} 
+				   let name = conn.getName(m.sender)
+    let d = new Date
+    let locale = 'en'
+				    let time = d.toLocaleTimeString(locale, {
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric'
+    })
+        let date = d.toLocaleDateString(locale, {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    })
+       let { exp, limit, registered, regTime, level, role } = global.DATABASE.data.users[m.sender]
+    let { min, xp, max } = levelling.xpRange(level, global.multiplier)
+       let _uptime = process.uptime() * 1000
+    let _muptime
+    if (process.send) {
+      process.send('uptime')
+      _muptime = await new Promise(resolve => {
+        process.once('message', resolve)
+        setTimeout(resolve, 1000)
+      }) * 1000
+    }
+    let muptime = clockString(_muptime)
+    let uptime = clockString(_uptime)
+    let username = conn.getName(who)
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨𝗛ola, ${username}!!*
+║➤ *✨𝗛ola, %name!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *Creador del Bot: Bruno Sobrino* 
 ║➤ *Numero del creador:* *wa.me/17722386341 (No Bot)*

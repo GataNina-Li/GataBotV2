@@ -3,7 +3,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let fakeImage = 'https://i.imgur.com/JL06dpA.jpg'
 let safusimage = 'https://i.imgur.com/JL06dpA.jpg'
-let fakeMessage = 'By Bruno Sobrino'
+let fakeMessage = 'Bruno Sobrino'
 const { MessageType } = require('@adiwajshing/baileys')
 let path = require('path')
 let levelling = require('../lib/levelling')
@@ -351,17 +351,12 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}setwelcome *@tag*_
 ┣ ඬ⃟👑 _${usedPrefix}enable *autoread*_
 ┣ ඬ⃟👑 _${usedPrefix}disable *autoread*_
-┗━━━━━━━━━━━━━┛
-╔═════════════╗
-║
-╠ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
-║
-╚═════════════╝`.trim()
+┗━━━━━━━━━━━━━┛`.trim()
 
  const buttons = [{buttonId: 'id1', buttonText: {displayText: 'Nice🤖'}, type: 1}, {buttonId: '#donar', buttonText: {displayText: '🔮Donar'}, type: 1}]
   let id = Object.keys(idd)[0]
   const buttonMessage = {[id]: prep.message[id], contentText: menu, footerText: 'The Shadow Brokers - Bot', buttons: buttons, headerType: 'IMAGE'}
-  conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { quoted: {key: { participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { orderMessage: { itemCount: 2021, status: 999, thumbnail: await (await fetch(safusimage)).buffer(), surface: 999, message: 'мᎪ ᴏғғɪᴄɪᴀʟあ', orderTitle: 'iOfficial', sellerJid: '0@s.whatsapp.net'}}}}, { contextInfo: { mentionedJid: [m.sender]}})
+  conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { quoted: {key: { participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { orderMessage: { itemCount: 4349054, status: 999, thumbnail: await (await fetch(safusimage)).buffer(), surface: 999, message: 'тнє ѕнα∂σω вяσкєяѕ - вσт', orderTitle: 'iOfficial', sellerJid: '0@s.whatsapp.net'}}}}, { contextInfo: { mentionedJid: [m.sender]}})
 
 
 }}

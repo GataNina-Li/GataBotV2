@@ -11,53 +11,15 @@ let handler = async (m, { conn, usedPrefix }) => {
 let prep = await conn.prepareMessage(m.chat, fs.readFileSync('./Menu2.jpg'), MessageType.image, {})
 let idd = prep.message
 let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
-  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-  try {
-    pp = await conn.getProfilePicture(who)
-  } catch (e) {
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+try {
+pp = await conn.getProfilePicture(who)
+} catch (e) {
 
-  } finally {
-//await conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '*LIST MENU*', 'status@broadcast', { thumbnail: await (await fetch(safusimage)).buffer()})
-    let jam = moment.tz('Asia/Kolkata').format('HH')
-    var ucapanWaktu = 'Good Morning 🌄'
-				if (jam >= '03' && jam <= '10') {
-				ucapanWaktu = 'Good Morning 🌄'
-				} else if (jam >= '10' && jam <= '13') {
-				ucapanWaktu = 'Good Afternoon ☀️'
-				} else if (jam >= '13' && jam <= '18') {
-				ucapanWaktu = 'Good eavening 🌅'
-				} else if (jam >= '18' && jam <= '23') {
-				ucapanWaktu = 'Good Night 🌙'
-				} else {
-				ucapanWaktu = 'Good Night 🌙'
-				} 
-				   let name = conn.getName(m.sender)
-    let d = new Date
-    let locale = 'en'
-				    let time = d.toLocaleTimeString(locale, {
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric'
-    })
-        let date = d.toLocaleDateString(locale, {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric'
-    })
-       let { exp, limit, registered, regTime, level, role } = global.DATABASE.data.users[m.sender]
-    let { min, xp, max } = levelling.xpRange(level, global.multiplier)
-       let _uptime = process.uptime() * 1000
-    let _muptime
-    if (process.send) {
-      process.send('uptime')
-      _muptime = await new Promise(resolve => {
-        process.once('message', resolve)
-        setTimeout(resolve, 1000)
-      }) * 1000
-    }
-    let muptime = clockString(_muptime)
-    let uptime = clockString(_uptime)
-    let username = conn.getName(who)
+} finally {
+m.reply(m.chat, '*[ ⚠️ ]  Cargando menú...*\n\n*[❗] Si no puede visualizar el menú, use el comando ${usedPrefix}menu1.2*)'
+let { exp, limit, registered, regTime, level, role } = global.DATABASE.data.users[m.sender]
+let username = conn.getName(who)
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
@@ -352,26 +314,11 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}enable *autoread*_
 ┣ ඬ⃟👑 _${usedPrefix}disable *autoread*_
 ┗━━━━━━━━━━━━━┛`.trim()
-
  const buttons = [{buttonId: 'id1', buttonText: {displayText: 'Hola🤖'}, type: 1}, {buttonId: '#donar', buttonText: {displayText: '🔮Donar'}, type: 1}]
   let id = Object.keys(idd)[0]
   const buttonMessage = {[id]: prep.message[id], contentText: menu, footerText: 'The Shadow Brokers - Bot', buttons: buttons, headerType: 'IMAGE'}
   conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { quoted: {key: { participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { orderMessage: { itemCount: 4349054, status: 999, thumbnail: await (await fetch(safusimage)).buffer(), surface: 999, message: 'тнє ѕнα∂σω вяσкєяѕ - вσт', orderTitle: 'iOfficial', sellerJid: '0@s.whatsapp.net'}}}}, { contextInfo: { mentionedJid: [m.sender]}})
-
-
 }}
-handler.command = /^(2help)$/i
-
+handler.command = /^(2help)$/
 handler.fail = null
-
 module.exports = handler
-
-const more = String.fromCharCode(8206)
-const readMore = more.repeat(4001)
-
-function clockString(ms) {
-  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
-}

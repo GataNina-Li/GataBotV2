@@ -8,7 +8,7 @@ const { MessageType } = require('@adiwajshing/baileys')
 let path = require('path')
 let levelling = require('../lib/levelling')
 let handler = async (m, { conn, usedPrefix }) => {
-let prep = await conn.prepareMessage(m.chat, fs.readFileSync('./fake.jpg'), MessageType.image, {})
+let prep = await conn.prepareMessage(m.chat, fs.readFileSync('./Menu2.jpg'), MessageType.image, {})
 let idd = prep.message
 let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender

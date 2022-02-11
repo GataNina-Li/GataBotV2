@@ -120,7 +120,7 @@ global.reloadHandler = function () {
     conn.off('CB:action,,call', conn.onCall)
   }
   conn.welcome = '┏━━━━━━━━━━━━━━━━ıllıllı\n┃──〘 ༻𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊/𝘼༺ 〙──\n┃━━━━━━━━━━━━━━━━ıllıllı\n┃ *_🐈 @user ingresaste a_* \n┃ *_@subject 🐈_*\n┃\n┃ᚒ⌬ *_Un grupo agradable 🤗_*\n┃ᚒ⌬ *_Respeta a los integrantes 🦋_* \n┃ᚒ⌬ *_¿Quieres ver mis comandos? 😳_* \n┃ᚒ⌬ *_Escribe: #menu_* \n┃ᚒ⌬ *_Por favor lee la descripción del grupo_*\n┃                                 👇\n\n@desc\n\n┃\n┃ *_Gracias 🕊️_*\n┃ *_🤹‍♀️ ¡Disfruta del Grupo! 🤹‍♀️_* \n┗━━━━━━━━━━━━━━━ꪶ࿋྄ིᤢꫂ'
-  conn.bye = '┏━━━━━━━━━━━━\n┃──〘 *ADIOS* 〙───\n┃━━━━━━━━━━━━\n┃ *_☠ Se fue @user_* \n┃ *_Que dios lo bendiga️_* \n┃ *_Y lo atropelle un tren 😇_*\n┗━━━━━━━━━━'
+  conn.bye = '┏━━━━━━━━━━━━━━━━\n┃──〘 ༻*_ADIOS_*༺ 〙───\n┃━━━━━━━━━━━━━━━━\n┃ *_🪦 Se fue @user_* 🪦\n┗━━━━━━━━━━━━━━━'
   conn.spromote = '@user ahora es administrador!'
   conn.sdemote = '@user ya no es un administrador!'
   conn.handler = handler.handler

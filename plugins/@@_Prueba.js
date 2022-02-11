@@ -17,7 +17,7 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
   } catch (e) {
 
   } finally {
-await conn.fakeReply(m.chat, '*「 ⚠️ 」Loading...*', '0@s.whatsapp.net', '*LIST MENU*', 'status@broadcast', { thumbnail: await (await fetch(safusimage)).buffer()})
+await conn.reply(m.chat, '*「 ⚠️ 」Loading...*', { thumbnail: await (await fetch(safusimage)).buffer()})
   let username = conn.getName(who)
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮

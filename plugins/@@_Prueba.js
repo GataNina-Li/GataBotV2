@@ -23,7 +23,7 @@ let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
 ║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨𝗛ola, %name!!*
+║➤ *✨𝗛ola, ${username}!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *Creador del Bot: Bruno Sobrino* 
 ║➤ *Numero del creador:* *wa.me/17722386341 (No Bot)*
@@ -316,7 +316,7 @@ let menu =`
  const buttons = [{buttonId: 'id1', buttonText: {displayText: 'Hola🤖'}, type: 1}, {buttonId: '#donar', buttonText: {displayText: '🔮Donar'}, type: 1}]
   let id = Object.keys(idd)[0]
   const buttonMessage = {[id]: prep.message[id], contentText: menu, footerText: 'The Shadow Brokers - Bot', buttons: buttons, headerType: 'IMAGE'}
-  conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { quoted: {key: { participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { orderMessage: { itemCount: 4349054, status: 999, thumbnail: await (await fetch(safusimage)).buffer(), surface: 999, message: 'тнє ѕнα∂σω вяσкєяѕ - вσт', orderTitle: 'iOfficial', sellerJid: '0@s.whatsapp.net'}}}}, { contextInfo: { mentionedJid: [m.sender]}})
+  conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { quoted: {key: { participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { orderMessage: { itemCount: 4349054, status: 999, thumbnail: await (await fetch(safusimage)).buffer(), surface: 999, message: 'ѕнα∂σω - вσт', orderTitle: 'iOfficial', sellerJid: '0@s.whatsapp.net'}}}}, { contextInfo: { mentionedJid: [m.sender]}})
 }}
 handler.command = /^(2help)$/
 handler.fail = null

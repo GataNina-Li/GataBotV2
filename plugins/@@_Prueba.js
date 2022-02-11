@@ -17,7 +17,7 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
   } catch (e) {
 
   } finally {
-await conn.reply(m.chat, '*「 ⚠️ 」Cargando menú...*\n\n*「❗ 」 Si no puede visualizar el menú, use el comando /menu1.2*')
+await conn.reply(m.chat, '*[ ⚠️ ] Cargando menú...*\n\n*[❗] Si no puede visualizar el menú, use el comando /menu1.2*')
   let username = conn.getName(who)
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮

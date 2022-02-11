@@ -119,7 +119,7 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = '┏━━━━━━━━━━━━\n┃──〘 ༻𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊/𝘼༺ 〙──\n┃━━━━━━━━━━━━\n┃ *_✨ @user ingresaste a a_* \n┃ *_@subject ✨_*\n┃\n┃=> *_Esperamos que el grupo sea de su agrado_*\n┃\n┠⊷ *_Respeta a los integrantes_* \n┃=> *_¿Quieres ver mis comandos?_* \n┠⊷ *_Escribe: #menu_* \n┃\n┃=> *_Por favor lee la descripción del grupo_* \n┃ *_Gracias_*\n┃\n\n@desc\n\n┃ \n┃ *_🔰 !Disfruta del Grupo¡🔰_* \n┗━━━━━━━━━━━'
+  conn.welcome = '┏━━━━━━━━━━━━━━━━\n┃──〘 ༻𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊/𝘼༺ 〙──\n┃━━━━━━━━━━━━━━━━\n┃ *_🐋 @user ingresaste a_* \n┃ *_@subject 🐋_*\n┃\n┃ᚒ⌬ *_Esperamos que el grupo sea de su agrado 🤗_*\n┃\n┃ᚒ⌬ *_Respeta a los integrantes 🦋_* \n┃ᚒ⌬ *_¿Quieres ver mis comandos? 😳._* \n┃ᚒ⌬ *_Escribe: #menu_* \n┃\n┃ᚒ⌬ *_Por favor lee la descripción del grupo 👇_* \n┃ *_Gracias 🕊️_*\n┃\n\n@desc\n\n┃ \n┃ *_🤹‍♀️ !Disfruta del Grupo¡ 🤹‍♀️_* \n┗━━━━━━━━━━━━━━━'
   conn.bye = '┏━━━━━━━━━━━━\n┃──〘 *ADIOS* 〙───\n┃━━━━━━━━━━━━\n┃ *_☠ Se fue @user_* \n┃ *_Que dios lo bendiga️_* \n┃ *_Y lo atropelle un tren 😇_*\n┗━━━━━━━━━━'
   conn.spromote = '@user ahora es administrador!'
   conn.sdemote = '@user ya no es un administrador!'

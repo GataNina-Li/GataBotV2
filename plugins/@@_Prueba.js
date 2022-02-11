@@ -14,11 +14,10 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 try {
 pp = await conn.getProfilePicture(who)
+m.reply('*[ ⚠️ ]  Cargando menú...*\n\n*[❗] Si no puede visualizar el menú, use el comando ${usedPrefix}menu1.2*)'
 } catch (e) {
 
 } finally {
-m.reply(m.chat, '*[ ⚠️ ]  Cargando menú...*\n\n*[❗] Si no puede visualizar el menú, use el comando ${usedPrefix}menu1.2*)'
-let { exp, limit, registered, regTime, level, role } = global.DATABASE.data.users[m.sender]
 let username = conn.getName(who)
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮

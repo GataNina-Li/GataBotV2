@@ -1,8 +1,8 @@
 let fs = require('fs')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
-let fakeImage = 'https://i.imgur.com/JL06dpA.jpg'
-let safusimage = 'https://i.imgur.com/JL06dpA.jpg'
+let fakeImage = 'https://i.imgur.com/lcjzety.jpg'
+let safusimage = 'https://i.imgur.com/lcjzety.jpg'
 let fakeMessage = 'Bruno Sobrino'
 const { MessageType } = require('@adiwajshing/baileys')
 let path = require('path')

@@ -49,7 +49,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠══〘 *INFORMACIÓN DEL BOT* 〙 ══ 🌸
 ╠
 ╠➥ [😸] Creadora del Bot: 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
-╠➥ [#️⃣] Número de la creadora: wa.me/593968585383
+╠➥ [#️⃣] Número: wa.me/593968585383
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
 ╠➥ [✅] version: *${conn.browserDescription[2]}*
 ╠➥ [⚙️] Prefijo: *${usedPrefix}*
@@ -64,7 +64,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [🪀] version de WhatsApp: *${conn.user.phone.wa_version}*
 ╠➥ [🤖] Bots secundarios activos: *${totaljadibot.length}*
 ╠
-╠════〘 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 〙 ═════ 🌸
+╠══════〘 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 〙 ═════ 🌸
 `.trim() 
   conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈*', 'status@broadcast')
 }

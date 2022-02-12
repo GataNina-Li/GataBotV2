@@ -46,27 +46,27 @@ let handler = async (m, { conn, usedPrefix }) => {
   let totaljadibot = [...new Set([...global.conns.filter(conn => conn.user && conn.state !== 'close').map(conn => conn.user)])]
   let speed = neww - old
   let info = `
-╠═〘 *Informacion del Bot* 〙 ═
+╠══〘 *INFORMACIÓN DEL BOT* 〙 ══ 🌸
 ╠
-╠➥ [🤴🏻] Creador del Bot: *Bruno Sobrino*
-╠➥ [#️⃣] Numero del creador: *+1 (772) 238-6341*
+╠➥ [😸] Creadora del Bot: 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
+╠➥ [#️⃣] Número de la creadora: wa.me/593968585383
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
 ╠➥ [✅] version: *${conn.browserDescription[2]}*
-╠➥ [🎳] Prefijo: *${usedPrefix}*
-╠➥ [👨‍🦯] Velocidad: *${speed} milisegundos*
+╠➥ [⚙️] Prefijo: *${usedPrefix}*
+╠➥ [🚀] Velocidad: *${speed} milisegundos*
 ╠➥ [🔐] Chat Privado: *${chats.length - groups.length}*
-╠➥ [🦜] Chat de Grupos: *${groups.length}* 
+╠➥ [🔰] Chat de Grupos: *${groups.length}* 
 ╠➥ [💡] Chat Totales: *${chats.length}* 
-╠➥ [🚀] Tiempo activo: *${uptime}*
-╠➥ [🎩] Usuarios: *${totalreg} numeros*
+╠➥ [⛱️] Tiempo activo: *${uptime}*
+╠➥ [🔮] Usuarios: *${totalreg} número*
 ╠➥ [🔋] Bateria: *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
 ╠➥ [📲] Sistema operativo: *${conn.user.phone.device_manufacturer}*
 ╠➥ [🪀] version de WhatsApp: *${conn.user.phone.wa_version}*
 ╠➥ [🤖] Bots secundarios activos: *${totaljadibot.length}*
 ╠
-╠═〘 *The Shadow Brokers - Bot* 〙 ═
+╠════〘 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 〙 ═════ 🌸
 `.trim() 
-  conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')
+  conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈*', 'status@broadcast')
 }
 //handler.help = ['ping', 'speed']
 //handler.tags = ['info', 'tools']

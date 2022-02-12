@@ -20,12 +20,12 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
 await conn.reply(m.chat, '*[ ⚠️ ] Cargando menú...*\n\n*[❗] Si no puede visualizar el menú, use el comando /menu1.2*')
   let username = conn.getName(who)
 let menu =`
-╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
+╭══〘 🐈🐈🐈🐈🐈🐈 〙═╮
+║═ 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 - 𝙏𝙝𝙚 𝘽𝙧𝙤𝙠𝙚𝙧𝙨 | 𝘽𝙊𝙏
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *✨𝗛ola, ${username}!!*
+║🪀. *✨𝗛ola, ${username}!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Creador del Bot: Bruno Sobrino* 
+║➤ *Creador del Bot: Brokers* 
 ║➤ *Numero del creador:* *wa.me/17722386341 (No Bot)*
 ║➤ *PayPal:* *https://www.paypal.me/TheShadowBrokers133*
 ║➤ *Numero del Bot oficial:* *wa.me/5219991402134*

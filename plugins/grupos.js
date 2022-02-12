@@ -1,20 +1,18 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
-*Hola 👋🏻, unete a los grupos oficiales para pasar un rato agradable usando el Bot o platicando con la familia de The Shadow Borkers - Bot*
+*Hola personita 👉👈 ¿quieres que aparezca tú grupo en la lista?*
 
-*_➤ Grupos oficiales del Bot:_*
-*_1.-_* *https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ*
+*Puedes decirme al siguiente número:*
+Wa.me/593968585383
 
-*_2.-_* *https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs*
+*_➡️ GRUPO(S) EN DONDE ESTÁ EL BOT:_*
+✅ https://chat.whatsapp.com/BlasuG7z02d16wEaCf61pa
 
-*_3.-_* *https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F*
-
-*_4.-_* *https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC*
-
-*_5.-_* *https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb*
+*_➡️GRUPO(S) DE COLABORACIÓN:_*
+Pronto...
 `.trim() 
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 THE SHADOW BROKERS - BOT 🔥*', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'status@broadcast')
 }
 handler.command = /^(grupos|gruposofc|gruposofc)$/i
 

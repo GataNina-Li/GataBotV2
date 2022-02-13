@@ -1,7 +1,7 @@
 let handler = async m => m.reply(`
 ⚡⚡▁ ▂ ▄ ▅ ▆ ▇ █ 🚆 █ ▇ ▆ ▅ ▄ ▂ ▁⚡⚡
 
-```Esta Edición del Bot no está disponible por el momento```
+*Esta Edición del Bot no está disponible por el momento.*
 
 ⚡⚡▁ ▂ ▄ ▅ ▆ ▇ █ 🚆 █ ▇ ▆ ▅ ▄ ▂ ▁⚡⚡
                       🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈

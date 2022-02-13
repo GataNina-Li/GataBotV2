@@ -1,8 +1,8 @@
 let fs = require('fs')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
-let fakeImage = 'https://i.imgur.com/12JzqIv.jpg'
-let safusimage = 'https://i.imgur.com/12JzqIv.jpg'
+let fakeImage = 'https://i.imgur.com/dpdlz9s.jpg'
+let safusimage = 'https://i.imgur.com/dpdlz9s.jpg'
 let fakeMessage = 'Bruno Sobrino'
 const { MessageType } = require('@adiwajshing/baileys')
 let path = require('path')
@@ -316,7 +316,7 @@ let menu =`
 ┗━━━━━━━━━━━━━┛`.trim()
  const buttons = [{buttonId: 'id1', buttonText: {displayText: 'Hola🤖'}, type: 1}, {buttonId: '#grupos', buttonText: {displayText: '🔮Grupos'}, type: 1}]
   let id = Object.keys(idd)[0]
-  const buttonMessage = {[id]: prep.message[id], contentText: menu, footerText: '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', buttons: buttons, headerType: 'IMAGE'}
+  const buttonMessage = {[id]: prep.message[id], contentText: menu, footerText: 'Gata Dios', buttons: buttons, headerType: 'IMAGE'}
   conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { quoted: {key: { participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { orderMessage: { itemCount: 46456757, status: 999, thumbnail: await (await fetch(safusimage)).buffer(), surface: 999, message: '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', orderTitle: 'iOfficial', sellerJid: '0@s.whatsapp.net'}}}}, { contextInfo: { mentionedJid: [m.sender]}})
 }}
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help)$/i

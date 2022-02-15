@@ -15,50 +15,54 @@ let handler = async (m, { conn, usedPrefix }) => {
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let username = conn.getName(who)
     let str = `
-*_ミ💖 Hola ${username} 💖彡_*
+*_ミ💖 ¡Hola! ${username} 💖彡_*
 
-*<MENU DE AUDIOS/>*
-- Escribe las palabras/frases tal como estan, no hace falta poner ningun prefijo (#, ., *, etc) 
+*MENU DE AUDIOS*
+✢ Solo escriba la palabra/frase. sin prefijo (/ . # etc...) 
 
-° ඬ⃟🔊 _Noche de paz_
-° ඬ⃟🔊 _Buenos dias_
-° ඬ⃟🔊 _Audio hentai_
-° ඬ⃟🔊 _Fiesta del admin_
-° ඬ⃟🔊 _Fiesta del admin 2_
-° ඬ⃟🔊 _Viernes_
-° ඬ⃟🔊 _Chica lgante_
-° ඬ⃟🔊 _Baneado_
-° ඬ⃟🔊 _Feliz navidad_
-° ඬ⃟🔊 _A nadie le importa_
-° ඬ⃟🔊 _Sexo_
-° ඬ⃟🔊 _Vete a la vrg_
-° ඬ⃟🔊 _Hola_
-° ඬ⃟🔊 _Un pato_
-° ඬ⃟🔊 _Nyanpasu_
-° ඬ⃟🔊 _Te amo_
-° ඬ⃟🔊 _Yamete_
-° ඬ⃟🔊 _Te diagnostico con gay_
-° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
-° ඬ⃟🔊 _Bañate_
-° ඬ⃟🔊 _Vivan los novios_
-° ඬ⃟🔊 _Marica quien_
-° ඬ⃟🔊 _Es puto_
-° ඬ⃟🔊 _La biblia_
-° ඬ⃟🔊 _Onichan_
-° ඬ⃟🔊 _Bot puto_
-° ඬ⃟🔊 _Feliz cumpleaños_
-° ඬ⃟🔊 _Shadow Bot_
-° ඬ⃟🔊 _Pasa pack Bot_
-° ඬ⃟🔊 _Atencion grupo_
-° ඬ⃟🔊 _Oh me vengo_
-° ඬ⃟🔊 _Murio el grupo_
-° ඬ⃟🔊 _Siuuu_
-° ඬ⃟🔊 _Rawr_
-° ඬ⃟🔊 _UwU_
-° ඬ⃟🔊 _:c_
-° ඬ⃟🔊 _a_
-
-*_「 𝙏͚͜͝͠𝙝͚͜͝͠𝙚͚͜͝͠ ͚͜͝͠𝙎͚͜͝͠𝙝͚͜͝͠𝙖͚͜͝͠𝙙͚͜͝͠𝙤͚͜͝͠𝙬͚͜͝͠ ͚͜͝͠𝘽͚͜͝͠𝙧͚͜͝͠𝙤͚͜͝͠𝙠͚͜͝͠𝙚͚͜͝͠𝙧͚͜͝͠𝙨͚͜͝͠ ͚͜͝͠-͚͜͝͠ ͚͜͝͠𝘽͚͜͝͠𝙤͚͜͝͠𝙩͚͜͝͠ ͚͜͝͠  」_*`.trim()
+➫🔊 _Noche de paz_
+➫🔊 _Buenos dias_
+➫🔊 _Audio hentai_
+➫🔊 _Fiesta del admin_
+➫🔊 _Fiesta del admin 2_
+➫🔊 _Viernes_
+➫🔊 _Chica lgante_
+➫🔊 _Baneado_
+➫🔊 _Feliz navidad_
+➫🔊 _A nadie le importa_
+➫🔊 _Sexo_
+➫🔊 _Vete a la vrg_
+➫🔊 _Hola_
+➫🔊 _Un pato_
+➫🔊 _Nyanpasu_
+➫🔊 _Te amo_
+➫🔊 _Yamete_
+➫🔊 _Te diagnostico con gay_
+➫🔊 _Quien es tu sempai botsito 7w7_
+➫🔊 _Bañate_
+➫🔊 _Vivan los novios_
+➫🔊 _Marica quien_
+➫🔊 _Es puto_
+➫🔊 _La biblia_
+➫🔊 _Onichan_
+➫🔊 _Bot puto_
+➫🔊 _Feliz cumpleaños_
+➫🔊 _Shadow Bot_
+➫🔊 _Pasa pack Bot_
+➫🔊 _Atencion grupo_
+➫🔊 _Oh me vengo_
+➫🔊 _Murio el grupo_
+➫🔊 _Siuuu_
+➫🔊 _Rawr_
+➫🔊 _UwU_
+➫🔊 _:c_
+➫🔊 _a_
+---------------------------------------------------
+            🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
+0:40 ━❍──────── -9:99
+↻     ⊲  Ⅱ  ⊳     ↺
+VOLUME: ▁▂▃▄▅▆▇ 100%
+---------------------------------------------------`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }

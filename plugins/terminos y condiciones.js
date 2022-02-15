@@ -3,39 +3,39 @@ let handler = async (m, { conn, text }) => {
     let name = m.fromMe ? conn.user : conn.contacts[m.sender]
 
   conn.reply(m.chat, `
-*=> El desconocimiento de lo que aqui se menciona no exime al propietario del Bot, Sub Bot o usuario del bot de la sanciones que se puedan derivar❗*
+❕ *La información que se proporcionará no excluye a Propietario/a del Bot, Sub Bot, o usuario del Bot de las posibles sanciones.* 
 
-*⚠️ Términos de privacidad*
+❕ *NO nos hacemos responsables del desconocimiento que pueda tener de temas del Bot.*
 
-_1.- La información que reciba el Bot NO se comparte con ningún tercero ni con nadie_
-_2.- Las imágenes/videos/sticker/audios/etc no son compartidos con nadie_
-_3.- Su numero de teléfono no es compartido con absolutamente nadie_
-_4.- Datos de tarjetas, ubicaciones, direcciones, etc son eliminados inmediatamente y no se comparten con absolutamente nadie_
-_5.- Todas las conversaciones son eliminadas cada determinado tiempo y no se hace backup (no se guarda) de ningún tipo de información/conversación_
+⚠️ *_Términos de Privacidad_*
 
-*⚠️ Términos de uso*
+_- La información que reciba por parte del Bot NO es compartida con nadie._
 
-_1.- No nos hacemos responsables de un mal uso que se le pueda dar al Bot_
-_2.- No nos hacemos responsables de la ignorancia y/o desconocimiento del tema_
-_3.- El Bot no esta activo las 24 horas al menos de que el propietario decida lo contrario_
-_4.- La "empresa" no se hace responsable del uso de un Sub Bot o Bot no oficial, ya que son personas (terceros) y no tenemos control sobre ell@s_
-_5.- No nos hacemos responsables de los números que se puedan ir a soporte por el uso del Bot, es aconsejable siempre usar números virtuales para usos de Bots_
-_6.- Los audios/notas de voz/imágenes/videos o cualquier otro archivo multimedia que sean de propiedad de The Shadow Brokers - Bot son únicamente y exclusivamente de este Bot, si se detecta a otro Bot con alguno o algunos de los archivos multimedia antes mencionado se tomarán cartas en el asunto._
+_- Las imágenes, vídeos, stickers, audios, logos, etc.. NO son compartidas con nadie._
 
-*➤ Mensaje del numero del Bot?*
+_-  El Bot es posible que no esté activado las 24 horas, no excluye que él/la Propietario/a pueda hacerlo._
 
-_- Si en algún momento recibe un mensaje del numero del Bot y no es un comando posiblemente sea de el propietario del Bot o el propietario del numero, este es un persona real por lo que se le pide que no le falte el respeto_
+_- NO nos hacemos responsables del posible mal uso de un Sub Bot, es recomendable que use número virtual._
 
-*⁉️ Te quedaron dudas?*
+_- Los Audios, notas de voz, imágenes, vídeos u otro archivo multimedia de Propiedad del Bot, son exclusivamente para este Bot de haber otros Bots con dicha multimedia, sé investigará._
 
-_- Si todavía tienes alguna duda o reclamo de lo mencionado aqui o referente al Bot, contáctame a mi numero personal al cual estaré respondiendo lo antes posible para brindarte una solución y/o hacerme responsable de alguna reclamación_ 
-> wa.me/5219996125657
-> Bruno Sobrino 
-> Correo electronico: theshadowbrokers133@gmailcom
+⚠️ *_Condiciones de Edición_* 
 
-→ *Solo contactar por temas serios, para preguntas del Bot mas generales contáctame al privado con el comando del comando #owner (al numero wa.me/17722386341)*
+_Este Bot procede de un Bot ya existente por parte de The Brokers, únicamente lo que hace es Editar, agregar nuevos comandos, actualizar comandos, nuevas interfaces, etc... NO se pretende hacerlo pasar por un Bot diferente al inicial._
 
-*∆ THE SHADOW BROKERS - BOT ∆*
+💬 *_Mensajes del Bot_*
+
+_- En caso que el Bot envíe mensajes sin haber solicitado con un comando, es posible que el mensaje sea de una persona o propietario/a del Bot. De ser así mantener el respeto._
+
+❔ *_Aún tienes dudas_*
+
+_De tener dudas, observaciones, reclamos respecto a temas del Bot puedes escribir me a este número:_
+
+📲 Wa.me/593968585383
+
+*_Recuerda mantener el respeto, escribir para temas serios. Gracias_*
+
+                             🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
 `.trim(), m)
     let mentionedJid = [m.sender]
 }

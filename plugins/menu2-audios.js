@@ -16,6 +16,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let username = conn.getName(who)
     let str = `
 *_ミ💖 ¡Hola! ${username} 💖彡_*
+
 *MENU DE AUDIOS*
 ✢ Solo escriba la palabra/frase. sin prefijo (/ . # etc...) 
 
@@ -56,12 +57,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 ➫🔊 _UwU_
 ➫🔊 _:c_
 ➫🔊 _a_
----------------------------------------------------
             🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
 0:40 ━❍──────── -9:99
 ↻     ⊲  Ⅱ  ⊳     ↺
-VOLUME: ▁▂▃▄▅▆▇ 100%
----------------------------------------------------`.trim()
+VOLUME: ▁▂▃▄▅▆▇ 100%`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }

@@ -58,9 +58,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ➫🔊 _:c_
 ➫🔊 _a_
             🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
-0:40 ━❍──────── -9:99
+0:40 ━❍──────── -8:39
 ↻     ⊲  Ⅱ  ⊳     ↺
-VOLUME: ▁▂▃▄▅▆▇ 100%`.trim()
+VOLUMEN: ▁▂▃▄▅▆▇ 100%`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }

@@ -1,7 +1,6 @@
 function handler(m) {
   this.sendContact(m.chat, global.owner[0], this.getName(global.owner[0] + '@s.whatsapp.net'), m)
   this.sendContact(m.chat, '593968585383', 'Gata Dios', m)
-  this.sendContact(m.chat, '593993684821', 'GD - BOT1', m)
   this.sendContact(m.chat, '994407312387', 'GD - BOT2', m)
   }
 handler.help = ['contacto']

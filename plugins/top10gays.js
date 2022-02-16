@@ -33,16 +33,16 @@ function handler(m, { groupMetadata }) {
     while (b === a)
     m.reply(`*_🌈TOP 10 GAYS/LESBIANAS DEL GRUPO🌈:_*
     
-*_1.- ${toM(a)}_*
-*_2.- ${toM(b)}_*
-*_3.- ${toM(c)}_*
-*_4.- ${toM(d)}_*
-*_5.- ${toM(e)}_*
-*_6.- ${toM(f)}_*
-*_7.- ${toM(g)}_*
-*_8.- ${toM(h)}_*
-*_9.- ${toM(i)}_*
-*_10.- ${toM(j)}_*`, null, {
+🏳️‍🌈 *_1.- ${toM(a)}_* 🏳️‍🌈
+🪂 *_2.- ${toM(b)}_* 🪂
+🪁 *_3.- ${toM(c)}_* 🪁
+🏳️‍🌈 *_4.- ${toM(d)}_* 🏳️‍🌈
+🪂 *_5.- ${toM(e)}_* 🪂
+🪁 *_6.- ${toM(f)}_* 🪁
+🏳️‍🌈 *_7.- ${toM(g)}_* 🏳️‍🌈
+🪂 *_8.- ${toM(h)}_* 🪂
+🪁 *_9.- ${toM(i)}_* 🪁
+🏳️‍🌈 *_10.- ${toM(j)}_* 🏳️‍🌈`, null, {
         contextInfo: {
             mentionedJid: [a, b, c, d, e, f, g, h, i, j]
         }

@@ -35,20 +35,20 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *INFORMACIÓN|MENUS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ⚜️ _${usedPrefix}donar_
-┣ ⚜️ _${usedPrefix}infobot_
-┣ ⚜️ _${usedPrefix}grupos_
-┣ ⚜️ _${usedPrefix}instalarbot_
-┣ ⚜️ _${usedPrefix}reglas_
-┣ ⚜️ _${usedPrefix}menusimple_
-┣ ⚜️ _${usedPrefix}menuaudios_
-┣ ⚜️ _${usedPrefix}menu1.2_
-┣ ⚜️ _${usedPrefix}menu2_
-┣ ⚜️ _${usedPrefix}labiblia_
-┣ ⚜️ _${usedPrefix}estado_
-┣ ⚜️ _¿Qué es un Bot?_
-┣ ⚜️ _Codigos para audios_
-┣ ⚜️ _Términos y condiciones_
+┣ ↠⚜️ _${usedPrefix}donar_
+┣ ↠⚜️ _${usedPrefix}infobot_
+┣ ↠⚜️ _${usedPrefix}grupos_
+┣ ↠⚜️ _${usedPrefix}instalarbot_
+┣ ↠⚜️ _${usedPrefix}reglas_
+┣ ↠⚜️ _${usedPrefix}menusimple_
+┣ ↠⚜️ _${usedPrefix}menuaudios_
+┣ ↠⚜️ _${usedPrefix}menu1.2_
+┣ ↠⚜️ _${usedPrefix}menu2_
+┣ ↠⚜️ _${usedPrefix}labiblia_
+┣ ↠⚜️ _${usedPrefix}estado_
+┣ ↠⚜️ _¿Qué es un Bot?_
+┣ ↠⚜️ _Codigos para audios_
+┣ ↠⚜️ _Términos y condiciones_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<REPORTA FALLOS EN ALGÚN COMANDO/>*

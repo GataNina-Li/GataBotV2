@@ -71,8 +71,8 @@ let menu =`
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎖️ _${usedPrefix}top10gays | topgay_
 ┣ ↠🎖️ _${usedPrefix}toplind@s | toplind@_
-┣ ↠🎖️ _${usedPrefix}topput@s_
-┣ ↠🎖️ _${usedPrefix}toppajer@s_
+┣ ↠🎖️ _${usedPrefix}topput@s | toppt_
+┣ ↠🎖️ _${usedPrefix}toppajer@s | toppajeros_
 ┣ ↠🎖️ _${usedPrefix}topotakus | toptakus_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓

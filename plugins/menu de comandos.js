@@ -292,7 +292,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🪅 _${usedPrefix}simpcard *@tag*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *PROPIETARO/A DEL BOT*
+┃ *PROPIETARIO/A DEL BOT*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠👑 _${usedPrefix}boost_
 ┣ ↠💎 _${usedPrefix}restart_

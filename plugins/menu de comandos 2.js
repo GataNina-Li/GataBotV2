@@ -32,24 +32,24 @@ let menu =`
 ║🔰 *Ayudante: SakuraMay*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
-┏━━━━━━━━━━━━━┓
-┃ *<INFORMACIÓN|MENUS/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟ℹ️️ _${usedPrefix}donar_
-┣ ඬ⃟ℹ️️ _${usedPrefix}infobot_
-┣ ඬ⃟ℹ️️ _${usedPrefix}grupos_
-┣ ඬ⃟ℹ️ _${usedPrefix}instalarbot_
-┣ ඬ⃟ℹ️ _${usedPrefix}reglas_
-┣ ඬ⃟ℹ️ _${usedPrefix}menusimple_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menuaudios_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menu1.2_
-┣ ඬ⃟ℹ️️ _${usedPrefix}menu2_
-┣ ඬ⃟ℹ️️ _${usedPrefix}labiblia_
-┣ ඬ⃟ℹ️ _${usedPrefix}estado_
-┣ ඬ⃟ℹ️ _¿Qué es un Bot?_
-┣ ඬ⃟ℹ️ _Codigos para audios_
-┣ ඬ⃟ℹ️ _Términos y condiciones_
-┗━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━━┓
+┃*INFORMACIÓN|MENUS*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ⚜️_${usedPrefix}donar_
+┣ ⚜️ _${usedPrefix}infobot_
+┣ ⚜️ _${usedPrefix}grupos_
+┣ ⚜️ _${usedPrefix}instalarbot_
+┣ ⚜️ _${usedPrefix}reglas_
+┣ ⚜️ _${usedPrefix}menusimple_
+┣ ⚜️ _${usedPrefix}menuaudios_
+┣ ⚜️ _${usedPrefix}menu1.2_
+┣ ⚜️ _${usedPrefix}menu2_
+┣ ⚜️ _${usedPrefix}labiblia_
+┣ ⚜️ _${usedPrefix}estado_
+┣ ⚜️ _¿Qué es un Bot?_
+┣ ⚜️ _Codigos para audios_
+┣ ⚜️ _Términos y condiciones_
+┗━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<REPORTA FALLOS EN ALGÚN COMANDO/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡

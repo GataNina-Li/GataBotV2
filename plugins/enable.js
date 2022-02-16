@@ -112,9 +112,9 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       conn.callWhitelistMode = isEnable
       break
     case 'restrict':
-      isAll = true
-      if (!isROwner) {
-        global.dfail('rowner', m, conn)
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+        global.dfail('admin', m, conn)
         throw false
       }
       global.opts['restrict'] = isEnable

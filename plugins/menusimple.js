@@ -42,6 +42,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🐈 _${usedPrefix}owner_
 ┣ ↠🐈 _${usedPrefix}contacto_
 ┣ ↠🤖 _${usedPrefix}join *enlace del grupo*_ 
+┣ ↠🤖 _${usedPrefix}unete *enlace del grupo*_ 
 ┣ ↠🤖 _${usedPrefix}bots *ver bots*_
 ┣ ↠🎖️ _${usedPrefix}top10gays | topgay_
 ┣ ↠🎖️ _${usedPrefix}toplind@s | toplind@_

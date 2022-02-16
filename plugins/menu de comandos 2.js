@@ -69,7 +69,7 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *TOPS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🎖️ _${usedPrefix}top10gays_
+┣ ↠🎖️ _${usedPrefix}top10gays | topgay_
 ┣ ↠🎖️ _${usedPrefix}toplind@s_
 ┣ ↠🎖️ _${usedPrefix}topput@s_
 ┣ ↠🎖️ _${usedPrefix}toppajer@s_

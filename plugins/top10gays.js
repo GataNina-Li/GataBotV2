@@ -33,7 +33,7 @@ function handler(m, { groupMetadata }) {
     while (b === a)
     m.reply(`*_🌈TOP 10 GAYS/LESBIANAS DEL GRUPO🌈:_*
     
- *_1.- 🏳️‍🌈${toM(a)}🏳️‍🌈_ * 
+ *_1.- 🏳️‍🌈${toM(a)}🏳️‍🌈_* 
  *_2.- 🪂${toM(b)}🪂_* 
  *_3.- 🪁${toM(c)}🪁_* 
  *_4.- 🏳️‍🌈${toM(d)}🏳️‍🌈_* 

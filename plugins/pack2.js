@@ -3,10 +3,10 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	let url = packgirl[Math.floor(Math.random() * packgirl.length)]
 	await conn.sendMessage(m.chat, {
-		contentText: 'Pack xxx By ShadowBot',
-		footerText: '©The Shadow Brokers - Bot',
+		contentText: 'Pack xxx By TheBrokers',
+		footerText: 'Gata Dios',
 		buttons: [
-			{ buttonId: '.pack2', buttonText: { displayText: 'SIGUIENTE' }, type: 1 }
+			{ buttonId: '.pack2', buttonText: { displayText: 'SIGUIENTE 🔄' }, type: 1 }
 		],
 		headerType: 4,
 		imageMessage: (await conn.prepareMessageMedia(await (await fetch(url)).buffer(), 'imageMessage', {})).imageMessage

@@ -212,8 +212,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🪅 _${usedPrefix}nulis *texto*_
 ┣ ↠🎀 _${usedPrefix}nulis2 *texto*_
 ┣ ↠🪅 _${usedPrefix}lolice *@tag*_
-┣ ↠🎀 _${usedPrefix}logos_ (lista)
 ┣ ↠🪅 _${usedPrefix}simpcard *@tag*_
+┣ ↠🔮 _${usedPrefix}logos_ (lista)
 ┣ ↠👑 _${usedPrefix}boost_
 ┣ ↠💎 _${usedPrefix}restart_
 ┣ ↠👑 _${usedPrefix}banlist_

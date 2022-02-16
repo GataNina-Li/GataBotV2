@@ -5,8 +5,8 @@ let handler = async (m, { conn, args, command, usedPrefix }) => {
   let url = video.no_watermark || video.with_watermark || video.no_watermark_raw || music
   if (!url) throw '*Fallo al detectar la URL*'
   await conn.sendFile(m.chat, url, 'error.mp4', `
-   *🔰 Aqui tienes el tiktok*
-_©The Shadow Brokers - Bot_
+   *🤹‍♀️ Aqui tienes el tiktok 🤹‍♀️*
+*_Gata Dios_*
 `.trim(), m)
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
@@ -42,6 +42,6 @@ async function tiktok(url) {
     }
     return results
   } catch (e) {
-    throw '*El video esta en privado o el link el incorrecto*'
+    throw '*El video esta en privado o el link es incorrecto*'
   }
 }

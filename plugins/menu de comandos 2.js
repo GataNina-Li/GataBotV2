@@ -60,11 +60,13 @@ let menu =`
 ┃ *NUMERO DE LA CREADORA*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🐈 _${usedPrefix}owner_
+┣ ↠🐈 _${usedPrefix}contacto_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *UNE UN BOT A TU GRUPO*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🤖 _${usedPrefix}join *enlace del grupo*_ 
+┣ ↠🤖 _${usedPrefix}join *enlace del grupo*_
+┣ ↠🤖 _${usedPrefix}unete *enlace del grupo*_ 
 ┣ ↠🤖 _${usedPrefix}bots *ver bots*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓

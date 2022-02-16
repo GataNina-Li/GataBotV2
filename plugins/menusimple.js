@@ -36,16 +36,18 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠⚜️ _¿Qué es un Bot?_
 ┣ ↠⚜️ _Codigos para audios_
 ┣ ↠⚜️ _Términos y condiciones_
-┣ ↠💌 _${usedPrefix}bug *tal comando con fallas*_
-┣ ↠💌 _${usedPrefix}report *tal comando con fallas*_
+┣ ↠📮 _${usedPrefix}bug *tal comando con fallas*_
+┣ ↠📮 _${usedPrefix}report *tal comando con fallas*_
+┣ ↠📮 _${usedPrefix}reporte *tal comando con fallas*_
 ┣ ↠🐈 _${usedPrefix}owner_
+┣ ↠🐈 _${usedPrefix}contacto_
 ┣ ↠🤖 _${usedPrefix}join *enlace del grupo*_ 
 ┣ ↠🤖 _${usedPrefix}bots *ver bots*_
-┣ ↠🎖️ _${usedPrefix}top10gays_
-┣ ↠🎖️ _${usedPrefix}toplind@s_
-┣ ↠🎖️ _${usedPrefix}topput@s_
-┣ ↠🎖️ _${usedPrefix}toppajer@s_
-┣ ↠🎖️ _${usedPrefix}topotakus_
+┣ ↠🎖️ _${usedPrefix}top10gays | topgay_
+┣ ↠🎖️ _${usedPrefix}toplind@s | toplind@_
+┣ ↠🎖️ _${usedPrefix}topput@s | toppt_
+┣ ↠🎖️ _${usedPrefix}toppajer@s | toppajeros_
+┣ ↠🎖️ _${usedPrefix}topotakus | toptakus_
 ┣ ↠🧩 _${usedPrefix}math *modo*_
 ┣ ↠👾 _${usedPrefix}ttt *nombre del la sala*_
 ┣ ↠🧩 _${usedPrefix}delttt *nombre del la sala*_

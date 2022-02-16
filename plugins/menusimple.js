@@ -19,14 +19,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ║═ 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 - 𝙏𝙝𝙚 𝘽𝙧𝙤𝙠𝙚𝙧𝙨 | 𝘽𝙊𝙏
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║❇️ *¡𝗛ola! ${username}* ❇️
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║🔰 *Creadora/Editora: Gata Dios* 
-║🔰 *Creador/Editor: The Brokers*
-║🔰 *Ayudante: SakuraMay*
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *INFORMACIÓN|MENUS*
+┃ *INFORMACIÓN | MENU SIMPLE*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠⚜️ _${usedPrefix}donar_
 ┣ ↠⚜️ _${usedPrefix}infobot_
@@ -41,38 +36,16 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠⚜️ _¿Qué es un Bot?_
 ┣ ↠⚜️ _Codigos para audios_
 ┣ ↠⚜️ _Términos y condiciones_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *REPORTA FALLOS DE COMANDOS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃  Reporta cualquier comando que falle para ┃poder solucionarlo
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠💌 _${usedPrefix}bug *tal comando con fallas*_
 ┣ ↠💌 _${usedPrefix}report *tal comando con fallas*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *NUMERO DE LA CREADORA*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🐈 _${usedPrefix}owner_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *UNE UN BOT A TU GRUPO*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🤖 _${usedPrefix}join *enlace del grupo*_ 
 ┣ ↠🤖 _${usedPrefix}bots *ver bots*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *TOPS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎖️ _${usedPrefix}top10gays_
 ┣ ↠🎖️ _${usedPrefix}toplind@s_
 ┣ ↠🎖️ _${usedPrefix}topput@s_
 ┣ ↠🎖️ _${usedPrefix}toppajer@s_
 ┣ ↠🎖️ _${usedPrefix}topotakus_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *JUEGOS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🧩 _${usedPrefix}math *modo*_
 ┣ ↠👾 _${usedPrefix}ttt *nombre del la sala*_
 ┣ ↠🧩 _${usedPrefix}delttt *nombre del la sala*_
@@ -96,10 +69,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🧩 _${usedPrefix}ppt *piedra / papel / tijera*_
 ┣ ↠👾 _${usedPrefix}prostituta *@tag / nombre*_
 ┣ ↠🧩 _${usedPrefix}prostituto *@tag / nombre*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *DESCARGAS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎊 _${usedPrefix}imagen *texto*_
 ┣ ↠🪄 _${usedPrefix}ytsearch *texto*_
 ┣ ↠🎉 _${usedPrefix}dlaudio *link yt*_
@@ -122,10 +91,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🪄 _${usedPrefix}xnxxsearch *texto*_
 ┣ ↠🎉 _${usedPrefix}ssweb *link*_
 ┣ ↠🎊 _${usedPrefix}animeinfo *nombre del anime*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *GESTION DE GRUPOS* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🔐 _${usedPrefix}admins *texto*_ 
 ┣ ↠🔒 _${usedPrefix}añadir *numero*_ (desactivado)
 ┣ ↠🔐 _${usedPrefix}sacar @tag_ (desactivado)
@@ -151,10 +116,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🔐 _${usedPrefix}fantasmas_
 ┣ ↠🔒 _${usedPrefix}banchat_
 ┣ ↠🔐 _${usedPrefix}unbanchat_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *CREADORES*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎨 _${usedPrefix}s_
 ┣ ↠🎨 _${usedPrefix}sticker_
 ┣ ↠🎨 _${usedPrefix}semoji_
@@ -174,10 +135,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎨 _${usedPrefix}swm *link de imagen de google*_
 ┣ ↠🎨 _${usedPrefix}gif *responde a un sticker/video*_
 ┣ ↠🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *RANDOM|EXTRAS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎳 _${usedPrefix}futbol_
 ┣ ↠🎯 _${usedPrefix}Messi_
 ┣ ↠🎲 _${usedPrefix}animal_
@@ -222,20 +179,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎲 _${usedPrefix}readqr *responde a un código QR*_
 ┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
 ┣ ↠🎯 _${usedPrefix}subirestado *texto / responder video|imagen|gif*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *COMANDOS +18*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ Usalo si el grupo te lo permite
-┃ NO nos hacemos responsables
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🔞 _${usedPrefix}labiblia_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *EFECTOS PARA AUDIOS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ Responde a un audio o nota de voz
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎤 _${usedPrefix}bass_
 ┣ ↠🎤 _${usedPrefix}deep_
 ┣ ↠🎤 _${usedPrefix}earrape_
@@ -247,31 +191,15 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎤 _${usedPrefix}slow_
 ┣ ↠🎤 _${usedPrefix}smooth_
 ┣ ↠🎤 _${usedPrefix}vibracion *cantidad*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *AUDIOS|MENU* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🔊 _${usedPrefix}menu2_
 ┣ ↠🔊 _${usedPrefix}menuaudios_
 ┣ ↠🔊 _${usedPrefix}audios_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *CHAT ANONIMO*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠👤 _${usedPrefix}start_
 ┣ ↠👤 _${usedPrefix}next_
 ┣ ↠👤 _${usedPrefix}leave_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *CONVIERTETE EN BOT*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠❇️ _${usedPrefix}stop_
 ┣ ↠❇️ _${usedPrefix}jadibot_
 ┣ ↠❇️ _${usedPrefix}getcode_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *LOGOS PERSONALIZADOS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🪅 _${usedPrefix}lolice_
 ┣ ↠🎀 _${usedPrefix}simpcard_
 ┣ ↠🪅 _${usedPrefix}hornycard_ 
@@ -283,10 +211,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🪅 _${usedPrefix}lolice *@tag*_
 ┣ ↠🎀 _${usedPrefix}logos_ (lista)
 ┣ ↠🪅 _${usedPrefix}simpcard *@tag*_
-┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━━━┓
-┃ *PROPIETARO DEL BOT*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠👑 _${usedPrefix}boost_
 ┣ ↠💎 _${usedPrefix}restart_
 ┣ ↠👑 _${usedPrefix}banlist_

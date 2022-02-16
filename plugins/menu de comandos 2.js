@@ -73,7 +73,7 @@ let menu =`
 ┣ ↠🎖️ _${usedPrefix}toplind@s_
 ┣ ↠🎖️ _${usedPrefix}topput@s_
 ┣ ↠🎖️ _${usedPrefix}toppajer@s_
-┣ ↠🎖️ _${usedPrefix}topotakus_
+┣ ↠🎖️ _${usedPrefix}topotakus | toptakus_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *JUEGOS*

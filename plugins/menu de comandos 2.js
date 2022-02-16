@@ -50,7 +50,7 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *REPORTA FALLOS DE COMANDOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃  Reporta cualquier comando que falle ┃para poder solucionarlo
+┃  Reporta cualquier comando que falle ┃ para poder solucionarlo
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠📮 _${usedPrefix}bug *tal comando con fallas*_
 ┣ ↠📮 _${usedPrefix}report *tal comando con fallas*_

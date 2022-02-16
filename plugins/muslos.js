@@ -4,9 +4,9 @@ let handler = async (m, { conn }) => {
 	let url = muslos[Math.floor(Math.random() * muslos.length)]
 	await conn.sendMessage(m.chat, {
 		contentText: '🔥🔥🔥🔥',
-		footerText: '©The Shadow Brokers - Bot',
+		footerText: 'Gata Dios',
 		buttons: [
-			{ buttonId: '.muslos', buttonText: { displayText: 'SIGUIENTE' }, type: 1 }
+			{ buttonId: '.muslos', buttonText: { displayText: 'SIGUIENTE 🔄' }, type: 1 }
 		],
 		headerType: 4,
 		imageMessage: (await conn.prepareMessageMedia(await (await fetch(url)).buffer(), 'imageMessage', {})).imageMessage

@@ -52,8 +52,9 @@ let menu =`
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃  Reporta cualquier comando que falle para ┃poder solucionarlo
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠💌 _${usedPrefix}bug *tal comando con fallas*_
-┣ ↠💌 _${usedPrefix}report *tal comando con fallas*_
+┣ ↠📮 _${usedPrefix}bug *tal comando con fallas*_
+┣ ↠📮 _${usedPrefix}report *tal comando con fallas*_
+┣ ↠📮 _${usedPrefix}reporte *tal comando con fallas*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *NUMERO DE LA CREADORA*

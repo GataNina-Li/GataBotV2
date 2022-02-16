@@ -54,28 +54,31 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃  Reporta cualquier comando que falle para ┃poder solucionarlo
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠💌 _${usedPrefix}bug *tal comando con fallas*_
-┣ ↠💌 _${usedPrefix}report *tal comando con fallas*_
+┣ ↠📮 _${usedPrefix}bug *tal comando con fallas*_
+┣ ↠📮 _${usedPrefix}report *tal comando con fallas*_
+┣ ↠📮 _${usedPrefix}reporte *tal comando con fallas*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *NUMERO DE LA CREADORA*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🐈 _${usedPrefix}owner_
+┣ ↠🐈 _${usedPrefix}contacto_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *UNE UN BOT A TU GRUPO*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🤖 _${usedPrefix}join *enlace del grupo*_ 
+┣ ↠🤖 _${usedPrefix}join *enlace del grupo*_
+┣ ↠🤖 _${usedPrefix}unete *enlace del grupo*_ 
 ┣ ↠🤖 _${usedPrefix}bots *ver bots*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *TOPS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🎖️ _${usedPrefix}top10gays_
-┣ ↠🎖️ _${usedPrefix}toplind@s_
-┣ ↠🎖️ _${usedPrefix}topput@s_
-┣ ↠🎖️ _${usedPrefix}toppajer@s_
-┣ ↠🎖️ _${usedPrefix}topotakus_
+┣ ↠🎖️ _${usedPrefix}top10gays | topgay_
+┣ ↠🎖️ _${usedPrefix}toplind@s | toplind@_
+┣ ↠🎖️ _${usedPrefix}topput@s | toppt_
+┣ ↠🎖️ _${usedPrefix}toppajer@s | toppajeros_
+┣ ↠🎖️ _${usedPrefix}topotakus | toptakus_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *JUEGOS*

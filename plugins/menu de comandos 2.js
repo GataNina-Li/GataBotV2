@@ -50,7 +50,7 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *REPORTA FALLOS DE COMANDOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ Reporta cualquier comando que falle para ┃poder solucionarlo
+┃  Reporta cualquier comando que falle para ┃poder solucionarlo
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠💌 _${usedPrefix}bug *tal comando con fallas*_
 ┣ ↠💌 _${usedPrefix}report *tal comando con fallas*_
@@ -106,25 +106,25 @@ let menu =`
 ┃ *DESCARGAS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎊 _${usedPrefix}imagen *texto*_
-┣ ↠🪄. _${usedPrefix}ytsearch *texto*_
+┣ ↠🪄 _${usedPrefix}ytsearch *texto*_
 ┣ ↠🎉 _${usedPrefix}dlaudio *link yt*_
 ┣ ↠🎊 _${usedPrefix}dlvid *link yt*_
-┣ ↠🪄. _${usedPrefix}ytmp3 *link yt*_
+┣ ↠🪄 _${usedPrefix}ytmp3 *link yt*_
 ┣ ↠🎉 _${usedPrefix}ytmp4 *link yt*_
 ┣ ↠🎊 _${usedPrefix}play *titulo del audio*_
-┣ ↠🪄. _${usedPrefix}play2 *titulo del video*_
+┣ ↠🪄 _${usedPrefix}play2 *titulo del video*_
 ┣ ↠🎉 _${usedPrefix}play3 *titulo del audio/video*_
 ┣ ↠🎊 _${usedPrefix}letra *nombredelacanción*_
-┣ ↠🪄. _${usedPrefix}google *texto*_
+┣ ↠🪄 _${usedPrefix}google *texto*_
 ┣ ↠🎉 _${usedPrefix}googlef *texto*_
 ┣ ↠🎊 _${usedPrefix}pinterestvideo *link de pinterest*_
-┣ ↠🪄. _${usedPrefix}tiktokaudio *link del tiktok*_
+┣ ↠🪄 _${usedPrefix}tiktokaudio *link del tiktok*_
 ┣ ↠🎉 _${usedPrefix}tiktok *link*_
 ┣ ↠🎊 _${usedPrefix}spotify *autor, cancion*_
-┣ ↠🪄. _${usedPrefix}acortar *link*_
+┣ ↠🪄 _${usedPrefix}acortar *link*_
 ┣ ↠🎉 _${usedPrefix}pinterest2 *texto*_
 ┣ ↠🎊 _${usedPrefix}xnxx *link de xnxx*_
-┣ ↠🪄. _${usedPrefix}xnxxsearch *texto*_
+┣ ↠🪄 _${usedPrefix}xnxxsearch *texto*_
 ┣ ↠🎉 _${usedPrefix}ssweb *link*_
 ┣ ↠🎊 _${usedPrefix}animeinfo *nombre del anime*_
 ┗━━━━━━━━━━━━━━━━━━┛
@@ -149,7 +149,7 @@ let menu =`
 ┣ ↠🔒 _${usedPrefix}link_
 ┣ ↠🔐 _${usedPrefix}notificar *texto*_
 ┣ ↠🔒 _${usedPrefix}setname *Nuevo nombre del grupo*_
-┣ ↠🔐 _${usedPrefix}setdesc *Nueva descripción del grupo*_
+┣ ↠🔐 _${usedPrefix}setdesc *Nueva descripción grupo*_
 ┣ ↠🔒 _${usedPrefix}infogrupo_
 ┣ ↠🔐 _${usedPrefix}invocar *texto*_
 ┣ ↠🔒 _${usedPrefix}del *responder a un mensaje del bot*_
@@ -226,7 +226,7 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}spamwa *numero|texto|cantidad*_
 ┣ ↠🎲 _${usedPrefix}readqr *responde a un código QR*_
 ┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
-┣ ↠🎯 _${usedPrefix}subirestado *texto / responder video, imagen o gif*_
+┣ ↠🎯 _${usedPrefix}subirestado *texto / responder video|imagen|gif*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*
@@ -237,7 +237,7 @@ let menu =`
 ┣ ↠🔞 _${usedPrefix}labiblia_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *EFECTOS PARA NOTAS DE VOZ O AUDIOS*
+┃ *EFECTOS PARA AUDIOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ Responde a un audio o nota de voz
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
@@ -254,7 +254,7 @@ let menu =`
 ┣ ↠🎤 _${usedPrefix}vibracion *cantidad*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *AUDIOS* 
+┃ *AUDIOS|MENU* 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🔊 _${usedPrefix}menu2_
 ┣ ↠🔊 _${usedPrefix}menuaudios_

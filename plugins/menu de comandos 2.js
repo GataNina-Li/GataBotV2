@@ -262,21 +262,21 @@ let menu =`
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *CHAT ANONIMO*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠👤 _${usedPrefix}start_
 ┣ ↠👤 _${usedPrefix}next_
 ┣ ↠👤 _${usedPrefix}leave_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *CONVIERTETE EN BOT*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠❇️ _${usedPrefix}stop_
 ┣ ↠❇️ _${usedPrefix}jadibot_
 ┣ ↠❇️ _${usedPrefix}getcode_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *LOGOS PERSONALIZADOS*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🪅 _${usedPrefix}lolice_
 ┣ ↠🎀 _${usedPrefix}simpcard_
 ┣ ↠🪅 _${usedPrefix}hornycard_ 
@@ -289,31 +289,31 @@ let menu =`
 ┣ ↠🎀 _${usedPrefix}logos_ (lista)
 ┣ ↠🪅 _${usedPrefix}simpcard *@tag*_
 ┗━━━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━┓
-┃ *<PROPIETARO DEL BOT/>*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟👑 _${usedPrefix}boost_
-┣ ඬ⃟👑 _${usedPrefix}restart_
-┣ ඬ⃟👑 _${usedPrefix}banlist_
-┣ ඬ⃟👑 _${usedPrefix}virtext1_
-┣ ඬ⃟👑 _${usedPrefix}actualizar_
-┣ ඬ⃟👑 _${usedPrefix}CajaFuerte_
-┣ ඬ⃟👑 _${usedPrefix}bc *texto*_
-┣ ඬ⃟👑 _${usedPrefix}bcgc *texto*_
-┣ ඬ⃟👑 _${usedPrefix}bcbot *texto*_
-┣ ඬ⃟👑 _${usedPrefix}setbye *@tag*_
-┣ ඬ⃟👑 _${usedPrefix}banuser *@tag*_
-┣ ඬ⃟👑 _${usedPrefix}enable *public*_
-┣ ඬ⃟👑 _${usedPrefix}disable *public*_
-┣ ඬ⃟👑 _${usedPrefix}unbanuser *@tag*_
-┣ ඬ⃟👑 _${usedPrefix}listgroup *@tag*_
-┣ ඬ⃟👑 _${usedPrefix}enable *restrict*_
-┣ ඬ⃟👑 _${usedPrefix}enable *autoread*_
-┣ ඬ⃟👑 _${usedPrefix}setwelcome *@tag*_
-┣ ඬ⃟👑 _${usedPrefix}enable *autoread*_
-┣ ඬ⃟👑 _${usedPrefix}disable *autoread*_
-┗━━━━━━━━━━━━━┛`.trim()
- const buttons = [{buttonId: 'id1', buttonText: {displayText: 'Hola🤖'}, type: 1}, {buttonId: '#grupos', buttonText: {displayText: '🔮Grupos'}, type: 1}]
+┏━━━━━━━━━━━━━━━━━━┓
+┃ *PROPIETARO DEL BOT*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠👑 _${usedPrefix}boost_
+┣ ↠💎 _${usedPrefix}restart_
+┣ ↠👑 _${usedPrefix}banlist_
+┣ ↠💎 _${usedPrefix}virtext1_
+┣ ↠👑 _${usedPrefix}actualizar_
+┣ ↠💎 _${usedPrefix}CajaFuerte_
+┣ ↠👑 _${usedPrefix}bc *texto*_
+┣ ↠💎 _${usedPrefix}bcgc *texto*_
+┣ ↠👑 _${usedPrefix}bcbot *texto*_
+┣ ↠💎 _${usedPrefix}setbye *@tag*_
+┣ ↠👑 _${usedPrefix}banuser *@tag*_
+┣ ↠💎 _${usedPrefix}enable *public*_
+┣ ↠👑 _${usedPrefix}disable *public*_
+┣ ↠💎 _${usedPrefix}unbanuser *@tag*_
+┣ ↠👑 _${usedPrefix}listgroup *@tag*_
+┣ ↠💎 _${usedPrefix}enable *restrict*_
+┣ ↠👑 _${usedPrefix}enable *autoread*_
+┣ ↠💎 _${usedPrefix}setwelcome *@tag*_
+┣ ↠👑 _${usedPrefix}enable *autoread*_
+┣ ↠💎 _${usedPrefix}disable *autoread*_
+┗━━━━━━━━━━━━━━━━━━┛`.trim()
+ const buttons = [{buttonId: 'id1', buttonText: {displayText: 'Hola 🤗'}, type: 1}, {buttonId: '#grupos', buttonText: {displayText: 'Grupos 💫'}, type: 1}]
   let id = Object.keys(idd)[0]
   const buttonMessage = {[id]: prep.message[id], contentText: menu, footerText: 'Gata Dios', buttons: buttons, headerType: 'IMAGE'}
   conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { quoted: {key: { participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { orderMessage: { itemCount: 46456757, status: 999, thumbnail: await (await fetch(safusimage)).buffer(), surface: 999, message: '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', orderTitle: 'iOfficial', sellerJid: '0@s.whatsapp.net'}}}}, { contextInfo: { mentionedJid: [m.sender]}})

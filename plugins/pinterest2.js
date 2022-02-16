@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
     json = await heum
     random = json.result[Math.floor(Math.random() * json.result.length)]
     if (json.result.length == 0) return conn.sendFile(m.chat, './Menu2.jpg', 'error not found', 'ERROR 404 NOT FOUND', m)
-    data = await fetch('https://api.imgbb.com/1/upload?key=c93b7d1d3f7a145263d4651c46ba55e4&image='+random).then(v => v.json())
+    data = await fetch('https://api.lolhuman.xyz/api/pinterestdl?apikey=56c3f2f2254d87b84051ab78&url='+random).then(v => v.json())
    get = await conn.getFile(data.data.url)
    conn.sendMessage(m.chat, get.data, 'imageMessage', { quoted: m, mimetype: get.mime, caption: data.data.url })
 }

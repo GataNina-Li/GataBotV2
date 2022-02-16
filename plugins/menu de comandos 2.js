@@ -290,7 +290,7 @@ let menu =`
 ┣ ↠🪅 _${usedPrefix}simpcard *@tag*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *PROPIETARO DEL BOT*
+┃ *PROPIETARIO/A DEL BOT*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠👑 _${usedPrefix}boost_
 ┣ ↠💎 _${usedPrefix}restart_

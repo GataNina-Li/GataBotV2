@@ -66,14 +66,14 @@ _En donde podrás guardar mensajes/archivos multimedia. Para luego verlos con un
 ❖🗑 _${usedPrefix}eliminarimg *comando/palabra clave*_
 ❖🗑 _${usedPrefix}eliminarsticker *comando/palabra clave*_
 
-            *「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」*`.trim()
+              *「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」*`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }
 }
 handler.help = ['menusimple']
 handler.tags = ['General']
-handler.command = /^(caja|Caja|almacen|Almacen|cjalmacen|cajaalmacenamiento|cajalmacenamiento)$/i
+handler.command = /^(caja|Caja|almacen|Almacen|almacenamiento|cjalmacen|cajaalmacenamiento|cajalmacenamiento)$/i
 handler.rowner = false
 handler.mods = false
 handler.premium = false

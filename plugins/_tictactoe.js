@@ -54,7 +54,7 @@ handler.before = function (m) {
         }
         let winner = isSurrender ? room.game.currentTurn : room.game.winner
         let str = `
-*## GATO / 3 EN RAYA ##*
+⭕️ *GATO / 3 EN RAYAS* ❌
 
 ${arr.slice(0, 3).join('')}
 ${arr.slice(3, 6).join('')}

@@ -9,6 +9,6 @@ let handler = async (m, { command, usedPrefix, text }) => {
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'del' + v + ' <text>')
 handler.tags = ['database']
 handler.command = /^eliminar(vn|msg|video|audio|img|sticker)$/
-handler.rowner = true
+handler.admin = true
 
 module.exports = handler

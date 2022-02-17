@@ -13,6 +13,6 @@ let handler = async (m, { command, usedPrefix, text }) => {
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'add' + v + ' <text>')
 handler.tags = ['database']
 handler.command = /^agregar(vn|msg|video|audio|img|sticker)$/
-handler.rowner = true
+handler.group = true
 
 module.exports = handler

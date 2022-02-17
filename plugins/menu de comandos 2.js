@@ -82,7 +82,7 @@ let menu =`
 ┃ *JUEGOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🧩 _${usedPrefix}math | mates | matemáticas *modo*_
-┣ ↠👾 _${usedPrefix}ttt *nombre del la sala*_
+┣ ↠👾 _${usedPrefix}ttt | tictactoe *nombre del la sala*_
 ┣ ↠🧩 _${usedPrefix}delttt *nombre del la sala*_
 ┣ ↠👾 _${usedPrefix}gay2 *yo / @tag*_
 ┣ ↠🧩 _${usedPrefix}gay *@tag / nombre*_

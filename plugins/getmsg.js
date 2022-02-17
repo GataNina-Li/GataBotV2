@@ -9,6 +9,6 @@ let handler = async (m, { conn, command, usedPrefix, text }) => {
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'get' + v + ' <text>')
 handler.tags = ['database']
 handler.command = /^ver(vn|msg|video|audio|img|sticker)$/
-handler.rowner = true
+handler.group = true
 
 module.exports = handler

@@ -64,7 +64,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['menusimple']
 handler.tags = ['General']
 handler.command = /^(CajaFuerte)$/i
-handler.rowner = true
+handler.rowner = false
 handler.mods = false
 handler.premium = false
 handler.group = false

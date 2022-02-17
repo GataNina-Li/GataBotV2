@@ -16,10 +16,10 @@ let handler = async (m, { conn, usedPrefix }) => {
     let username = conn.getName(who)
     let str = `
 *_ミ💖 ¡Hola! ${username} 💖彡_*
-
 ⚡️ *CAJA DE ALMECENAMIENTO* ⚡️
-*¡Te presentamos la Caja de Almacenamiento!* 
-_En donde podrás  guardar mensajes/archivos multimedia. Para luego verlos con un comando personalizado._
+
+*¡Te presentamos Caja de Almacenamiento!* 
+_En donde podrás guardar mensajes/archivos multimedia. Para luego verlos con un comando personalizado._
 
 ✅ *AGREGAR A LA LISTA*
 *Ejemplo:* ${usedPrefix}agregarmsg comando1
@@ -55,7 +55,7 @@ _En donde podrás  guardar mensajes/archivos multimedia. Para luego verlos con u
 ❖📄 _${usedPrefix}versticker *comando/palabra clave*_
 
 
-❎ *ELIMINAR COMANDO PERSONALIZADO*
+❎ *ELIMINAR COMANDO/PALABRA*
 *_Para eliminar el comando personalizado:_*
 *Ejemplo:* ${usedPrefix}eliminarmsg comando1
 
@@ -66,14 +66,14 @@ _En donde podrás  guardar mensajes/archivos multimedia. Para luego verlos con u
 ❖🗑 _${usedPrefix}eliminarimg *comando/palabra clave*_
 ❖🗑 _${usedPrefix}eliminarsticker *comando/palabra clave*_
 
-*_「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」_*`.trim()
+            *「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」*`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }
 }
 handler.help = ['menusimple']
 handler.tags = ['General']
-handler.command = /^(CajaFuerte)$/i
+handler.command = /^(caja|Caja|almacen|Almacen|cjalmacen|cajaalmacenamiento|cajalmacenamiento)$/i
 handler.rowner = false
 handler.mods = false
 handler.premium = false

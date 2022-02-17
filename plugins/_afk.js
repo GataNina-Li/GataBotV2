@@ -3,9 +3,11 @@ handler.before = m => {
   let user = global.DATABASE.data.users[m.sender]
   if (user.afk > -1) {
     m.reply(`
-*_✳️ Dejaste de estar inactivo (AFK)${user.afkReason ? ' después de estar inactivo (AFK) por el motivo: ' + user.afkReason : ''}_*
+_😸 Regresó al grupo del AFK._
 
-*_⌛ Tiempo de inactividad: ${clockString(new Date - user.afk)}_*
+${user.afkReason ? ' 👉 *Finalizó su razón:* ' + user.afkReason : ''}
+✅ *Ya no esta ausente.*
+⌛️ *Tiempo total de su ausencia:* ${clockString(new Date - user.afk)}
 `.trim())
     user.afk = -1
     user.afkReason = ''
@@ -18,13 +20,12 @@ handler.before = m => {
     if (!afkTime || afkTime < 0) continue
     let reason = user.afkReason || ''
     m.reply(`
-*⚠ ️No lo etiquetes!!! ⚠️*
+*¡No lo/a etiquetes!*
+_😺 Se encuentra en AFK (Lejos del teclado)._
 
-*✳️ El usuario que mencionas está inactivo (AFK)*
-
-*👉${reason ? 'Motivo de inactividad: ' + reason : 'Motivo de inactividad: El usuario no especifico un motivo'}*
-
-*⌛ Tiempo transcurrido de inactividad: ${clockString(new Date - afkTime)}*
+👉 ${reason ? ' *Razón:* ' + reason : ' *Sin razón* '}
+☑️ *Sigue ausente.*
+⏳ *Tiempo de ausencia:* ${clockString(new Date - afkTime)}
 `.trim())
   }
   return true

@@ -5,7 +5,7 @@ let res = await fetch('https://raw.githubusercontent.com/Xmell91/loli/master/lol
 if (!res.ok) throw await `${res.status} ${res.statusText}`;
 let json = await res.json();
 let url = json[Math.floor(Math.random() * json.length)]
-await conn.sendButtonImg(m.chat, await (await fetch(url)).buffer(), '*TE VA A CAER EL FBI 🚨️*', '©The Shadow Brokers - Bot', 'SIGUIENTE', '/loli', m)
+await conn.sendButtonImg(m.chat, await (await fetch(url)).buffer(), '*LLAMEN A LA POLICÍA 🚨️*', 'Gata Bot', 'SIGUIENTE 🔄', '/loli', m)
 }
 handler.command = /^(loli)$/i
 handler.tags = ['fun']

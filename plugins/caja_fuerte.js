@@ -15,11 +15,11 @@ let handler = async (m, { conn, usedPrefix }) => {
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let username = conn.getName(who)
     let str = `
-*_ミ💖 Hola ${username} 💖彡_*
+*_ミ💖 ¡Hola! ${username} 💖彡_*
 
 ⚡️ *CAJA DE ALMECENAMIENTO* ⚡️
 *¡Te presentamos la Caja de Almacenamiento!* 
-En donde podrás  guardar mensajes/archivos multimedia. Para luego verlos con un comando personalizado.
+_En donde podrás  guardar mensajes/archivos multimedia. Para luego verlos con un comando personalizado._
 
 ✅ *AGREGAR A LA LISTA*
 *Ejemplo:* ${usedPrefix}agregarmsg comando1
@@ -32,38 +32,41 @@ En donde podrás  guardar mensajes/archivos multimedia. Para luego verlos con un
 ❖📦 _${usedPrefix}agregarsticker *comando/palabra clave* (responde a un sticker)_
 *_NOTA:_* tiene que responder al mensaje/archivo multimedia para ser agregado.
 
-*<LISTAS DE COMANDOS/>*
 
-° ඬ⃟🗳️ _${usedPrefix}listamsg_
-° ඬ⃟🗳️ _${usedPrefix}listavn_
-° ඬ⃟🗳️ _${usedPrefix}listavideo_
-° ඬ⃟🗳️ _${usedPrefix}listaaudio_
-° ඬ⃟🗳️ _${usedPrefix}listaimg_
-° ඬ⃟🗳️ _${usedPrefix}listasticker_
+✳️ *LISTAS DE COMANDOS*
 
-*<VER TEXTOS O ARCHIVOS/>*
-Para ver el contenido del comando personalizado:
+❖🗃 _${usedPrefix}listamsg_
+❖🗃 _${usedPrefix}listavn_
+❖🗃 _${usedPrefix}listavideo_
+❖🗃 _${usedPrefix}listaaudio_
+❖🗃 _${usedPrefix}listaimg_
+❖🗃 _${usedPrefix}listasticker_
+
+
+❇️ *VER TEXTOS O ARCHIVOS*
+*_Para ver el contenido del comando personalizado:_*
 *Ejemplo:* ${usedPrefix}vermsg comando1
 
-° ඬ⃟🗳️ _${usedPrefix}vermsg *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}vervn *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}vervideo *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}veraudio *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}verimg *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}versticker *texto/comando/palabra clave*_
+❖📄 _${usedPrefix}vermsg *comando/palabra clave*_
+❖📄 _${usedPrefix}vervn *comando/palabra clave*_
+❖📄 _${usedPrefix}vervideo *comando/palabra clave*_
+❖📄 _${usedPrefix}veraudio *comando/palabra clave*_
+❖📄 _${usedPrefix}verimg *comando/palabra clave*_
+❖📄 _${usedPrefix}versticker *comando/palabra clave*_
 
-*<ELIMINAR/>*
-Para eliminar el comando personalizado:
+
+❎ *ELIMINAR COMANDO PERSONALIZADO*
+*_Para eliminar el comando personalizado:_*
 *Ejemplo:* ${usedPrefix}eliminarmsg comando1
 
-° ඬ⃟🗳️ _${usedPrefix}eliminarmsg *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}eliminarvn *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}eliminarvideo *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}eliminaraudio *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}eliminarimg *texto/comando/palabra clave*_
-° ඬ⃟🗳️ _${usedPrefix}eliminarsticker *texto/comando/palabra clave*_
+❖🗑 _${usedPrefix}eliminarmsg *comando/palabra clave*_
+❖🗑 _${usedPrefix}eliminarvn *comando/palabra clave*_
+❖🗑 _${usedPrefix}eliminarvideo *comando/palabra clave*_
+❖🗑 _${usedPrefix}eliminaraudio *comando/palabra clave*_
+❖🗑 _${usedPrefix}eliminarimg *comando/palabra clave*_
+❖🗑 _${usedPrefix}eliminarsticker *comando/palabra clave*_
 
-*_「 𝙏͚͜͝͠𝙝͚͜͝͠𝙚͚͜͝͠ ͚͜͝͠𝙎͚͜͝͠𝙝͚͜͝͠𝙖͚͜͝͠𝙙͚͜͝͠𝙤͚͜͝͠𝙬͚͜͝͠ ͚͜͝͠𝘽͚͜͝͠𝙧͚͜͝͠𝙤͚͜͝͠𝙠͚͜͝͠𝙚͚͜͝͠𝙧͚͜͝͠𝙨͚͜͝͠ ͚͜͝͠-͚͜͝͠ ͚͜͝͠𝘽͚͜͝͠𝙤͚͜͝͠𝙩͚͜͝͠ ͚͜͝͠  」_*`.trim()
+*_「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」_*`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }

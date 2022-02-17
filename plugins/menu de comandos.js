@@ -145,9 +145,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🔐 _${usedPrefix}grupo *abierto / cerrado*_
 ┣ ↠🔒 _${usedPrefix}enable welcome_
 ┣ ↠🔐 _${usedPrefix}disable welcome_
-┣ ↠🔒 _${usedPrefix}enable antilink_
-┣ ↠🔐 _${usedPrefix}disable antilink_
-┣ ↠🔒 _${usedPrefix}enable antilink2_
+┣ ↠🔒 _${usedPrefix}enable antilink_ *(WhatsApp)*
+┣ ↠🔐 _${usedPrefix}disable antilink_ 
+┣ ↠🔒 _${usedPrefix}enable antilink2_ *(https:)*
 ┣ ↠🔐 _${usedPrefix}disable antilink2_
 ┣ ↠🔒 _${usedPrefix}enable delete_
 ┣ ↠🔐 _${usedPrefix}disable  delete_ 

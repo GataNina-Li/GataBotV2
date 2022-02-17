@@ -67,10 +67,10 @@ handler.command = /^(CajaFuerte)$/i
 handler.rowner = false
 handler.mods = false
 handler.premium = false
-handler.group = false
+handler.group = true
 handler.private = false
 
-handler.admin = true
+handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null

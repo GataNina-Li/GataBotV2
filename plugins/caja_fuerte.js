@@ -17,17 +17,19 @@ let handler = async (m, { conn, usedPrefix }) => {
     let str = `
 *_ミ💖 Hola ${username} 💖彡_*
 
-ㅤㅤ *🗳️<CAJA FUERTE/>🔐*
-- Aquí puede guardar mensajes que quieras ver mas tarde
+ㅤㅤ *🗳️<CAJA DE ALMECENAMIENTO/>🔐*
+*¡Te presentamos la Caja de Almacenamiento!* en donde podrás  guardar mensajes/archivos multimedia. Para luego verlos con un comando personalizado.
 
 *<AGREGAR A LA LISTA/>*
+*Ejemplo:* ${usedPrefix}agregarmsg comando1
 
-° ඬ⃟🗳️ _${usedPrefix}agregarmsg *texto/comando/palabra clave* (responde a un texto)_
-° ඬ⃟🗳️ _${usedPrefix}agregarvn *texto/comando/palabra clave* (responde a una nota de voz)_
-° ඬ⃟🗳️ _${usedPrefix}agregarvideo *texto/comando/palabra clave* (responde a un video)_
-° ඬ⃟🗳️ _${usedPrefix}agregaraudio *texto/comando/palabra clave* (responde a un audio)_
-° ඬ⃟🗳️ _${usedPrefix}agregarimg *texto/comando/palabra clave* (responde a una imagen)_
-° ඬ⃟🗳️ _${usedPrefix}agregarsticker *texto/comando/palabra clave* (responde a un sticker)_
+° ඬ⃟🗳️ _${usedPrefix}agregarmsg *comando/palabra clave* (responde a un texto)_
+° ඬ⃟🗳️ _${usedPrefix}agregarvn *comando/palabra clave* (responde a una nota de voz)_
+° ඬ⃟🗳️ _${usedPrefix}agregarvideo *comando/palabra clave* (responde a un video)_
+° ඬ⃟🗳️ _${usedPrefix}agregaraudio *comando/palabra clave* (responde a un audio)_
+° ඬ⃟🗳️ _${usedPrefix}agregarimg *comando/palabra clave* (responde a una imagen)_
+° ඬ⃟🗳️ _${usedPrefix}agregarsticker *comando/palabra clave* (responde a un sticker)_
+*_NOTA:* tiene que responder al mensaje/archivo multimedia para ser agregado._
 
 *<LISTAS DE COMANDOS/>*
 
@@ -39,6 +41,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🗳️ _${usedPrefix}listasticker_
 
 *<VER TEXTOS O ARCHIVOS/>*
+Para ver el contenido del comando personalizado:
+*Ejemplo:* ${usedPrefix}vermsg comando1
 
 ° ඬ⃟🗳️ _${usedPrefix}vermsg *texto/comando/palabra clave*_
 ° ඬ⃟🗳️ _${usedPrefix}vervn *texto/comando/palabra clave*_
@@ -48,6 +52,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🗳️ _${usedPrefix}versticker *texto/comando/palabra clave*_
 
 *<ELIMINAR/>*
+Para eliminar el comando personalizado:
+*Ejemplo:* ${usedPrefix}eliminarmsg comando1
 
 ° ඬ⃟🗳️ _${usedPrefix}eliminarmsg *texto/comando/palabra clave*_
 ° ඬ⃟🗳️ _${usedPrefix}eliminarvn *texto/comando/palabra clave*_

@@ -27,7 +27,7 @@ handler.tags = ['group']
 handler.command = /^(opengumuman|oannounce|ohiddentag|hidetag|notificar|noti|notify)$/i
 
 handler.group = true
-handler.admin = false
+handler.admin = true
 
 module.exports = handler
 

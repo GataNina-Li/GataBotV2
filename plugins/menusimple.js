@@ -197,6 +197,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🔊 _${usedPrefix}menu2_
 ┣ ↠🔊 _${usedPrefix}menuaudios_
 ┣ ↠🔊 _${usedPrefix}audios_
+┣ ↠📦 _${usedPrefix}caja_
+┣ ↠📦 _${usedPrefix}almacen_
+┣ ↠📦 _${usedPrefix}cjalmacen_
 ┣ ↠👤 _${usedPrefix}start_
 ┣ ↠👤 _${usedPrefix}next_
 ┣ ↠👤 _${usedPrefix}leave_
@@ -219,7 +222,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠👑 _${usedPrefix}banlist_
 ┣ ↠💎 _${usedPrefix}virtext1_
 ┣ ↠👑 _${usedPrefix}actualizar_
-┣ ↠💎 _${usedPrefix}CajaFuerte_
 ┣ ↠👑 _${usedPrefix}bc *texto*_
 ┣ ↠💎 _${usedPrefix}bcgc *texto*_
 ┣ ↠👑 _${usedPrefix}bcbot *texto*_

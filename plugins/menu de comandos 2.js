@@ -81,7 +81,7 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *JUEGOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🧩 _${usedPrefix}math *modo*_
+┣ ↠🧩 _${usedPrefix}math | mates | matemáticas *modo*_
 ┣ ↠👾 _${usedPrefix}ttt *nombre del la sala*_
 ┣ ↠🧩 _${usedPrefix}delttt *nombre del la sala*_
 ┣ ↠👾 _${usedPrefix}gay2 *yo / @tag*_

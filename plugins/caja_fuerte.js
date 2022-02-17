@@ -17,19 +17,20 @@ let handler = async (m, { conn, usedPrefix }) => {
     let str = `
 *_ミ💖 Hola ${username} 💖彡_*
 
-ㅤㅤ *🗳️<CAJA DE ALMECENAMIENTO/>🔐*
-*¡Te presentamos la Caja de Almacenamiento!* en donde podrás  guardar mensajes/archivos multimedia. Para luego verlos con un comando personalizado.
+⚡️ *CAJA DE ALMECENAMIENTO* ⚡️
+*¡Te presentamos la Caja de Almacenamiento!* 
+En donde podrás  guardar mensajes/archivos multimedia. Para luego verlos con un comando personalizado.
 
-*<AGREGAR A LA LISTA/>*
+✅ *AGREGAR A LA LISTA*
 *Ejemplo:* ${usedPrefix}agregarmsg comando1
 
-° ඬ⃟🗳️ _${usedPrefix}agregarmsg *comando/palabra clave* (responde a un texto)_
-° ඬ⃟🗳️ _${usedPrefix}agregarvn *comando/palabra clave* (responde a una nota de voz)_
-° ඬ⃟🗳️ _${usedPrefix}agregarvideo *comando/palabra clave* (responde a un video)_
-° ඬ⃟🗳️ _${usedPrefix}agregaraudio *comando/palabra clave* (responde a un audio)_
-° ඬ⃟🗳️ _${usedPrefix}agregarimg *comando/palabra clave* (responde a una imagen)_
-° ඬ⃟🗳️ _${usedPrefix}agregarsticker *comando/palabra clave* (responde a un sticker)_
-*_NOTA:* tiene que responder al mensaje/archivo multimedia para ser agregado._
+❖📦 _${usedPrefix}agregarmsg *comando/palabra clave* (responde a un texto)_
+❖📦 _${usedPrefix}agregarvn *comando/palabra clave* (responde a una nota de voz)_
+❖📦 _${usedPrefix}agregarvideo *comando/palabra clave* (responde a un video)_
+❖📦 _${usedPrefix}agregaraudio *comando/palabra clave* (responde a un audio)_
+❖📦 _${usedPrefix}agregarimg *comando/palabra clave* (responde a una imagen)_
+❖📦 _${usedPrefix}agregarsticker *comando/palabra clave* (responde a un sticker)_
+*_NOTA:_* tiene que responder al mensaje/archivo multimedia para ser agregado.
 
 *<LISTAS DE COMANDOS/>*
 

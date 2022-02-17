@@ -20,11 +20,11 @@ ${user.afkReason ? ' 👉 *Finalizó su motivo:* ' + user.afkReason : ''}
     if (!afkTime || afkTime < 0) continue
     let reason = user.afkReason || ''
     m.reply(`
-*_❰ ❗️ ❱ No lo/a etiqueten_*
-_😺 Se encuentra en AFK (Lejos del teclado)._
+❰ ❗️ ❱ *_No lo/a etiqueten_*
+*_😺 Se encuentra en AFK (Lejos del teclado)._*
 
 👉 ${reason ? ' *Razón:* ' + reason : ' *Sin razón* '}
-☑️ *Sigue ausente.*
+☑️ *No le escriban/etiqueten.*
 ⏳ *Tiempo de ausencia:* ${clockString(new Date - afkTime)}
 `.trim())
   }

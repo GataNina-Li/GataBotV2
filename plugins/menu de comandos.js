@@ -266,6 +266,13 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🔊 _${usedPrefix}audios_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
+┃ *CAJA DE ALMACENAMIENTO* 
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠📦 _${usedPrefix}caja_
+┣ ↠📦 _${usedPrefix}almacen_
+┣ ↠📦 _${usedPrefix}cjalmacen_
+┗━━━━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━━━┓
 ┃ *CHAT ANONIMO*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠👤 _${usedPrefix}start_
@@ -306,7 +313,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠👑 _${usedPrefix}banlist_
 ┣ ↠💎 _${usedPrefix}virtext1_
 ┣ ↠👑 _${usedPrefix}actualizar_
-┣ ↠💎 _${usedPrefix}CajaFuerte_
 ┣ ↠👑 _${usedPrefix}bc *texto*_
 ┣ ↠💎 _${usedPrefix}bcgc *texto*_
 ┣ ↠👑 _${usedPrefix}bcbot *texto*_

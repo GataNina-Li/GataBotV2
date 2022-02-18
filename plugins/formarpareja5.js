@@ -54,7 +54,7 @@ Genial! 💝, están de Luna de miel 🥵✨❤️‍🔥`, null, {
 }
 handler.help = ['formarpareja5']
 handler.tags = ['main']
-handler.command = ['👫','formarpareja5']
+handler.command = ['formarparejas5','pareja5','💕','💞','formarpareja5']
 handler.group = true
 
 module.exports = handler

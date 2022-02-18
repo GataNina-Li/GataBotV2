@@ -25,7 +25,7 @@ async function pinterest(q) {
   })
   const $ = cheerio.load(data)
   let results = []
-  $('img').each(function () {
+  $('jpg').each(function () {
     results.push($(this).attr('src'))
   })
   return results

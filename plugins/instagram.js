@@ -2,26 +2,29 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-  if (!args || !args[0]) throw `Use in format ${usedPrefix}${command} [username]
-Example: ${usedPrefix}${command} cbum
+  if (!args || !args[0]) throw `❰ ❗️ ❱ Estas usando mal el comando
+${usedPrefix}${command} Usuario
+*Ejemplo:* *_${usedPrefix}${command}_* Google
 `.trim()
   let res = await igstalk(args[0])
   let json = JSON.parse(JSON.stringify(res))
   let iggs = `
-▢ *Username:* ${json.username}
-▢ *Nickname:* ${json.fullName}
-▢ *Followers:* ${json.followersM}
-▢ *Following:* ${json.followingM}
-▢ *Posting:* ${json.postsCountM}
-▢ *Link:* https://instagram.com/${json.username}
-▢ *Bio:* ${json.bio}
+💠 *Nombre de usuario:* ${json.username}
+💠 *Usuario:* ${json.fullName}
+💠 *Seguidores:* ${json.followersM}
+💠 *Siguendo:* ${json.followingM}
+💠 *Publicaciones:* ${json.postsCountM}
+💠 *Link:* https://instagram.com/${json.username}
+💠 *Bio:* ${json.bio}
+𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 
+
 `.trim() // add your own json.blablabla :)
   conn.sendFile(m.chat, json.profilePicHD, 'error.jpg', iggs, m)
 }
 handler.help = ['igstalk @username']
 handler.tags = ['downloader']
 handler.command = /^(igstalk)$/i
-handler.limit = true
+handler.limit = false
 
 module.exports = handler
 

@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   conn.sendFile(m.chat, pint, '', '© stikerin', m, 0, { thumbnail: await (await fetch(pint)).buffer() })
 }
 handler.help = ['pinterest <pencarian>']
-handler.tags = ['internet']
+handler.tags = ['image']
 handler.command = /^(pint(erest)?)$/i
 
 module.exports = handler

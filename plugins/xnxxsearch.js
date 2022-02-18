@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
   let api = (kntl.lolkey)
   let chat = global.DATABASE.data.chats[m.chat]
      try {
-      let res = await axios.get(`https://api.lolhuman.xyz/api/xnxxsearch?apikey=e1a815979e6adfc071b7eafc&query=${text}`)
+      let res = await axios.get(`https://api.lolhuman.xyz/api/xnxxsearch?apikey=56c3f2f2254d87b84051ab78&query=${text}`) 
       let json = res.data
       //let ress = json.result
       let hsl = `*_ENCONTRÉ LO SIGUIENTE_*\n\n`

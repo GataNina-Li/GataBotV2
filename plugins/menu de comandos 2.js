@@ -131,6 +131,7 @@ let menu =`
 ┣ ↠🪄 _${usedPrefix}xnxxsearch *texto*_
 ┣ ↠🎉 _${usedPrefix}ssweb *link*_
 ┣ ↠🎊 _${usedPrefix}animeinfo *nombre del anime*_
+┣ ↠🪄 _${usedPrefix}verinstagram |verig |igver *usuario*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *GESTION DE GRUPOS* 

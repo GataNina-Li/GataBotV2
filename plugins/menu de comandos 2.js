@@ -200,7 +200,7 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}blackpink_
 ┣ ↠🎲 _${usedPrefix}reto_
 ┣ ↠🎳 _${usedPrefix}verdad_
-┣ ↠🎯 _${usedPrefix}imagenrandom_
+┣ ↠🎯 _${usedPrefix}imagenrandom | random | epico_
 ┣ ↠🎲 _${usedPrefix}neko_
 ┣ ↠🎳 _${usedPrefix}lolivid_
 ┣ ↠🎯 _${usedPrefix}iqtest_

@@ -10,19 +10,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   let pint = json.data[Math.floor(Math.random() * json.data.length)];
   conn.sendFile(m.chat, pint, '', '© stikerin', m, 0, { thumbnail: await (await fetch(pint)).buffer() })
 }
-module.exports = handler
-handler.help = ['pinterest2 <query>']
-handler.tags = ['image']
-handler.command = /^pinterest2$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-handler.limit = false
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
+handler.help = ['pinterest <pencarian>']
+handler.tags = ['internet']
+handler.command = /^(pint(erest)?)$/i
 
 module.exports = handler

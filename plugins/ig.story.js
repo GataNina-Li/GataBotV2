@@ -1,22 +1,23 @@
-const { igstory } = require('../lib/scrape')
-
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-
-  if (!args[0]) throw `Pengunaan:\n${usedPrefix + command} <url>\n\nContoh:\n\n${usedPrefix + command} stikerinbot`
-  if (args[0].startsWith('http') || args[0].startsWith('@')) throw `username salah`
-
-  igstory(args[0]).then(async res => {
-    let igs = JSON.stringify(res)
-    let json = JSON.parse(igs)
-    await m.reply(global.wait)
-    for (let { downloadUrl, type } of json)
-      conn.sendFile(m.chat, downloadUrl, 'ig' + (type == 'image' ? '.jpg' : '.mp4'), '© stikerin', m)
-
-  })
-
+let fetch = require('node-fetch')
+let handler = async (m, { conn, args, command, usedPrefix }) => {
+  if (!args[0]) throw `uhm.. username nya mana?\n\ncontoh:\n${usedPrefix + command} stikerinbot`
+  let res = await fetch(global.API('xteam', '/dl/ighighlight', {
+    nama: args[0]
+  }, 'APIKEY'))
+  if (!res.ok) throw eror
+  let json = await res.json()
+  if (json.result.error) throw json.result.message
+  let { username, items } = json.result
+  for (let { thumbnail, isVideo, url } of items) {
+    thumbnail = await (await fetch(thumbnail)).buffer()
+    conn.sendFile(m.chat, url, 'ig' + (isVideo ? '.mp4' : '.jpg'), '', m, 0, {
+      thumbnail
+    })
+  }
 }
-handler.help = ['igstory'].map(v => v + ' <username>')
+handler.help = ['ighighlight'].map(v => v + ' <username>')
 handler.tags = ['downloader']
-handler.command = /^(igs(tory)?)$/i
+
+handler.command = /^(ighighlight?)$/i
 
 module.exports = handler

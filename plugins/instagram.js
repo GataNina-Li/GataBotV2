@@ -2,8 +2,7 @@ const axios = require('axios')
 const cheerio = require('cheerio')
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-  if (!args || !args[0]) throw `❰ ❗️ ❱ Estas usando mal el comando
-${usedPrefix}${command} Usuario
+  if (!args || !args[0]) throw `❰ ❗️ ❱ *Estas usando mal el comando*
 *Ejemplo:* *_${usedPrefix}${command}_* Google
 `.trim()
   let res = await igstalk(args[0])
@@ -23,7 +22,7 @@ ${usedPrefix}${command} Usuario
 }
 handler.help = ['igstalk @username']
 handler.tags = ['downloader']
-handler.command = /^(igstalk)$/i
+handler.command = /^(igstalk|igver|verig|igusuario|usuarioig)$/i
 handler.limit = false
 
 module.exports = handler

@@ -22,7 +22,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['igstalk @username']
 handler.tags = ['downloader']
-handler.command = /^(igstalk|igver|verig|igusuario|usuarioig)$/i
+handler.command = /^(igstalk|igver|verig|igusuario|usuarioig|verinstagram|instagramver)$/i
 handler.limit = false
 
 module.exports = handler

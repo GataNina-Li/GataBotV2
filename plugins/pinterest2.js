@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   let res = await fetch(global.API('zeks', '/api/pinimg', {
     q: text
   }, 'apikey'))
-  if (!res.ok) throw eror
+  if (json.result.length == 0) return conn.sendFile(m.chat, './Menu2.jpg', 'error not found', 'ERROR 404 NOT FOUND', m)
   let json = await res.json()
   if (!json.status) throw json
   let pint = json.data[Math.floor(Math.random() * json.data.length)];

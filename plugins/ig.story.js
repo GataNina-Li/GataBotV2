@@ -1,31 +1,23 @@
-let fetch = require('node-fetch')
-let handler = async (m, { conn, args }) => {
-  if (!args[0]) throw 'Uhm... where is the url??'
-  let res = await fetch(global.API('xteam', '/dl/igs', {
-    nama: args[0]
-  }, 'APIKEY'))
-  let json = await res.json()
-  if (res.status != 200) throw json
-  if (json.result.error) throw json.result.message
-  let { username, storylist } = json.result
-  let dateConfig = {
-    hour: 'numeric',
-    minute: 'numeric',
-    second: 'numeric',
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric'
-  }
-  for (let { url, type, taken_at } of storylist)
-    conn.sendFile(m.chat, url, 'ig' + (type == 'video' ? '.mp4' : '.jpg'), `
-@${username}
-Memposting pada ${new Date(taken_at * 1000).toLocaleDateString('id', dateConfig)}
-`, m)
-  throw json.result
-}
-handler.help = ['igstory'].map(v => v + ' <username>')
-handler.tags = ['downloader']
+const { igdl } = require('../lib/scrape')
 
-handler.command = /^(igs(tory)?)$/i
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+
+  if (!args[0]) throw `Pengunaan:\n${usedPrefix + command} <url>\n\nContoh:\n${usedPrefix + command} https://www.instagram.com/p/CQU21b0JKwq/`
+  if (!args[0].match(/https:\/\/www.instagram.com\/.*(p|reel|tv)/gi)) throw `url salah, perintah ini untuk mengunduh post/reel/tv`
+
+  igdl(args[0]).then(async res => {
+    let igdl = JSON.stringify(res)
+    let json = JSON.parse(igdl)
+    await m.reply(global.wait)
+    for (let { downloadUrl, type } of json) {
+      conn.sendFile(m.chat, downloadUrl, 'ig' + (type == 'image' ? '.jpg' : '.mp4'), '© stikerin', m)
+    }
+  })
+}
+handler.help = ['ig'].map(v => v + ' <url>')
+handler.tags = ['downloader']
+handler.command = /^(ig|instagram)$/i
+
+handler.limit = 1
 
 module.exports = handler

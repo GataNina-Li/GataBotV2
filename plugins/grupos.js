@@ -11,7 +11,7 @@ Wa.me/593968585383
 *_➡️ GRUPO(S) DE COLABORACIÓN:_*
 ✅ https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ
 
-*_➡️ GRUPO(S) QUE PUEDA INTERESARTE_*
+*_➡️ GRUPO(S) QUE PUEDAN INTERESARTE:_*
 ✅ https://chat.whatsapp.com/BguFLFciPa44D9h9RGX1eN
 `.trim() 
 

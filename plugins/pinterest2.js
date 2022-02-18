@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `*[❗️] Que desea buscar?*\n*Inserte un texto*\n${usedPrefix + command} imagen`
+  if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} logo`
   let res = await fetch(global.API('zeks', '/api/pinimg', {
     q: text
   }, 'apikey'))
@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   conn.sendFile(m.chat, pint, '', '© stikerin', m, 0, { thumbnail: await (await fetch(pint)).buffer() })
 }
 handler.help = ['pinterest <pencarian>']
-handler.tags = ['image']
+handler.tags = ['internet']
 handler.command = /^(pint(erest)?)$/i
 
 module.exports = handler

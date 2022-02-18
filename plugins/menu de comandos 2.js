@@ -95,7 +95,7 @@ let menu =`
 ┣ ↠🧩 _${usedPrefix}rata *@tag / nombre*_
 ┣ ↠👾 _${usedPrefix}manco *@tag / nombre*_
 ┣ ↠🧩 _${usedPrefix}manca *@tag / nombre*_
-┣ ↠👾 _${usedPrefix}formarpareja_
+┣ ↠👾 _${usedPrefix}formarpareja | pareja5_
 ┣ ↠🧩 _${usedPrefix}dado_
 ┣ ↠👾 _${usedPrefix}simsimi | simi | bot *texto*_
 ┣ ↠🧩 _${usedPrefix}formartrio_

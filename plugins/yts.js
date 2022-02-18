@@ -11,9 +11,9 @@ Fecha de subida: ${v.ago}
 ${v.views} vistas
       `.trim()
       case 'channel': return `
-*${v.name}* (${v.url})
-_${v.subCountLabel} (${v.subCount}) Subscriber_
-${v.videoCount} video
+✨ *${v.name}*\n ❇️ (${v.url})
+⏳ _${v.subCountLabel} 🗓 (${v.subCount}) Subscriber_
+👀 ${v.videoCount} video
 `.trim()
     }
   }).filter(v => v).join('\n========================\n')

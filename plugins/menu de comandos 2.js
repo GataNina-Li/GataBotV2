@@ -109,7 +109,7 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *DESCARGAS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🎊 _${usedPrefix}imagen *texto*_
+┣ ↠🎊 _${usedPrefix}imagen | image | gimage *texto*_
 ┣ ↠🪄 _${usedPrefix}ytsearch *texto*_
 ┣ ↠🎉 _${usedPrefix}dlaudio *link yt*_
 ┣ ↠🎊 _${usedPrefix}dlvid *link yt*_

@@ -11,7 +11,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 💠 *Nombre de usuario:* ${json.username}
 💠 *Usuario:* ${json.fullName}
 💠 *Seguidores:* ${json.followersM}
-💠 *Siguendo:* ${json.followingM}
+💠 *Seguidos:* ${json.followingM}
 💠 *Publicaciones:* ${json.postsCountM}
 💠 *Link:* https://instagram.com/${json.username}
 💠 *Bio:* ${json.bio}

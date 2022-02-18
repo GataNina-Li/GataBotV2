@@ -40,13 +40,13 @@ Que hermosa pareja 💖, me invitan a su Boda 🛐
 🌹 Ustedes se merecen lo mejor del mundo 💞
 
 *_3.- ${toM(e)} 💘 ${toM(f)}_* 
-Estan más que enamorados 😍, para cuando la familia 🥰
+Tan enamorados 😍, para cuando la familia 🥰
 
 *_4.- ${toM(g)} 💘 ${toM(h)}_* 
 💗 Decreto que ustedes son la pareja del Año 💗
 
 *_5.- ${toM(i)} 💘 ${toM(j)}_* 
-No le escriban! 💝, están de Luna de miel 🥵✨❤️‍🔥`, null, {
+Genial! 💝, están de Luna de miel 🥵✨❤️‍🔥`, null, {
         contextInfo: {
             mentionedJid: [a, b, c, d, e, f, g, h, i, j]
         }

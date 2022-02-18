@@ -11,7 +11,7 @@ Fecha de subida: ${v.ago}
 ${v.views} vistas
       `.trim()
       case 'channel': return `
-✨ *${v.name}*\n ❇️ (${v.url})
+'✨' *${v.name}*\n ❇️ (${v.url})
 ⏳ _${v.subCountLabel} 🗓 (${v.subCount}) Subscriber_
 👀 ${v.videoCount} video
 `.trim()

@@ -1,54 +1,54 @@
-let handler = async (m, { usedPrefix, command, conn, args }) => {
-  if (!args[0]) throw `Use in format: ${usedPrefix}${command} https://www.instagram.com/xxx/xxxx/`
-  let res = await igdl(args[0])
-  if (!res.length) throw 'Not found!'
-  for (let ress of res) {
-    let caption = ` 
-  *Url:* ${args[0]}
-  *Link:* ${ress.result}
-  `.trim()
-    conn.sendFile(m.chat, ress.result, 'ig.mp4', caption, m)
-  }
-}
-handler.help = ['ig'].map(v => v + ' <url>')
-handler.tags = ['downloader']
+const axios = require('axios')
+const cheerio = require('cheerio')
 
-handler.command = /^(ig(dl)?)$/i
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+  if (!args || !args[0]) throw `Use in format ${usedPrefix}${command} [username]
+Example: ${usedPrefix}${command} cbum
+`.trim()
+  let res = await igstalk(args[0])
+  let json = JSON.parse(JSON.stringify(res))
+  let iggs = `
+▢ *Username:* ${json.username}
+▢ *Nickname:* ${json.fullName}
+▢ *Followers:* ${json.followersM}
+▢ *Following:* ${json.followingM}
+▢ *Posting:* ${json.postsCountM}
+▢ *Link:* https://instagram.com/${json.username}
+▢ *Bio:* ${json.bio}
+`.trim() // add your own json.blablabla :)
+  conn.sendFile(m.chat, json.profilePicHD, 'error.jpg', iggs, m)
+}
+handler.help = ['igstalk @username']
+handler.tags = ['downloader']
+handler.command = /^(igstalk)$/i
+handler.limit = true
 
 module.exports = handler
 
-const fetch = require('node-fetch')
-const cheerio = require('cheerio')
-const FormData = require('form-data')
-async function igdl(url) {
-  if (!/^((https|http)?:\/\/(?:www\.)?instagram\.com\/(p|tv|reel|stories)\/([^/?#&]+)).*/i.test(url)) throw 'Url invalid'
-  let form = new FormData()
-  form.append('url', encodeURI(url))
-  form.append('action', 'post')
-  let res = await fetch('https://snapinsta.app/action.php', {
-    method: 'POST',
-    headers: {
-      'content-type': 'multipart/form-data; boundary=----WebKitFormBoundary1kCNm4346FA9yvCN',
-      'cookie': 'PHPSESSID=6d7nupv45th6ln9ldhpu62pg8s; _ga=GA1.2.1450546575.1637033620; _gid=GA1.2.1378038975.1637033620; _gat=1; __gads=ID=68a947f8174e0410-22fc6960b3ce005e:T=1637033620:RT=1637033620:S=ALNI_MbXTvxtxuISyAFMevds6-00PecLlw; __atuvc=1%7C46; __atuvs=61932694ba428f79000; __atssc=google%3B1',
-      'origin': 'https://snapinsta.app',
-      'referer': 'https://snapinsta.app/id',
-      'sec-ch-ua': '"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"',
-      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
-      ...form.getHeaders()
-    },
-    body: form
-  })
-  let html = await res.text()
-  const $ = cheerio.load(html)
-  let results = []
-  $('div.col-md-4').each(function () {
-    let thumbnail = $(this).find('div.download-items > div.download-items__thumb > img').attr('src')
-    let result = $(this).find('div.download-items > div.download-items__btn > a').attr('href')
-    if (!/https?:\/\//i.test(result)) result = 'https://snapinsta.app' + result
-    results.push({
-      thumbnail,
-      result
+async function igstalk(username) {
+  try {
+    const { data } = await axios.get(`https://dumpor.com/v/${username}`, {
+      headers: {
+        "user-agent": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "cookie": "_inst_key=SFMyNTY.g3QAAAABbQAAAAtfY3NyZl90b2tlbm0AAAAYT3dzSXI2YWR6SG1fNFdmTllfZnFIZ1Ra.5Og9VRy7gUy9IsCwUeYW8O8qvHbndaus-cqBRaZ7jcg; __gads=ID=f8ead4404e6a0e16-2206b4189ace0028:T=1636352226:RT=1636352226:S=ALNI_MbsEYYwp3U-9PJHoUHPA0mj4zn3uQ; _ym_uid=1636352226596108095; _ym_d=1636352226; _ym_isad=2; __atssc=google%3B1; FCNEC=[[\"AKsRol8BmQbGXTRP_1wzoi3Qg8PSMr7FFU0k- LGYROfG4nmvg - yFq6fARCalcofDHQIoyhwlo75582yk2a5WLTZakmPZu - SIkkXQNAePmtpVXwaPISfK8HC1pJ8tUjrRWRiFfjPaZh3rC - _6nkHQN25c - 1YR- NJtDQ == \"],null,[]]; FCCDCF=[null,null,[\"[[], [], [], [], null, null, true]\",1636352300969],null,null,null,[]]; __atuvc=3%7C45; __atuvs=6188c0df986e798b002"
+      }
     })
-  })
-  return results
+    const $ = cheerio.load(data)
+    const results = {
+      username: ($('#user-page > div.user > div.row > div > div.user__title > h4').text() || '').replace(/@/gi, '').trim(),
+      fullName: $('#user-page > div.user > div.row > div > div.user__title > a > h1').text(),
+      profilePicHD: ($('#user-page > div.user > div.row > div > div.user__img').attr('style') || '').replace(/(background-image: url\(\'|\'\);)/gi, '').trim(),
+      bio: $('#user-page > div.user > div.row > div > div.user__info-desc').text(),
+      followers: ($('#user-page > div.user > div.row > div > ul > li').eq(1).text() || '').replace(/Followers/gi, '').trim(),
+      followersM: ($('#user-page > div.container > div > div > div:nth-child(1) > div > a').eq(2).text() || '').replace(/Followers/gi, '').trim(),
+      following: ($('#user-page > div.user > div > div.col-md-4.col-8.my-3 > ul > li').eq(2).text() || '').replace(/Following/gi, '').trim(),
+      followingM: ($('#user-page > div.container > div > div > div:nth-child(1) > div > a').eq(3).text() || '').replace(/Following/gi, '').trim(),
+      postsCount: ($('#user-page > div.user > div > div.col-md-4.col-8.my-3 > ul > li').eq(0).text() || '').replace(/Posts/gi, '').trim(),
+      postsCountM: ($('#user-page > div.container > div > div > div:nth-child(1) > div > a').eq(0).text() || '').replace(/Posts/gi, '').trim()
+    }
+    return results
+  } catch (e) {
+    console.error(e)
+    throw 'Not found ;-;'
+  }
 }

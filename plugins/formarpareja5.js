@@ -33,19 +33,19 @@ function handler(m, { groupMetadata }) {
     while (b === a)
     m.reply(`*_😍 Las 5 maravillosas parejas del grupo 😍_*
     
-*_1.- ${toM(a)} y ${toM(b)}_* 💘
+*_1.- ${toM(a)} 💘 ${toM(b)}_* 
 Que hermosa pareja 💖, me invitan a su Boda 🛐
 
-*_2.- ${toM(c)} y ${toM(d)}_* 💘
+*_2.- ${toM(c)} 💘 ${toM(d)}_*  
 🌹 Ustedes se merecen lo mejor del mundo 💞
 
-*_3.- ${toM(e)} y ${toM(f)}_* 💘
+*_3.- ${toM(e)} 💘 ${toM(f)}_* 
 Estan más que enamorados 😍, para cuando la familia 🥰
 
-*_4.- ${toM(g)} y ${toM(h)}_* 💘
-💗 Definitivamente ustedes son la pareja del Año 💗
+*_4.- ${toM(g)} 💘 ${toM(h)}_* 
+💗 Decreto que ustedes son la pareja del Año 💗
 
-*_5.- ${toM(i)} y ${toM(j)}_* 💘
+*_5.- ${toM(i)} 💘 ${toM(j)}_* 
 No le escriban! 💝, están de Luna de miel 🥵✨❤️‍🔥`, null, {
         contextInfo: {
             mentionedJid: [a, b, c, d, e, f, g, h, i, j]

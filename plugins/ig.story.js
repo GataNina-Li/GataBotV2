@@ -8,7 +8,7 @@ let handler = async(m, { conn, text }) => {
             .then((res) => {
               let dl_link = res.data.result.videos
                     // conn.reply(m.chat, `*Link:* ${dl_link} `, m)
-                conn.sendFile(m.chat, dl_link, 'video.mp4', `*Title:* ${text}\n*Link:* ${dl_link}`, m)
+                conn.sendFile(m.chat, dl_link, '.mp4', `*Title:* ${text}\n*Link:* ${dl_link}`, m)
     })
 }
 handler.help = ['ig']

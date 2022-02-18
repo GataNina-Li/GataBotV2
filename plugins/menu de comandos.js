@@ -83,10 +83,11 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *JUEGOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🧩 _${usedPrefix}math *modo*_
-┣ ↠👾 _${usedPrefix}ttt *nombre del la sala*_
+┣ ↠🧩 _${usedPrefix}math | mates | matemáticas *modo*_
+┣ ↠👾 _${usedPrefix}ttt | tictactoe *nombre del la sala*_
 ┣ ↠🧩 _${usedPrefix}delttt *nombre del la sala*_
-┣ ↠👾 _${usedPrefix}gay2 *yo / @tag*_
+┣ ↠👾 _${usedPrefix}gay2 *@tag*_
+┣ ↠👾 _${usedPrefix}gay2 *yo*_
 ┣ ↠🧩 _${usedPrefix}gay *@tag / nombre*_
 ┣ ↠👾 _${usedPrefix}lesbi *@tag / nombre*_
 ┣ ↠🧩 _${usedPrefix}pajero *@tag / nombre*_
@@ -96,12 +97,12 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🧩 _${usedPrefix}rata *@tag / nombre*_
 ┣ ↠👾 _${usedPrefix}manco *@tag / nombre*_
 ┣ ↠🧩 _${usedPrefix}manca *@tag / nombre*_
-┣ ↠👾 _${usedPrefix}formarpareja_
+┣ ↠👾 _${usedPrefix}formarpareja | pareja5_
 ┣ ↠🧩 _${usedPrefix}dado_
-┣ ↠👾 _${usedPrefix}simsimi *texto*_
+┣ ↠👾 _${usedPrefix}simsimi | simi | bot *texto*_
 ┣ ↠🧩 _${usedPrefix}formartrio_
 ┣ ↠👾 _${usedPrefix}love *@tag / nombre*_
-┣ ↠🧩 _${usedPrefix}amigorandom_
+┣ ↠🧩 _${usedPrefix}amigorandom | amigo | amistad_
 ┣ ↠👾 _${usedPrefix}slot *cantidad*_
 ┣ ↠🧩 _${usedPrefix}ppt *piedra / papel / tijera*_
 ┣ ↠👾 _${usedPrefix}prostituta *@tag / nombre*_

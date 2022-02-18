@@ -2,6 +2,7 @@ const axios = require('axios')
  let handler = async(m, { conn }) => {
 let les = await axios.get('https://meme-api.herokuapp.com/gimme/sticker')
             conn.sendFile(m.chat, `${les.data.url}`, '', `${les.data.title}`, m)
+await conn.sendButtonImg(m.chat, await (await fetch(url)).buffer(), '*¡¡LLAMEN A LA POLICÍA!! 🚨️*', 'Gata Bot', 'SIGUIENTE 🔄', '/loli', m)
   }
 handler.help = ['imagenrandom']
 handler.tags = ['images']

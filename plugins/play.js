@@ -1,42 +1,52 @@
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-const { servers, yta, ytv } = require('../lib/y2mate')
+let limit = 30
 let yts = require('yt-search')
 let fetch = require('node-fetch')
-let handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw `*✳️ Uhm.. que estas buscando?*\n*👉🏻 Ingrese un texto o enlace de YT*\n\n*✅ Ejemplo:*\n*${usedPrefix + command} Begin you*`
-//  let chat = global.db.data.chats[m.chat]
+const { servers, yta, ytv } = require('../lib/y2mate')
+let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
+  if (!text) throw 'What are you looking for?'
+  let chat = global.db.data.chats[m.chat]
   let results = await yts(text)
   let vid = results.all.find(video => video.seconds < 3600)
-  if (!vid) throw '*El video no se encontró, intente ingresar el nombre original de la canción o video*'
+  if (!vid) throw 'Video/Audio Not found'
   let isVideo = /2$/.test(command)
   let yt = false
-  let yt2 = false
   let usedServer = servers[0]
-  m.reply('*⏳Procesando⏳*\n\n*[❗] Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
   for (let i in servers) {
     let server = servers[i]
     try {
-      yt = await yta(vid.url, server)
-      yt2 = await ytv(vid.url, server)
+      yt = await (isVideo ? ytv : yta)(vid.url, server)
       usedServer = server
       break
     } catch (e) {
-      m.reply(`*El servidor ${server} fallo!, reintentando con otro servidor*${servers.length >= i + 1 ? '' : '\nmencoba server lain...'}`)
+      m.reply(`Server ${server} error!${servers.length >= i + 1 ? '' : '\ntried another server...'}`)
     }
   }
-  if (yt === false) throw '*Todos los servidores fallaron*'
-  if (yt2 === false) throw '*Todos los servidores fallaron*'
+  if (yt === false) throw 'All servers cannot :/'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
-  await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
-*🔥 Titulo:* _${title}_
-*📂 Peso del audio:* _${filesizeF}_
-*📂 Peso del video:* _${yt2.filesizeF}_
-`.trim(), '©The Shadow Borkers - Bot', '🎵 AUDIO 💽 ', `.yta ${vid.url}`, '🎥 VIDEO 🎞️', `.yt ${vid.url}`)
+  let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesize
+  conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
+*Title:* ${title}
+*Filesize:* ${filesizeF}
+*Source:* ${vid.url}
+ ${isLimit ? 'Used ': ''}
+`.trim(), m)
+let _thumb = {}
+try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
+catch (e) { }
+if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
+*Title:* ${title}
+*Filesize:* ${filesizeF}
+*Source:* ${vid.url}
+`.trim(), m, false,  {
+  ..._thumb,
+  asDocument: chat.useDocument
+})
 }
-handler.help = ['play'].map(v => v + ' <pencarian>')
+handler.help = ['play', 'play2'].map(v => v + ' <search>')
 handler.tags = ['downloader']
-handler.command = /^(reproducir|reproducir2|reproductor|Reproducir|Reproducir2|Reproductor|play3|Play3|playvid|Playvid|playaudio|Playaudio)$/i
+handler.command = /^play2?$/i
 
 handler.exp = 0
+handler.limit = true
 
 module.exports = handler

@@ -1,17 +1,20 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} logo`
+let handler = async(m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `Example: ${usedPrefix + command} minecraft`
   let res = await fetch(global.API('zeks', '/api/pinimg', {
-    q: text
+    q: encodeURI(text)
   }, 'apikey'))
-  if (!res.ok) throw eror
+  if (!res.ok) throw await `${res.status} ${res.statusText}`
   let json = await res.json()
   if (!json.status) throw json
   let pint = json.data[Math.floor(Math.random() * json.data.length)];
-  conn.sendFile(m.chat, pint, '', '© stikerin', m, 0, { thumbnail: await (await fetch(pint)).buffer() })
+  conn.sendFile(m.chat, pint, '', `
+*Search result*
+${text}
+`.trim(), m)
 }
-handler.help = ['pinterest <pencarian>']
+handler.help = ['pinterest <keyword>']
 handler.tags = ['internet']
-handler.command = /^(pint(erest)?)$/i
+handler.command = /^(pinterest)$/i
 
 module.exports = handler

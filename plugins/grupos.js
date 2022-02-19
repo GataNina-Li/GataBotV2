@@ -12,7 +12,7 @@ Wa.me/593968585383
 ✅ https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ
 
 *_➡️ GRUPO(S) QUE PUEDAN INTERESARTE:_*
-✅ https://chat.whatsapp.com/BguFLFciPa44D9h9RGX1eN
+Pronto...
 `.trim() 
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'status@broadcast')

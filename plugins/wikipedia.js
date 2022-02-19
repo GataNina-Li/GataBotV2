@@ -1,8 +1,9 @@
 let axios = require("axios")
 let fetch = require("node-fetch")
 let cheerio = require("cheerio")
-let pp = './Caja.jpg'
-let prep = await conn.prepareMessage(m.chat, fs.readFileSync('./Menu2.jpg'), MessageType.image, {})
+ let pp = './+18.jpg'
+ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+ 
 async function wikipedia(querry) {
   try {
     const link = await axios.get(`https://es.wikipedia.org/wiki/${querry}`)

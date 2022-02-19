@@ -19,7 +19,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪ *_ミ💖 ¡Hola! ${username} 💖彡_*
 ⎪≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ⎪ *MENU DE AUDIOS*
-⎪ ✢ Solo escriba la palabra/frase. sin prefijo (/ . # etc...) 
+⎪≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+⎪ ✢ Solo escriba la palabra/frase. sin prefijo ⎪ (/ . # etc...) 
 ⎪≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ⎪➫🔊 _Noche de paz_
 ⎪➫🔊 _Buenos dias_
@@ -61,7 +62,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-                     🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
+                      🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
          0:40 ━❍──────── -8:39
          ↻     ⊲  Ⅱ  ⊳     ↺
          VOLUMEN: ▁▂▃▄▅▆▇ 100%

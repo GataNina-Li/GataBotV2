@@ -10,4 +10,6 @@ ptt: true
 }
 handler.customPrefix = /Asen|ASEN|asen|Acen/i
 handler.command = new RegExp
+handler.fail = null
+handler.exp = 100
 module.exports = handler

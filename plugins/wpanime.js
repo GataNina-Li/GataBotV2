@@ -3,7 +3,7 @@ let fetch = require("node-fetch")
 let cheerio = require("cheerio")
 async function wikipedia(querry) {
   try {
-    const link = await axios.get(`https://en.wikipedia.org/wiki/${querry}`)
+    const link = await axios.get(`https://es.wikipedia.org/wiki/${querry}`)
     const $ = cheerio.load(link.data)
     let judul = $('#firstHeading').text().trim()
     let thumb = $('#mw-content-text').find('div.mw-parser-output > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > a > img').attr('src') || `//i.ibb.co/nzqPBpC/http-error-404-not-found.png`

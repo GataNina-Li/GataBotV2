@@ -31,8 +31,8 @@ async function wikipedia(querry) {
     return notFond
   }
 }
-let handler = async (m, { conn, text, usedPrefix }) => {
-  if (!text) throw `❰ ❗️ ❱ *Estas usando mal el comando!*\n\n*jemplo:*\n*${usedPrefix}wiki* Universo`
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `❰ ❗️ ❱ *Estas usando mal el comando!*\n\n*Ejemplo:\n${usedPrefix + command}* Universo`
   wikipedia(`${text}`).then(res => {
     m.reply(res.result.isi)
   }).catch(() => { m.reply('Not found') })

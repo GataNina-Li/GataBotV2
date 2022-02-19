@@ -8,6 +8,6 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /Entra épicamente|entra épicamente|ENTRA ÉPICAMENTE|Entrada épica|entrada épica|ENTRADA ÉPICA|/i
+handler.customPrefix = /ingresa|Ingresa|INGRESA|Entra épicamente|entra épicamente|ENTRA ÉPICAMENTE|Entra epicamente|ENTRA EPICAMENTE|entra epicamente|Entrada épica|entrada épica|ENTRADA ÉPICA|/i
 handler.command = new RegExp
 module.exports = handler

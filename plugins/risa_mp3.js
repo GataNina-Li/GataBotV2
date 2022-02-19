@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /xD|XD||Lol|LOL|lol/i
+handler.customPrefix = /xD|XD||Lol/i
 handler.command = new RegExp
 module.exports = handler

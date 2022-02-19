@@ -1,18 +1,18 @@
 const axios = require('axios')
 let split = '|'
 let handler = async (m, { conn, args: [effect], text: txt, usedPrefix, command }) => {
-  if (!effect) throw '*[❗] Lista de efectos disponibles*\n\n ' + effects.map(v => v.title).join('\n')
+  if (!effect) throw '*❰ ❗️ ❱ Lista de efectos disponibles*\n\n*Recuerde usar esta lista de la siguente forma*\n${usedPrefix}${command} Efecto *texto*  ' + effects.map(v => v.title).join('\n')
   effect = effect.toLowerCase()
-  if (!effects.find(v => (new RegExp(v.title, 'gi')).test(effect))) throw `*[❗] El efecto ${effect} no se encuentra en la base de datos*`
+  if (!effects.find(v => (new RegExp(v.title, 'gi')).test(effect))) throw `*❰ ❗️ ❱ El efecto ${effect} no se encuentra en la base de datos*`
   let text = txt.replace(new RegExp(effect, 'gi'), '').trimStart()
   if (text.includes(split)) text = text.split(split)
   text = Array.isArray(text) ? text : [text]
   let res = await textpro(effect, ...text)
-  if (typeof res == 'number') throw res == -1 ? `*[❗] El efecto *${effect}* no se encuentra en la base de datos*` : `*[❗] Uso correcto del comandos ${usedPrefix}${command} ${effect} ${new Array(res).fill('texto').map((v, i) => v + (i ? i + 1 : '')).join('|')}*`
+  if (typeof res == 'number') throw res == -1 ? `*❰ ❗️ ❱ El efecto *${effect}* no se encuentra en la base de datos*` : `*❰ ❗️ ❱ Uso correcto del comandos\n${usedPrefix}${command} ${effect} ${new Array(res).fill('texto').map((v, i) => v + (i ? i + 1 : '')).join('|')}*`
   let result = await axios.get(res, {
     responseType: 'arraybuffer'
   })
-  await conn.sendFile(m.chat, result.data, 'Error.jpg', `*Toma tu imagen personalizada!!*\n*Efecto: ${effect}*`, m)
+  await conn.sendFile(m.chat, result.data, 'Error.jpg', `✅ *¡Tú imagen personalizada!*\n✨ *Efecto: ${effect}*\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`, m)
 }
 handler.command = /^(logo|logos)$/i
 

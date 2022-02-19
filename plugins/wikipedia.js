@@ -2,7 +2,12 @@ let axios = require("axios")
 let fetch = require("node-fetch")
 let cheerio = require("cheerio")
  let pp = './+18.jpg'
- let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  try {
+//    pp = await conn.getProfilePicture(who)
+  } catch (e) {
+
+  }
  
 async function wikipedia(querry) {
   try {

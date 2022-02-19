@@ -40,6 +40,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ['wikipedia <search>']
 handler.tags = ['internet']
-handler.command = /^(wiki|wikipedia)|internet?)$/i
+handler.command = /^(wiki|wikipedia|internet?)$/i
 
 module.exports = handler

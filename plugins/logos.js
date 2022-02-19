@@ -1,7 +1,7 @@
 const axios = require('axios')
 let split = '|'
 let handler = async (m, { conn, args: [effect], text: txt, usedPrefix, command }) => {
-  if (!effect) throw '*❰ ❗️ ❱ Lista de efectos disponibles*\n\n*Recuerde usar esta lista de la siguente forma*\n${usedPrefix}${command} Efecto *texto*  ' + effects.map(v => v.title).join('\n')
+  if (!effect) throw '*❰ ❗️ ❱ Lista de efectos disponibles*\n\n*Recuerde usar esta lista de la siguente forma:*\n😸 ${usedPrefix} + ${command} Efecto *texto*\n\n' + effects.map(v => v.title).join('\n')
   effect = effect.toLowerCase()
   if (!effects.find(v => (new RegExp(v.title, 'gi')).test(effect))) throw `*❰ ❗️ ❱ El efecto ${effect} no se encuentra en la base de datos*`
   let text = txt.replace(new RegExp(effect, 'gi'), '').trimStart()

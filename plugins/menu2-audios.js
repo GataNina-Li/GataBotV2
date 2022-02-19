@@ -21,39 +21,39 @@ let handler = async (m, { conn, usedPrefix }) => {
 *MENU DE AUDIOS*
 ✢ Solo escriba la palabra/frase. sin prefijo (/ . # etc...) 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-➫🔊 _Noche de paz_
-➫🔊 _Buenos dias_
-➫🔊 _Audio hentai_
-➫🔊 _Fiesta del admin_
-➫🔊 _Fiesta del admin 2_
-➫🔊 _Viernes_
-➫🔊 _Chica lgante_
-➫🔊 _Baneado_
-➫🔊 _Feliz navidad_
-➫🔊 _A nadie le importa_
-➫🔊 _Sexo_
-➫🔊 _Vete a la vrg_
-➫🔊 _Hola_
-➫🔊 _Un pato_
-➫🔊 _Nyanpasu_
-➫🔊 _Te amo_
-➫🔊 _Yamete_
-➫🔊 _Te diagnostico con gay_
-➫🔊 _Quien es tu sempai botsito 7w7_
-➫🔊 _Bañate_
-➫🔊 _Vivan los novios_
-➫🔊 _Marica quien_
-➫🔊 _Es puto_
-➫🔊 _La biblia_
-➫🔊 _Onichan_
-➫🔊 _Bot puto_
-➫🔊 _Feliz cumpleaños_
-➫🔊 _Shadow Bot_
-➫🔊 _Pasa pack Bot_
-➫🔊 _Atencion grupo_
-➫🔊 _Oh me vengo_
-➫🔊 _Murio el grupo_
-➫🔊 _Siuuu_
+⎪➫🔊 _Noche de paz_
+⎪➫🔊 _Buenos dias_
+⎪➫🔊 _Audio hentai_
+⎪➫🔊 _Fiesta del admin_
+⎪➫🔊 _Fiesta del admin 2_
+⎪➫🔊 _Viernes_
+⎪➫🔊 _Chica lgante_
+⎪➫🔊 _Baneado_
+⎪➫🔊 _Feliz navidad_
+⎪➫🔊 _A nadie le importa_
+⎪➫🔊 _Sexo_
+⎪➫🔊 _Vete a la vrg_
+⎪➫🔊 _Hola_
+⎪➫🔊 _Un pato_
+⎪➫🔊 _Nyanpasu_
+⎪➫🔊 _Te amo_
+⎪➫🔊 _Yamete_
+⎪➫🔊 _Te diagnostico con gay_
+⎪➫🔊 _Quien es tu sempai botsito 7w7_
+⎪➫🔊 _Bañate_
+⎪➫🔊 _Vivan los novios_
+⎪➫🔊 _Marica quien_
+⎪➫🔊 _Es puto_
+⎪➫🔊 _La biblia_
+⎪➫🔊 _Onichan_
+⎪➫🔊 _Bot puto_
+⎪➫🔊 _Feliz cumpleaños_
+⎪➫🔊 _Shadow Bot_
+⎪➫🔊 _Pasa pack Bot_
+⎪➫🔊 _Atencion grupo_
+⎪➫🔊 _Oh me vengo_
+⎪➫🔊 _Murio el grupo_
+⎪➫🔊 _Siuuu_
 ⎪➫🔊 _Rawr_
 ⎪➫🔊 _UwU_
 ⎪➫🔊 _:c_
@@ -61,10 +61,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-            🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
-0:40 ━❍──────── -8:39
-↻     ⊲  Ⅱ  ⊳     ↺
-VOLUMEN: ▁▂▃▄▅▆▇ 100%
+                🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
+    0:40 ━❍──────── -8:39
+    ↻     ⊲  Ⅱ  ⊳     ↺
+    VOLUMEN: ▁▂▃▄▅▆▇ 100%
 ╰════• ೋ•✧๑♡๑✧•ೋ •════╯`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})

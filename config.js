@@ -30,6 +30,7 @@ global.APIs = { // API Prefix
   pencarikode: 'https://pencarikode.xyz',
   Velgrynd: 'https://velgrynd.herokuapp.com',
   rey: 'https://server-api-rey.herokuapp.com',
+  neoxr: 'https://api.neoxr.eu.org',
   hardianto: 'http://hardianto-chan.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here

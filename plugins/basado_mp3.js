@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Cada|Basado|Basada|Basadisimo|BASADO|QUE BASADO|QUE BASADA|Que basada|Que basado|basado|basada|/i
+handler.customPrefix = /Cada|Basado|Basada|Basadisimo|BASADO|basado|basada|/i
 handler.command = new RegExp
 
 handler.fail = null

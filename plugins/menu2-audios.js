@@ -59,6 +59,28 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _UwU_
 ⎪➫🔊 _:c_
 ⎪➫🔊 _a_
+⎪➫🔊 _XD_
+⎪➫🔊 _Jai_
+⎪➫🔊 _Enojado_
+⎪➫🔊 _Enojada_
+⎪➫🔊 _Chao_
+⎪➫🔊 _Hentai_
+⎪➫🔊 _Triste_
+⎪➫🔊 _Estoy triste_
+⎪➫🔊 _LOL_
+⎪➫🔊 _Me pican los cocos_
+⎪➫🔊 _Contexto_
+⎪➫🔊 _Me voy_
+⎪➫🔊 _Tengo los calzones del admin_
+⎪➫🔊 _Entrada épica_ 
+⎪➫🔊 _Ingresa épicamente_
+⎪➫🔊 _Bv_
+⎪➫🔊 _Yoshi_
+⎪➫🔊 _No digas eso papu_
+⎪➫🔊 _Ma ma masivo_
+⎪➫🔊 _Masivo_
+⎪➫🔊 _Basado_
+⎪➫🔊 _Basada_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

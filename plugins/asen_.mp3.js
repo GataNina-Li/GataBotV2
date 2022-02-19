@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Asen|ASEN|asen|Acen/i
+handler.customPrefix = /OTAKU|otaku|Otaku /i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100

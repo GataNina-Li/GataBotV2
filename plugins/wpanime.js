@@ -32,7 +32,7 @@ async function wikipedia(querry) {
   }
 }
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `❰ ❗️ ❱ *Estas usando mal el comando!*\n\n*Ejemplo:\n${usedPrefix + command}* Universo`
+  if (!text) throw `❰ ❗️ ❱ *Estas usando mal el comando!*\n\n*Ejemplo:*\n*${usedPrefix + command}* Universo`
   wikipedia(`${text}`).then(res => {
     m.reply(res.result.isi)
   }).catch(() => { m.reply('Not found') })
@@ -40,6 +40,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ['wikipedia <search>']
 handler.tags = ['internet']
-handler.command = /^(wiki(pedia)|internet?)$/i
+handler.command = /^(wiki|wikipedia)|internet?)$/i
 
 module.exports = handler

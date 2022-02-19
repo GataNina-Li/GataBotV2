@@ -15,11 +15,12 @@ let handler = async (m, { conn, usedPrefix }) => {
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let username = conn.getName(who)
     let str = `
+╭══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮    
 *_ミ💖 ¡Hola! ${username} 💖彡_*
-
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 *MENU DE AUDIOS*
 ✢ Solo escriba la palabra/frase. sin prefijo (/ . # etc...) 
-
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ➫🔊 _Noche de paz_
 ➫🔊 _Buenos dias_
 ➫🔊 _Audio hentai_
@@ -53,14 +54,18 @@ let handler = async (m, { conn, usedPrefix }) => {
 ➫🔊 _Oh me vengo_
 ➫🔊 _Murio el grupo_
 ➫🔊 _Siuuu_
-➫🔊 _Rawr_
-➫🔊 _UwU_
-➫🔊 _:c_
-➫🔊 _a_
+⎪➫🔊 _Rawr_
+⎪➫🔊 _UwU_
+⎪➫🔊 _:c_
+⎪➫🔊 _a_
+╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
+
+╭════• ೋ•✧๑♡๑✧•ೋ •════╮
             🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
 0:40 ━❍──────── -8:39
 ↻     ⊲  Ⅱ  ⊳     ↺
-VOLUMEN: ▁▂▃▄▅▆▇ 100%`.trim()
+VOLUMEN: ▁▂▃▄▅▆▇ 100%
+╰════• ೋ•✧๑♡๑✧•ೋ •════╯`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }

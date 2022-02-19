@@ -32,7 +32,7 @@ async function wikipedia(querry) {
   }
 }
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `❰ ❗️ ❱ *Estas usando mal el comando!*\n\n*Ejemplo:*\n*${usedPrefix + command}* Universo`
+  if (!text) throw `❰ ❗️ ❱ *Estas usando mal el comando!*\n\n*Ejemplo:*\n*${usedPrefix + command}* Estrellas`
   wikipedia(`${text}`).then(res => {
     m.reply(res.result.isi)
   }).catch(() => { m.reply('Not found') })

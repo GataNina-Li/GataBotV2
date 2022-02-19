@@ -1,19 +1,19 @@
 let fetch = require('node-fetch')
 
-let handler = async (m, { conn, command, usedPrefix, text }) => {
-    if (!text) throw `teksnya mana?\n\n${usedPrefix + command} amel|cantik`
-    let text1 = text.split`|`[0]
-    let text2 = text.split`|`[1]
-    if (!text1) throw `teks nya mana?\n\n${usedPrefix + command} amel|cantik`
-    if (!text2) throw `teks2 nya mana?\n\n${usedPrefix + command} amel|cantik`
-    let res = await fetch(API('amel', '/textpro/glitchtiktok', { text: text1, text2 }, 'apikey'))
+let handler = async (m, { conn, command, text, usedPrefix }) => {
+    if (!text) throw `uhm.. urlnya mana?\n\npenggunaan:\n${usedPrefix + command} url\ncontoh:\n${usedPrefix + command} https://vt.tiktok.com/ZGJBtcsDq/`
+    if (!/https?:\/\/(www\.|v(t|m)\.|t\.)?tiktok\.com/i.test(text)) throw `url salah!`
+    let res = await fetch(API('amel', '/tiktok', { url: text }, 'apikey'))
     if (!res.ok) throw eror
-    let img = await res.buffer()
-    if (!img) throw img
-    conn.sendFile(m.chat, img, 'glitchtiktok.jpg', wm, m)
+    let json = await res.json()
+    if (!json.status) throw json
+    await m.reply(wait)
+    await conn.sendFile(m.chat, json.videoSD, 'tiktok.mp3', json.deksripsi, m)
 }
-handler.help = ['glitchtiktok'].map(v => v + ' <teks>|<teks2>')
-handler.tags = ['maker']
-handler.command = /^(glitchtiktok)$/
+handler.help = ['tiktok'].map(v => v + ' <url>')
+handler.tags = ['download']
+handler.command = /^(tiktok|tt)$/i
+
+handler.limit = 1
 
 module.exports = handler

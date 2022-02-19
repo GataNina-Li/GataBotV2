@@ -1,29 +1,17 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn, command, text, usedPrefix, isPrems }) => {
-  if (!text) throw `Gunakan format *${usedPrefix}${command} [gambar|jumlah]*
-Contoh *${usedPrefix}${command} Minecraft|1*`
-  let [query,  jumlah] = text.split`|`
-  if (isNaN(jumlah) || (jumlah * 1) < 1) jumlah = 1
-  if ((jumlah * 1) > 30) jumlah = 30
-  if ((jumlah * 1) > 1 && !isPrems) {
-      jumlah = 1
-      m.reply('Untuk jumlah yang lebih banyak,  anda harus menjadi member *premium!!*')
-  } 
-  let res = await fetch(global.API('bg', '/pins', { q: query }))
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  if (!text) throw `uhm.. cari apa?\n\ncontoh:\n${usedPrefix + command} logo`
+  let res = await fetch(global.API('zeks', '/api/pinimg', {
+    q: text
+  }, 'apikey'))
+  if (!res.ok) throw eror
   let json = await res.json()
-  if (json.status !== true) throw json
-  for (let i = 0; i < jumlah; i++) {
-      try {
-         let url = json.result[Math.round(Math.random() * json.result.length)]
-         conn.sendFile(m.chat, url,  'MetroBot-pinterest.jpg', `*Url:* ${url}`, m)
-      } catch (e) {
-          console.log(e)
-          m.reply('Error in sending image')
-      }
-  }
+  if (!json.status) throw json
+  let pint = json.data[Math.floor(Math.random() * json.data.length)];
+  conn.sendFile(m.chat, pint, '', '© stikerin', m, 0, { thumbnail: await (await fetch(pint)).buffer() })
 }
-handler.help = ['pinterest'].map(v => v + ' [teks]')
-handler.tags = ['downloader']
-handler.command = /^(pinterest|pin)$/i
+handler.help = ['pinterest <pencarian>']
+handler.tags = ['internet']
+handler.command = /^(pint(erest)?)$/i
 
 module.exports = handler

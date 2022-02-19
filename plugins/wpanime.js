@@ -32,13 +32,13 @@ async function wikipedia(querry) {
   }
 }
 let handler = async (m, { conn, text }) => {
-  if (!text) throw `uhm.. what are you looking for?\n\nexample:\n.wiki nodejs`
+  if (!text) throw `❰ ❗️ ❱ *Estas usando mal el comando!*\n\nE*jemplo*:\n*${usedPrefix}wiki* Universo`
   wikipedia(`${text}`).then(res => {
     m.reply(res.result.isi)
   }).catch(() => { m.reply('Not found') })
 }
 handler.help = ['wikipedia <search>']
 handler.tags = ['internet']
-handler.command = /^(wiki(pedia)?)$/i
+handler.command = /^(wiki(pedia)|internet?)$/i
 
 module.exports = handler

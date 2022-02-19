@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Me pica|ME PICA|me pica|Me pican|ME PICAN|me pican/i
+handler.customPrefix = /Me pica los cocos|ME PICA LOS COCOS|me pica los cocos|Me pican los cocos|ME PICAN/i
 handler.command = new RegExp
 module.exports = handler

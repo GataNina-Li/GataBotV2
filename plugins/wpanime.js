@@ -31,12 +31,14 @@ async function wikipedia(querry) {
     return notFond
   }
 }
-let handler = async (m, { conn, text }) => {
+let handler = async (m, { conn, usedPrefix }) => {
+let handler = async (m, { conn, text }) => 
   if (!text) throw `❰ ❗️ ❱ *Estas usando mal el comando!*\n\nE*jemplo*:\n*${usedPrefix}wiki* Universo`
   wikipedia(`${text}`).then(res => {
     m.reply(res.result.isi)
   }).catch(() => { m.reply('Not found') })
 }
+
 handler.help = ['wikipedia <search>']
 handler.tags = ['internet']
 handler.command = /^(wiki(pedia)|internet?)$/i

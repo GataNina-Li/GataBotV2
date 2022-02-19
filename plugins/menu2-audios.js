@@ -67,7 +67,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Hentai_
 ⎪➫🔊 _Triste_
 ⎪➫🔊 _Estoy triste_
-⎪➫🔊 _LOL_
 ⎪➫🔊 _Me pican los cocos_
 ⎪➫🔊 _Contexto_
 ⎪➫🔊 _Me voy_

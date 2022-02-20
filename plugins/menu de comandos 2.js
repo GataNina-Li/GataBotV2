@@ -276,6 +276,9 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *CHAT ANONIMO*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃ ¡Escribe con alguien de forma anónima! 
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠👤 _${usedPrefix}chatanonimo | anonimochat | ChatAnonimo_
 ┣ ↠👤 _${usedPrefix}start_
 ┣ ↠👤 _${usedPrefix}next_
 ┣ ↠👤 _${usedPrefix}leave_

@@ -281,7 +281,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃ ¡Escribe con alguien de forma anónima! 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠👤 _${usedPrefix}chatanonimo | anonimochat_
-┣ ↠👤 _${usedPrefix}anonimoch
+┣ ↠👤 _${usedPrefix}anonimoch_
 ┣ ↠👤 _${usedPrefix}start_
 ┣ ↠👤 _${usedPrefix}next_
 ┣ ↠👤 _${usedPrefix}leave_

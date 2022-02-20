@@ -15,7 +15,7 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
     let linkGC = ('https://chat.whatsapp.com/' + await this.groupInviteCode(m.chat))
     let isLinkThisGc = new RegExp(linkGC, 'i')
     let isgclink = isLinkThisGc.test(m.text)
-    if (isgclink) return m.reply('*REbasado/a enviaste el enlace de este grupo 🧐')
+    if (isgclink) return m.reply('*REbasado/a enviaste el enlace de este grupo 🧐*')
     await this.groupRemove(m.chat, [m.sender])
   }
   return true

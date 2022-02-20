@@ -26,6 +26,6 @@ let info = `
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'status@broadcast')
 }
-handler.command = /^(anonimochat|chatanonimo|AnonimoChat|ChatAnonimo|chatanónimo|anónimochat)$/i
+handler.command = /^(anonimochat|chatanonimo|AnonimoChat|ChatAnonimo|chatanónimo|anónimochat|anonimoch)$/i
 
 module.exports = handler

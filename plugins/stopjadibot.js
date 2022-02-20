@@ -11,7 +11,7 @@ handler.command = /^(berhenti|stop)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
-handler.group = true
+handler.group = false
 handler.private = true
 
 handler.admin = false

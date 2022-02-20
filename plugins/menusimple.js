@@ -203,6 +203,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠📦 _${usedPrefix}caja_
 ┣ ↠📦 _${usedPrefix}almacen_
 ┣ ↠📦 _${usedPrefix}cjalmacen_
+┣ ↠👤 _${usedPrefix}chatanonimo | anonimochat_
+┣ ↠👤 _${usedPrefix}anonimoch
 ┣ ↠👤 _${usedPrefix}start_
 ┣ ↠👤 _${usedPrefix}next_
 ┣ ↠👤 _${usedPrefix}leave_

@@ -34,6 +34,7 @@ let menu =`
 ┃ *INFORMACIÓN|MENUS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠⚜️ _${usedPrefix}donar_
+┣ ↠⚜️ _${usedPrefix}creditos_
 ┣ ↠⚜️ _${usedPrefix}infobot_
 ┣ ↠⚜️ _${usedPrefix}grupos_
 ┣ ↠⚜️ _${usedPrefix}instalarbot_

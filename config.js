@@ -6,7 +6,7 @@ global.mods = ['5219992095479' , '972557048356'] // No tiene utilidad
 global.prems = ['5219996125657' , '5219991402134'] // No tiene utilidad
 
 // Nota: Puedes contactarme si necesitas ayuda con algo al +5219996125657 (este es mi numero personal/real bloqueo personas que no sean temas de la instalación)
-// => Solo dudas sobre la instalación, temas generales contactarme al +17722386341 o al +14503280343
+// => Solo dudas sobre la instalación, temas generales contactarme al +17722386341 
 // => NO ayudo a hacer Bots, ni crearlos, ni editarlos 
 // - Haré tutoriales de como editar el Bot, los videos los podran encontrar en mi canal de YouTube en https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA
 

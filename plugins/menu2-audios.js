@@ -59,7 +59,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _UwU_
 ⎪➫🔊 _:c_
 ⎪➫🔊 _a_
-⎪➫🔊 _XD_
 ⎪➫🔊 _Jai_
 ⎪➫🔊 _Enojado_
 ⎪➫🔊 _Enojada_

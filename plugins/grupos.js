@@ -10,9 +10,6 @@ Wa.me/593968585383
 
 *_➡️ GRUPO(S) DE COLABORACIÓN:_*
 ✅ https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ
-
-*_➡️ GRUPO(S) QUE PUEDAN INTERESARTE:_*
-Pronto...
 `.trim() 
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'status@broadcast')

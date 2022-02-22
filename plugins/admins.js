@@ -19,7 +19,7 @@ let handler = async (m, { conn, participants, groupMetadata, args }) => {
         let oi = `*Mensaje:* ${pesan}`
         let listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.split('@')[0]}`).join('\n')
         let text = `
-             🔱 *INVOCANDO ADMINS* 🔱
+                                   🔱 *INVOCANDO ADMINS* 🔱
 
 ${oi}
 ${listAdmin}

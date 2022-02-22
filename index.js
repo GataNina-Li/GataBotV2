@@ -1,4 +1,4 @@
-console.log('Iniciando...')
+console.log('Iniciando...') U
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')

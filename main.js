@@ -1,4 +1,4 @@
-require('./config.js')
+require('./config.js') U
 let { WAConnection: _WAConnection } = require('@adiwajshing/baileys')
 let { generate } = require('qrcode-terminal')
 let syntaxerror = require('syntax-error')

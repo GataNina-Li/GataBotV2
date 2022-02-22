@@ -3,7 +3,7 @@ let levelling = require('../lib/levelling')
 
 let handler = async (m, { conn, usedPrefix }) => {
 
-  let pp = './Bot.jpeg'
+  let pp = './Bot.jpg'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   try {
 //    pp = await conn.getProfilePicture(who)

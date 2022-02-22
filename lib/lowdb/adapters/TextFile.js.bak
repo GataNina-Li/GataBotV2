@@ -1,4 +1,4 @@
-const fs = require('fs'); u
+const fs = require('fs'); 
 const { Writer } = require('steno');
 class TextFile {
     constructor(filename) {

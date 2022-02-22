@@ -1,7 +1,7 @@
 let axios = require('axios')
 let cheerio = require('cheerio')
 const translate = require('translate-google-api')
-const defaultLang = 'en'
+const defaultLang = 'es'
 const tld = 'cn'
 
 let handler = async (m, { args, usedPrefix, command }) => {

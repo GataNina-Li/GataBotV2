@@ -1,4 +1,4 @@
-var nodemon = require('nodemon')
+var nodemon = require('nodemon') u
 
 nodemon({
   script: 'index.js',

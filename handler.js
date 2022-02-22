@@ -288,9 +288,9 @@ module.exports = {
             let user = global.DATABASE._data.users[m.sender]
             if (!['unbanchat.js', 'link.js', 'pengumuman.js', 'creator.js'].includes(name) && chat && chat.isBanned && !isROwner) return // Except this
             if (!['unbanuser.js', 'inv.js', 'link.js', 'creator.js', 'profile.js'].includes(name) && user && user.banned && !isROwner) {
-              if (!opts['msgifbanned']) m.reply(`*⚠️ ESTAS BANEADO ⚠️* ${user.bannedReason ? `\n*Motivo:* *${user.bannedReason}*` : ''}
+              if (!opts['msgifbanned']) m.reply(`❰ ⚠️ ❱ *ESTAS BANEADO* ❰ ⚠️ ❱ ${user.bannedReason ? `\n*Motivo:* *${user.bannedReason}*` : ''}
 
-*👉🏻 Puedes contactar al propietario del Bot si crees que se trata de un error o para charlar sobre tu desbaneo*
+*👉 Puedes contactar a la propietaria del Bot si crees que se trata de un error o para tratar el motivo de tú desbaneo*
 
 ${global.owner.map((v, i) => '*Contacto ' + (i + 1) + ':* wa.me/' + v).join('\n')}
 `.trim())
@@ -390,7 +390,7 @@ ${global.owner.map((v, i) => '*Contacto ' + (i + 1) + ':* wa.me/' + v).join('\n'
                 console.error(e)
               }
             }
-            if (m.limit) m.reply(+ m.limit + ' *_limite usado, el limite por usuario son de 10, al finalizar con su limite no podra seguir usando los comandos con limites_*')
+            if (m.limit) m.reply(+ m.limit + ' *_Limite usado, el limite por usuario son de 10, al finalizar con su limite no podra seguir usando los comandos con limites_*')
           }
           break
         }
@@ -521,21 +521,21 @@ ${global.owner.map((v, i) => '*Contacto ' + (i + 1) + ':* wa.me/' + v).join('\n'
       
       await this.send(`${tag},${JSON.stringify(NodePayload)}`)
     }
-    await this.sendMessage(from, '*[ ⚠ ️] ️NO LLAMAR AL BOT POR FAVOR, NO QUEREMOS BLOQUEARL@, EVITENOS LA PENA DE HACERLO [ ⚠ ️]*\n\n*❗SI ESTE INCIDENTE SE REPITE USTED SERA BLOQUEAD@❗*', MessageType.extendedText)
+    await this.sendMessage(from, '*❰ ❗️ ❱ ️NO LLAMAR AL BOT POR FAVOR, NO QUEREMOS BLOQUEARLO/A, EVITENOS ESE INCONVENIENTE ❰ ❗️ ❱*\n\n*❰ ❗️ ❱ SI ESTE INCIDENTE SE REPITE USTED SERA BLOQUEAD@❗*', MessageType.extendedText)
   }
 }
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: '*[ ⚠ ️] Este comando solo puede ser utilizado por el propietario/owner del Bot*',
-    owner: '*[ ⚠ ️] Este comando solo puede ser utilizado por sub Bots (jadibot/serbot) y el propietario*',
-    mods: '*[ ⚠ ️] Este comando solo puede ser utilizado por moderadores y el propietario/owner del Bot*',
-    premium: '*[ ⚠ ️] Este comando es solo para miembros premium*',
-    group: '*[ ⚠ ️] Este comando solo se puede usar en grupos*',
-    private: '*[ ⚠ ️] Este comando solo se puede usar en el chat privado del numero del Bot*',
-    admin: '*[ ⚠ ️]️ Este comando es solo para administradores del grupo*',
-    botAdmin: '*[ ⚠ ️] Ascender el Bot a admin para usar este comando*',
-    unreg: '*[ ⚠ ️]️ Regístrese para utilizar esta función escribiendo:*\n\n*#registrar nombre.edad*\n\n*Ejemplo:*\n*#registrar Shadow.18*\n\n*Este registro se solicita con el fin de que el Bot no se sature*\n\nNota: No escriba los "*" ni los "_"\n\n*Nota: El registro fue quitado, si algun comando le pide registro favor de reportarlo*'
+    rowner: '*❰ ⚠️ ❱ Este comando solo puede ser utilizado por él Propietario/a | Owner del Bot*',
+    owner: '*❰ ⚠️ ❱ Este comando solo puede ser utilizado por Sub Bots (jadibot/serbot) y él/la propietario/a*',
+    mods: '*❰ ⚠️ ❱ Este comando solo puede ser utilizado por moderadores y él Propietario/a | Owner del Bot*',
+    premium: '*❰ ⚠️ ❱ Este comando es solo para miembros Premium*',
+    group: '*❰ ⚠️ ❱ Este comando solo se puede usar en grupos*',
+    private: '*❰ ⚠️ ❱ Este comando solo se puede usar en el chat privado del número del Bot*',
+    admin: '*❰ ⚠️ ❱ Este comando es solo para Administradores del grupo*',
+    botAdmin: '*❰ ⚠️ ❱ Ascender el Bot a Admin para usar este comando*',
+    unreg: '*❰ ⚠️ ❱ Regístrese para utilizar esta función escribiendo:*\n\n*#registrar nombre.edad*\n\n*Ejemplo:*\n*#registrar GataDios.18*\n\n*Este registro se solicita con el fin de que el Bot no se sature*\n\n*Nota: No escriba los "*" ni los "_"*\n\n*Nota: El registro fue quitado, si algun comando le pide registro favor de reportarlo*'
   }[type]
   if (msg) return m.reply(msg)
 }

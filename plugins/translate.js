@@ -7,11 +7,11 @@ const tld = 'cn'
 let handler = async (m, { args, usedPrefix, command }) => {
     let err = `
 example:
-${usedPrefix + command} <lang> [teks]
-${usedPrefix + command} id your messages
-${usedPrefix + command} en pesan kamu
+${usedPrefix + command} código texto
+${usedPrefix + command} en ¡Hola!
+${usedPrefix + command} es ¡Hello!
 
-list language:
+Lista de lenguajes:
 ${global.llang.map(v => `${v.code} : ${v.country}`).join`\n`}
 `.trim()
 

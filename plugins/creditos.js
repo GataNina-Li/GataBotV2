@@ -1,7 +1,8 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 ╭═════• ೋ•✧๑♡๑✧•ೋ •═════╮ 
- *GataBot por Gata Dios tiene funciones que pertenezcan a las siguentes Empresa(s)|Organizacion(es)|Persona(s):*
+
+*GataBot por Gata Dios tiene funciones que pertenezcan a las siguentes Empresa(s)|Organizacion(es)|Persona(s):*
 
  ⚜ 𝑩𝒐𝒄𝒉𝒊𝒍𝑮𝒂𝒎𝒊𝒏𝒈
  𝑮𝒂𝒎𝒆𝒔-𝑾𝒂𝒃𝒐𝒕
@@ -20,6 +21,7 @@ let info = `
 
  ⚜ 𝑩𝒐𝒕 𝑻𝒊𝒃𝒖𝒓ó𝒏
  𝑩𝑶𝑻
+ 
 ╰═════• ೋ•✧๑♡๑✧•ೋ •═════╯
 `.trim() 
 //¡GRACIAS!

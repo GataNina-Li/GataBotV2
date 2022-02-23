@@ -130,7 +130,7 @@ let menu =`
 ┣ ↠🪄 _${usedPrefix}xnxxsearch *texto*_
 ┣ ↠🎉 _${usedPrefix}ssweb *link*_
 ┣ ↠🎊 _${usedPrefix}animeinfo *nombre del anime*_
-┣ ↠🪄 _${usedPrefix}wpanime | fondoanime
+┣ ↠🪄 _${usedPrefix}wpanime | fondoanime_
 ┣ ↠🎉 _${usedPrefix}verinstagram | verig |igver *usuario*_
 ┣ ↠🎊 _${usedPrefix}wikipedia | wiki | internet *texto*_
 ┗━━━━━━━━━━━━━━━━━━┛

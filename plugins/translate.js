@@ -6,12 +6,12 @@ const tld = 'cn'
 
 let handler = async (m, { args, usedPrefix, command }) => {
     let err = `
-example:
-${usedPrefix + command} código texto
-${usedPrefix + command} en ¡Hola!
-${usedPrefix + command} es ¡Hello!
+😸 *Ejemplo:*
+${usedPrefix + command} (código) (texto)
+${usedPrefix + command} es ¡Hello!  
+*Resultado:* ¡Hola!
 
-Lista de lenguajes:
+⚙️ *CÓDIGOS DE IDIOMAS:*
 ${global.llang.map(v => `${v.code} : ${v.country}`).join`\n`}
 `.trim()
 

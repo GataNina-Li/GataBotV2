@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
         let res = await fetch(global.API('xteam', '/randomimage/wpmobile', {}, 'APIKEY'))
         let img = await res.buffer()
         conn.sendMessage(m.chat, img, MessageType.image, {
-            quoted: m, caption: '*✨The Shadow Brokers - Bot✨*'
+            quoted: m, caption: '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈'
         })
     } catch (e) {
         console.log(e)
@@ -15,7 +15,7 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['wallpaperanime']
 handler.tags = ['internet']
-handler.command = /^(wallpaper|wp)anime$/i
+handler.command = /^fondoanime|wpanime|WPANIME|WPanime$/i
 handler.limit = false
 module.register = false
 module.group = true

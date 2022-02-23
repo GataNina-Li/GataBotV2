@@ -16,9 +16,12 @@ let handler = async (m, { conn, usedPrefix }) => {
     let username = conn.getName(who)
     let str = `
 ╭══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮
-║═ 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 - 𝙏𝙝𝙚 𝘽𝙧𝙤𝙠𝙚𝙧𝙨 | 𝘽𝙊𝙏
+║═ 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 | 𝘽𝙊𝙏
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║❇️ *¡𝗛ola! ${username}* ❇️
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+║🔰 *Creadora/Editora: Gata Dios* 
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *INFORMACIÓN | MENU SIMPLE*

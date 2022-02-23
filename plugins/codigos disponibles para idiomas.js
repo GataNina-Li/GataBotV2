@@ -2,13 +2,25 @@ let handler = async (m, { conn, text }) => {
     let name = m.fromMe ? conn.user : conn.contacts[m.sender]
 
   conn.reply(m.chat, `
-Formato para uso: 
+⚙️ *FORMATOS DE USOS* 
+
+💫 *Para crear Audios:*
 #tts (código) (texto)
 
-Ejemplo:
+⚡️ *Ejemplo:*
 #tts es Hola mundo 
 
-Lista de códigos: 
+
+💫 *Para traducir:*
+#traducir (código) (texto) 
+
+⚡️ *Ejemplo:*
+#traducir es Hello world
+*Resultado:* Hola mundo
+
+👇 *¡Más Códigos de idiomas!*
+
+⚙️ *LISTA DE CÓDIGOS:* 
   'af': 'Afrikaans',
   'sq': 'Albanian',
   'ar': 'Arabic',
@@ -54,7 +66,7 @@ Lista de códigos:
 `.trim(), m)
     let mentionedJid = [m.sender]
 }
-handler.customPrefix = /codigos para audios|codigosparaaudios|códigos para audios|Códigos para audios/i
+handler.customPrefix = /CÓDIGOS PARA AUDIOS|Codigos para audios|codigos para audios|codigosparaaudios|códigos para audios|Códigos para audios/i
 handler.command = new RegExp
 
 module.exports = handler

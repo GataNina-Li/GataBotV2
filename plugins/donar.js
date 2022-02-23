@@ -2,10 +2,10 @@
 // AGREGA TUS DATOS SI QIERES, PERO NO QUITES LOS MIOS
 let handler = async m => m.reply(`
 *┏ ┅ ━━━━━━━━━━━━━━━━ ┅ ━*
-*┇             「 DONAR 」*  
+*┇                         「 DONAR 」*  
 *┣ ┅ ━━━━━━━━━━━━━━━━ ┅ ━*
-*┇❖ *Colaborador en el desarrollo*
-*┇ *de GataBot Por Gata Dios*
+*┇❖ Colaborador en el desarrollo*
+*┇ de GataBot Por Gata Dios* 😸
 *┣ ┅ ━━━━━━━━━━━━━━━━ ┅ ━*
 *┃❖ Hola persona hermosa 💙*
 *┃👉 Aquí tienes algunos datos*

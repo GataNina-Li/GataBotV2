@@ -17,9 +17,9 @@ let handler = async (m, { conn, usedPrefix }) => {
     let str = `
 *✨ ¿𝐐𝐮𝐞́ 𝐞𝐬 𝐮𝐧 𝐁𝐨𝐭 𝐝𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩? ✨*
 
-- _Un Bot es una inteligencia programada que permite realizar actividades dependiendo de lo que solicite. En temas de WhatsApp, es posible crear stickers, descargar música, vídeos, crear logos, buscar imágenes, etc..._
+🍃 _Un Bot es una inteligencia programada que permite realizar actividades dependiendo de lo que solicite. En temas de WhatsApp, es posible crear stickers, descargar música, vídeos, crear logos, buscar imágenes, interactuar en modo de conversación,  participar en juegos dentro de chats etc..._
 
-- *_Para ver el menú de comandos puedes usar:_*
+🍃 *_Para ver el menú de comandos puedes usar:_*
 #menu
 
 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`.trim()

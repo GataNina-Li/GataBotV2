@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
-╭═════• ೋ•✧๑♡๑✧•ೋ •═════╮
- *Gata Dios tiene funciones que pertenezcan a las siguentes Empresa(s)|Organizacion(es)|Persona(s):*
+╭═════• ೋ•✧๑♡๑✧•ೋ •═════╮ 
+ *GataBot por Gata Dios tiene funciones que pertenezcan a las siguentes Empresa(s)|Organizacion(es)|Persona(s):*
 
  ⚜ 𝑩𝒐𝒄𝒉𝒊𝒍𝑮𝒂𝒎𝒊𝒏𝒈
  𝑮𝒂𝒎𝒆𝒔-𝑾𝒂𝒃𝒐𝒕
@@ -22,7 +22,7 @@ let info = `
  𝑩𝑶𝑻
 ╰═════• ೋ•✧๑♡๑✧•ೋ •═════╯
 `.trim() 
-
+//¡GRACIAS!
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'status@broadcast')
 }
 handler.command = /^(creditos|CREDITOS|Creditos|Credito|Crédito)$/i

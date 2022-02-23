@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   let pp = './Menu2.jpg'
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   try {
-//    pp = await conn.getProfilePicture(who)
+//   pp = await conn.getProfilePicture(who)
   } catch (e) {
 
   } finally {

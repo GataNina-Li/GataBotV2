@@ -49,6 +49,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠══〘 *INFORMACIÓN DEL BOT* 〙 ══ 🌸
 ╠
 ╠➥ [😸] Creadora del Bot: 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
+╠➥ [😼] Nombre del Bot: 𝙂𝙖𝙩𝙖𝘽𝙤𝙩
 ╠➥ [#️⃣] Número: wa.me/593968585383
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
 ╠➥ [✅] version: *${conn.browserDescription[2]}*

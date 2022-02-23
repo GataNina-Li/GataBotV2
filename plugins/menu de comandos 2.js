@@ -56,7 +56,7 @@ let menu =`
 ┣ ↠📮 _${usedPrefix}reporte *tal comando con fallas*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *NUMERO DE LA CREADORA*
+┃ *NÚMERO DEl PROPIETARIO/A*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🐈 _${usedPrefix}owner_
 ┣ ↠🐈 _${usedPrefix}contacto_

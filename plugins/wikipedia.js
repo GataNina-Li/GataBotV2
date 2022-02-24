@@ -10,7 +10,7 @@ let cheerio = require("cheerio")
     let thumb = $('#mw-content-text').find('div.mw-parser-output > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > a > img').attr('src') || `//i.ibb.co/nzqPBpC/http-error-404-not-found.png`
     let isi = []
     $('#mw-content-text > div.mw-parser-output').each(function (rayy, Ra) {
-      let penjelasan = $(Ra).find('p').text().trim()
+      let penjelasan = $(Ra).find('p').text().trim() 
       isi.push(penjelasan)
     })
     for (let i of isi) {

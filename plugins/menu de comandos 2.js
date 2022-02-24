@@ -125,8 +125,8 @@ let menu =`
 ┣ ↠☀️ _${usedPrefix}tiktok *link*_
 ┣ ↠❄️ _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
 ┣ ↠☀️ _${usedPrefix}acortar | reducir *link*_
-┣ ↠❄️ _${usedPrefix}pinterest2 *texto*_
-┣ ↠☀️ _${usedPrefix}ssweb *link*_
+┣ ↠❄️ _${usedPrefix}pinterest | pinterest2 *texto*_
+┣ ↠☀️ _${usedPrefix}ssweb | capturar | captura *link*_
 ┣ ↠❄️ _${usedPrefix}animeinfo *nombre del anime*_
 ┣ ↠☀️ _${usedPrefix}wpanime | fondoanime_
 ┣ ↠❄️ _${usedPrefix}verinstagram | verig |igver *usuario*_

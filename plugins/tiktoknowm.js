@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn, args }) => {
-  if (!args[0]) throw 'Uhm...url nya mana?'
+let handler = async (m, { conn, args, command, usedPrefix }) => {
+  if (!args[0]) throw '*Formato de uso: ${usedPrefix}${command} https://tiktokxxxx*'
   let res = await fetch(global.API('xteam', '/dl/tiktok', {
     url: args[0]
   }, 'APIKEY'))
@@ -22,11 +22,13 @@ let handler = async (m, { conn, args }) => {
 ${txt}
   `.trim(), m)*/
   let url = json.result.link_dl1 || json.result.link_dl2 || ''
-  if (!url) throw 'Gagal mengambil url download'
+  if (!url) throw '*Error al obtener la URL de descarga*'
   let txt = `
-  - *By:* ${json.result.name}
-  - *Caption:*
+  🌟 *De:* ${json.result.name}
+ ⭐️ *Descripción:*
   ${json.result.caption}
+  
+  🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
     `
     await conn.sendFile(m.chat, url, 'tiktok.mp4', txt.trim(), m)
 }

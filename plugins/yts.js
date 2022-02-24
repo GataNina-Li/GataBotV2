@@ -5,7 +5,8 @@ let handler = async (m, { text }) => {
   let teks = results.all.map(v => {
     switch (v.type) {
       case 'video': return `
-✨ *${v.title}* 🎈 (${v.url})
+✨ *${v.title}* 
+🎈 ${v.url}
 ⏳ *Duración:* ${v.timestamp}
 📌 *Fecha:* de subida: ${v.ago}
 👀 *Vistas:* ${v.views} 

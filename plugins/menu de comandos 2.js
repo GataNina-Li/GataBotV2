@@ -124,7 +124,7 @@ let menu =`
 ┣ ↠❄️ _${usedPrefix}tiktokaudio *link del tiktok*_
 ┣ ↠☀️ _${usedPrefix}tiktok *link*_
 ┣ ↠❄️ _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
-┣ ↠☀️ _${usedPrefix}acortar *link*_
+┣ ↠☀️ _${usedPrefix}acortar | reducir *link*_
 ┣ ↠❄️ _${usedPrefix}pinterest2 *texto*_
 ┣ ↠☀️ _${usedPrefix}ssweb *link*_
 ┣ ↠❄️ _${usedPrefix}animeinfo *nombre del anime*_

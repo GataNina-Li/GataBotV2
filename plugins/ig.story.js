@@ -6,7 +6,7 @@ for (let { url, type } of res)
 conn.sendFile(m.chat, url, 'ig' + (type == 'video' ? '.mp4' : '.jpg'), `
 @${args[0]}
 `.trim(), m)}
-handler.command = /^(historiasinstagram|ighistorias)$/i
+handler.command = /^(historiasig|ighistorias)$/i
 module.exports = handler
 const axios = require('axios')
 const cheerio = require('cheerio')

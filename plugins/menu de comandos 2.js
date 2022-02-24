@@ -130,8 +130,9 @@ let menu =`
 ┣ ↠❄️ _${usedPrefix}animeinfo *nombre del anime*_
 ┣ ↠☀️ _${usedPrefix}wpanime | fondoanime_
 ┣ ↠❄️ _${usedPrefix}verinstagram | verig |igver *usuario*_
-┣ ↠☀️ _${usedPrefix}wikipedia | wiki | internet *texto*_
-┣ ↠❄️ _${usedPrefix}spotify *autor, cancion*_
+┣ ↠☀️ _${usedPrefix}historiasinstagram|ighistorias *usuario*_
+┣ ↠❄️ _${usedPrefix}wikipedia | wiki | internet *texto*_
+┣ ↠☀️ _${usedPrefix}spotify *autor, cancion*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *GESTION DE GRUPOS* 

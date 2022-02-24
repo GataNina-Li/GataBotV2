@@ -5,18 +5,18 @@ let handler = async (m, { text }) => {
   let teks = results.all.map(v => {
     switch (v.type) {
       case 'video': return `
-*${v.title}* (${v.url})
-Duración: ${v.timestamp}
-Fecha de subida: ${v.ago}
-${v.views} vistas
+✨ *${v.title}* (${v.url})
+⏳ Duración: ${v.timestamp}
+❇️ Fecha de subida: ${v.ago}
+👀 ${v.views} vistas
       `.trim()
       case 'channel': return `
 '✨' *${v.name}*\n ❇️ (${v.url})
-⏳ _${v.subCountLabel} 🗓 (${v.subCount}) Subscriber_
+ _${v.subCountLabel} 🗓 (${v.subCount}) Subscriber_
 👀 ${v.videoCount} video
 `.trim()
     }
-  }).filter(v => v).join('\n========================\n')
+  }).filter(v => v).join('\n========================================\n')
   m.reply(teks)
 }
 handler.help = ['', 'earch'].map(v => 'yts' + v + ' <pencarian>')

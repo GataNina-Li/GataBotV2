@@ -13,7 +13,7 @@ handler.tags = ['kerang']
 handler.command = /^(puto)/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.premium = false 
 handler.group = false
 handler.private = false
 

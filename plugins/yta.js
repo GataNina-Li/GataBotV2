@@ -1,5 +1,5 @@
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-const { servers, yta } = require('../lib/y2mate')
+const { servers, yta } = require('../lib/y2mate') 
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
   if (!args || !args[0]) return m.reply('*[❗] Inserte un enlace de YouTube*\n\n*Ejemplo:*\n*#dlaudio https://www.youtube.com/watch?v=8jvDzEIVpjg*')
   let chat = global.DATABASE._data.chats[m.chat]

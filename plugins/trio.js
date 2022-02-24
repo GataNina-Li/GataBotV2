@@ -10,7 +10,7 @@ function handler(m, { groupMetadata }) {
     let c
     do c = ps[Fl(R() * ps.length)]
     while (b === a)
-    m.reply(`*_Hey!!! ${toM(a)}, ${toM(b)} y ${toM(c)} han pensado en hacer un trio? ustedes 3 hacen un buen trio 🥵_*`, null, {
+    m.reply(`*_Hey!! ${toM(a)}, ${toM(b)} y ${toM(c)} han pensado en hacer un trio? ustedes 3 Uff.. 🥵_*`, null, {
         contextInfo: {
             mentionedJid: [a, b, c],
         }

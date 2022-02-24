@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         let pin = JSON.stringify(res)
         let json = JSON.parse(pin)
         if (!json.status) throw `*El video no se pudo descargar*`
-        await conn.sendVideo(m.chat, json.data.url, `*Gata Dios*`, m, { thumbnail: Buffer.alloc(0) })
+        await conn.sendVideo(m.chat, json.data.url, `🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`, m, { thumbnail: Buffer.alloc(0) })
     })
 
 }

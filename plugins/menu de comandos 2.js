@@ -126,8 +126,6 @@ let menu =`
 ┣ ↠❄️ _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
 ┣ ↠☀️ _${usedPrefix}acortar *link*_
 ┣ ↠❄️ _${usedPrefix}pinterest2 *texto*_
-┣ ↠☀️ _${usedPrefix}xnxx *link de xnxx*_
-┣ ↠❄️ _${usedPrefix}xnxxsearch *texto*_
 ┣ ↠☀️ _${usedPrefix}ssweb *link*_
 ┣ ↠❄️ _${usedPrefix}animeinfo *nombre del anime*_
 ┣ ↠☀️ _${usedPrefix}wpanime | fondoanime_

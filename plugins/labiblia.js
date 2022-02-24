@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃ *MENU +18*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃»🔞 _${usedPrefix}video_
-┃»🔞 _${usedPrefix}imglesbians_
+┃»🔞 _${usedPrefix}imglesbians|imagenlesbians_
 ┃»🔞 _${usedPrefix}porno_
 ┃»🔞 _${usedPrefix}randomnsfw_
 ┃»🔞 _${usedPrefix}pornogif_

@@ -83,7 +83,7 @@ ${arr.slice(6).join('')}
             users[room.game.playerO].exp += playScore
             if (isWin) users[winner].exp += winScore - playScore
             if (debugMode) m.reply('[DEBUG]\n' + require('util').format(room))
-            delete this.game[room.id]
+            delete this.game[room.id] 
         }
     }
     return !0

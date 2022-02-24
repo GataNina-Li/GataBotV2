@@ -13,7 +13,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     })
 
 }
-handler.help = ['pinterestvideo'].map(v => v + ' <url>')
+handler.help = ['pinterestvideo'].map(v => v + ' <url>') 
 handler.tags = ['downloader']
 handler.command = /^pinterestvideo|pintvid|pinterestvid$/i
 

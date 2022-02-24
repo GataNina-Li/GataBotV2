@@ -108,31 +108,32 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *DESCARGAS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🎊 _${usedPrefix}imagen | image | gimage *texto*_
-┣ ↠🪄 _${usedPrefix}ytsearch *texto*_
-┣ ↠🎉 _${usedPrefix}dlaudio *link yt*_
-┣ ↠🎊 _${usedPrefix}dlvid *link yt*_
-┣ ↠🪄 _${usedPrefix}ytmp3 *link yt*_
-┣ ↠🎉 _${usedPrefix}ytmp4 *link yt*_
-┣ ↠🎊 _${usedPrefix}play *titulo del audio*_
-┣ ↠🪄 _${usedPrefix}play2 *titulo del video*_
-┣ ↠🎉 _${usedPrefix}play3 *titulo del audio/video*_
-┣ ↠🎊 _${usedPrefix}letra *nombredelacanción*_
-┣ ↠🪄 _${usedPrefix}google *texto*_
-┣ ↠🎉 _${usedPrefix}googlef *texto*_
-┣ ↠🎊 _${usedPrefix}pinterestvideo | pintvid *link pinterest*_
-┣ ↠🪄 _${usedPrefix}tiktokaudio *link del tiktok*_
-┣ ↠🎉 _${usedPrefix}tiktok *link*_
-┣ ↠🎊 _${usedPrefix}spotify *autor, cancion*_
-┣ ↠🪄 _${usedPrefix}acortar *link*_
-┣ ↠🎉 _${usedPrefix}pinterest2 *texto*_
-┣ ↠🎊 _${usedPrefix}xnxx *link de xnxx*_
-┣ ↠🪄 _${usedPrefix}xnxxsearch *texto*_
-┣ ↠🎉 _${usedPrefix}ssweb *link*_
-┣ ↠🎊 _${usedPrefix}animeinfo *nombre del anime*_
-┣ ↠🪄 _${usedPrefix}wpanime | fondoanime_
-┣ ↠🎉 _${usedPrefix}verinstagram | verig |igver *usuario*_
-┣ ↠🎊 _${usedPrefix}wikipedia | wiki | internet *texto*_
+┣ ↠☀️ _${usedPrefix}imagen | image | gimage *texto*_
+┣ ↠❄️ _${usedPrefix}ytsearch *texto*_
+┣ ↠☀️ _${usedPrefix}dlaudio *link yt*_
+┣ ↠❄️ _${usedPrefix}dlvid *link yt*_
+┣ ↠☀️ _${usedPrefix}ytmp3 *link yt*_
+┣ ↠❄️ _${usedPrefix}ytmp4 *link yt*_
+┣ ↠☀️ _${usedPrefix}play *titulo del audio*_
+┣ ↠❄️ _${usedPrefix}play2 *titulo del video*_
+┣ ↠☀️ _${usedPrefix}play3 *titulo del audio/video*_
+┣ ↠❄️ _${usedPrefix}letra *nombredelacanción*_
+┣ ↠☀️ _${usedPrefix}google *texto*_
+┣ ↠❄️ _${usedPrefix}googlef *texto*_
+┣ ↠☀️ _${usedPrefix}pinterestvideo | pintvid *link pinterest*_
+┣ ↠❄️ _${usedPrefix}tiktokaudio *link del tiktok*_
+┣ ↠☀️ _${usedPrefix}tiktok *link*_
+┣ ↠❄️ _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
+┣ ↠☀️ _${usedPrefix}acortar *link*_
+┣ ↠❄️ _${usedPrefix}pinterest2 *texto*_
+┣ ↠☀️ _${usedPrefix}xnxx *link de xnxx*_
+┣ ↠❄️ _${usedPrefix}xnxxsearch *texto*_
+┣ ↠☀️ _${usedPrefix}ssweb *link*_
+┣ ↠❄️ _${usedPrefix}animeinfo *nombre del anime*_
+┣ ↠☀️ _${usedPrefix}wpanime | fondoanime_
+┣ ↠❄️ _${usedPrefix}verinstagram | verig |igver *usuario*_
+┣ ↠☀️ _${usedPrefix}wikipedia | wiki | internet *texto*_
+┣ ↠❄️ _${usedPrefix}spotify *autor, cancion*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *GESTION DE GRUPOS* 

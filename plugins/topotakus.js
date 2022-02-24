@@ -31,7 +31,7 @@ function handler(m, { groupMetadata }) {
     let j
     do j = ps[Fl(R() * ps.length)]
     while (b === a)
-    m.reply(`*_🌸 TOP 10 OTAKUS DEL GRUPO 🌸_*
+    m.reply(`*_🌸TOP 10 OTAKUS DEL GRUPO🌸_*
     
 *_1.- 💮${toM(a)}💮_*
 *_2.- 🌷${toM(b)}🌷_*

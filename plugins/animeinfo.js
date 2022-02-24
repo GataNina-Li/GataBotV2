@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let cheerio = require('cheerio')
 let handler = async (m, { conn, text }) => {
-  if (!text) throw `[❗] Ingrese el nombre de un anime a buscar 🔎`
+  if (!text) throw `❰ ❗️ ❱ *Ingrese el nombre del anime a buscar* 🔎`
   let res = await fetch(global.API('https://api.jikan.moe', '/v3/search/anime', { q: text }))
   if (!res.ok) throw await res.text()
   let json = await res.json()

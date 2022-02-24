@@ -11,6 +11,6 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['dado']
 handler.tags = ['sticker', 'fun']
-handler.command = /^dado$/i
+handler.command = /^dado$/i 
 
 module.exports = handler

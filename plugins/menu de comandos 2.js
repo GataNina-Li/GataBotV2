@@ -120,7 +120,7 @@ let menu =`
 ┣ ↠🎊 _${usedPrefix}letra *nombredelacanción*_
 ┣ ↠🪄 _${usedPrefix}google *texto*_
 ┣ ↠🎉 _${usedPrefix}googlef *texto*_
-┣ ↠🎊 _${usedPrefix}pinterestvideo *link de pinterest*_
+┣ ↠🎊 _${usedPrefix}pinterestvideo | pintvid *link pinterest*_
 ┣ ↠🪄 _${usedPrefix}tiktokaudio *link del tiktok*_
 ┣ ↠🎉 _${usedPrefix}tiktok *link*_
 ┣ ↠🎊 _${usedPrefix}spotify *autor, cancion*_

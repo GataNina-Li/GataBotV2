@@ -3,9 +3,9 @@ let handler = async (m, { conn, text }) => {
 	try {
 		if (conn.game) {
 			delete conn.game
-			conn.reply(m.chat, `*Se elimino correctamente la sala*`, m)
+			conn.reply(m.chat, `✅ *Se elimino correctamente la sala*`, m)
 		} else if (conn.game) {
-			m.reply(`*La sala no existe*\n\n*Corrobore haber puesto bien la sala*`)
+			m.reply(`*La sala no existe* 🤷‍♀\n\n*Corrobore haber puesto bien la sala*`)
 		} else throw '?'
 	} catch (e) {
 		m.reply('estropeado')

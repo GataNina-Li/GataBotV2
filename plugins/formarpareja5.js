@@ -43,7 +43,7 @@ Que hermosa pareja 💖, me invitan a su Boda 🛐
 Tan enamorados 😍, para cuando la familia 🥰
 
 *_4.- ${toM(g)} 💘 ${toM(h)}_* 
-💗 Decreto que ustedes son la pareja del Año 💗
+💗 Decreto que ustedes son la pareja del Año 💗 
 
 *_5.- ${toM(i)} 💘 ${toM(j)}_* 
 Genial! 💝, están de Luna de miel 🥵✨❤️‍🔥`, null, {

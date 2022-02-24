@@ -13,7 +13,7 @@ let handler = async (m, { conn, command, text }) => {
 handler.command = /^(love)/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.premium = false 
 handler.group = false
 handler.private = false
 

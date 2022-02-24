@@ -4,8 +4,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   let pint = res[Math.floor(Math.random() * res.length)]
   conn.sendFile(m.chat, pint, '', `
   *¡Aquí está la imagen!*
-  🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
-${text}
+  *${text}*
+ 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
 `.trim(), m)
 }
 handler.help = ['pinterest <keyword>']

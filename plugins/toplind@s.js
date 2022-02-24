@@ -31,7 +31,7 @@ function handler(m, { groupMetadata }) {
     let j
     do j = ps[Fl(R() * ps.length)]
     while (b === a)
-    m.reply(`*_🥵TOP LOS MAS LIND@S Y SEXIS DEL GRUPO SON🥵:_*
+    m.reply(`*_😳TOP LOS MAS LIND@S Y SEXIS DEL GRUPO😳:_*
     
 *_1.- ✨${toM(a)}✨_*
 *_2.- ✨${toM(b)}✨_*

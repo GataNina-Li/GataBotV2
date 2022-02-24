@@ -6,15 +6,16 @@ let handler = async (m, { text }) => {
     switch (v.type) {
       case 'video': return `
 ✨ *${v.title}* 
-🎈 ${v.url}
+ ${v.url}
 ⏳ *Duración:* ${v.timestamp}
 📌 *Fecha:* de subida: ${v.ago}
 👀 *Vistas:* ${v.views} 
       `.trim()
       case 'channel': return `
-'✨' *${v.name}*\n ❇️ (${v.url})
- _${v.subCountLabel} 🗓 (${v.subCount}) Subscriber_
-👀 ${v.videoCount} video
+✨ *${v.name}*\n 
+🎈 (${v.url})
+🗓 ${v.subCountLabel}  (${v.subCount}) *Subscriptores* 
+👀 ${v.videoCount} Videos 
 `.trim()
     }
   }).filter(v => v).join('\n========================================\n')

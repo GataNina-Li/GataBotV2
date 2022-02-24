@@ -24,8 +24,8 @@ ${txt}
   let url = json.result.link_dl1 || json.result.link_dl2 || ''
   if (!url) throw '*Error al obtener la URL de descarga*'
   let txt = `
-  🌟 *De:* ${json.result.name}
- ⭐️ *Descripción:*
+  ⭐️ *De:* ${json.result.name}
+🌟 *Descripción:*
   ${json.result.caption}
   
   🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈

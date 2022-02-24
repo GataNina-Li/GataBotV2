@@ -12,7 +12,7 @@ let handler = async (m, { conn, text, command, usedPrefix, watermark }) => {
 }
 handler.help = ['gimage <query>', 'image <query>']
 handler.tags = ['internet', 'tools']
-handler.command = /^(gimage|image|imagen)$/i
+handler.command = /^(gimage|image|imagen)$/i 
 
 module.exports = handler
 

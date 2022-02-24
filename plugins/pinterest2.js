@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) throw `Contoh: ${usedPrefix + command} minecraft`
+  if (!text) throw `❰ ❗️ ❱ *El uso correcto es:* ${usedPrefix + command} Gatos`
   let res = await pinterest(text)
   let pint = res[Math.floor(Math.random() * res.length)]
   conn.sendFile(m.chat, pint, '', `
@@ -9,7 +9,7 @@ ${text}
 }
 handler.help = ['pinterest <keyword>']
 handler.tags = ['internet']
-handler.command = /^(pinterest)$/i
+handler.command = /^pinterest|pinterest2|Pinterest$/i
 
 module.exports = handler
 

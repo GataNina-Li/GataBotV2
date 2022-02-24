@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 *Ejemplo:* *_${usedPrefix}${command}_* Google
 `.trim()
   let res = await igstalk(args[0])
-  let json = JSON.parse(JSON.stringify(res))
+  let json = JSON.parse(JSON.stringify(res)) 
   let iggs = `
 💠 *Nombre de usuario:* ${json.username}
 💠 *Usuario:* ${json.fullName}

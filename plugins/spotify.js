@@ -21,7 +21,7 @@ let spotifyi = `❒══════❬ SPOTIFY ❭══════╾❒
 await conn.sendFile(m.chat, thumb, '', spotifyi, m)
 await conn.sendFile(m.chat, preview_mp3, 'spotify.mp3', spotifyi, m)
 }
-handler.command = /^(spotify|spotifymusica)$/i
+handler.command = /^(spotify|spotimusica)$/i
 
 
 module.exports = handler

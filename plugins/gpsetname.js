@@ -3,10 +3,10 @@ let handler  = async (m, { conn, args }) => {
 	let text = args.join` `
 	if(!args || !args[0]) {
 		await conn.updatePresence(m.chat, Presence.composing) 
-		conn.reply(m.chat, `Give a text for the name of group`, m)
+		conn.reply(m.chat, `*Dar un texto para el nombre del grupo*`, m)
 	} else if(args[0].length > 25) {
 		await conn.updatePresence(m.chat, Presence.composing) 
-		conn.reply(m.chat, `Group name max. 25 character!`, m)
+		conn.reply(m.chat, `*Nombre del grupo max. 25 caracteres!*`, m)
 	} else {
 		conn.groupUpdateSubject(m.chat, text)
 	} 

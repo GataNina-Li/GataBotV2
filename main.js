@@ -119,7 +119,7 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = '┏━━━━━━━━━━━━━━━━ıllıllı\n┃──〘 ༻𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊/𝘼༺ 〙──\n┃━━━━━━━━━━━━━━━━ıllıllı\n┃ *_🐈 @user ingresaste a_* \n┃ *_@subject 🐈_*\n┃\n┃ᚒ⌬ *_Un grupo agradable 🤗_*\n┃ᚒ⌬ *_Respeta a los integrantes 🦋_* \n┃ᚒ⌬ *_¿Quieres ver mis comandos? 😳_* \n┃ᚒ⌬ *_Escribe: #menu_* \n┃ᚒ⌬ *_Por favor lee la descripción del grupo_*\n┃                                 👇\n\n@desc\n\n┃\n┃ *_Gracias 🕊️_*\n┃ *_🤹‍♀️ ¡Disfruta del Grupo! 🤹‍♀️_* \n┗━━━━━━━━━━━━━━━━ꪶ࿋྄ིᤢꫂ'
+  conn.welcome = '_Escri🕊️_*\n┃ *_🤹‍♀️ ¡Disfruta del Grupo! 🤹‍♀️_* \n┗━━━━━━━━━━━━━━━━ꪶ࿋྄ིᤢꫂ'
   conn.bye = '┏━━━━━━━━━━━━━━━━Z҉z҉Z҉\n┃────〘 ༻𝘼𝘿𝙄𝙊𝙎༺ 〙────\n┃━━━━━━━━━━━━━━━━Z҉z҉Z҉\n┃ *_🪦 Se fue @user_* 🪦\n┗━━━━━━━━━━━━━━━━Z҉z҉Z҉'
   conn.spromote = '@user ahora es administrador!' 
   conn.sdemote = '@user ya no es un administrador!'

@@ -131,8 +131,9 @@ let menu =`
 ┣ ↠☀️ _${usedPrefix}wpanime | fondoanime_
 ┣ ↠❄️ _${usedPrefix}verinstagram | verig |igver *usuario*_
 ┣ ↠☀️ _${usedPrefix}ighistorias|historiasig *usuario*_
-┣ ↠❄️ _${usedPrefix}wikipedia | wiki | internet *texto*_
-┣ ↠☀️ _${usedPrefix}spotify | spotimusica *autor, cancion*_
+┣ ↠❄️ _${usedPrefix}twittervideo | twvid *link de twitter*
+┣ ↠☀️ _${usedPrefix}wikipedia | wiki | internet *texto*_
+┣ ↠❄️ _${usedPrefix}spotify | spotimusica *autor, cancion*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *GESTION DE GRUPOS* 

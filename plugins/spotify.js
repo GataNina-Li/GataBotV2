@@ -6,7 +6,7 @@ if (!res.ok) throw await res.text()
 let json = await res.json()
 if(!json.data[0]) throw json
 let { title, artists, album, thumb, url, preview_mp3 } = json.data[0]
-let spotifyi = `❒═════❬ SPOTIFY ❭═════╾❒
+let spotifyi = `❒══════❬ SPOTIFY ❭══════╾❒
 ┇
 ┇➠ 🌸 *Titulo:* ${title}
 ┇

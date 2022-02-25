@@ -24,7 +24,7 @@ let handler = async (m, { conn, participants, groupMetadata, args }) => {
 ${oi}
 ${listAdmin}
 
-❰ ⚠️ ❱ *Usar este comando en caso de emergencia.* 
+❰ ⚠️ ❱ *Usar este comando en caso de emergencia.*  
 `.trim()
         ownernya = [`${m.chat.split`-`[0]}@s.whatsapp.net`]
         let mentionedJid = groupAdmins.concat(ownernya)

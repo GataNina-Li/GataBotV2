@@ -9,13 +9,13 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
 		throw `
 *_¡Formato erróneo!_*
   
-   ──────❲ *✨Ejemplo✨:* ❳────────
+   🐈 ─────❲ *✨ Ejemplo ✨:* ❳───── 🐈 
    
-  *├┉↯ ${usedPrefix + command} cerrado*
-  *├┉↯ ${usedPrefix + command} abierto*
+  *├┉🔒 ${usedPrefix + command} cerrado*
+  *├┉🔓 ${usedPrefix + command} abierto*
 `.trim()
 	await conn.groupSettingChange(m.chat, GroupSettingChange.messageSend, isClose)
-{m.reply('*Se realizó con exito✅*')}
+{m.reply('✅ *Se realizó con exito*')}
 }
 handler.help = ['grupo *abierto / cerrado*']
 handler.tags = ['group']

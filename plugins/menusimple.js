@@ -142,6 +142,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎨 _${usedPrefix}stickerfilter_
 ┣ ↠🎨 _${usedPrefix}mp3 *responde a un video*_
 ┣ ↠🎨 _${usedPrefix}img *responde a un sticker*_
+┣ ↠🎨 _${usedPrefix}ytcomentario | ytcomentar *texto*_
 ┣ ↠🎨 _${usedPrefix}blur *responde a una imagen*_
 ┣ ↠🎨 _${usedPrefix}swm *link de imagen de google*_
 ┣ ↠🎨 _${usedPrefix}gif *responde a un sticker/video*_

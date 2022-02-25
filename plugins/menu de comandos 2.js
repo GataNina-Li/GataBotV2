@@ -142,8 +142,8 @@ let menu =`
 ┣ ↠🔒 _${usedPrefix}añadir *numero*_ (desactivado)
 ┣ ↠🔐 _${usedPrefix}sacar @tag_ (desactivado)
 ┣ ↠🔒 _${usedPrefix}save *@tag + nombre de contacto*_
-┣ ↠🔐 _${usedPrefix}daradmin *@tag*_
-┣ ↠🔒 _${usedPrefix}quitaradmin *@tag*_
+┣ ↠🔐 _${usedPrefix}daradmin | darpoder *@tag*_
+┣ ↠🔒 _${usedPrefix}quitaradmin | quitarpoder *@tag*_
 ┣ ↠🔐 _${usedPrefix}grupo *abierto / cerrado*_
 ┣ ↠🔒 _${usedPrefix}enable welcome_
 ┣ ↠🔐 _${usedPrefix}disable welcome_
@@ -235,6 +235,7 @@ let menu =`
 ┣ ↠🎲 _${usedPrefix}readqr *responde a un código QR*_
 ┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
 ┣ ↠🎯 _${usedPrefix}subirestado *texto / responder video|imagen|gif*_
+┣ ↠🎲 _${usedPrefix}agendar | guardar *@tag + nombre de contacto*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*

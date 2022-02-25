@@ -16,26 +16,26 @@ let handler = async (m, { conn, participants, groupMetadata }) => {
         let { isBanned, welcome, antivirtex, detect, sWelcome, sBye, sPromote, sDemote, antiLink } = global.DATABASE.data.chats[m.chat]
         const groupAdmins = getGroupAdmins(participants)
         let listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.split('@')[0]}`).join('\n')
-        let text = `*「 INFORMACIÓN DEL GRUPO 」*\n
-*ID De Registro En El Bot:* 
+        let text = `*「 🔱 INFORMACIÓN DEL GRUPO 🔱 」*\n
+🛅 *ID De Registro En El Bot:* 
 ${groupMetadata.id}
 
-*Nombre:* 
+❇️ *Nombre:* 
 ${groupMetadata.subject}
 
-*Descripcion:* 
+✳️ *Descripcion:* 
 ${groupMetadata.desc}
 
-*Total De Participantes:*
-${participants.length} Participantes
-
-*Creador Del Grupo:* 
+👑 *Creador/a Del Grupo:* 
 @${m.chat.split`-`[0]}
 
-*Admins Del Grupo:*
+🏆 *Admins Del Grupo:*
 ${listAdmin}
 
-*Configuraciones Del Grupo:*
+👥 *Total De Participantes:*
+${participants.length} Participantes
+
+⚙ *Configuraciones Del Grupo:*
 ${welcome ? '✅' : '❌'} Welcome
 ${global.DATABASE.data.chats[m.chat].delete ? '❌' : '✅'} Anti Delete
 ${antiLink ? '✅' : '❌'} Anti Link

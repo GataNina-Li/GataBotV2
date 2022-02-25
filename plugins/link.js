@@ -3,7 +3,7 @@ let handler = async (m, { conn, args }) => {
 }
 handler.help = ['linkgroup']
 handler.tags = ['group']
-handler.command = /^link(gro?up)?$/i
+handler.command = /^link(gro?up)?$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

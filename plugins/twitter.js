@@ -1,6 +1,7 @@
 const fetch = require('node-fetch')
 let handler = async (m, { usedPrefix, command, conn, args }) => {
-  if (!args[0]) throw `Gunakan format: ${usedPrefix}${command} https://twitter.com/xxx/xxx/xxx`
+  if (!args[0]) throw `❰ ❗️ ❱ *Estas usando mal el comando!!*
+*Ejemplo:* *${usedPrefix}${command}* https://twitter.com/NetflixLAT/status/1496531266539294727?t=ud4OO-43ifmaAu9DHec7ew&s=19`
   let res = await twitter(args[0])
   let result = res.result.reverse().filter(({ mime }) => /video/i.test(mime)), video, index
   for (let vid of result) {
@@ -16,16 +17,20 @@ let handler = async (m, { usedPrefix, command, conn, args }) => {
   if (!video) throw 'Can\'t get video/image'
   let ress = result[index]
   conn.sendFile(m.chat, video, 'twitter' + /video/.test(ress.mime) ? '.mp4' : '.png', `
-*Name:* ${res.name}
-*Url:* ${args[0]}
-*Link:* ${ress.link}
-*Mime:* ${ress.mime}
+✨ *Nombre:* ${res.name}
+
+📍 *Url:* ${args[0]}
+
+📎 *Link:* ${ress.link}
+
+🎦 *Formato:* ${ress.mime}
+🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
 `.trim(), m)
 }
 handler.help = ['twitter'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 
-handler.command = /^twitter$/i
+handler.command = /^twittervideo|twvid$/i
 
 module.exports = handler
 

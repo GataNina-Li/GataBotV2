@@ -122,7 +122,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠❄️ _${usedPrefix}letra *nombredelacanción*_
 ┣ ↠☀️ _${usedPrefix}google *texto*_
 ┣ ↠❄️ _${usedPrefix}googlef *texto*_
-┣ ↠☀️ _${usedPrefix}pinterestvideo | pintvid *link pinterest*_
+┣ ↠☀️ _${usedPrefix}pinterestvideo | pintvid *linkPinterest*_
 ┣ ↠❄️ _${usedPrefix}tiktokaudio *link del tiktok*_
 ┣ ↠☀️ _${usedPrefix}tiktok *link*_
 ┣ ↠❄️ _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
@@ -133,7 +133,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠☀️ _${usedPrefix}wpanime | fondoanime_
 ┣ ↠❄️ _${usedPrefix}verinstagram | verig |igver *usuario*_
 ┣ ↠☀️ _${usedPrefix}ighistorias|historiasig *usuario*_
-┣ ↠❄️ _${usedPrefix}twittervideo | twvid *link de twitter*
+┣ ↠❄️ _${usedPrefix}twittervideo | twvid *link de twitter*_
 ┣ ↠☀️ _${usedPrefix}wikipedia | wiki | internet *texto*_
 ┣ ↠❄️ _${usedPrefix}spotify | spotimusica *autor, cancion*_
 ┗━━━━━━━━━━━━━━━━━━┛

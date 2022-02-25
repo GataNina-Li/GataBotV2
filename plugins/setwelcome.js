@@ -8,6 +8,6 @@ handler.help = ['setwelcome <teks>']
 handler.tags = ['owner']
 handler.rowner = true
 
-handler.command = /^setwelcome$/i
+handler.command = /^setwelcome$/i 
 module.exports = handler
 

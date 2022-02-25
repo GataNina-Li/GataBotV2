@@ -173,16 +173,17 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       break
     default:
       if (!/[01]/.test(command)) return m.reply(`
-Lista de opciones: welcome | delete | public | antilink | restrict | autoread | antilink2
+*Lista de opciones:*
+🏷 welcome | delete | public | antilink | restrict | autoread | antilink2
 
-Ejemplo:
+*Ejemplo:*
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
 `.trim())
       throw false
   }
   m.reply(`
-*${type}* *${isEnable ? 'activa' : 'desactiva'}do* ${isAll ? '*para este bot*' : isUser ? '' : '*para este chat*'}
+*${type}* *${isEnable ? 'activa' : 'desactiva'}do* ✅ ${isAll ? '*para este Bot*' : isUser ? '' : '*para este chat*'}
 `.trim())
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')

@@ -16,7 +16,7 @@ let spotifyi = `❒══════❬ SPOTIFY ❭══════╾❒
 ┇
 ┇➠ ⚡️ *URL*: ${url}
 ┇
-┇➠ 💥 *Dirección de URL:* ${preview_mp3}\n┇\n┗╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍❒\n\n*_⏳ Enviando música de previsualización_*\n\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`
+┇➠ 💥 *Dirección de URL:* ${preview_mp3}\n┇\n┗╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍❒\n\n*_⏳ Enviando música de previsualización_*\n\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`
 
 await conn.sendFile(m.chat, thumb, '', spotifyi, m)
 await conn.sendFile(m.chat, preview_mp3, 'spotify.mp3', spotifyi, m)

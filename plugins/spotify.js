@@ -24,4 +24,4 @@ await conn.sendFile(m.chat, preview_mp3, 'spotify.mp3', spotifyi, m)
 handler.command = /^(spotify|spotimusica)$/i
 
 
-module.exports = handler
+module.exports = handler 

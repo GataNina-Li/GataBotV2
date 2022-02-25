@@ -7,7 +7,7 @@ let handler = async (m, { conn,usedPrefix, text }) => {
 		var number = text
 	}
 	
-	if(!text && !m.quoted) return conn.reply(m.chat, `*❰ ❗️ ❱ USO APROPIADO*\n\n*┯┷*\n*┠≽ ${usedPrefix}quitaradmin @tag*\n*┠≽ ${usedPrefix}quitaradmin ➡️ responder a un mensaje*\n*┷┯*`, m)
+	if(!text && !m.quoted) return conn.reply(m.chat, `*❰ ❗️ ❱ USO CORRECTO*\n\n*┯┷*\n*┠≽ ${usedPrefix}quitaradmin @tag*\n*┠≽ ${usedPrefix}quitaradmin ➡️ responder a un mensaje*\n*┷┯*`, m)
 	if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `*❰ ⚠️ ❱ El número ingresado es incorrecto, por favor ingrese el número correcto*`, m)
 	
 try {

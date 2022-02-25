@@ -132,7 +132,7 @@ let menu =`
 ┣ ↠❄️ _${usedPrefix}verinstagram | verig |igver *usuario*_
 ┣ ↠☀️ _${usedPrefix}ighistorias|historiasig *usuario*_
 ┣ ↠❄️ _${usedPrefix}wikipedia | wiki | internet *texto*_
-┣ ↠☀️ _${usedPrefix}spotify | spotifymusica *autor, cancion*_
+┣ ↠☀️ _${usedPrefix}spotify | spotifymusica *autor,cancion*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *GESTION DE GRUPOS* 

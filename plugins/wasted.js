@@ -15,7 +15,7 @@ let handler = async (m, { conn, text }) => {
   let img = await q.download()
   let url = await uploadImage(img)
   let wasted = `https://some-random-api.ml/canvas/wasted?avatar=${url}`
-  let stiker = await sticker(null, wasted, 'Wasted', '©The Shadow Brokers - Bot')
+  let stiker = await sticker(null, wasted, 'hola', 'GataBot 🐈 - Gata Dios')
   conn.sendMessage(m.chat, stiker, MessageType.sticker, {
     quoted: m
   })

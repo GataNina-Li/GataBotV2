@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['style'].map(v => v + ' <text>')
 handler.tags = ['General']
-handler.command = /^(style)$/i
+handler.command = /^(style|Style|estilo|Estilo)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

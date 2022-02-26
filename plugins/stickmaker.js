@@ -9,12 +9,12 @@ let handler = async (m, { conn, usedPrefix, text }) => {
 *_✳️ USO CORRECTO DEL COMANDO ✳️_*
 
 *👉 Use:* ${usedPrefix}stickermaker (efecto) 
-- Y responda a una imagen
+✅ responda a una imagen
 
 *✅ Ejemplo:* ${usedPrefix}stickermaker jail
 
 *List Effect:*
-${effects.map(effect => `_> ${effect}_`).join('\n')}
+${effects.map(effect => `_✨ ${effect}_`).join('\n')}
 `.trim()
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''

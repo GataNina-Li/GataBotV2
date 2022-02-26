@@ -6,23 +6,24 @@ const emoji = new EmojiAPI()
 let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
   let er = `✅ *_USO CORRECTO DEL COMANDO:_*
 
-*_${usedPrefix}${command}* (codigo) (emoji)_
+*_${usedPrefix}${command}_* (codigo) (emoji)
 
 *_Ejemplo:_*
 *${usedPrefix}${command}* wh 😻
 
 *_Opciones Disponibles:_*
-✨ ap = apple
+✨ wh = whatsapp
+✨ sa = samsung
+✨ mi = microsoft
 ✨ fa = facebook
 ✨ go = google
+✨ ap = apple
 ✨ ht = htc
-✨ mi = microsoft
 ✨ mo = mozilla
 ✨ op = openmoji
 ✨ pi = pixel
-✨ sa = samsung
 ✨ tw = twitter
-✨ wh = whatsapp
+
 
 ❰ ⚠️ ❱ *_Solo puede usar 1 emoji, evita saturar_*`
   if (!args[0]) throw er

@@ -10,17 +10,17 @@ let handler = async (m, { conn, usedPrefix, text }) => {
 *_✳️ USO CORRECTO DEL COMANDO ✳️_*
 
 *👉 Use:* ${usedPrefix}stickerfilter (efecto) 
-- Y responda a una imagen
+✅ *responda a una imagen*
 
 *✅ Ejemplo:* ${usedPrefix}stickerfilter greyscale
 
 *Lista de efectos:*
-${effects.map(effect => `_> ${effect}_`).join('\n')}
+${effects.map(effect => `_✨ ${effect}_`).join('\n')}
 `.trim()
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''
   if (!mime) throw '*_🔰 No se encontro la imagen_*\n\n*_✅ Responda a una imagen_*'
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `*_⚠️ Formato no admitido_*\n\n*_👉🏻 Responda a una imagen_*`
+  if (!/image\/(jpe?g|png)/.test(mime)) throw `*_⚠️ Formato no admitido_*\n\n*_👉 Responda a una imagen_*`
   let img = await q.download()
   let url = await uploadImage(img)
   let apiUrl = global.API('https://some-random-api.ml/canvas/', encodeURIComponent(effect), {

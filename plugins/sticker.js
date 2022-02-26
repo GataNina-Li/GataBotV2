@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || ''
     if (/webp|image|video/g.test(mime)) {
-      if (/video/g.test(mime)) if ((q.msg || q).seconds > 20) return m.reply('*😸 El video debe de ser de maximo 7 segundos*')
+      if (/video/g.test(mime)) if ((q.msg || q).seconds > 11) return m.reply('*😸 El video debe de ser de maximo 7 segundos*')
       let img = await q.download()
       if (!img) throw `*❰ ⚠️ ❱ ️Error vuelva a intentarlo, recuerde responder a la imagen, video o gif con ${usedPrefix + command}*`
       let out

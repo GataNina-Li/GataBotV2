@@ -6,25 +6,25 @@ const emoji = new EmojiAPI()
 let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
   let er = `✅ *_USO CORRECTO DEL COMANDO:_*
 
-*_${usedPrefix}${command}semoji (codigo) (emoji)_
+*_${usedPrefix}${command}* (codigo) (emoji)_
 
 *_Ejemplo:_*
-#semoji ap ❤️
+*${usedPrefix}${command}* wh 😻
 
 *_Opciones Disponibles:_*
-• ap = apple
-• fa = facebook
-• go = google
-• ht = htc
-• mi = microsoft
-• mo = mozilla
-• op = openmoji
-• pi = pixel
-• sa = samsung
-• tw = twitter
-• wh = whatsapp
+✨ ap = apple
+✨ fa = facebook
+✨ go = google
+✨ ht = htc
+✨ mi = microsoft
+✨ mo = mozilla
+✨ op = openmoji
+✨ pi = pixel
+✨ sa = samsung
+✨ tw = twitter
+✨ wh = whatsapp
 
-*_⚠️Solo puede usar 1 emoji, no usar muy seguido este comando ya que puede causar que el Bot se sature⚠️_*`
+❰ ⚠️ ❱ *_Solo puede usar 1 emoji, evita saturar_*`
   if (!args[0]) throw er
 
   let template = (args[0] || '').toLowerCase()

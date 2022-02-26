@@ -37,7 +37,7 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *REPORTA FALLOS DE COMANDOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃  *Reporta cualquier comando que falle* ┃ *para poder solucionarlo*
+┃  *Reporta cualquier comando que falle*   ┃ *para poder solucionarlo*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠📮 _${usedPrefix}bug *tal comando con fallas*_
 ┣ ↠📮 _${usedPrefix}report *tal comando con fallas*_
@@ -236,15 +236,15 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ *Usalo si el grupo te lo permite
-┃ NO nos hacemos responsables*
+┃ *Usalo si el grupo te lo permite*
+┃ *NO nos hacemos responsables*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🔞 _${usedPrefix}labiblia_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *EFECTOS PARA AUDIOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃ Responde a un audio o nota de voz
+┃ *Responde a un audio o nota de voz*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎤 _${usedPrefix}bass_
 ┣ ↠🎤 _${usedPrefix}deep_

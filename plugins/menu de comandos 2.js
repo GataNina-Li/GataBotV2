@@ -154,7 +154,7 @@ let menu =`
 ┣ ↠🔒 _${usedPrefix}enable delete_
 ┣ ↠🔐 _${usedPrefix}disable  delete_ 
 ┣ ↠🔒 _${usedPrefix}link_
-┣ ↠🔐 _${usedPrefix}notificar *texto*_
+┣ ↠🔐 _${usedPrefix}notificar | hidetag *texto*_
 ┣ ↠🔒 _${usedPrefix}setname *Nuevo nombre del grupo*_
 ┣ ↠🔐 _${usedPrefix}setdesc *Nueva descripción grupo*_
 ┣ ↠🔒 _${usedPrefix}infogrupo_

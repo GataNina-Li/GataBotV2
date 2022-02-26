@@ -23,7 +23,7 @@ let handler = async (m, { conn, participants, args }) => {
     let duh = `🐱\n\n*▌│█║▌║▌║║▌║▌║▌║█*\n               🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`
        var teks = `${oi}\n\n🐱\n`
     for (let admon of groupMembers) {
-        teks += `┣↬ @${admon.jid.split('@')[0]}\n`
+        teks += ` ┣↬ @${admon.jid.split('@')[0]}\n`
     }
     mentions(hmm+teks+duh, users, true,{ contextInfo: { mentionedJid: users } })
     // m.reply( + "\nNama:\n" +  + "\nDeskripsi:\n" + )

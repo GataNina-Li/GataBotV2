@@ -179,7 +179,7 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *RANDOM|EXTRAS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🎲 _${usedPrefix}compartirfoto | compfoto_
+┣ ↠🎲 _${usedPrefix}compartirfoto_
 ┣ ↠🎳 _${usedPrefix}futbol_
 ┣ ↠🎯 _${usedPrefix}Messi_
 ┣ ↠🎲 _${usedPrefix}animal_

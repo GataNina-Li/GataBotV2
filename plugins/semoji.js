@@ -4,9 +4,9 @@ const { EmojiAPI } = require("emoji-api")
 const emoji = new EmojiAPI()
 
 let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
-  let er = `*_USO CORRECTO DEL COMANDO:_*
+  let er = `✅ *_USO CORRECTO DEL COMANDO:_*
 
-_#semoji (codigo) (emoji)_
+*_${usedPrefix}${command}semoji (codigo) (emoji)_
 
 *_Ejemplo:_*
 #semoji ap ❤️

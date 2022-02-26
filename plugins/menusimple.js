@@ -34,7 +34,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠⚜️ _${usedPrefix}reglas_
 ┣ ↠⚜️ _${usedPrefix}menusimple_
 ┣ ↠⚜️ _${usedPrefix}menuaudios_
-┣ ↠⚜️ _${usedPrefix}menu1.2_
 ┣ ↠⚜️ _${usedPrefix}menu2_
 ┣ ↠⚜️ _${usedPrefix}estado_
 ┣ ↠⚜️ _¿Qué es un Bot?_
@@ -148,6 +147,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎨 _${usedPrefix}swm *link de imagen de google*_
 ┣ ↠🎨 _${usedPrefix}gif *responde a un sticker/video*_
 ┣ ↠🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
+┣ ↠🎲 _${usedPrefix}compartirfoto | compfoto_
 ┣ ↠🎳 _${usedPrefix}futbol_
 ┣ ↠🎯 _${usedPrefix}Messi_
 ┣ ↠🎲 _${usedPrefix}animal_

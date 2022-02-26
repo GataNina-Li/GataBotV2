@@ -233,8 +233,8 @@ let menu =`
 ┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
 ┣ ↠🎯 _${usedPrefix}subirestado *texto / video|imagen*_
 ┣ ↠🎲 _${usedPrefix}subirestado *texto / gif*_
-┣ ↠🎳 _${usedPrefix}agendar *@tag + nombre de contacto*_
-┣ ↠🎲 _${usedPrefix}guardar *@tag + nombre de contacto*_
+┣ ↠🎳 _${usedPrefix}agendar *@tag + nombre contacto*_
+┣ ↠🎲 _${usedPrefix}guardar *@tag + nombre contacto*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*

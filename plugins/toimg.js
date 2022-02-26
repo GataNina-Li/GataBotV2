@@ -7,9 +7,9 @@ let handler = async (m, { conn, command, usedPrefix }) => {
   if (!global.support.convert &&
       !global.support.magick &&
       !global.support.gm) {
-      if (!m.quoted) throw `*🔰 Responda a un sticker con el comando* *${usedPrefix + command}*`
+      if (!m.quoted) throw `*❰ ❗️ ❱ Responda a un sticker con el comando* *${usedPrefix + command}*`
       let mime = m.quoted.mimetype || ''
-      if (!/webp/.test(mime)) throw `*🔰 Responda a un sticker con el comando* *${usedPrefix + command}*`
+      if (!/webp/.test(mime)) throw `*❰ ❗️ ❱ Responda a un sticker con el comando* *${usedPrefix + command}*`
       let media = await m.quoted.download()
       let out = Buffer.alloc(0)
       if (/webp/.test(mime)) {
@@ -20,7 +20,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
       })
       return
   }
-  if (!m.quoted) return conn.reply(m.chat, 'Responda a un sticker!', m)
+  if (!m.quoted) return conn.reply(m.chat, '❰ ❗️ ❱ Responda a un sticker!', m)
   let q = { message: { [m.quoted.mtype]: m.quoted } }
   if (/sticker/.test(m.quoted.mtype)) {
     let sticker = await conn.downloadM(q)

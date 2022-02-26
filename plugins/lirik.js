@@ -1,34 +1,18 @@
-let { MessageType } = require('@adiwajshing/baileys')
 let fetch = require('node-fetch')
-let handler = async (m, { conn, args, usedPrefix, DevMode }) => {
-    try {
-        if (!args || !args[0] || args.length < 1) return m.reply('*[❗] Ingrese un texto*\n\n*Ejemplo:*\n#letra JuanSolo QueridoCorazon*')
-        let res = await fetch(global.API('bg', '/lirik', { 
-            title: args[0],
-            artist: args[1] || '' 
-        }))
-        let json = await res.json()
-        if (json.status !== true) throw json
-        m.reply(`
-*〘 ${args[0]} 〙*
-
-*Letra:*
-\`\`\`${json.result}\`\`\`
-`.trim())
-    } catch (e) {
-        m.reply('*[ ⚠️ ] Error!*\n\n*[❗] Recuerda poner el título/nombre de la canción sin dejar espacio*\n*Ejemplo:*\n*#letra JuanSolo QueridoCorazón*')
-        console.log(e)
-        if (DevMode) {
-            let file = require.resolve(__filename)
-            for (let jid of global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != conn.user.jid)) {
-                conn.sendMessage(jid, file + ' error\nNo: *' + m.sender.split`@`[0] + '*\nCommand: *' + m.text + '*\n\n*' + e + '*', MessageType.text)
-            }
-        }
-    }
-}
-    
-handler.help = ['lirik', 'lyrics'].map(v => ' [title] [artist]')
-handler.tags = ['internet']
+let handler = async (m, { text, usedPrefix, command, args }) => {
+let msg = `*[❗] Uso correcto del comando ${usedPrefix + command} (Autor) (Cancion)*\n*Ejemplo:*\n*${usedPrefix + command} Beret Ojala*`
+if (!args || !args[0]) return m.reply(msg)
+try {
+let res = await fetch(global.API('https://some-random-api.ml', '/lyrics', {
+title: text}))
+if (!res.ok) throw await res.text()
+let json = await res.json()
+if (!json.thumbnail.genius) throw json
+let teks = `*${json.title}*\n_${json.author}_\n\n${json.lyrics}\n\n\n${json.links.genius}`
+let foot = '©𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+conn.send2ButtonImg(m.chat, await(await fetch(json.thumbnail.genius)).buffer(), teks, foot,'🎧 DESCARGAR MUSICA 🔊', `#play ${text}`, '🎥 DESCARGAR VIDEO 🎞️', `#play2 ${text}`, m)
+} catch (e) {
+console.log(e)
+m.reply('*[❗] No se encontro la letra de la canción, por favor prueba con otra*')}}
 handler.command = /^(l(irik|yrics)|letra)$/i
-
 module.exports = handler

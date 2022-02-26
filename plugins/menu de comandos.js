@@ -28,7 +28,6 @@ let menu =`
 ┣ ↠⚜️ _${usedPrefix}reglas_
 ┣ ↠⚜️ _${usedPrefix}menusimple_
 ┣ ↠⚜️ _${usedPrefix}menuaudios_
-┣ ↠⚜️ _${usedPrefix}menu1.2_
 ┣ ↠⚜️ _${usedPrefix}menu2_
 ┣ ↠⚜️ _${usedPrefix}estado_
 ┣ ↠⚜️ _¿Qué es un Bot?_
@@ -180,6 +179,7 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *RANDOM|EXTRAS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠🎲 _${usedPrefix}compartirfoto | compfoto_
 ┣ ↠🎳 _${usedPrefix}futbol_
 ┣ ↠🎯 _${usedPrefix}Messi_
 ┣ ↠🎲 _${usedPrefix}animal_
@@ -333,6 +333,6 @@ conn.send3ButtonImg(m.chat, pp, menu, '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 �
 //})
 }
 
-handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help)$/i
+handler.command = /^(menu|menú|memu|memú|help|info|comandos|menu1.2|allmenu|2help)$/i
 handler.fail = null
 module.exports = handler

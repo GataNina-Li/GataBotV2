@@ -147,7 +147,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎨 _${usedPrefix}swm *link de imagen de google*_
 ┣ ↠🎨 _${usedPrefix}gif *responde a un sticker/video*_
 ┣ ↠🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
-┣ ↠🎲 _${usedPrefix}compartirfoto | compfoto_
+┣ ↠🎲 _${usedPrefix}compartirfoto_
 ┣ ↠🎳 _${usedPrefix}futbol_
 ┣ ↠🎯 _${usedPrefix}Messi_
 ┣ ↠🎲 _${usedPrefix}animal_

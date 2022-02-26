@@ -144,8 +144,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🔒 _${usedPrefix}añadir *numero*_ (desactivado)
 ┣ ↠🔐 _${usedPrefix}sacar @tag_ (desactivado)
 ┣ ↠🔒 _${usedPrefix}save *@tag + nombre de contacto*_
-┣ ↠🔐 _${usedPrefix}daradmin *@tag*_
-┣ ↠🔒 _${usedPrefix}quitaradmin *@tag*_
+┣ ↠🔐 _${usedPrefix}daradmin | darpoder *@tag*_
+┣ ↠🔒 _${usedPrefix}quitaradmin | quitarpoder *@tag*_
 ┣ ↠🔐 _${usedPrefix}grupo *abierto / cerrado*_
 ┣ ↠🔒 _${usedPrefix}enable welcome_
 ┣ ↠🔐 _${usedPrefix}disable welcome_
@@ -156,7 +156,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🔒 _${usedPrefix}enable delete_
 ┣ ↠🔐 _${usedPrefix}disable  delete_ 
 ┣ ↠🔒 _${usedPrefix}link_
-┣ ↠🔐 _${usedPrefix}notificar *texto*_
+┣ ↠🔐 _${usedPrefix}notificar | hidetag *texto*_
 ┣ ↠🔒 _${usedPrefix}setname *Nuevo nombre del grupo*_
 ┣ ↠🔐 _${usedPrefix}setdesc *Nueva descripción grupo*_
 ┣ ↠🔒 _${usedPrefix}infogrupo_

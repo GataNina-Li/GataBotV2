@@ -10,17 +10,17 @@ let handler = async (m, { conn, text }) => {
  try {
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''
-  if (!mime) throw 'Imagen no soportada'
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `El peso ${mime} no soportado`
+  if (!mime) throw '*Imagen no soportada*'
+  if (!/image\/(jpe?g|png)/.test(mime)) throw `*El peso ${mime} no soportado*`
   let img = await q.download()
   let url = await uploadImage(img)
   let wasted = `https://some-random-api.ml/canvas/wasted?avatar=${url}`
-  let stiker = await sticker(null, wasted, 'hola', 'GataBot 🐈 - Gata Dios')
+  let stiker = await sticker(null, wasted, 'Wasted', 'GataBot 🐈 - Gata Dios')
   conn.sendMessage(m.chat, stiker, MessageType.sticker, {
     quoted: m
   })
  } catch (e) {
-   m.reply('Conversión fallida, recuerde responder a una imagen')
+   m.reply('*Conversión fallida, recuerde responder a una imagen*')
   }
 }
 handler.help = ['wasted']

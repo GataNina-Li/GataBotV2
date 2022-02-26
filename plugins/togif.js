@@ -1,8 +1,8 @@
 let { webp2mp4 } = require('../lib/webp2mp4')
 let handler = async (m, { conn, usedPrefix, command }) => {
-    if (!m.quoted) throw `*Responde a un video o sticker con el comando: ${usedPrefix + command}*`
+    if (!m.quoted) throw `❰ ❗️ ❱ *Responde a un video o sticker con el comando: ${usedPrefix + command}*`
     let mime = m.quoted.mimetype || ''
-    if (!/webp/.test(mime)) throw `*Responde a un video o sticker con el comando: ${usedPrefix + command}*`
+    if (!/webp/.test(mime)) throw `❰ ❗️ ❱ *Responde a un video o sticker con el comando: ${usedPrefix + command}*`
     let media = await m.quoted.download()
     let out = Buffer.alloc(0)
     if (/webp/.test(mime)) {

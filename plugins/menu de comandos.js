@@ -37,7 +37,8 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *REPORTA FALLOS DE COMANDOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃  *Reporta cualquier comando que falle*   ┃ *para poder solucionarlo*
+┃ *Reporta cualquier comando que falle*   
+┃ *para poder solucionarlo*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠📮 _${usedPrefix}bug *tal comando con fallas*_
 ┣ ↠📮 _${usedPrefix}report *tal comando con fallas*_
@@ -230,8 +231,10 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}spamwa *numero|texto|cantidad*_
 ┣ ↠🎲 _${usedPrefix}readqr *responde a un código QR*_
 ┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
-┣ ↠🎯 _${usedPrefix}subirestado *texto / responder video|imagen|gif*_
-┣ ↠🎲 _${usedPrefix}agendar | guardar *@tag + nombre de contacto*_
+┣ ↠🎯 _${usedPrefix}subirestado *texto / video|imagen*_
+┣ ↠🎲 _${usedPrefix}subirestado *texto / gif*_
+┣ ↠🎳 _${usedPrefix}agendar *@tag + nombre de contacto*_
+┣ ↠🎲 _${usedPrefix}guardar *@tag + nombre de contacto*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*

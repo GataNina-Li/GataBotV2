@@ -169,7 +169,7 @@ let menu =`
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎨 _${usedPrefix}s_
 ┣ ↠🎨 _${usedPrefix}sticker_
-┣ ↠🎨 _${usedPrefix}semoji_
+┣ ↠🎨 _${usedPrefix}semoji | emoji_
 ┣ ↠🎨 _${usedPrefix}wasted_
 ┣ ↠🎨 _${usedPrefix}stonks_
 ┣ ↠🎨 _${usedPrefix}trash_

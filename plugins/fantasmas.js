@@ -23,9 +23,9 @@ let handler = async (m, { conn, text, participants }) => {
 			}
 		}
 	}
-	if(total == 0) return conn.reply(m.chat, `*Este grupo no tiene fantasmas :D.*`, m) 
+	if(total == 0) return conn.reply(m.chat, `*Este grupo no tiene fantasmas 😼*`, m) 
 	// conn.reply(m.chat, `*[ SIDER CHECK ]*\n\n*Grup ${conn.getName(m.chat)}, memiliki anggota ${sum} orang dan terdapat sider (penyimak profesional) sebanyak ${total} orang.*\n\n*NB* : *“Akurasi dari fitur ini akan mencapai 85% apabila BOT sudah berada didalam grup minimal 7hr dan fitur ini tidak menghitung admin sider.”*${%readmore}\n\n${sider.map(v => '  ○ @' + v.replace(/@.+/, '')).join('\n')}`, m,{ contextInfo: { mentionedJid: sider } })
-	conn.reply(m.chat, `*[ REVISIÓN DE INACTIVOS ]*\n\n*Grupo: ${conn.getName(m.chat)}*\n*Participantes: ${sum}*\n\n*[ 👻 LISTA DE FANTASMAS 👻 ]*\n${sider.map(v => '  👉🏻 @' + v.replace(/@.+/, '')).join('\n')}\n\n*Nota: Esto puede no ser 100% acertado*`, m,{ contextInfo: { mentionedJid: sider } })
+	conn.reply(m.chat, `*[ 🧐 REVISIÓN DE INACTIVOS 🧐 ]*\n\n*Grupo: ${conn.getName(m.chat)}*\n*Participantes: ${sum}*\n\n*[ 👻 LISTA DE FANTASMAS 👻 ]*\n${sider.map(v => ' 👉 @' + v.replace(/@.+/, '')).join('\n')}\n\n*_Nota:_ Puede no ser 100% acertado*`, m,{ contextInfo: { mentionedJid: sider } })
 }
 handler.help = ['verfantasmas']
 handler.tags = ['group']

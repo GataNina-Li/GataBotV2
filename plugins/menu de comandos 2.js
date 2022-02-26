@@ -17,11 +17,11 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
   } catch (e) {
 
   } finally {
-await conn.reply(m.chat, '*[ ⚠️ ] Cargando menú...*\n\n*[❗] Si no puede visualizar el menú, use el comando /menu1.2*')
+await conn.reply(m.chat, '*❰ ⚠️ ❱ Cargando menú 🔄*\n\n*❰ ❗️ ❱ Si no puede ver el menú, use el comando: #menu1.2*')
   let username = conn.getName(who)
 let menu =`
 ╭══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮
-║═ 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 | 𝘽𝙊𝙏
+║═ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║❇️ *¡𝗛ola! ${username}* ❇️
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡

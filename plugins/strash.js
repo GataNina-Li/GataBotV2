@@ -16,7 +16,7 @@ let handler = async (m, { conn, text }) => {
     quoted: m
   })
  } catch (e) {
-   m.reply('Responde a una imagen')
+   m.reply('*Responde a una imagen*')
   }
 }
 handler.help = ['trash']

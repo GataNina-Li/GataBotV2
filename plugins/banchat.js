@@ -4,7 +4,7 @@ let handler = async (m, { conn, participants }) => {
     let chat = global.DATABASE._data.chats[m.chat]
     if (chat.isBanned) return m.reply('*Este chat ya estaba baneado previamente*\n*Si desea desbanearlo use /unbanchat*')
     chat.isBanned = true
-    m.reply('*Este chat ha sido baneado a desicion de un administrador del grupo*')
+    m.reply('✅ *Este chat ha sido baneado a desicion de un administrador del grupo*')
   // } else m.reply('Aquí hay un número de un host...')
 }
 handler.help = ['banchat']

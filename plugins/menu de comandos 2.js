@@ -1,24 +1,13 @@
 let fs = require('fs')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
-let fakeImage = 'https://i.imgur.com/dpdlz9s.jpg'
-let safusimage = 'https://i.imgur.com/dpdlz9s.jpg'
-let fakeMessage = 'Bruno Sobrino'
-const { MessageType } = require('@adiwajshing/baileys')
 let path = require('path')
-let levelling = require('../lib/levelling')
+let util = require('util')
 let handler = async (m, { conn, usedPrefix }) => {
-let prep = await conn.prepareMessage(m.chat, fs.readFileSync('./Menu2.jpg'), MessageType.image, {})
-let idd = prep.message
-let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
-  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-  try {
-    pp = await conn.getProfilePicture(who)
-  } catch (e) {
-
-  } finally {
-await conn.reply(m.chat, '*❰ ⚠️ ❱ Cargando menú 🔄*\n\n*❰ ❗️ ❱ Si no puede ver el menú, use el comando: #menu1.2*')
-  let username = conn.getName(who)
+let pp = './Menu2.jpg'
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let username = conn.getName(who)
+//let vn = './media/mariana.mp3'
 let menu =`
 ╭══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮
 ║═ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
@@ -336,11 +325,14 @@ let menu =`
 ┣ ↠👑 _${usedPrefix}enable *autoread*_
 ┣ ↠💎 _${usedPrefix}disable *autoread*_
 ┗━━━━━━━━━━━━━━━━━━┛`.trim()
- const buttons = [{buttonId: 'id1', buttonText: {displayText: 'Hola 😸'}, type: 1}, {buttonId: '#audios', buttonText: {displayText: 'Menú de Audios 🔊'}, type: 1}, {buttonId: '#menusimple', buttonText: {displayText: 'Menú simple ⚡️'}, type: 1}]
-  let id = Object.keys(idd)[0]
-  const buttonMessage = {[id]: prep.message[id], contentText: menu, footerText: 'Gata Dios', buttons: buttons, headerType: 'IMAGE'}
-  conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { quoted: {key: { participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { orderMessage: { itemCount: 46456757, status: 999, thumbnail: await (await fetch(safusimage)).buffer(), surface: 999, message: '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', orderTitle: 'iOfficial', sellerJid: '0@s.whatsapp.net'}}}}, { contextInfo: { mentionedJid: [m.sender]}})
-}}
+let mentionedJid = [who]
+conn.send3ButtonImg(m.chat, pp, menu, '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   
+//await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
+//type: 'audioMessage', 
+//ptt: true 
+//})
+}
+
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help)$/i
 handler.fail = null
 module.exports = handler

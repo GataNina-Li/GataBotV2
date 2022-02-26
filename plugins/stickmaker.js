@@ -13,7 +13,7 @@ let handler = async (m, { conn, usedPrefix, text }) => {
 
 *✅ Ejemplo:* ${usedPrefix}stickermaker jail
 
-*List Effect:*
+*Lista de Efectos:*
 ${effects.map(effect => `_✨ ${effect}_`).join('\n')}
 `.trim()
   let q = m.quoted ? m.quoted : m

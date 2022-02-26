@@ -129,24 +129,25 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🔐 _${usedPrefix}unbanchat_
 ┣ ↠🎨 _${usedPrefix}s_
 ┣ ↠🎨 _${usedPrefix}sticker_
-┣ ↠🎨 _${usedPrefix}semoji_
+┣ ↠🎨 _${usedPrefix}semoji | emoji_
 ┣ ↠🎨 _${usedPrefix}wasted_
 ┣ ↠🎨 _${usedPrefix}stonks_
-┣ ↠🎨 _${usedPrefix}trash_
-┣ ↠🎨 _${usedPrefix}rainbow_
-┣ ↠🎨 _${usedPrefix}circle_
+┣ ↠🎨 _${usedPrefix}trash *Responda a una foto*_
+┣ ↠🎨 _${usedPrefix}sgay *Responda a una foto*_
+┣ ↠🎨 _${usedPrefix}circle *Responda a una foto*_
 ┣ ↠🎨 _${usedPrefix}stickermaker_
 ┣ ↠🎨 _${usedPrefix}attp *texto*_
-┣ ↠🎨 _${usedPrefix}style *texto*_
-┣ ↠🎨 _${usedPrefix}attp2 *texto*_
-┣ ↠🎨 _${usedPrefix}stickerfilter_
-┣ ↠🎨 _${usedPrefix}mp3 *responde a un video*_
-┣ ↠🎨 _${usedPrefix}img *responde a un sticker*_
+┣ ↠🎨 _${usedPrefix}attp2 | s1 | sa *texto*_
+┣ ↠🎨 _${usedPrefix}stickerfilter | cs2_
+┣ ↠🎨 _${usedPrefix}tomp3 | mp3 *responde a un video*_
+┣ ↠🎨 _${usedPrefix}toimg | img *responde a un sticker*_
+┣ ↠🎨 _${usedPrefix}togif | gif *responde a sticker/video*_
 ┣ ↠🎨 _${usedPrefix}ytcomentario | ytcomentar *texto*_
 ┣ ↠🎨 _${usedPrefix}blur *responde a una imagen*_
-┣ ↠🎨 _${usedPrefix}swm *link de imagen de google*_
-┣ ↠🎨 _${usedPrefix}gif *responde a un sticker/video*_
+┣ ↠🎨 _${usedPrefix}swm *imagen | video | gif*_
 ┣ ↠🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
+┣ ↠🪄 _${usedPrefix}style *texto*_
+┣ ↠🪄 _${usedPrefix}estilo *texto*_
 ┣ ↠🎲 _${usedPrefix}compartirfoto_
 ┣ ↠🎳 _${usedPrefix}futbol_
 ┣ ↠🎯 _${usedPrefix}Messi_

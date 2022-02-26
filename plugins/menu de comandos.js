@@ -165,8 +165,7 @@ let menu =`
 ┣ ↠🎨 _${usedPrefix}circle *Responda a una foto*_
 ┣ ↠🎨 _${usedPrefix}stickermaker_
 ┣ ↠🎨 _${usedPrefix}attp *texto*_
-┣ ↠🎨 _${usedPrefix}style *texto*_
-┣ ↠🎨 _${usedPrefix}attp2 *texto*_
+┣ ↠🎨 _${usedPrefix}attp2 | s1 | sa *texto*_
 ┣ ↠🎨 _${usedPrefix}stickerfilter_
 ┣ ↠🎨 _${usedPrefix}mp3 *responde a un video*_
 ┣ ↠🎨 _${usedPrefix}img *responde a un sticker*_
@@ -175,6 +174,14 @@ let menu =`
 ┣ ↠🎨 _${usedPrefix}swm *link de imagen de google*_
 ┣ ↠🎨 _${usedPrefix}gif *responde a un sticker/video*_
 ┣ ↠🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
+┗━━━━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━━━┓
+┃ *ESTILOS DE TEXTOS*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃ *¡Una gran variedad de estilos de textos!*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠🪄 _${usedPrefix}style *texto*_
+┣ ↠🪄 _${usedPrefix}estilo *texto*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *RANDOM|EXTRAS*

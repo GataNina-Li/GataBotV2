@@ -19,11 +19,11 @@ let handler = async (m, { conn, participants, args }) => {
     let users = (await conn.groupMetadata(m.chat)).participants.map(u => u.jid)
     let pesan = args.join` `
     let oi = `*MENSAJE:* ${pesan}`
-    let hmm = `*⺀I N V O C A R - G R U P O⺀*\n\n`
-    let duh = `└\n\n*▌│█║▌║▌║║▌║▌║▌║█*`
-       var teks = `${oi}\n\n❏\n`
+    let hmm = `*💥 I N V O C A R - G R U P O 💥*\n\n`
+    let duh = `🐱\n\n*▌│█║▌║▌║║▌║▌║▌║█*\n               🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`
+       var teks = `${oi}\n\n🐱\n`
     for (let admon of groupMembers) {
-        teks += `┣➥ @${admon.jid.split('@')[0]}\n`
+        teks += `┣↬ @${admon.jid.split('@')[0]}\n`
     }
     mentions(hmm+teks+duh, users, true,{ contextInfo: { mentionedJid: users } })
     // m.reply( + "\nNama:\n" +  + "\nDeskripsi:\n" + )

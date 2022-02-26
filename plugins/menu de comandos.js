@@ -160,9 +160,9 @@ let menu =`
 ┣ ↠🎨 _${usedPrefix}semoji | emoji_
 ┣ ↠🎨 _${usedPrefix}wasted_
 ┣ ↠🎨 _${usedPrefix}stonks_
-┣ ↠🎨 _${usedPrefix}trash_
-┣ ↠🎨 _${usedPrefix}rainbow_
-┣ ↠🎨 _${usedPrefix}circle_
+┣ ↠🎨 _${usedPrefix}trash *Responda a una foto*_
+┣ ↠🎨 _${usedPrefix}sgay *Responda a una foto*_
+┣ ↠🎨 _${usedPrefix}circle *Responda a una foto*_
 ┣ ↠🎨 _${usedPrefix}stickermaker_
 ┣ ↠🎨 _${usedPrefix}attp *texto*_
 ┣ ↠🎨 _${usedPrefix}style *texto*_

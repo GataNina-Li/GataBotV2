@@ -13,12 +13,12 @@ let handler = async (m, { conn }) => {
     let str = `
 ┏━━°❀❬ *PERFIL* ❭❀°━━┓
 ┃
-┃• *🔥Nombre🔥 :* ${username} 
-┃• *🔰Etiqueta🔰 :* @${who.replace(/@.+/, '')}${about ? 
-'\n┃• *🦙Descripcion🦙 :* ' + about : ''}
-┃• *✨Numero✨ :* 
+┃• *✨ Nombre:* ${username} 
+┃• *🏷 Etiqueta:* @${who.replace(/@.+/, '')}${about ? 
+'\n┃• *💌 Descripcion:* ' + about : ''}
+┃• *🔢 Numero :* 
 ┃${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-┃• *💢Link💢 :* 
+┃• *🔱 Link:* 
 ┃wa.me/${who.split`@`[0]}${registered ? '\n┃• *Edad:* ' + age : ''}
 ┗━━━━━━━━━━━━━━
 `.trim()

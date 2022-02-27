@@ -7,8 +7,8 @@ let handler  = async (m, { conn, text }) => {
     let json = await res.json()
     if (json.status) throw json
     let caption = `
-©Reddit
-Autor: ${json.author} Subreddit: ${json.subreddit}
+🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 | *©Reddit*
+*Autor:* ${json.author} Subreddit: ${json.subreddit}
 ${json.postLink}
 `.trim()
     conn.sendFile(m.chat, json.url, 'test.jpg', caption, m)

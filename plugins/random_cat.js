@@ -6,7 +6,7 @@ let handler  = async (m, { conn, text }) => {
      let res = await fetch('https://cataas.com/cat')
      let img = await res.buffer()
      let caption = `
-©The Shadow Brokers - Bot
+🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
 `.trim()
     conn.sendFile(m.chat, img, 'cat.jpg', caption, m)
    } catch (e) {
@@ -17,7 +17,7 @@ let handler  = async (m, { conn, text }) => {
 
 handler.help = ['cat']
 handler.tags = ['random']
-handler.command = /^cat$/i
+handler.command = /^cat|gato|gata|Cat|Gato|Gata$/i
 
 handler.fail = null
 

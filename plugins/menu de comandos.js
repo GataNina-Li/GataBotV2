@@ -235,7 +235,7 @@ let menu =`
 ┣ ↠🎲 _${usedPrefix}subirestado *texto / gif*_
 ┣ ↠🎳 _${usedPrefix}agendar *@tag + nombre contacto*_
 ┣ ↠🎯 _${usedPrefix}guardar *@tag + nombre contacto*_
-┣ ↠🎲 _${usedPrefix}spam | spamwa *numero|texto|cantidad*_ 
+┣ ↠🎲 _${usedPrefix}spam *numero|texto|cantidad*_ 
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*

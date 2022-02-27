@@ -1,7 +1,7 @@
 let qrcode = require("qrcode")
 
 let handler  = async (m, { conn, text }) => {
-  conn.sendFile(m.chat, await qrcode.toDataURL(text.slice(0, 2048), { scale: 8 }), 'qrcode.png', '¯\\_(ツ)_/¯', m)
+  conn.sendFile(m.chat, await qrcode.toDataURL(text.slice(0, 2048), { scale: 8 }), 'qrcode.png', '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', m)
 }
 handler.help = ['', 'code'].map(v => 'qr' + v + ' <teks>')
 handler.tags = ['tools']

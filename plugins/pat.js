@@ -8,7 +8,7 @@ let handler = async(m, { conn }) => {
   let json = await res.json()
   if (!json.url) throw 'Error!'
 
-  conn.sendFile(m.chat,json.url,'h.gif',`@${m.sender.split('@')[0]} patted ${m.mentionedJid.map((user)=>(user === m.sender)? 'themselves ': `@${user.split('@')[0]}`).join(', ')}`,m,false,
+  conn.sendFile(m.chat,json.url,'h.gif',`@${m.sender.split('@')[0]} *se dieron* ${m.mentionedJid.map((user)=>(user === m.sender)? '*palmaditas*\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈': `@${user.split('@')[0]}`).join(', ')}`,m,false,
   {  contextInfo :{mentionedJid : [  ...m.mentionedJid,m.sender ] }})
   
 

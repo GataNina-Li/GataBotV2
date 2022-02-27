@@ -7,7 +7,7 @@ let json = await res.json();
 let url = json[Math.floor(Math.random() * json.length)]
 await conn.sendButtonImg(m.chat, await (await fetch(url)).buffer(), '*¡¡LLAMEN A LA POLICÍA!! 🚨️*', 'Gata Bot', 'SIGUIENTE 🔄', '/loli', m)
 }
-handler.command = /^(loli)$/i
+handler.command = /^(loli)$/i 
 handler.tags = ['fun']
 handler.help = ['loli']
 handler.register = false

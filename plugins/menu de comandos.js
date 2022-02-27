@@ -194,8 +194,8 @@ let menu =`
 ┣ ↠🎳 _${usedPrefix}meme_
 ┣ ↠🎯 _${usedPrefix}meme2_
 ┣ ↠🎲 _${usedPrefix}meme3_
-┣ ↠🎳 _${usedPrefix}cat_
-┣ ↠🎯 _${usedPrefix}dog_
+┣ ↠🎳 _${usedPrefix}cat | gato | gata_
+┣ ↠🎯 _${usedPrefix}dog | perro | perra_
 ┣ ↠🎲 _${usedPrefix}pikachu_
 ┣ ↠🎳 _${usedPrefix}waifu_
 ┣ ↠🎯 _${usedPrefix}blackpink_

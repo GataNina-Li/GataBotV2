@@ -204,7 +204,7 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}imagenrandom | random | epico_
 ┣ ↠🎲 _${usedPrefix}neko_
 ┣ ↠🎳 _${usedPrefix}lolivid_
-┣ ↠🎯 _${usedPrefix}iqtest_
+┣ ↠🎯 _${usedPrefix}iqtest | iq | inteligencia_
 ┣ ↠🎲 _${usedPrefix}kpopitzy_
 ┣ ↠🎳 _${usedPrefix}navidad_
 ┣ ↠🎯 _${usedPrefix}loli_

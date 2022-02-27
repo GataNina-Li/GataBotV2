@@ -3,7 +3,7 @@ let handler  = async (m, { conn }) => {
 }
 handler.help = ['iqtest']
 handler.tags = ['game']
-handler.command = /^(iqtest)$/i
+handler.command = /^(iqtest|iq|inteligencia)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

@@ -7,7 +7,7 @@ let handler  = async (m, { conn, text }) => {
     let json = await res.json()
     if (json.status) throw json
     let caption = `
-©The Shadow Brokers - Bot
+🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
 `.trim()
     conn.sendFile(m.chat, json.link, '', caption, m)
    } catch (e) {
@@ -18,7 +18,7 @@ let handler  = async (m, { conn, text }) => {
 
 handler.help = ['pikachu']
 handler.tags = ['random']
-handler.command = /^pikachu$/i
+handler.command = /^pikachu|picachu|Pikachu$/i
 
 handler.fail = null
 

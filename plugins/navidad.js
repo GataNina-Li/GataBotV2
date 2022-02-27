@@ -2,7 +2,7 @@ const axios = require('axios')
 let handler = async(m, { conn }) => {
 let porn = await axios.get('https://meme-api.herokuapp.com/gimme/Christmas')
            conn.sendFile(m.chat, `${porn.data.url}`, '', `${porn.data.title}
-🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`, m)
+🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 `, m)
   }
 handler.help = ['Navidad']
 handler.tags = ['images']

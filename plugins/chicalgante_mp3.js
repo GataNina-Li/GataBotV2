@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /chica lgante|Chica lgante|Chicalgante|chicalgante|chical gante|Chical gante/
+handler.customPrefix = /Me olvide|ME OLVIDE|me olvide|Me olvidé|me olvidé|ME OLVIDÉ/
 handler.command = new RegExp
 module.exports = handler

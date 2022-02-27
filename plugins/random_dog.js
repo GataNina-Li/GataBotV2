@@ -7,7 +7,7 @@ let handler  = async (m, { conn, text }) => {
     let json = await res.json()
     if (json.status) throw json
     let caption = `
-©The Shadow Brokers - Bot
+🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
 `.trim()
     conn.sendFile(m.chat, json.url, 'dog.jpg', caption, m)
    } catch (e) {
@@ -18,7 +18,7 @@ let handler  = async (m, { conn, text }) => {
 
 handler.help = ['dog']
 handler.tags = ['random']
-handler.command = /^dog$/i
+handler.command = /^dog|perro|perra|Dog|Perro|Perra$/i
 
 handler.fail = null
 

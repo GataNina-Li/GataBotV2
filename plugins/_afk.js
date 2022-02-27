@@ -21,7 +21,7 @@ ${user.afkReason ? ' 👉 *Finalizó su motivo:* ' + user.afkReason : ''}
     let reason = user.afkReason || ''
     m.reply(`
 ❰ ❗️ ❱ *_No lo/a etiqueten_*
-*_😺 Se encuentra en AFK (Lejos del teclado)._*
+*_😺 Se encuentra en AFK (Lejos del teclado)._* 
 
 👉 ${reason ? ' *Razón:* ' + reason : ' *Sin razón* '}
 ☑️ *No le escriban/etiqueten.*

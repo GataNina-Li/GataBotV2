@@ -216,13 +216,13 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}slap_
 ┣ ↠🎲 _${usedPrefix}pat_
 ┣ ↠🎳 _${usedPrefix}perfil_
-┣ ↠🎯 _${usedPrefix}scan_
+┣ ↠🎯 _${usedPrefix}scan | datos | escaneo_
 ┣ ↠🎲 _${usedPrefix}kpop_
 ┣ ↠🎳 _${usedPrefix}qr *texto*_
-┣ ↠🎯 _${usedPrefix}afk *motivo*_
+┣ ↠🎯 _${usedPrefix}afk | aviso | informo *motivo*_
 ┣ ↠🎲 _${usedPrefix}CristianoRonaldo_
 ┣ ↠🎳 _${usedPrefix}pregunta *pregunta*_
-┣ ↠🎯 _${usedPrefix}mention *texto*_
+┣ ↠🎯 _${usedPrefix}mention | mensaje *texto*_
 ┣ ↠🎲 _${usedPrefix}spamchat *texto*_
 ┣ ↠🎳 _${usedPrefix}traducir es *texto*_
 ┣ ↠🎯 _${usedPrefix}zodiac *AAAA MM DD*_
@@ -234,7 +234,8 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}subirestado *texto / video|imagen*_
 ┣ ↠🎲 _${usedPrefix}subirestado *texto / gif*_
 ┣ ↠🎳 _${usedPrefix}agendar *@tag + nombre contacto*_
-┣ ↠🎲 _${usedPrefix}guardar *@tag + nombre contacto*_
+┣ ↠🎯 _${usedPrefix}guardar *@tag + nombre contacto*_
+┣ ↠🎲 _${usedPrefix}spam | spamwa *numero|texto|cantidad*_ 
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*

@@ -3,12 +3,12 @@ let fetch = require("node-fetch");
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text)
     throw `
-*[❗] Uso correcto:*    
+❰ ❗️ ❱ *Uso correcto:*    
 *${usedPrefix}${command} opción*
 
 *Ejemplo de uso:*
 *${usedPrefix}${command} dog*\n
-*┌〔 OPCIONES 〕*
+*┌〔 🐈 OPCIONES 🐈 〕*
 *├* _dog_
 *├* _cat_
 *├* _panda_

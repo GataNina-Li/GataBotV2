@@ -6,7 +6,7 @@ let handler = async(m, { conn, args, usedPrefix, command }) => {
     let randomkpopx = randomkpop[Math.floor(Math.random() * randomkpop.length)]
     conn.sendFile(m.chat, randomkpopx, '', '', m)
   }).catch(() => {
-    conn.reply(m.chat, `*[ ERROR ]*\n\n${command} no se puede utilizar`, m)
+    conn.reply(m.chat, `*[ ERROR ]*\n\n${command} no se puede utilizar`, m) 
   })
 
 }

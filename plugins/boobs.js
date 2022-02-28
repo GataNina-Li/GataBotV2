@@ -5,7 +5,7 @@ let porn = await axios.get('https://meme-api.herokuapp.com/gimme/boobs')
   }
 handler.help = ['boobs']
 handler.tags = ['images']
-handler.command = /^(boobs|tetas)$/i
+handler.command = /^(boobs|tetas)$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

@@ -8,7 +8,7 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.help = ['pengumuman','hidetag'].map(v => 'o' + v + ' [teks]')
+handler.help = ['pengumuman','hidetag'].map(v => 'o' + v + ' [teks]') 
 handler.tags = ['owner']
 handler.command = /^(:c|c)$/i
 

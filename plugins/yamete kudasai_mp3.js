@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /Yamete|yamete|Yamete kudasai|yamete kudasai/
+handler.customPrefix = /Yamete|yamete|Yamete kudasai|yamete kudasai/ 
 handler.command = new RegExp
 module.exports = handler

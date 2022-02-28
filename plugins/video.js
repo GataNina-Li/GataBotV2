@@ -3,7 +3,7 @@ let path = require('path')
 let fs = require('fs')
 
 let caption = `
-🥵🔥
+🥵🔥🔥🔥🔥
 `.trim()
 
 let handler = async (m, { conn }) => {

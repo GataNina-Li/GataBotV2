@@ -8,7 +8,7 @@ let Neko = new neko()
 }
 handler.help = ['sideboobs']
 handler.tags = ['sange']
-handler.command = /^sideboobs$/i
+handler.command = /^sideboobs|pechos$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

@@ -6,7 +6,7 @@ let handler = async(m, { conn, text }) => {
 }
 handler.help = ['setprefix'].map(v => v + ' [prefix]')
 handler.tags = ['owner']
-handler.command = /^(setprefix)$/i
+handler.command = /^(setprefix)$/i 
 
 handler.rowner = true
 

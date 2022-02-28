@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /vivan!!|vivan los novios|vivanlosnovios/i
+handler.customPrefix = /vivan!!|vivan los novios|vivanlosnovios/i 
 handler.command = new RegExp
 
 handler.fail = null

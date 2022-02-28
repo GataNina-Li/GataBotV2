@@ -261,6 +261,7 @@ let menu =`
 ┣ ↠🎤 _${usedPrefix}robot_
 ┣ ↠🎤 _${usedPrefix}slow_
 ┣ ↠🎤 _${usedPrefix}smooth_
+┣ ↠🎤 _${usedPrefix}blown_
 ┣ ↠🎤 _${usedPrefix}vibracion *cantidad*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
@@ -304,8 +305,8 @@ let menu =`
 ┣ ↠🎀 _${usedPrefix}lblackpink_
 ┣ ↠🪅 _${usedPrefix}logocorazon_
 ┣ ↠🎀 _${usedPrefix}tahta *texto*_
-┣ ↠🪅 _${usedPrefix}nulis *texto*_
-┣ ↠🎀 _${usedPrefix}nulis2 *texto*_
+┣ ↠🪅 _${usedPrefix}nulis | notas *texto*_
+┣ ↠🎀 _${usedPrefix}nulis2 | notas2 *texto*_
 ┣ ↠🪅 _${usedPrefix}lolice *@tag*_
 ┣ ↠🪅 _${usedPrefix}simpcard *@tag*_
 ┗━━━━━━━━━━━━━━━━━━┛

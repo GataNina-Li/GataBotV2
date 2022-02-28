@@ -10,7 +10,7 @@ _*${text}* *es 🏳️‍🌈* *${Math.floor(Math.random() * 200)}%* *${command.
 }
 handler.help = ['gay', 'lesbi'].map(v => 'how' + v + ' siapa?')
 handler.tags = ['kerang']
-handler.command = /^(gay|lesbi)/i
+handler.command = /^(gay|lesbi)/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

@@ -144,10 +144,13 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎨 _${usedPrefix}togif | gif *responde a sticker/video*_
 ┣ ↠🎨 _${usedPrefix}ytcomentario | ytcomentar *texto*_
 ┣ ↠🎨 _${usedPrefix}blur *responde a una imagen*_
+┣ ↠🎨 _${usedPrefix}jaal *Responda a una foto*_
 ┣ ↠🎨 _${usedPrefix}swm *imagen | video | gif*_
 ┣ ↠🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
+┣ ↠🎨 _${usedPrefix}wanted *Responda a una foto*_
 ┣ ↠🪄 _${usedPrefix}style *texto*_
 ┣ ↠🪄 _${usedPrefix}estilo *texto*_
+┣ ↠🎯 _${usedPrefix}randomwallpaper_
 ┣ ↠🎲 _${usedPrefix}compartirfoto_
 ┣ ↠🎳 _${usedPrefix}futbol_
 ┣ ↠🎯 _${usedPrefix}Messi_
@@ -198,6 +201,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎯 _${usedPrefix}guardar *@tag + nombre contacto*_
 ┣ ↠🎲 _${usedPrefix}spam *numero|texto|cantidad*_ 
 ┣ ↠🎳 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
+┣ ↠🎯 _${usedPrefix}experiencia | exp
 ┣ ↠🔞 _${usedPrefix}labiblia_
 ┣ ↠🎤 _${usedPrefix}bass_
 ┣ ↠🎤 _${usedPrefix}deep_
@@ -208,8 +212,11 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎤 _${usedPrefix}reverse_
 ┣ ↠🎤 _${usedPrefix}robot_
 ┣ ↠🎤 _${usedPrefix}slow_
+┣ ↠🎤 _${usedPrefix}tupai
 ┣ ↠🎤 _${usedPrefix}smooth_
+┣ ↠🎤 _${usedPrefix}blown_
 ┣ ↠🎤 _${usedPrefix}vibracion *cantidad*_
+┣ ↠🎤 _${usedPrefix}tovn *audio a nota de voz*
 ┣ ↠🔊 _${usedPrefix}menu2_
 ┣ ↠🔊 _${usedPrefix}menuaudios_
 ┣ ↠🔊 _${usedPrefix}audios_
@@ -230,16 +237,16 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎀 _${usedPrefix}lblackpink_
 ┣ ↠🪅 _${usedPrefix}logocorazon_
 ┣ ↠🎀 _${usedPrefix}tahta *texto*_
-┣ ↠🪅 _${usedPrefix}nulis *texto*_
-┣ ↠🎀 _${usedPrefix}nulis2 *texto*_
+┣ ↠🪅 _${usedPrefix}nulis | notas *texto*_
+┣ ↠🎀 _${usedPrefix}nulis2 | notas2 *texto*_
 ┣ ↠🪅 _${usedPrefix}lolice *@tag*_
 ┣ ↠🪅 _${usedPrefix}simpcard *@tag*_
 ┣ ↠🔮 _${usedPrefix}logos_ (lista)
-┣ ↠👑 _${usedPrefix}boost_
+┣ ↠👑 _${usedPrefix}boost | acelerar_
 ┣ ↠💎 _${usedPrefix}restart_
 ┣ ↠👑 _${usedPrefix}banlist_
-┣ ↠💎 _${usedPrefix}virtext1_
-┣ ↠👑 _${usedPrefix}actualizar_
+┣ ↠💎 _${usedPrefix}virtext1 | traba1_
+┣ ↠👑 _${usedPrefix}actualizar | update_
 ┣ ↠👑 _${usedPrefix}bc *texto*_
 ┣ ↠💎 _${usedPrefix}bcgc *texto*_
 ┣ ↠👑 _${usedPrefix}bcbot *texto*_
@@ -248,12 +255,14 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠💎 _${usedPrefix}enable *public*_
 ┣ ↠👑 _${usedPrefix}disable *public*_
 ┣ ↠💎 _${usedPrefix}unbanuser *@tag*_
-┣ ↠👑 _${usedPrefix}listgroup *@tag*_
+┣ ↠👑 _${usedPrefix}listgroup_
 ┣ ↠💎 _${usedPrefix}enable *restrict*_
 ┣ ↠👑 _${usedPrefix}enable *autoread*_
 ┣ ↠💎 _${usedPrefix}setwelcome *@tag*_
 ┣ ↠👑 _${usedPrefix}enable *autoread*_
 ┣ ↠💎 _${usedPrefix}disable *autoread*_
+┣ ↠👑 _${usedPrefix}bcbot *texto*_
+┣ ↠💎 _${usedPrefix}bcgc *texto*_
 ┗━━━━━━━━━━━━━━━━━━┛
 `.trim()
     let mentionedJid = [who]

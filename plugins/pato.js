@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /un Pato| un pato|un pato que va caminando alegremente|Un pato|Un Pato/
+handler.customPrefix = /un Pato| un pato|un pato que va caminando alegremente|Un pato|Un Pato/ 
 handler.command = new RegExp
 module.exports = handler

@@ -49,7 +49,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 handler.help = ['inventory', 'billetera']
 handler.tags = ['rpg']
-handler.command = /^(billetera(entory)?|bal|level(ing)?|money|e?xp)$/i
+handler.command = /^experiencia|exp$/i
 module.exports = handler
 
 const more = String.fromCharCode(8206)

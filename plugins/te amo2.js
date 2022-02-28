@@ -8,7 +8,7 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /te amo|teamo/i
+handler.customPrefix = /te amo|teamo/i 
 handler.command = new RegExp
 
 handler.fail = null

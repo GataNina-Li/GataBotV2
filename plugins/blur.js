@@ -8,7 +8,7 @@ gay = `sayang`
 
   if (!m.quoted) throw `Tag Fotonya ` + gay // org gay
 
-    await m.reply(`*[❗] Aguarde un momento, estoy realizando su diseño...*`)
+    await m.reply(`*❰ ❗️ ❱ Aguarde un momento, estoy realizando su diseño...*`)
   let q = m.quoted ? m.quoted : m
   let media = await q.download()
   let img = await uploadImage(media)

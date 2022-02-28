@@ -8,6 +8,6 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /Fiesta del admin|fiesta del admin/
+handler.customPrefix = /Fiesta del admin|fiesta del admin/ 
 handler.command = new RegExp
 module.exports = handler

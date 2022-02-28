@@ -21,7 +21,7 @@ handler.exp = 0
 module.exports = handler
 
 async function stylizeText(text) {
-    let res = await fetch('http://qaz.wtf/u/convert.cgi?text=' + encodeURIComponent(text))
+    let res = await fetch('http://qaz.wtf/u/convert.cgi?text=' + encodeURIComponent(text)) 
     let html = await res.text()
     let dom = new JSDOM(html)
     let table = dom.window.document.querySelector('table').children[0].children

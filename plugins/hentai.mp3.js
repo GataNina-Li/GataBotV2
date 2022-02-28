@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /audio hentai|Audio hentai|audiohentai|Audiohentai/i
+handler.customPrefix = /audio hentai|Audio hentai|audiohentai|Audiohentai/i 
 handler.command = new RegExp
 
 module.exports = handler

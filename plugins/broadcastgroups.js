@@ -4,7 +4,7 @@ let handler  = async (m, { conn, text }) => {
   for (let id of groups) conn.sendMessage(id, content, m.mtype, m.msg.contextInfo ? {
     contextInfo: m.msg.contextInfo
   } : {})
-  conn.reply(m.chat, `_Envíando el mensaje de difusión a ${groups.length} grupos_`, m)
+  conn.reply(m.chat, `*_Envíando el mensaje de difusión a ${groups.length} grupos_*`, m)
 }
 handler.help = ['broadcastgroup','bcgc'].map(v => v + ' <teks>')
 handler.tags = ['owner']

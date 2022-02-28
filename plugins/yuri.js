@@ -5,7 +5,7 @@ let les = await axios.get('https://meme-api.herokuapp.com/gimme/yuri')
   }
 handler.help = ['yuri']
 handler.tags = ['General']
-handler.command = /^(yuri)$/i
+handler.command = /^(yuri)$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

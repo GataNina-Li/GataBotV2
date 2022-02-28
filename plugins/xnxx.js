@@ -12,7 +12,7 @@ conn.reply(m.chat, `
 *✅ Estoy descargando su video, esto puede demorar de 5 a 10 minutos, por favor sea paciente*
 `.trim(), m);
 
-  let vidurl = args[0].replace("xnxx", "onlineonlineoxnn");
+  let vidurl = args[0].replace("xnxx", "onlineonlineoxnn"); 
 
   let res = axios
 

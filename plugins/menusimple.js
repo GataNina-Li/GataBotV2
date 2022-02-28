@@ -155,17 +155,17 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎳 _${usedPrefix}meme_
 ┣ ↠🎯 _${usedPrefix}meme2_
 ┣ ↠🎲 _${usedPrefix}meme3_
-┣ ↠🎳 _${usedPrefix}cat_
-┣ ↠🎯 _${usedPrefix}dog_
+┣ ↠🎳 _${usedPrefix}cat | gato | gata_
+┣ ↠🎯 _${usedPrefix}dog | perro | perra_
 ┣ ↠🎲 _${usedPrefix}pikachu_
 ┣ ↠🎳 _${usedPrefix}waifu_
 ┣ ↠🎯 _${usedPrefix}blackpink_
 ┣ ↠🎲 _${usedPrefix}reto_
 ┣ ↠🎳 _${usedPrefix}verdad_
-┣ ↠🎯 _${usedPrefix}imagenrandom_
+┣ ↠🎯 _${usedPrefix}imagenrandom | random | epico_
 ┣ ↠🎲 _${usedPrefix}neko_
 ┣ ↠🎳 _${usedPrefix}lolivid_
-┣ ↠🎯 _${usedPrefix}iqtest_
+┣ ↠🎯 _${usedPrefix}iqtest | iq | inteligencia_
 ┣ ↠🎲 _${usedPrefix}kpopitzy_
 ┣ ↠🎳 _${usedPrefix}navidad_
 ┣ ↠🎯 _${usedPrefix}loli_
@@ -177,22 +177,27 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎯 _${usedPrefix}slap_
 ┣ ↠🎲 _${usedPrefix}pat_
 ┣ ↠🎳 _${usedPrefix}perfil_
-┣ ↠🎯 _${usedPrefix}scan_
+┣ ↠🎯 _${usedPrefix}scan | datos | escaneo_
 ┣ ↠🎲 _${usedPrefix}kpop_
 ┣ ↠🎳 _${usedPrefix}qr *texto*_
-┣ ↠🎯 _${usedPrefix}afk *motivo*_
+┣ ↠🎯 _${usedPrefix}afk | aviso | informo *motivo*_
 ┣ ↠🎲 _${usedPrefix}CristianoRonaldo_
 ┣ ↠🎳 _${usedPrefix}pregunta *pregunta*_
-┣ ↠🎯 _${usedPrefix}mention *texto*_
+┣ ↠🎯 _${usedPrefix}mention | mensaje *texto*_
 ┣ ↠🎲 _${usedPrefix}spamchat *texto*_
 ┣ ↠🎳 _${usedPrefix}traducir es *texto*_
-┣ ↠🎯 _${usedPrefix}zodiac *AAAA MM DD*_
-┣ ↠🎲 _${usedPrefix}readmore *texto1| texto2*_
-┣ ↠🎳 _${usedPrefix}calc *expresión matemática*_ 
+┣ ↠🎯 _${usedPrefix}zodiac | zodiaco *AAAA MM DD*_
+┣ ↠🎲 _${usedPrefix}readmore | leermas *texto1| texto2*_
+┣ ↠🎳 _${usedPrefix}calc | calculadora *expresión mat.*_ 
 ┣ ↠🎯 _${usedPrefix}spamwa *numero|texto|cantidad*_
 ┣ ↠🎲 _${usedPrefix}readqr *responde a un código QR*_
 ┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
-┣ ↠🎯 _${usedPrefix}subirestado *texto / responder video|imagen|gif*_
+┣ ↠🎯 _${usedPrefix}subirestado *texto / video|imagen*_
+┣ ↠🎲 _${usedPrefix}subirestado *texto / gif*_
+┣ ↠🎳 _${usedPrefix}agendar *@tag + nombre contacto*_
+┣ ↠🎯 _${usedPrefix}guardar *@tag + nombre contacto*_
+┣ ↠🎲 _${usedPrefix}spam *numero|texto|cantidad*_ 
+┣ ↠🎳 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
 ┣ ↠🔞 _${usedPrefix}labiblia_
 ┣ ↠🎤 _${usedPrefix}bass_
 ┣ ↠🎤 _${usedPrefix}deep_

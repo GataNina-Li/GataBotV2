@@ -12,7 +12,7 @@ let handler  = async (m, { conn, args }) => {
 }
 handler.help = ['tovideo (reply stiker)']
 handler.tags = ['General']
-handler.command = /^tovideo|tomp4$/i
+handler.command = /^tovideo|tomp4$/i 
 
 module.exports = handler
 

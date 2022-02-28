@@ -15,7 +15,7 @@ let handler  = async (m, { conn, text }) => {
 }
 handler.help = ['nekogif (sfw)']
 handler.tags = ['wibu']
-handler.command = /^nekogif$/i
+handler.command = /^nekogif$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

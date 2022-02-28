@@ -8,5 +8,6 @@ handler.help = ['groups', 'grouplist']
 handler.tags = ['info']
 handler.command = /^(gro?up(s|list)|listgro?ups?)$/i
 
+handler.owner = true
 module.exports = handler
 

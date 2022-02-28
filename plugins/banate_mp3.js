@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /bañate|Bañate/
+handler.customPrefix = /bañate|Bañate/ 
 handler.command = new RegExp
 module.exports = handler

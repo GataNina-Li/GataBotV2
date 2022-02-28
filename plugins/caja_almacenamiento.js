@@ -21,7 +21,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 *¡Te presentamos Caja de Almacenamiento!* 
 _En donde podrás guardar mensajes/archivos multimedia. Para luego verlos con un comando personalizado._
 
-✅ *AGREGAR A LA LISTA*
+✅ *AGREGAR A LA LISTA* 
 *Ejemplo:* ${usedPrefix}agregarmsg comando1
 
 ❖📦 _${usedPrefix}agregarmsg *comando/palabra clave* (responde a un texto)_

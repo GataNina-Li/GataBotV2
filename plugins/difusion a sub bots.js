@@ -30,4 +30,4 @@ module.exports = handler
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 
-const delay = time => new Promise(res => setTimeout(res, time))
+const delay = time => new Promise(res => setTimeout(res, time)) 

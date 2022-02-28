@@ -63,7 +63,7 @@ module.exports = {
                         messageId: m.id,
                     }),
                     isIdMessage ? m.msg.selectedButtonId : m.msg.selectedDisplayText,
-                    m.sender
+                    m.sender 
                 )
             ])
         })

@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
 		contentText: '*_Gata Dios_*',
 		footerText: 'Agradecimientos a Bot tiburón',
 		buttons: [
-			{ buttonId: '.pack', buttonText: { displayText: 'SIGUIENTE 🔄' }, type: 1 }
+			{ buttonId: '.pack', buttonText: { displayText: 'SIGUIENTE 🔄' }, type: 1 } 
 		],
 		headerType: 4,
 		imageMessage: (await conn.prepareMessageMedia(await (await fetch(url)).buffer(), 'imageMessage', {})).imageMessage

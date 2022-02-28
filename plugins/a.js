@@ -9,6 +9,6 @@ ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
 handler.customPrefix = /ª|a|A/
-handler.command = /^(a|ª|A?$)/
+handler.command = /^(a|ª|A?$)/ 
 
 module.exports = handler

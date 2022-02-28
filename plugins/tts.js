@@ -27,7 +27,7 @@ function tts(text, lang = 'es') {
   return new Promise((resolve, reject) => {
     try {
       let tts = gtts(lang)
-      let filePath = path.join(__dirname, '../tmp', (1 * new Date) + '.wav')
+      let filePath = path.join(__dirname, '../tmp', (1 * new Date) + '.wav') 
       tts.save(filePath, text, () => {
           resolve(fs.readFileSync(filePath))
           fs.unlinkSync(filePath)

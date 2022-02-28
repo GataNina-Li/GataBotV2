@@ -4,7 +4,7 @@ let axios = require("axios")
 
 let handler = async (m, { conn }) => {
 
-   await m.reply('*_🔰 Aguarde un momento.._*')
+   await m.reply('*_😋 un momento..._*')
 
     let res = await axios("https://api.waifu.pics/nsfw/trap")
 
@@ -12,7 +12,7 @@ let handler = async (m, { conn }) => {
 
     let url = json.url
 
-    conn.sendFile(m.chat, url, "error.png", "*UN TRAPITO <3*", m)
+    conn.sendFile(m.chat, url, "error.png", "*¡UN TRAPITO! 🤤*", m)
 
     }
 
@@ -20,7 +20,7 @@ handler.help = ['htrap']
 
 handler.tags = ['internet']
 
-handler.command = /^htrap$/i
+handler.command = /^htrap|trans$/i
 
 handler.premium = false
 

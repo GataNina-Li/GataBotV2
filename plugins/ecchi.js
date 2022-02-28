@@ -8,7 +8,7 @@ let Neko = new neko()
 }
 handler.help = ['ecchi']
 handler.tags = ['sange']
-handler.command = /^ecchi$/i
+handler.command = /^ecchi$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

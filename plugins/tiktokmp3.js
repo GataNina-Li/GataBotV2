@@ -11,6 +11,6 @@ m.reply('Scraping....')
     }
 handler.help = ['tiktokaudio', 'ttaudio'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(ttaudio|tiktokaudio)$/i
+handler.command = /^(ttaudio|tiktokaudio)$/i 
 
 module.exports = handler

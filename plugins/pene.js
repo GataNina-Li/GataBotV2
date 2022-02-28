@@ -5,7 +5,7 @@ let les = await axios.get('https://meme-api.herokuapp.com/gimme/penis')
   }
 handler.help = ['pene']
 handler.tags = ['images']
-handler.command = /^(pene)$/i
+handler.command = /^(pene)$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

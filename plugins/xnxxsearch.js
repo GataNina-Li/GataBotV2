@@ -17,7 +17,7 @@ let handler = async (m, { conn, text }) => {
            hsl += `#xnxx ${json.result[i].link}\n`
            hsl += `*- Para descagar el vídeo*\n\n`
          }
-           hsl += '*©The Shadow Borkers - Bot*'
+           hsl += '*🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈*'
         conn.reply(m.chat, hsl, m)
     }catch(e){
         m.reply("*Algo salio mal.. vuelva a intentarlo*\n\n*Si el error perdura, pude ser porque el limte de uso del servidor diario haya terminado, cada dia de restablece el límite*")

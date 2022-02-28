@@ -175,6 +175,7 @@ let menu =`
 ┣ ↠🎨 _${usedPrefix}blur *responde a una imagen*_
 ┣ ↠🎨 _${usedPrefix}swm *imagen | video | gif*_
 ┣ ↠🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
+┣ ↠🎨 _${usedPrefix}wanted *Responda a una foto*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *ESTILOS DE TEXTOS*
@@ -187,6 +188,7 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *RANDOM|EXTRAS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠🎯 _${usedPrefix}randomwallpaper_
 ┣ ↠🎲 _${usedPrefix}compartirfoto_
 ┣ ↠🎳 _${usedPrefix}futbol_
 ┣ ↠🎯 _${usedPrefix}Messi_
@@ -237,6 +239,7 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}guardar *@tag + nombre contacto*_
 ┣ ↠🎲 _${usedPrefix}spam *numero|texto|cantidad*_ 
 ┣ ↠🎳 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
+┣ ↠🎯 _${usedPrefix}experiencia | exp
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*
@@ -260,6 +263,7 @@ let menu =`
 ┣ ↠🎤 _${usedPrefix}reverse_
 ┣ ↠🎤 _${usedPrefix}robot_
 ┣ ↠🎤 _${usedPrefix}slow_
+┣ ↠🎤 _${usedPrefix}tupai
 ┣ ↠🎤 _${usedPrefix}smooth_
 ┣ ↠🎤 _${usedPrefix}blown_
 ┣ ↠🎤 _${usedPrefix}vibracion *cantidad*_
@@ -313,16 +317,16 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *LISTA DE LOGOS PERSONALIZADOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠🔮 _${usedPrefix}logos_ (lista)
+┣ ↠🔮 _${usedPrefix}logos_ *(lista)*
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *PROPIETARIO/A DEL BOT*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠👑 _${usedPrefix}boost_
+┣ ↠👑 _${usedPrefix}boost | acelerar_
 ┣ ↠💎 _${usedPrefix}restart_
 ┣ ↠👑 _${usedPrefix}banlist_
-┣ ↠💎 _${usedPrefix}virtext1_
-┣ ↠👑 _${usedPrefix}actualizar_
+┣ ↠💎 _${usedPrefix}virtext1 | traba1_
+┣ ↠👑 _${usedPrefix}actualizar | update_
 ┣ ↠👑 _${usedPrefix}bc *texto*_
 ┣ ↠💎 _${usedPrefix}bcgc *texto*_
 ┣ ↠👑 _${usedPrefix}bcbot *texto*_
@@ -331,12 +335,14 @@ let menu =`
 ┣ ↠💎 _${usedPrefix}enable *public*_
 ┣ ↠👑 _${usedPrefix}disable *public*_
 ┣ ↠💎 _${usedPrefix}unbanuser *@tag*_
-┣ ↠👑 _${usedPrefix}listgroup *@tag*_
+┣ ↠👑 _${usedPrefix}listgroup_
 ┣ ↠💎 _${usedPrefix}enable *restrict*_
 ┣ ↠👑 _${usedPrefix}enable *autoread*_
 ┣ ↠💎 _${usedPrefix}setwelcome *@tag*_
 ┣ ↠👑 _${usedPrefix}enable *autoread*_
 ┣ ↠💎 _${usedPrefix}disable *autoread*_
+┣ ↠👑 _${usedPrefix}bcbot *texto*_
+┣ ↠💎 _${usedPrefix}bcgc *texto*_
 ┗━━━━━━━━━━━━━━━━━━┛`.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   

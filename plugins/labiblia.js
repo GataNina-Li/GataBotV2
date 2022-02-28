@@ -48,14 +48,14 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃»🔞 _${usedPrefix}booty_
 ┃»🔞 _${usedPrefix}culo_
 ┃»🔞 _${usedPrefix}htrap | trapito_
-┃»🔞 _${usedPrefix}furro_
+┃»🔞 _${usedPrefix}furro | furry_
 ┃»🔞 _${usedPrefix}nsfwass_
-┃»🔞 _${usedPrefix}bdsm_
-┃»🔞 _${usedPrefix}cum_
-┃»🔞 _${usedPrefix}ero_
-┃»🔞 _${usedPrefix}femdom_
-┃»🔞 _${usedPrefix}foot_
-┃»🔞 _${usedPrefix}glass_
+┃»🔞 _${usedPrefix}nsfwbdsm | bdsm_
+┃»🔞 _${usedPrefix}nsfwcum | cum_
+┃»🔞 _${usedPrefix}nsfwero | ero_
+┃»🔞 _${usedPrefix}nsfwfemdom | femdom_
+┃»🔞 _${usedPrefix}nsfwfoot | foot_
+┃»🔞 _${usedPrefix}nsfwglass | glass_
 ┃»🔞 _${usedPrefix}nsfwloli_
 ┃»🔞 _${usedPrefix}xnxxsearch *texto*_
 ┃»🔞 _${usedPrefix}xnxx *link de xnxx*_

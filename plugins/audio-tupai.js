@@ -22,7 +22,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 }
 handler.help = ['tupai']
 handler.tags = ['audio']
-handler.command = /^(tupai|squirrel|chipmunk)$/i
+handler.command = /^(tupai|squirrel|chipmunk)$/i 
 
 module.exports = handler
 

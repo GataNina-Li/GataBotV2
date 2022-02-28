@@ -14,7 +14,7 @@ conn.sendMessage(m.chat, `*⏯ ️Descargador By ShadowBot ⏯️*\n\n*🔥Titul
 conn.sendFile(m.chat, dl_link , `By ${conn.user.name}.mp3`, m, false, {ptt: true, duration: 999999999999, asDocument: chat.useDocument})
 conn.sendFile(m.chat, dl_link , `By ${conn.user.name}.mp3`, m)
 }
-handler.command = /^yt(a|mp3)$/i 
+handler.command = /^yt(a|mp3)$/i  
 handler.owner = false
 handler.mods = false
 handler.premium = false

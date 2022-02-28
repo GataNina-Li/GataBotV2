@@ -20,7 +20,7 @@ handler.help = ['htrap']
 
 handler.tags = ['internet']
 
-handler.command = /^htrap|trans$/i
+handler.command = /^htrap|trapito$/i
 
 handler.premium = false
 

@@ -3,7 +3,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	let url = packgirl[Math.floor(Math.random() * packgirl.length)]
 	await conn.sendMessage(m.chat, {
-		contentText: 'Pack xxx By TheBrokers',
+		contentText: '*Pack xxx By TheBrokers*',
 		footerText: 'Gata Dios',
 		buttons: [
 			{ buttonId: '.pack2', buttonText: { displayText: 'SIGUIENTE 🔄' }, type: 1 }

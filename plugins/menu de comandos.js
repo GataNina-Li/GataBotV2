@@ -292,7 +292,7 @@ let menu =`
 ┃ *CONVIERTETE EN BOT*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠❇️ _${usedPrefix}stop_
-┣ ↠❇️ _${usedPrefix}jadibot_
+┣ ↠❇️ _${usedPrefix}jadibot | serbot_
 ┣ ↠❇️ _${usedPrefix}getcode_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓

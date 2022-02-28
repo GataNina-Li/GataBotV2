@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /^(hi|Hi|hola|ola|Hola|Holi|holi)$/i 
+handler.command = /^(hola|ola|Hola)(Holi|holi)$/i 
 
 module.exports = handler

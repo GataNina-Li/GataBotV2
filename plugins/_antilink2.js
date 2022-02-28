@@ -20,4 +20,4 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
   return true
 }
 
-module.exports = handler
+module.exports = handler 

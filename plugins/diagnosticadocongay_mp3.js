@@ -13,4 +13,4 @@ handler.command = new RegExp
 
 handler.fail = null
 handler.exp = 100
-module.exports = handler
+module.exports = handler 

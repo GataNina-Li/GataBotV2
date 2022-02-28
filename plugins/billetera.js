@@ -42,10 +42,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     let usersmythic = sortedmythic.map(v => v[0])
     let userslegendary = sortedlegendary.map(v => v[0])
     let str = `
-*_Experiencia total de_* *${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}*\n
-_XP:_ *${exp}*
-
-*No sirve para nada, pero pss ahi esta xD*
+*😸 _Experiencia total usando GataBot_* *${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}*\n
+✨ *_XP:_ ${exp}*
 `.trim()
     conn.reply(m.chat, str, m)
 }

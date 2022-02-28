@@ -27,7 +27,7 @@ if (!text) throw '*_Cuanto desea ponerle?_*\n*_Use un numero entre el 1 y el 100
 }
 handler.help = ['vibration (reply audio)']
 handler.tags = ['audio']
-handler.command = /^(vibracion)$/i
+handler.command = /^(vibracion)$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

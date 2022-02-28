@@ -5,7 +5,7 @@ const { servers, yt } = require('../lib/y2mate')
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
 let fs = require('fs')
 let y = fs.readFileSync('./Menu2.jpg')
-  if (!args || !args[0]) throw '*[❗] Inserte un enlace de YouTube*\n\n*Ejemplo:*\n*#ytmp4 https://www.youtube.com/watch?v=8jvDzEIVpjg*'
+  if (!args || !args[0]) throw '*[❗] Inserte un enlace de YouTube*\n\n*Ejemplo:*\n*#ytmp4 https://www.youtube.com/watch?v=8jvDzEIVpjg*' 
   let chat = global.DATABASE.data.chats[m.chat]
   let quality = args[1] || '360'
   let server = (args[2] || servers[0]).toLowerCase()
@@ -17,7 +17,7 @@ let _thumb = {}
   conn.sendMessage(m.chat, `*⏯ ️Descargador By ShadowBot ⏯️*\n\n*🔥Titulo:* ${title}\n*📂Tamaño del archivo:* ${filesizeF}` , 'conversation', {quoted: m, thumbnail: y, contextInfo:{externalAdReply: {title: 'Simple WhatsApp bot', body: `© ${conn.user.name}`, sourceUrl: 'enviando...', thumbnail: y}}})
  conn.sendFile(m.chat, dl_link, `By ${conn.user.name}.mp4`, `
  *${title}*
- *©The Shadow Brokers - Bot*
+ 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
 `.trim(), m, false, {
   
 ptt: false, duration: 999999999999, thumbnail: y , asDocument: chat.useDocument})

@@ -7,10 +7,10 @@ let fs = require('fs')
 
 let handler = async(m, { conn, text, args, usedPrefix }) => {
 
-  await m.reply('Aguarde, estoy procesando el codigo qr...')
+  await m.reply('*Aguarde, estoy procesando el codigo qr...*')
     let q = m.quoted ? m.quoted : m
     let media = await q.download()
-    if (!media && !m.quoted) throw `Responda a una imagen o envie una imagen con el comando ${usedPrefix}readqr\nRecuerde que la imagen debe ser un codigo qr`
+    if (!media && !m.quoted) throw `*Responda a una imagen o envie una imagen con el comando ${usedPrefix}readqr\nRecuerde que la imagen debe ser un codigo qr*`
     let qr = await uploadImage(media)
           axios.get(`https://api.zeks.xyz/api/qrdecode?apikey=MIMINGANZ&image=${qr}`).then((res) => {
 
@@ -19,7 +19,7 @@ let handler = async(m, { conn, text, args, usedPrefix }) => {
 }
 handler.help = ['readqr']
 handler.tags = ['tools']
-handler.command = /^(readqr)$/i
+handler.command = /^(readqr|leerqr)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

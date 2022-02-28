@@ -1,7 +1,7 @@
 const axios = require('axios')
 let handler = async(m, { conn }) => {
 let porn = await axios.get('https://meme-api.herokuapp.com/gimme/nsfw')
-           conn.sendFile(m.chat, `${porn.data.url}`, '', `${porn.data.title}`, m)
+           conn.sendFile(m.chat, `${porn.data.url}`, '', `${porn.data.title}`, m) 
   }
 handler.help = ['porno']
 handler.tags = ['images']

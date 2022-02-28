@@ -9,7 +9,7 @@ let handler  = async (m, { conn }) => {
 }
 handler.help = ['restart']
 handler.tags = ['host']
-handler.command = /^restart$/i
+handler.command = /^restart$/i 
 handler.rowner = true
 handler.mods = false
 handler.premium = false

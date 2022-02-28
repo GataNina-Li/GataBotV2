@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 handler.help = ['getcode']
 handler.tags = ['jadibot']
-handler.command = /^(getcode)$/i
+handler.command = /^(getcode)$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

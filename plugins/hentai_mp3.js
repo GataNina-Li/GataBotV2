@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Hentai|HENTAI|hentai|/i
+handler.customPrefix = /Hentai|HENTAI|hentai|/i 
 handler.command = new RegExp
 module.exports = handler

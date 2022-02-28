@@ -12,12 +12,12 @@ let handler = async (m, { conn, text }) => {
   let img = await q.download()
   let url = await uploadImage(img)
   let wanted = global.API('dzx', '/api/canvas/wanted', { url }) //`https://api.dhamzxploit.my.id/api/canvas/wanted?url=${url}`
-  let stiker = await sticker(null, wanted, 'jail', '©The Shadow Brokers - Bot')
+  let stiker = await sticker(null, wanted, 'jail', 'GataBot 🐈 - Gata Dios')
   conn.sendMessage(m.chat, stiker, MessageType.sticker, {
     quoted: m
   })
  } catch (e) {
-   m.reply('Conversión fallida, recuerde responder a una imagen')
+   m.reply('*Conversión fallida, recuerde responder a una imagen*')
   }
 }
 handler.help = ['jail']

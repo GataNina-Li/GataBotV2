@@ -6,7 +6,7 @@ let info = `
 
 *➤ Host: https://billing.hirobeet.xyz*
 *➤ Para mas informacion contacta con Hiro al wa.me/447309247974*
-*➤ ¿Necesitas ayuda? unete a su grupo OFC https://chat.whatsapp.com/KYGR5bIPuMA3tL9OzjMWmN*
+*➤ ¿Necesitas ayuda? unete a su grupo OFC https://chat.whatsapp.com/KYGR5bIPuMA9OzjMWmN*
 *=> Solo interesados en el abrir su servidor*
 *=> No permitido Bots en el grupo*
 
@@ -18,6 +18,6 @@ let info = `
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 BEET-NODES 🔥*', 'status@broadcast')
 }
-handler.command = /^(sponsor|patrocinador|publicidad|beetnodes|beet-nodes)$/i
+handler.command = /^sponsor$/i
 
 module.exports = handler

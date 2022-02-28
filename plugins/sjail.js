@@ -22,6 +22,6 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['jail']
 handler.tags = ['General']
-handler.command = /^jail$/i
+handler.command = /^jaal$/i
 
 module.exports = handler

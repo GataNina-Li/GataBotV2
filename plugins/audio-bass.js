@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                 conn.sendFile(m.chat, buff, ran, null, m, true, { quoted: m, mimetype: 'audio/mp4' })
                 fs.unlinkSync(ran)
             })
-        } else throw `*Responda a una nota de voz o audio el cual desee modificar usando el comando *${usedPrefix + command}*`
+        } else throw `*Responda a una nota de voz o audio el cual desee modificar usando el comando* *${usedPrefix + command}*`
     } catch (e) {
         throw e
     }

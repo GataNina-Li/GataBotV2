@@ -10,7 +10,7 @@ let handler = async (m, { conn, text}) => {
 }
 handler.help = ['banuser']
 handler.tags = ['General']
-handler.command = /^banuser|banusuario$/i
+handler.command = /^banuser$/i
 handler.rowner = true
 
 module.exports = handler

@@ -4,7 +4,7 @@ let handler = m => {
 *🔰 LISTA DE TEXTOS/MENSAJES/PALABRAS CLAVES 🔰*
 
 *✳️ MENSAJES ✳️*
-${Object.keys(msgs).map(v => '*👉🏻 ' + v).join('\n')}*
+${Object.keys(msgs).map(v => '*👉 ' + v).join('\n')}*
 `.trim())
 }
 handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'list' + v)

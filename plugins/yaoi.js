@@ -5,7 +5,7 @@ let les = await axios.get('https://meme-api.herokuapp.com/gimme/yaoigif')
   }
 handler.help = ['yaoigif']
 handler.tags = ['images']
-handler.command = /^(yaoigif)$/i
+handler.command = /^(yaoigif)$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

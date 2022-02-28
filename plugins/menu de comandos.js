@@ -173,6 +173,7 @@ let menu =`
 ┣ ↠🎨 _${usedPrefix}togif | gif *responde a sticker/video*_
 ┣ ↠🎨 _${usedPrefix}ytcomentario | ytcomentar *texto*_
 ┣ ↠🎨 _${usedPrefix}blur *responde a una imagen*_
+┣ ↠🎨 _${usedPrefix}jaal *Responda a una foto*_
 ┣ ↠🎨 _${usedPrefix}swm *imagen | video | gif*_
 ┣ ↠🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
 ┣ ↠🎨 _${usedPrefix}wanted *Responda a una foto*_
@@ -267,6 +268,7 @@ let menu =`
 ┣ ↠🎤 _${usedPrefix}smooth_
 ┣ ↠🎤 _${usedPrefix}blown_
 ┣ ↠🎤 _${usedPrefix}vibracion *cantidad*_
+┣ ↠🎤 _${usedPrefix}tovn *audio a nota de voz*
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *AUDIOS|MENU* 

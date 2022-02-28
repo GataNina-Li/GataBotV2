@@ -225,9 +225,9 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}mention | mensaje *texto*_
 ┣ ↠🎲 _${usedPrefix}spamchat *texto*_
 ┣ ↠🎳 _${usedPrefix}traducir es *texto*_
-┣ ↠🎯 _${usedPrefix}zodiac *AAAA MM DD*_
-┣ ↠🎲 _${usedPrefix}readmore *texto1| texto2*_
-┣ ↠🎳 _${usedPrefix}calc *expresión matemática*_ 
+┣ ↠🎯 _${usedPrefix}zodiac | zodiaco *AAAA MM DD*_
+┣ ↠🎲 _${usedPrefix}readmore | leermas *texto1| texto2*_
+┣ ↠🎳 _${usedPrefix}calc | calculadora *expresión mat.*_ 
 ┣ ↠🎯 _${usedPrefix}spamwa *numero|texto|cantidad*_
 ┣ ↠🎲 _${usedPrefix}readqr *responde a un código QR*_
 ┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
@@ -236,6 +236,7 @@ let menu =`
 ┣ ↠🎳 _${usedPrefix}agendar *@tag + nombre contacto*_
 ┣ ↠🎯 _${usedPrefix}guardar *@tag + nombre contacto*_
 ┣ ↠🎲 _${usedPrefix}spam *numero|texto|cantidad*_ 
+┣ ↠🎳 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*

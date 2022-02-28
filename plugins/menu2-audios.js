@@ -34,6 +34,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _A nadie le importa_
 ⎪➫🔊 _Sexo_
 ⎪➫🔊 _Vete a la vrg_
+⎪➫🔊 _Ara ara_
 ⎪➫🔊 _Hola_
 ⎪➫🔊 _Un pato_
 ⎪➫🔊 _Nyanpasu_

@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /vetealavrg|vete a la vrg|vete a la verga/i
+handler.customPrefix = /vetealavrg|vete a la vrg|vete a la verga/i 
 handler.command = new RegExp
 
 handler.fail = null

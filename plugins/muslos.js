@@ -3,7 +3,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 	let url = muslos[Math.floor(Math.random() * muslos.length)]
 	await conn.sendMessage(m.chat, {
-		contentText: '🔥🔥🔥🔥',
+		contentText: '❤️‍🔥❤️‍🔥❤️‍🔥',
 		footerText: 'Gata Dios',
 		buttons: [
 			{ buttonId: '.muslos', buttonText: { displayText: 'SIGUIENTE 🔄' }, type: 1 }

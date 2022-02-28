@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /fiesta del admin2|fiesta del admin 2|fiestadeladmin2/i
+handler.customPrefix = /fiesta del admin2|fiesta del admin 2|fiestadeladmin2/i 
 handler.command = new RegExp
 
 handler.fail = null

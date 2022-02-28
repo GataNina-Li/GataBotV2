@@ -8,6 +8,6 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /rawr|Rawr|RAWR|raawwr|rraawr|rawwr/
+handler.customPrefix = /rawr|Rawr|RAWR|raawwr|rraawr|rawwr/ 
 handler.command = new RegExp
 module.exports = handler

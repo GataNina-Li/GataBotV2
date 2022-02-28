@@ -10,4 +10,4 @@ ptt: true
 }
 handler.customPrefix = /JAI|Jai|Jay|jai/i
 handler.command = new RegExp
-module.exports = handler
+module.exports = handler 

@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /TENGO LOS CALZONES|Tengo los calzones|tengo los calzones/i
+handler.customPrefix = /TENGO LOS CALZONES|Tengo los calzones|tengo los calzones/i 
 handler.command = new RegExp
 module.exports = handler

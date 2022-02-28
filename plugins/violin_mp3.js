@@ -9,5 +9,5 @@ ptt: true
 })
 }
 handler.customPrefix = /Estoy triste|ESTOY TRISTE|estoy triste|Triste|TRISTE|triste|Troste|TROSTE|troste|Truste|TRUSTE|truste/i
-handler.command = new RegExp
+handler.command = new RegExp 
 module.exports = handler

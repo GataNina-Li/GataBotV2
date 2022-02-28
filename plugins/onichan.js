@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /oni-chan|onichan|o-onichan/i
+handler.customPrefix = /oni-chan|onichan|o-onichan/i 
 handler.command = new RegExp
 
 handler.fail = null

@@ -14,7 +14,7 @@ let handler = async (m, { conn, args: [effect], text: txt, usedPrefix, command }
   })
   await conn.sendFile(m.chat, result.data, 'Error.jpg', `✅ *¡Tú imagen personalizada!*\n✨ *Efecto: ${effect}*\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`, m)
 }
-handler.command = /^(logo|logos)$/i
+handler.command = /^(logo|logos)$/i 
 
 module.exports = handler
 

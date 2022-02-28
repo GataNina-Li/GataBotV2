@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /sexo|Sexo|Hora de sexo|hora de sexo/
+handler.customPrefix = /sexo|Sexo|Hora de sexo|hora de sexo/ 
 handler.command = new RegExp
 module.exports = handler

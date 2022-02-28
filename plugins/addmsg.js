@@ -10,7 +10,7 @@ let handler = async (m, { command, usedPrefix, text }) => {
     
 *Accede con ${usedPrefix}ver${which} ${text}*`)
 }
-handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'add' + v + ' <text>')
+handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'add' + v + ' <text>') 
 handler.tags = ['database']
 handler.command = /^agregar(vn|msg|video|audio|img|sticker)$/
 handler.group = true

@@ -30,7 +30,7 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['bass']
 handler.tags = ['audio']
-handler.command = /^(bass)$/i
+handler.command = /^(bass)$/i 
 handler.owner = false
 handler.mods = false
 handler.premium = false

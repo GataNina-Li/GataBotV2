@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Se ríe|SE RÍE|se ríe|Risa|risa|RISAS|risas|RISA|Risas|me río|Me río|ME RÍO|me rio|Me rio|ME RIO/i
+handler.customPrefix = /Se ríe|SE RÍE|se ríe|Risa|risa|RISAS|risas|RISA|Risas|me río|Me río|ME RÍO|me rio|Me rio|ME RIO/i 
 handler.command = new RegExp
 module.exports = handler

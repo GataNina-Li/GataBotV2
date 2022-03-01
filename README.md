@@ -60,7 +60,7 @@ en el archivo config.js del BOT:  #on restrict
 comando para actualizar los datos: #update o #actualizar 
 
 > ❇️ El número de grupos en donde puede estar el BOT dependerá de su Internet 
-y el Whatsapp que este usando. Lo aconsejable es máximo 45 grupos
+y el Whatsapp que este usando. Lo aconsejable es máximo 45 grupos 
 ```
 --------- 
 ### 🌟 CREADORA 
@@ -74,6 +74,7 @@ y el Whatsapp que este usando. Lo aconsejable es máximo 45 grupos
 [![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming) 
  
 ### 🌟 CONTRIBUYENTES 
+
 [![idhamthoriqbot](https://github.com/idhamthoriqbot.png?size=100)](https://github.com/idhamthoriqbot) 
 [![Adiixyz](https://github.com/Adiixyz.png?size=100)](https://github.com/Adiixyz) 
 <a href="https://github.com/zatu22"><img src="https://github.com/zatu22.png" width="100" height="100" alt="zatu22"/></a> 

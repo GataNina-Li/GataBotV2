@@ -1,4 +1,6 @@
+<p align="center"> 
 # *ㅤㅤㅤ         ㅤＧａｔａＢｏｔㅤㅤㅤㅤㅤㅤㅤㅤㅤ* 
+ </p>
  
 <p align="center"> 
 <img src="https://i.pinimg.com/originals/67/40/8a/67408ab5444616b71968475001f18e88.gif" alt="gif" width="500" height="279"/> 
@@ -12,8 +14,8 @@
 <a href="https://github.com/GataNina-Li/GataBot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/GataNina-Li/GataBot?label=Stars&color=yellow&style=flat-square"></a>
 </p> 
 
-###### 👇 Si tienes dudas 
-#### 💚 *Contacto #1* 
+###### 👇 Si tiene dudas 
+#### 💚 *CONTAC #1* 
 [![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
 )](https://api.whatsapp.com/send?phone=994407312387&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 
   
@@ -23,149 +25,49 @@
  
 --------- 
  
-## ✅ Debe de tener a su disposición:
+## `✅ Debe de tener a su disposición:`
 
 *  Conexión estable de Internet
 *  Aplicación Termux (actualizada)
 *  Un número disponible para el BOT
 --------- 
+
+### AJUSTES
+- CAMBIAR NÚMERO DE PROPIETARIO [Aqui](https://github.com/BrunoSobrino/ShadowBotV3/blob/master/config.js)
+--------- 
+
+> #### *⚠️ De hacer una Bifurcación o extracción de este respositorio, es posible que deje de recibir futuras actualizaciones de GataBot*
  
 ## 😸 Recomendaciones:
- 
- 
-[ INSTALANDO PAQUETES REQUERIDOS ] 
- 
-bash 
-ubuntu
- 
-apt update && apt full-upgrade 
-apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev dbus-x11 ffmpeg2theora ffmpegfs ffmpegthumbnailer ffmpegthumbnailer-dbg ffmpegthumbs libavcodec-dev libavcodec-extra libavcodec-extra58 libavdevice-dev libavdevice58 libavfilter-dev libavfilter-extra libavfilter-extra7 libavformat-dev libavformat58 libavifile-0.7-bin libavifile-0.7-common libavifile-0.7c2 libavresample-dev libavresample4 libavutil-dev libavutil56 libpostproc-dev libpostproc55 graphicsmagick graphicsmagick-dbg graphicsmagick-imagemagick-compat graphicsmagick-libmagick-dev-compat groff imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magick-perl libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev v
 
- 
- 
--------
--- 
- 
-[ INSTALANDO NODEJS Y GATABOT ] 
- 
-bash 
-ubuntu
- 
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - 
-apt install -y nodejs gcc g++ make 
-git clone https://github.com/GataNina-Li/GataBot 
-cd GataBot 
-npm install 
-npm update 
+```bash
+> ❇️ Recuerde que para que su número sea Owner/Propietario(a) debe de agregar
+su número al archivo config.js que se encuentra en la línea 4 del BOT
 
- 
- 
--------
--- 
- 
-## PARA USUARIO DE WINDOWS / VPS / RDP 
- 
-* Descarga e instala Git [Click Here](https://git-scm.com/downloads) 
-* Descargue e instale NodeJS [Click Here](https://nodejs.org/en/download) 
-* Descargue e instale FFmpeg [Click Here](https://ffmpeg.org/download.html) (no olvide agregar FFmpeg a las variables de entorno PATH) 
-* Descargue e instale ImageMagick [Click Here](https://imagemagick.org/script/download.php) 
- 
-bash 
-git clone 
-https://github.com/GataNina-Li/GataBot 
-cd GataBot 
-npm install 
-npm update 
+> ❇️ Para activar los comandos añadir y sacar, escriba esto desde
+el número que asigno como Owner/Propietario(a) previamente haber escrito su número 
+en el archivo config.js del BOT:  #on restrict
 
- 
- 
---------- 
- 
-## Run 
- 
-bash 
-node . 
+> ❇️ Para activar la lectura automática de mensajes escriba: #on autoread
 
+> ❇️ En caso que se cierre la sesión de Termux, escriba:
+> cd GataBot
+> npm start
+
+> ❇️ Si necesita obtener un nuevo Código QR, escriba en Termux:
+> CTRL Z
+> rm session.data.json
+> npm start
+
+> ❇️ Si realiza modificaciones en este repositorio, puede hacer uso de este
+comando para actualizar los datos: #update o #actualizar 
+
+> ❇️ El número de grupos en donde puede estar el BOT dependerá de su Internet 
+y el Whatsapp que este usando. Lo aconsejable es de máximo 45 grupos
+```
+ 
  
 
- 
---------- 
- 
-## Argumentos node . [--options] [<session name>]
-### --self 
- 
-Activar el modo automático (ignora otros). 
- 
-### --pconly 
- 
-Si ese chat no es de un bot privado, el bot ignorará. 
- 
-### --gconly 
- 
-Si ese chat no es del grupo, el bot ignorará. 
- 
-### --swonly 
- 
-Si ese chat no es del estado, el bot ignorará. 
- 
-### --prefix <prefixes> 
- 
-* prefixes están separados por cada prefijo de conjunto de caracteres. 
- 
-### --server 
- 
-Utilizado para [heroku](https://heroku.com/) o escanear a través del sitio web. 
- 
-### --big-qr 
- 
-Si el pequeño qr unicode no es compatible. 
- 
- 
-### --restrict 
- 
-Habilita complementos restringidos (lo que puede hacer que su número sea prohibido si se usa con demasiada frecuencia). 
- 
-* Administración de grupo add, kick 
- 
-### --img 
- 
-Habilitar el inspector de imágenes a través de la terminal. 
- 
-### --autoread 
- 
-Si está habilitado, todos los mensajes entrantes se marcarán como leídos. 
- 
-### --nyimak 
- 
-Sin bot, solo imprima los mensajes recibidos y agregue usuarios a la base de datos. 
- 
-### --test 
- 
-Modo de prueba de desarrollo.  
- 
-### --trace 
- 
-js 
-conn
-.logger.level = 'trace' 
-
- 
- 
-###
- --debug 
- 
-js 
-conn
-.logger.level = 'debug' 
-
- 
- 
-###
- --presence <Presence> 
- 
-Cuando el bot ejecuta el comando, el bot escribirá, registrará, etc. 
- 
-Presencia disponible: disponible, componiendo, grabando, en pausa 
  
 --------- 
  
@@ -178,13 +80,13 @@ Presencia disponible: disponible, componiendo, grabando, en pausa
  
 --------- 
  
-### CREADOR 
+### CREADORA 
  
 [![GataNina-Li](https://github.com/GataNina-Li.png?size=100)](https://github.com/GataNina-Li) 
  
-## Gracias a 
+## GRACIAS A 
  
-[![TheShadowBrokers1](https://github.com/TheShadowBrokers1.png?size=100)](https://github.com/TheShadowBrokers1) 
+[![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=100)](https://github.com/BrunoSobrino) 
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) 
 [![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming) 
  

@@ -4,7 +4,7 @@
 <img src="https://i.pinimg.com/originals/67/40/8a/67408ab5444616b71968475001f18e88.gif" alt="gif" width="500" height="279"/> 
 </p> 
  
-                      ### !Hola¡ Bienvenido(a) 😸 a este repositorio ✨ me podrias apoyar con una ⭐️ ¡Gracias! 
+### !Hola¡ Bienvenido(a) 😸 a este repositorio ✨ me podrias apoyar con una ⭐️ ¡Gracias! 
 
 <p align="center">  
 <a href="https://github.com/GataNina-Li/GataBot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/GataNina-Li/GataBot?label=Forks&color=blue&style=flat-square"></a>
@@ -12,56 +12,25 @@
 <a href="https://github.com/GataNina-Li/GataBot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/GataNina-Li/GataBot?label=Stars&color=yellow&style=flat-square"></a>
 </p> 
 
+###### Por si tienes aún dudas:
 #### 💚 *Contacto #1* 
- 
 [![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
-)](https://api.whatsapp.com/send?phone=994407312387&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub)
+)](https://api.whatsapp.com/send?phone=994407312387&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 
   
-#### 💚 *Contacto #2* 
- 
+#### 💚 *Contacto #2*  
 [![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
 )](https://api.whatsapp.com/send?phone=593968585383&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 
  
 --------- 
  
-## REQUISITOS 
- 
-* Tener una conexión estable de internet. 
-* Tener la aplicación Termux actualizada. 
-* Un número para el BOT. 
- 
+## ✅ Debe de tener a su disposición:
+
+*  Conexión estable de Internet
+*  Aplicación Termux (actualizada)
+*  Un número disponible para el BOT
 --------- 
  
-### PARA USUARIOS DE TERMUX 
- 
-bash 
-> pkg 
-update && pkg upgrade 
-> pkg install git  
-> pkg install nodejs -y 
-> pkg install ffmpeg -y 
-> pkg install imagemagick -y 
-> pkg install bash && pkg install wget 
-> wget -O - https://raw.githubusercontent.com/GataNina-Li/GataBot/main/install2.sh | bash 
-
- 
----------
- 
- 
-## INSTALAR EN TERMUX CON UBUNTU 
- 
-[ INSTALANDO UBUNTU ] 
- 
-bash 
-apt up
-date && apt full-upgrade 
-apt install wget curl git proot-distro 
-proot-distro install ubuntu 
-echo "proot-distro login ubuntu" > $PREFIX/bin/ubuntu 
-ubuntu 
-
- 
----------
+## 😸 Recomendaciones:
  
  
 [ INSTALANDO PAQUETES REQUERIDOS ] 
@@ -123,7 +92,6 @@ node .
 --------- 
  
 ## Argumentos node . [--options] [<session name>]
-🐱🌀, [28/2/2022 22:44]
 ### --self 
  
 Activar el modo automático (ignora otros). 

@@ -1,13 +1,14 @@
-# *                ㅤＧａｔａＢOTㅤㅤㅤ* 
-
+<p align="center"> 
+# *   ＧａｔａＢOTㅤㅤㅤ* 
+</p>
 
 <p align="center"> 
 <img src="https://i.pinimg.com/originals/67/40/8a/67408ab5444616b71968475001f18e88.gif" alt="gif" width="500" height="279"/> 
 </p> 
   
-## !Hola¡ Bienvenido(a) 😸 a este repositorio ✨ me podrias apoyar con una ⭐️ ¡Gracias! 
+## ¡Hola! Bienvenido(a) 😸 a este repositorio ✨ me podrias apoyar con una ⭐️ ¡Gracias! 
 
-<p align="center">  
+<p align="center">   
 <a href="https://github.com/GataNina-Li/GataBot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/GataNina-Li/GataBot?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/GataNina-Li/GataBot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/GataNina-Li/GataBot?label=Watchers&color=green&style=flat-square"></a>
 <a href="https://github.com/GataNina-Li/GataBot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/GataNina-Li/GataBot?label=Stars&color=yellow&style=flat-square"></a>
@@ -35,7 +36,7 @@
 --------- 
 
 ### 😸 RECOMENDACIONES:
-> #### *⚠️ De hacer una bifurcación o extracción de este respositorio, es posible que deje de recibir futuras actualizaciones de GataBot*
+> #### *❗️ De hacer una bifurcación o extracción de este respositorio, es posible que no reciba futuras actualizaciones de GataBot*
 
 ```bash
 > ❇️ Recuerde que para que su número sea Owner/Propietario(a) debe de agregar

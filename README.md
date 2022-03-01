@@ -12,7 +12,7 @@
 <a href="https://github.com/GataNina-Li/GataBot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/GataNina-Li/GataBot?label=Stars&color=yellow&style=flat-square"></a>
 </p> 
 
-###### Por si tienes aún dudas:
+###### 👇 Si tienes dudas 
 #### 💚 *Contacto #1* 
 [![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
 )](https://api.whatsapp.com/send?phone=994407312387&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 

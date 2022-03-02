@@ -40,7 +40,7 @@ ${global.llang.map(v => `${v.code} : ${v.country}`).join`\n`}
     }
 
 }
-handler.command = /^(tr(anslate)|traducir?)$/i
+handler.command = /^tr|translate|traducir?$/i
 
 module.exports = handler
 

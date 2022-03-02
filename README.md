@@ -1,6 +1,4 @@
-<p align="center"> 
-# *   ＧａｔａＢOTㅤㅤㅤ* 
-</p>
+# ⚡️--------------------------------𝙂𝙖𝙩𝙖𝘽𝙤𝙩--------------------------------⚡️
 
 <p align="center"> 
 <img src="https://i.pinimg.com/originals/67/40/8a/67408ab5444616b71968475001f18e88.gif" alt="gif" width="500" height="279"/> 
@@ -32,7 +30,7 @@
 --------- 
 
 ### ⚙️ AJUSTES
-- CAMBIAR NÚMERO DE PROPIETARIA [Aquí](https://github.com/GataNina-Li/GataBot/edit/master/config.js)
+- CAMBIAR NÚMERO DE LA PROPIETARIA [Aquí](https://github.com/GataNina-Li/GataBot/edit/master/config.js)
 --------- 
 
 ### 😸 RECOMENDACIONES:

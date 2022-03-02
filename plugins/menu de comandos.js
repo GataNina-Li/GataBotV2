@@ -192,6 +192,14 @@ let menu =`
 ┣ ↠🪄 _${usedPrefix}estilo *texto*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
+┃ *SUBIR ESTADOS A GATABOT*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃ *¡Sube estados a la cuenta de GataBot!*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠📸 _${usedPrefix}subirestado *texto / video|imagen*_
+┣ ↠📸 _${usedPrefix}subirestado *texto / gif*_
+┗━━━━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━━━┓
 ┃ *RANDOM|EXTRAS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ ↠🎯 _${usedPrefix}randomwallpaper_
@@ -239,13 +247,11 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}spamwa *numero|texto|cantidad*_
 ┣ ↠🎲 _${usedPrefix}readqr *responde a un código QR*_
 ┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
-┣ ↠🎯 _${usedPrefix}subirestado *texto / video|imagen*_
-┣ ↠🎲 _${usedPrefix}subirestado *texto / gif*_
-┣ ↠🎳 _${usedPrefix}agendar *@tag + nombre contacto*_
-┣ ↠🎯 _${usedPrefix}guardar *@tag + nombre contacto*_
-┣ ↠🎲 _${usedPrefix}spam *numero|texto|cantidad*_ 
-┣ ↠🎳 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
-┣ ↠🎯 _${usedPrefix}experiencia | exp
+┣ ↠🎯 _${usedPrefix}agendar *@tag + nombre contacto*_
+┣ ↠🎲 _${usedPrefix}guardar *@tag + nombre contacto*_
+┣ ↠🎳 _${usedPrefix}spam *numero|texto|cantidad*_ 
+┣ ↠🎯 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
+┣ ↠🎲 _${usedPrefix}experiencia | exp
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *COMANDOS +18*

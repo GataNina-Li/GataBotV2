@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['tagme']
 handler.tags = ['General']
-handler.command = /^tagme$/i
+handler.command = /^tagme$/i 
 
 handler.group = false
 

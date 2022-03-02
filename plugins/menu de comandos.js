@@ -24,7 +24,6 @@ let menu =`
 ┣ ↠⚜️ _${usedPrefix}creditos_
 ┣ ↠⚜️ _${usedPrefix}infobot_
 ┣ ↠⚜️ _${usedPrefix}grupos_
-┣ ↠⚜️ _${usedPrefix}instalarbot_
 ┣ ↠⚜️ _${usedPrefix}reglas_
 ┣ ↠⚜️ _${usedPrefix}menusimple_
 ┣ ↠⚜️ _${usedPrefix}menuaudios_
@@ -33,6 +32,12 @@ let menu =`
 ┣ ↠⚜️ _¿Qué es un Bot?_
 ┣ ↠⚜️ _Codigos para audios_
 ┣ ↠⚜️ _Términos y condiciones_
+┗━━━━━━━━━━━━━━━━━━┛
+┏━━━━━━━━━━━━━━━━━━┓
+┃ *OBTENER A GATABOT*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠🛎 _${usedPrefix}instalarbot_
+┣ ↠🛎 _${usedPrefix}procesobot_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *REPORTA FALLOS DE COMANDOS*

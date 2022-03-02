@@ -52,7 +52,7 @@
 ```
 
 ### 😸 RECOMENDACIONES:
-> #### *❗️ De hacer una bifurcación o extracción de este respositorio, es posible que no reciba futuras actualizaciones de GataBot*
+> #### *⚠️  De hacer una bifurcación o extracción de este respositorio, es posible que no reciba futuras actualizaciones de GataBot*
 
 ```bash
 > ❇️ Recuerde que para que su número sea Owner/Propietario(a) debe de agregar

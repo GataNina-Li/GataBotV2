@@ -30,7 +30,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠⚜️ _${usedPrefix}creditos_
 ┣ ↠⚜️ _${usedPrefix}infobot_
 ┣ ↠⚜️ _${usedPrefix}grupos_
-┣ ↠⚜️ _${usedPrefix}instalarbot_
 ┣ ↠⚜️ _${usedPrefix}reglas_
 ┣ ↠⚜️ _${usedPrefix}menusimple_
 ┣ ↠⚜️ _${usedPrefix}menuaudios_
@@ -39,6 +38,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠⚜️ _¿Qué es un Bot?_
 ┣ ↠⚜️ _Codigos para audios_
 ┣ ↠⚜️ _Términos y condiciones_
+┣ ↠🛎 _${usedPrefix}instalarbot_
+┣ ↠🛎 _${usedPrefix}procesobot_
 ┣ ↠📮 _${usedPrefix}bug *tal comando con fallas*_
 ┣ ↠📮 _${usedPrefix}report *tal comando con fallas*_
 ┣ ↠📮 _${usedPrefix}reporte *tal comando con fallas*_
@@ -150,6 +151,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎨 _${usedPrefix}wanted *Responda a una foto*_
 ┣ ↠🪄 _${usedPrefix}style *texto*_
 ┣ ↠🪄 _${usedPrefix}estilo *texto*_
+┣ ↠📸 _${usedPrefix}subirestado *texto / video|imagen*_
+┣ ↠📸 _${usedPrefix}subirestado *texto / gif*_
 ┣ ↠🎯 _${usedPrefix}randomwallpaper_
 ┣ ↠🎲 _${usedPrefix}compartirfoto_
 ┣ ↠🎳 _${usedPrefix}futbol_
@@ -195,13 +198,11 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┣ ↠🎯 _${usedPrefix}spamwa *numero|texto|cantidad*_
 ┣ ↠🎲 _${usedPrefix}readqr *responde a un código QR*_
 ┣ ↠🎳 _${usedPrefix}anime *random / waifu / husbu /neko*_
-┣ ↠🎯 _${usedPrefix}subirestado *texto / video|imagen*_
-┣ ↠🎲 _${usedPrefix}subirestado *texto / gif*_
-┣ ↠🎳 _${usedPrefix}agendar *@tag + nombre contacto*_
-┣ ↠🎯 _${usedPrefix}guardar *@tag + nombre contacto*_
-┣ ↠🎲 _${usedPrefix}spam *numero|texto|cantidad*_ 
-┣ ↠🎳 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
-┣ ↠🎯 _${usedPrefix}experiencia | exp
+┣ ↠🎯 _${usedPrefix}agendar *@tag + nombre contacto*_
+┣ ↠🎲 _${usedPrefix}guardar *@tag + nombre contacto*_
+┣ ↠🎳 _${usedPrefix}spam *numero|texto|cantidad*_ 
+┣ ↠🎯 _${usedPrefix}spoiler | hidetext *texto1| texto2*_
+┣ ↠🎲 _${usedPrefix}experiencia | exp
 ┣ ↠🔞 _${usedPrefix}labiblia_
 ┣ ↠🎤 _${usedPrefix}bass_
 ┣ ↠🎤 _${usedPrefix}deep_

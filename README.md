@@ -33,12 +33,30 @@
 - CAMBIAR NÚMERO DE LA PROPIETARIA [Aquí](https://github.com/GataNina-Li/GataBot/edit/master/config.js)
 --------- 
 
+### 📎 COMANDOS DE INSTALACIÓN PARA TERMUX
+```bash
+> termux-setup-storage
+> apt update && apt upgrade -y -y
+> pkg install git 
+> apt install git -y
+> apt install nodejs -y
+> apt install ffmpeg -y
+> apt install imagemagick -y
+> git clone https://github.com/GataNina-Li/GataBot
+> cd GataBot
+> ls
+> npm install
+> npm install -g npm@8.5.2
+> npm update
+> npm start
+```
+
 ### 😸 RECOMENDACIONES:
 > #### *❗️ De hacer una bifurcación o extracción de este respositorio, es posible que no reciba futuras actualizaciones de GataBot*
 
 ```bash
 > ❇️ Recuerde que para que su número sea Owner/Propietario(a) debe de agregar
-su número al archivo config.js que se encuentra en la línea 4 del BOT
+su número al archivo config.js apartado global.owner de la línea 4 del BOT
 
 > ❇️ Para activar los comandos añadir y sacar, escriba esto desde
 el número que asigno como Owner/Propietario(a) previamente haber escrito su número 

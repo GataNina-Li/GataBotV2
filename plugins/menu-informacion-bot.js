@@ -13,14 +13,36 @@ let username = conn.getName(who)
 
 //SI VAS A MODIFICAR TODO Y HACER PASAR COMO SI FUERA TU BOT (CREADO POR TI) SOLO TE PIDO QUE SI ESTA EN TUS POSIBILIDADES DONES UN POCO
 let menu =`
-╭══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮
-║═ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║❇️ *¡𝗛ola! ${username}* ❇️
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║🔰 *Creadora/Editora: Gata Dios* 
-║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
+╭━━━〘 🐈🌟🐈🌟🐈🌟🐈🌟〙━━━╮
+ ‖ ֎┉┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉┉֍
+ ‖
+ ‖⇶ menuinfobot | menuinfo
+ ‖
+ ‖⇶
+ ‖ 
+ ‖⇶
+ ‖
+ ‖⇶
+ ‖
+ ‖⇶
+ ‖ 
+ ‖⇶
+ ‖
+ ‖⇶
+ ‖
+ ‖⇶
+ ‖ 
+ ‖⇶
+ ‖
+ ‖⇶
+ ‖
+ ‖⇶
+ ‖ 
+ ‖⇶
+ ‖
+ ‖⇶
+ ‖
+╰━━━〘 🐈🌟🐈🌟🐈🌟🐈🌟〙━━━╯
 `.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   

@@ -17,7 +17,7 @@ let menu =`
  ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
  ‖
  ‖ 🔖 *_INFORMACIÓN DEL MENU_* 🔖
- ‖⇶ menuinfobot | menuinfo
+ ‖⇶ _${usedPrefix}menuinfobot | menuinfo_
  ‖
  ‖⇶
  ‖ 

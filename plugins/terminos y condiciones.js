@@ -31,6 +31,16 @@ _Este Bot procede de un Bot ya existente por lo que todo lo que vea en temas de 
 
 _- En caso que el Bot envíe mensajes sin haber solicitado con un comando, es posible que el mensaje sea de una persona o propietario/a del Bot. De ser así mantener el respeto._
 
+❰ ⚠️ ❱ *_Estándares de Seguridad/Privacidad/Uso_* 
+
+*Todo lo dicho aquí aplica para las cuentas Oficiales de GataBot*
+
+_- Al hacer uso de una solicitud para ingreso de grupo, es recomendable que el grupo no cuente con temas de Odio, virus, contenido indebido, temas de discriminación u campañas sin fundamentos._
+
+_- Todo la información que proporcione a GataBot en privado y grupos son confidenciales por lo tanto no se comparte dicha información a ningún medio._
+
+_- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodidad, intranquilidad, molestia u otro termino tajante, se tomarán las respectivas sanciones o llamados de alerta para prevalecer la integridad de los Usuarios y funcionamiento de GataBot._
+
 ❰ ❔ ❱ *_Aún tienes dudas_*
 
 _De tener dudas, observaciones, reclamos respecto a temas de GataBot puedes escribir me a este número:_

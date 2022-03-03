@@ -13,7 +13,7 @@ let username = conn.getName(who)
 
 //SI VAS A MODIFICAR TODO Y HACER PASAR COMO SI FUERA TU BOT (CREADO POR TI) SOLO TE PIDO QUE SI ESTA EN TUS POSIBILIDADES DONES UN POCO
 let menu =`
-╭━〘 🐈🌟🐈🌟🐈🌟🐈🌟〙━╮
+╭━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╮
  ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
  ‖
  ‖ 🔖 *_INFORMACIÓN DEL MENU_* 🔖

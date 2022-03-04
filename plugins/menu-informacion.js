@@ -46,9 +46,9 @@ let menu =`
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', 'Ⓜ️ *MENU COMPLETO* Ⓜ️', `#mcompleto`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   
 }
 
-handler.command = /^(m2)$/i
+handler.command = /^(menuinfobot|menuinfo|infomenu|menúinfobot|menúinfo)$/i
 handler.fail = null
 module.exports = handler

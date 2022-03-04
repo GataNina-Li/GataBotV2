@@ -36,8 +36,8 @@ let menu =`
  ‖⇛ 🔖 _¿Qué es un Bot?_
  ‖⇛ 🔖 _Codigos para audios_
  ‖⇛ 🔖 _Términos y condiciones_
- ‖ ➥ ⧼ *_INFORMACIÓN DEL MENU_* ⧽ 
-╰━〘 🐈🌟🐈⚡️🐈🌟🐈⚡️🐈 〙━╯
+ ‖ ➥ ⧼ *_INFORMACIÓN DEL MENÚ_* ⧽ 
+╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   

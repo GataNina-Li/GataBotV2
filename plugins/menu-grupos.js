@@ -44,7 +44,7 @@ let menu =`
  ‖⇛ 🔐 _${usedPrefix}banchat_
  ‖⇛ 🔐 _${usedPrefix}unbanchat_
  ‖ ➥ ⧼ *_MENÚ GESTIÓN DE GRUPOS_* ⧽ 
-╰━〘 🐈🌟🐈⚡️🐈🌟🐈⚡️🐈 〙━╯
+╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   

@@ -15,6 +15,9 @@ let username = conn.getName(who)
 let menu =`
 ╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
  ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
+ ‖ 💖 *¡𝗛ola! ${username}* 💖
+ ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
+ ‖
  ‖⇛🚀 _${usedPrefix}imagen | image | gimage *texto*_
  ‖⇛🚀 _${usedPrefix}ytsearch *texto*_
  ‖⇛🚀 _${usedPrefix}dlaudio *link yt*_
@@ -42,7 +45,7 @@ let menu =`
  ‖⇛🚀 _${usedPrefix}wikipedia | wiki | internet *texto*_
  ‖⇛🚀 _${usedPrefix}spotify | spotimusica *autor, cancion*_
  ‖ ➥ ⧼ *_MENÚ DE DESCARGAS_* ⧽ 
-╰━〘 🐈🌟🐈⚡️🐈🌟🐈⚡️🐈 〙━╯
+╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   

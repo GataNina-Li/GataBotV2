@@ -23,10 +23,18 @@ let menu =`
  ‖⇛ 🔰 _${usedPrefix}estado_
  ‖⇛ 🔰 _${usedPrefix}menusimple_
  ‖⇛ 🔰 _${usedPrefix}menuaudios_
+ ‖⇛ 🔰 _${usedPrefix}instalarbot_
+ ‖⇛ 🔰 _${usedPrefix}procesobot_
+ ‖⇛ 🔰 _${usedPrefix}bug *tal comando con fallas*_
+ ‖⇛ 🔰 _${usedPrefix}reporte *tal comando con fallas*_
+ ‖⇛ 🔰 _${usedPrefix}report *tal comando con fallas*_
+ ‖⇛ 🔰 _${usedPrefix}owner_
+ ‖⇛ 🔰 _${usedPrefix}contacto_
+ ‖⇛ 🔰 _${usedPrefix}join *enlace del grupo*_
+ ‖⇛ 🔰 _${usedPrefix}unete *enlace del grupo*_ 
+ ‖⇛ 🔰 _${usedPrefix}bots *ver bots*_
  ‖⇛ 🔰 _¿Qué es un Bot?_
  ‖⇛ 🔰 _Codigos para audios_
- ‖⇛ 🔰 _Términos y condiciones_
- ‖⇛ 🔰 _${usedPrefix}instalarbot_
  ‖⇛ 🔰 _Términos y condiciones_
 ╰━〘 🐈🌟🐈⚡️🐈🌟🐈⚡️🐈 〙━╯
 `.trim()

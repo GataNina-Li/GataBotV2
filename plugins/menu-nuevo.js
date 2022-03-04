@@ -16,6 +16,9 @@ let menu =`
 ╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
  ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
  ‖
+ ‖ Ⓜ️ *_MENÚ COMPLETO_* Ⓜ️
+ ‖⇶ _${usedPrefix}menucompleto | mcompleto_
+ ‖
  ‖ 🔖 *_INFORMACIÓN DEL MENÚ_* 🔖
  ‖⇶ _${usedPrefix}menuinfobot | menuinfo_
  ‖

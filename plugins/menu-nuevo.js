@@ -28,22 +28,28 @@ let menu =`
  ‖⇶ _${usedPrefix}menujuego | menujuegos_
  ‖ 
  ‖ 🚀 *_MENÚ DE DESCARGAS_* 🚀
- ‖⇶ _${usedPrefix}menudescarga | menudescargas
+ ‖⇶ _${usedPrefix}menudescarga | menudescargas_
  ‖
  ‖ 🔐 *_GESTIÓN DE GRUPO_* 🔐
- ‖⇶ _${usedPrefix}menugrupo | menugrupos
+ ‖⇶ _${usedPrefix}menugrupo | menugrupos_
  ‖
- ‖⇶
+ ‖ 🎨 *_MENÚ DE CREACIÓN_* 🎨
+ ‖⇶ _${usedPrefix}menucreador | menucreacion_
  ‖ 
- ‖⇶
+ ‖ 🪅 *_ANIME/RANDOMS_* 🪅
+ ‖⇶ _${usedPrefix}menurandom | menuextras_
  ‖
- ‖⇶
+ ‖ 🔞 *_MENÚ +18_* 🔞
+ ‖⇶ _${usedPrefix}menu+18 | labiblia_
  ‖
- ‖⇶
+ ‖ 🔊 *_MENÚ DE AUDIOS_* 🔊
+ ‖⇶ _${usedPrefix}menuaudio | menuaudios_
  ‖ 
- ‖⇶
+ ‖ 📦 *_MENÚ CAJA DE ALMACENAMIENTO_* 📦
+ ‖⇶ _${usedPrefix}menucaja | menualmacen_
  ‖
- ‖⇶
+ ‖ 👤 *_MENÚ CHAT ANÓNIMO_* 👤
+ ‖⇶ _${usedPrefix}menuchat | menuanonimo_
  ‖
  ‖⇶
  ‖ 

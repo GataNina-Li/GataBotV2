@@ -39,6 +39,10 @@ let menu =`
  ‖⇛ 🎨 _${usedPrefix}swm *imagen | video | gif*_
  ‖⇛ 🎨 _${usedPrefix}tovideo *responde a una nota de voz*_
  ‖⇛ 🎨 _${usedPrefix}wanted *Responda a una foto*_
+ ‖⇛ 🎨 _${usedPrefix}style *texto*_
+ ‖⇛ 🎨 _${usedPrefix}estilo *texto*_
+ ‖⇛ 🎨 _${usedPrefix}subirestado *texto / video|imagen*_
+ ‖⇛ 🎨 _${usedPrefix}subirestado *texto / gif*_
  ‖ ➥ ⧼ *_MENÚ DE CREACIÓN_* ⧽ 
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()

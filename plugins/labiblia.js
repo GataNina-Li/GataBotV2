@@ -67,7 +67,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 handler.help = ['labiblia']
 handler.tags = ['General']
-handler.command = /^(labiblia)$/i
+handler.command = /^(labiblia|Labiblia|menu+18|Menu+18|Menú+|8)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

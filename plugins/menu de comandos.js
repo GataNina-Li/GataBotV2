@@ -29,7 +29,6 @@ let menu =`
 ┣ ↠⚜️ _${usedPrefix}infobot_
 ┣ ↠⚜️ _${usedPrefix}grupos_
 ┣ ↠⚜️ _${usedPrefix}reglas_
-┣ ↠⚜️ _${usedPrefix}menusimple_
 ┣ ↠⚜️ _${usedPrefix}menuaudios_
 ┣ ↠⚜️ _${usedPrefix}menu2_
 ┣ ↠⚜️ _${usedPrefix}estado_

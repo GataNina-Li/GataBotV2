@@ -36,6 +36,9 @@ let menu =`
  ‖⇛ 🔖 _${usedPrefix}join *enlace del grupo*_
  ‖⇛ 🔖 _${usedPrefix}unete *enlace del grupo*_ 
  ‖⇛ 🔖 _${usedPrefix}bots *ver bots*_
+ ‖⇛ 🔖 _${usedPrefix}stop_
+ ‖⇛ 🔖 _${usedPrefix}jadibot | serbot_
+ ‖⇛ 🔖 _${usedPrefix}getcode_
  ‖⇛ 🔖 _¿Qué es un Bot?_
  ‖⇛ 🔖 _Codigos para audios_
  ‖⇛ 🔖 _Términos y condiciones_

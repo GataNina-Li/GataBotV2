@@ -52,11 +52,10 @@ let menu =`
  ‖⇶ _${usedPrefix}menuchat | menuanonimo_
  ‖
  ‖ 💮 *_MENÚ LOGOS PERSONALIZADO_* 💮
- ‖⇶ _${usedPrefix}menulogo | menulogos_
+ ‖⇶ _${usedPrefix}menucrearlogos | mlogos_
  ‖ 
- ‖⇶
- ‖
- ‖⇶
+ ‖ 💎 *_MENU PARA PROPIETARIO/A_* 💎
+ ‖⇶ _${usedPrefix}menupropietario_
  ‖
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()

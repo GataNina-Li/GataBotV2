@@ -33,7 +33,7 @@ let menu =`
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', '📦 MENÚ CAJA ALMACENAMIENTO 📦', `#menucaja`, '👤 MENÚ CHAT ANÓNIMO 👤', `#menuchat`, '💎 MENU PARA PROPIETARIO/A 💎', `#menupropietaria`, m, false, { contextInfo: { mentionedJid }})   
 }
 
 handler.command = /^(menucrearlogos|mlogos|Menucrearlogos|Mlogos|menúcrearlogos|menucrearlogo|mlogo)$/i

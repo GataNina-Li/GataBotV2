@@ -54,6 +54,6 @@ let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   
 }
 
-handler.command = /^(m3)$/i
+handler.command = /^(menujuego|menujuegos|Menújuego|Menújuegos)$/i
 handler.fail = null
 module.exports = handler

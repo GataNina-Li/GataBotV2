@@ -15,6 +15,11 @@ let username = conn.getName(who)
 let menu =`
 ╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
  ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
+ ‖⇛ 🎳 _${usedPrefix}top10gays | topgay_
+ ‖⇛ 🎳 _${usedPrefix}toplind@s | toplind@_
+ ‖⇛ 🎳 _${usedPrefix}topput@s | toppt_
+ ‖⇛ 🎳 _${usedPrefix}toppajer@s | toppajeros_
+ ‖⇛ 🎳 _${usedPrefix}topotakus | toptakus_
  ‖⇛ 🎳 _${usedPrefix}math | mates | matemáticas *modo*_
  ‖⇛ 🎳 _${usedPrefix}ttt | tictactoe *nombre del la sala*_
  ‖⇛ 🎳 _${usedPrefix}delttt *nombre del la sala*_

@@ -20,7 +20,7 @@ let menu =`
  ‖⇶ _${usedPrefix}menuinfobot | menuinfo_
  ‖
  ‖ 🎮 *_MENÚ DE JUEGOS_* 🎮
- ‖⇶ _${usedPrefix}menujuego | menujuegos
+ ‖⇶ _${usedPrefix}menujuego | menujuegos_
  ‖ 
  ‖⇶
  ‖
@@ -44,7 +44,7 @@ let menu =`
  ‖
  ‖⇶
  ‖
-╰━〘 🐈🌟🐈⚡️🐈🌟🐈⚡️🐈 〙━╯
+╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'Hola 😸', `Hola`, 'Menú de Audios 🔊', `#menuaudios`, 'Menú simple ⚡️', `#menusimple`, m, false, { contextInfo: { mentionedJid }})   

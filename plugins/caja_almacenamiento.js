@@ -73,7 +73,7 @@ _En donde podrás guardar mensajes/archivos multimedia. Para luego verlos con un
 }
 handler.help = ['menusimple']
 handler.tags = ['General']
-handler.command = /^(caja|Caja|almacen|Almacen|almacenamiento|cjalmacen|cajaalmacenamiento|cajalmacenamiento)$/i
+handler.command = /^(caja|Caja|almacen|Almacen|almacenamiento|cjalmacen|cajaalmacenamiento|cajalmacenamiento|menucaja|menualmacen|Menucaja|Menualmacen)$/i
 handler.rowner = false
 handler.mods = false
 handler.premium = false

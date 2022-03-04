@@ -45,13 +45,14 @@ let menu =`
  ‖ 🔊 *_MENÚ DE AUDIOS_* 🔊
  ‖⇶ _${usedPrefix}menuaudio | menuaudios_
  ‖ 
- ‖ 📦 *_MENÚ CAJA DE ALMACENAMIENTO_* 📦
+ ‖ 📦 *_MENÚ CAJA ALMACENAMIENTO_* 📦
  ‖⇶ _${usedPrefix}menucaja | menualmacen_
  ‖
  ‖ 👤 *_MENÚ CHAT ANÓNIMO_* 👤
  ‖⇶ _${usedPrefix}menuchat | menuanonimo_
  ‖
- ‖⇶
+ ‖ 💮 *_MENÚ LOGOS PERSONALIZADO_* 💮
+ ‖⇶ _${usedPrefix}menulogo | menulogos_
  ‖ 
  ‖⇶
  ‖

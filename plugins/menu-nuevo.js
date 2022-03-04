@@ -40,7 +40,7 @@ let menu =`
  ‖⇶ _${usedPrefix}menurandom | menuextras_
  ‖
  ‖ 🔞 *_MENÚ +18_* 🔞
- ‖⇶ _${usedPrefix}menu+18 | labiblia_
+ ‖⇶ _${usedPrefix}menu18 | labiblia_
  ‖
  ‖ 🔊 *_MENÚ DE AUDIOS_* 🔊
  ‖⇶ _${usedPrefix}menuaudio | menuaudios_

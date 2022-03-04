@@ -36,7 +36,7 @@ let menu =`
  ‖⇛ 🔖 _¿Qué es un Bot?_
  ‖⇛ 🔖 _Codigos para audios_
  ‖⇛ 🔖 _Términos y condiciones_
- ‖⇛ ⊰🔖 *_INFORMACIÓN DEL MENU_*  🔖⊱
+ ‖➥  *_INFORMACIÓN DEL MENU_*  
 ╰━〘 🐈🌟🐈⚡️🐈🌟🐈⚡️🐈 〙━╯
 `.trim()
 let mentionedJid = [who]

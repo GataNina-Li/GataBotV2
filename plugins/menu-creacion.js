@@ -43,6 +43,20 @@ let menu =`
  ‖⇛ 🎨 _${usedPrefix}estilo *texto*_
  ‖⇛ 🎨 _${usedPrefix}subirestado *texto / video|imagen*_
  ‖⇛ 🎨 _${usedPrefix}subirestado *texto / gif*_
+ ‖⇛ 🎨 _${usedPrefix}bass_
+ ‖⇛ 🎨 _${usedPrefix}deep_
+ ‖⇛ 🎨 _${usedPrefix}earrape_
+ ‖⇛ 🎨 _${usedPrefix}fast_
+ ‖⇛ 🎨 _${usedPrefix}fat_
+ ‖⇛ 🎨 _${usedPrefix}nightcore_
+ ‖⇛ 🎨 _${usedPrefix}reverse_
+ ‖⇛ 🎨 _${usedPrefix}robot_
+ ‖⇛ 🎨 _${usedPrefix}slow_
+ ‖⇛ 🎨 _${usedPrefix}tupai
+ ‖⇛ 🎨 _${usedPrefix}smooth_
+ ‖⇛ 🎨 _${usedPrefix}blown_
+ ‖⇛ 🎨 _${usedPrefix}vibracion *cantidad*_
+ ‖⇛ 🎨 _${usedPrefix}tovn *audio a nota de voz*
  ‖ ➥ ⧼ *_MENÚ DE CREACIÓN_* ⧽ 
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()

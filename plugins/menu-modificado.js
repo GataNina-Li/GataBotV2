@@ -351,8 +351,10 @@ let menu =`
 ┣ ↠💎 _${usedPrefix}disable *autoread*_
 ┣ ↠👑 _${usedPrefix}bcbot *texto*_
 ┣ ↠💎 _${usedPrefix}bcgc *texto*_
-┗━━━━━━━━━━━━━━━━━━┛`.trim()
+┗━━━━━━━━━━━━━━━━━━┛
+𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
+𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
 *☆彡:･;.*:･*。･゜.。☆彡*
 `.trim(), menu, '¡HOLA! 😸', `Hola`, 'MENÚ DE AUDIOS 🔊', `#menuaudios`, 'MENÚ NUEVO ⚡️', `#menu`, m, false, { contextInfo: { mentionedJid }})}
 handler.command = /^prueba?$/i

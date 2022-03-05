@@ -44,6 +44,7 @@ let menu =`
  ‖⇛ 🚀 _${usedPrefix}twittervideo | twvid *link de twitter*_
  ‖⇛ 🚀 _${usedPrefix}wikipedia | wiki | internet *texto*_
  ‖⇛ 🚀 _${usedPrefix}spotify | spotimusica *autor, cancion*_
+ ‖⇛ 🚀 _${usedPrefix}frase *escriba un número (1 - 99)*_
  ‖ ➥ ⧼ *_MENÚ DE DESCARGAS_* ⧽ 
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()

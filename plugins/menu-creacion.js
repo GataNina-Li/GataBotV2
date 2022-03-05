@@ -61,7 +61,7 @@ let menu =`
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 `.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', '🪅 ANIME/RANDOMS 🪅', `#menurandom`, '🔞 MENÚ +18 🔞', `#labiblia`, '🔊 MENÚ DE AUDIOS 🔊', `#menuaudio`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', '🌸 ANIME/RANDOMS 🌸', `#menurandom`, '🔞 MENÚ +18 🔞', `#labiblia`, '🔊 MENÚ DE AUDIOS 🔊', `#menuaudio`, m, false, { contextInfo: { mentionedJid }})   
 }
 
 handler.command = /^(menucreador|menucreacion|Menucreador|Menucreacion|Menúcreador|Menúcreacion|menúcreacion|menúcreador)$/i

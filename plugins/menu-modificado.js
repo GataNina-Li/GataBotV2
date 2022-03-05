@@ -6,6 +6,7 @@ let path = require('path')
 let util = require('util')
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let username = conn.getName(who)
+let pp = 'https://raw.githubusercontent.com/GataNina-Li/GataBot/master/Menu2.jpg'
 let menu =`
 ╭══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╮
 ║═ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
@@ -354,7 +355,7 @@ let menu =`
 ┣ ↠👑 _${usedPrefix}bcbot *texto*_
 ┣ ↠💎 _${usedPrefix}bcgc *texto*_
 ┗━━━━━━━━━━━━━━━━━━┛`.trim()
-await conn.send3ButtonLoc(m.chat, await (await fetch('https://raw.githubusercontent.com/GataNina-Li/GataBot/master/Menu2.jpg')).buffer(), `
+await conn.send3ButtonLoc(m.chat, await (await fetch(pp)).buffer(), `
 *☆彡:･;.*:･*。･゜.。☆彡*
 `.trim(), menu, '¡HOLA! 😸', `Hola`, 'MENÚ DE AUDIOS 🔊', `#menuaudios`, 'MENÚ NUEVO ⚡️', `#menu`, m, false)}
 handler.command = /^prueba?$/i

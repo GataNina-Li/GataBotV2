@@ -1,17 +1,14 @@
-let fs = require('fs')
-let fetch = require('node-fetch')
-let moment = require('moment-timezone')
-let path = require('path')
-let util = require('util')
-let handler = async (m, { conn, usedPrefix }) => {
-let pp = './Menu2.jpg'
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 //NO MODIFIQUES EL NÚMERO DE LA CREADORA NI EL NOMBRE.. SOLO AGREGA LA INFORMACIÓN QUE TU QUIERAS O EDITALO A TU MANERA PERO DEJANDO LOS CREDITOS
 //PUEDES AGREGAR OTRA FILAS DE PAYPAL, GRUPOS, PERO DEJA ALGUNOS CREDITOS, YA QUE ES LA UNICA MANERA DE INGRESOS DEL BOT
 
 //SI VAS A MODIFICAR TODO Y HACER PASAR COMO SI FUERA TU BOT (CREADO POR TI) SOLO TE PIDO QUE SI ESTA EN TUS POSIBILIDADES DONES UN POCO
+let handler = async (m, { conn, command, text, usedPrefix }) => {
+let fetch = require('node-fetch')
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let mentionedJid = [who]
+let username = conn.getName(who)
+let pp = 'https://i.imgur.com/BfsbCOR.jpg'
 let menu =`
 ╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
  ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
@@ -59,11 +56,10 @@ let menu =`
  ‖⇛ 🎨 _${usedPrefix}tovn *audio a nota de voz*
  ‖ ➥ ⧼ *_MENÚ DE CREACIÓN_* ⧽ 
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
-`.trim()
-let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', '🌸 ANIME/RANDOMS 🌸', `#menurandom`, '🔞 MENÚ +18 🔞', `#labiblia`, '🔊 MENÚ DE AUDIOS 🔊', `#menuaudio`, m, false, { contextInfo: { mentionedJid }})   
-}
+𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
+conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
+⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
+`.trim(), menu, '💥 𝘼𝙉𝙄𝙈𝙀/𝙍𝘼𝙉𝘿𝙊𝙈 💥', `#menurandom`, '🔞 𝙈𝙀𝙉𝙐 +18 🔞', `#labiblia`, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudio`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menucreador|menucreacion|Menucreador|Menucreacion|Menúcreador|Menúcreacion|menúcreacion|menúcreador)$/i
-handler.fail = null
 module.exports = handler

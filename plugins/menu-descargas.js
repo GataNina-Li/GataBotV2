@@ -27,7 +27,7 @@ let menu =`
  ‖⇛ 🚀 _${usedPrefix}letra *nombredelacanción*_
  ‖⇛ 🚀 _${usedPrefix}google *texto*_
  ‖⇛ 🚀 _${usedPrefix}googlef *texto*_
- ‖⇛ 🚀 _${usedPrefix}pinterestvideo | pintvid *linkPinterest*_
+ ‖⇛ 🚀 _${usedPrefix}pinterestvideo | pintvid *link*_
  ‖⇛ 🚀 _${usedPrefix}tiktokaudio *link del tiktok*_
  ‖⇛ 🚀 _${usedPrefix}tiktok *link*_
  ‖⇛ 🚀 _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_

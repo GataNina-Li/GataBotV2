@@ -31,7 +31,7 @@ let menu =`
 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
 ⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
-`.trim(), menu, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉 📦', `#menucaja`, '👤 𝙈𝙀𝙉𝙐 𝘾𝙃𝘼𝙏 𝘼𝙉𝙊𝙉𝙄𝙈𝙊 👤', `#menuchat`, '💎 𝙈𝙀𝙉𝙐 𝙋𝘼𝙍𝘼 𝙋𝙍𝙊𝙋𝙄𝙀𝙏𝘼𝙍𝙄𝙊/𝘼 💎', `#menupropietaria`, m, false, { contextInfo: { mentionedJid }})}
+`.trim(), menu, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉 📦', `#menucaja`, '👤 𝙈𝙀𝙉𝙐 𝘾𝙃𝘼𝙏 𝘼𝙉𝙊𝙉𝙄𝙈𝙊 👤', `#menuchat`, '💎 𝙈𝙀𝙉𝙐 𝙋𝙍𝙊𝙋𝙄𝙀𝙏𝘼𝙍𝙄𝙊/𝘼 💎', `#menupropietaria`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menulogos|menulogos|menucrearlogos|mlogos|Menucrearlogos|Mlogos|menúcrearlogos|menucrearlogo|mlogo)$/i
 module.exports = handler

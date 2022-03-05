@@ -70,7 +70,7 @@ let menu =`
 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
 ⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
-`.trim(), menu, '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', '🔞 𝙈𝙀𝙉𝙐 +18 🔞', `#labiblia`, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudio`, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉𝘼𝙈𝙄𝙀𝙉𝙏𝙊 📦', `#menucaja`, m, false, { contextInfo: { mentionedJid }})}
+`.trim(), menu, '🔞 𝙈𝙀𝙉𝙐 +18 🔞', `#labiblia`, '🔊 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙐𝘿𝙄𝙊𝙎 🔊', `#menuaudio`, '📦 𝙈𝙀𝙉𝙐 𝘾𝘼𝙅𝘼 𝘼𝙇𝙈𝘼𝘾𝙀𝙉𝘼𝙈𝙄𝙀𝙉𝙏𝙊 📦', `#menucaja`, m, false, { contextInfo: { mentionedJid }})}
 
 handler.command = /^(menurandom|menuextras|Menurandom|Menuextras|menúrandom|menúextra|menúextras)$/i
 module.exports = handler

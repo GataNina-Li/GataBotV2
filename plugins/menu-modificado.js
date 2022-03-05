@@ -354,7 +354,7 @@ let menu =`
 ┣ ↠👑 _${usedPrefix}bcbot *texto*_
 ┣ ↠💎 _${usedPrefix}bcgc *texto*_
 ┗━━━━━━━━━━━━━━━━━━┛`.trim()
-await conn.send3ButtonLoc(m.chat, await (await fetch('https://i.imgur.com/BfsbCOR.jpg')).buffer(), `
+await conn.send3ButtonLoc(m.chat, await (await fetch('https://raw.githubusercontent.com/GataNina-Li/GataBot/master/Menu2.jpg')).buffer(), `
 *☆彡:･;.*:･*。･゜.。☆彡*
 `.trim(), menu, '¡HOLA! 😸', `Hola`, 'MENÚ DE AUDIOS 🔊', `#menuaudios`, 'MENÚ NUEVO ⚡️', `#menu`, m, false)}
 handler.command = /^prueba?$/i

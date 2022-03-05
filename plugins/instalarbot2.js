@@ -101,7 +101,7 @@ npm install
 
 ▫️ _Esperamos... 🐋 Cuando te vuelva a salir el *$ , escriba:*_
 
-npm install -g npm@8.5.2
+npm install -g npm@8.5.3
 
 ▫️ *_Ahora escriba:_*
 

@@ -46,7 +46,7 @@
 > cd GataBot
 > ls
 > npm install
-> npm install -g npm@8.5.2
+> npm install -g npm@8.5.3
 > npm update
 > npm start
 ```

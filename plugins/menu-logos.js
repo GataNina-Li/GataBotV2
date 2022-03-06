@@ -19,7 +19,7 @@ let menu =`
  ‖⇛ 💮 _${usedPrefix}cementerio | logocementerio_
  ‖⇛ 💮 _${usedPrefix}cesped | logocesped_
  ‖⇛ 💮 _${usedPrefix}coffe | logocoffe_
- ‖⇛ 💮 _${usedPrefix}fire | logofire
+ ‖⇛ 💮 _${usedPrefix}fire | logofire_
  ‖⇛ 💮 _${usedPrefix}flaming | logoflaming_
  ‖⇛ 💮 _${usedPrefix}lovemessages | lovemensajes_
  ‖⇛ 💮 _${usedPrefix}playa | logoplaya_

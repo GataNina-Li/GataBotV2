@@ -1,21 +1,9 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-
-  if (!args[0]) throw `uhm.. url nya mana?\n\ncontoh:\n${usedPrefix + command} https://vt.tiktok.com/yqyjPX/`
-  if (!args[0].match(/tiktok/gi)) throw `url salah`
-
-  let res = await fetch(API('hardianto', '/api/download/tiktok', { url: args[0] }, 'apikey'))
-  if (!res.ok) throw eror
-  let json = await res.json()
-  // if (!json.status) throw json
-  await m.reply(wait)
-  await conn.sendFile(m.chat, json.nowm, '', `${json.caption}\n\n© stikerin`, m)
-
-}
-handler.help = ['tiktok'].map(v => v + ' <url>')
-handler.tags = ['downloader']
-handler.command = /^(tiktok)$/i
-
-handler.limit = true
-
+let handler = async (m, { conn, args, usedPrefix, command, text }) => {
+if (!args[0]) throw `*Formato de uso: ${usedPrefix + command} https://tiktokxxxx*\n*Ejemplo:*\n*${usedPrefix + command} https://vm.tiktok.com/ZMLUb9M5j/*`
+if (!args[0].match(/tiktok/gi)) throw `*Fallo al detectar la URL de tiktok, compruebe que sea de tiktok*`
+let res = await fetch("https://api-alc.herokuapp.com/api/download/tiktok?url="+args[0]+"&apikey=ConfuMods")
+let json = await res.json()
+conn.sendFile(m.chat, json.result.sin_marca, 'error.mp4', `*¡Aqui tienes el tiktok!*\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`, m)}
+handler.command = /^(tik(tok)?(dl)?)$/i
 module.exports = handler

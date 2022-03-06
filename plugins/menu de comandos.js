@@ -316,6 +316,23 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *LOGOS PERSONALIZADOS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠🎀 _${usedPrefix}cementerio | logocementerio_
+┣ ↠🪅 _${usedPrefix}cesped | logocesped_
+┣ ↠🎀 _${usedPrefix}coffe | logocoffe_
+┣ ↠🪅 _${usedPrefix}fire | logofire
+┣ ↠🎀 _${usedPrefix}flaming | logoflaming_
+┣ ↠🪅 _${usedPrefix}lovemessages | lovemensajes_
+┣ ↠🎀 _${usedPrefix}playa | logoplaya_
+┣ ↠🪅 _${usedPrefix}
+┣ ↠🎀 _${usedPrefix}
+┣ ↠🪅 _${usedPrefix}
+┣ ↠🎀 _${usedPrefix}
+┣ ↠🪅 _${usedPrefix}
+┣ ↠🎀 _${usedPrefix}
+┣ ↠🪅 _${usedPrefix}
+┣ ↠🎀 _${usedPrefix}
+┣ ↠🪅
+┣ ↠🎀
 ┣ ↠🪅 _${usedPrefix}lolice_
 ┣ ↠🎀 _${usedPrefix}simpcard_
 ┣ ↠🪅 _${usedPrefix}hornycard_ 
@@ -325,7 +342,7 @@ let menu =`
 ┣ ↠🪅 _${usedPrefix}nulis | notas *texto*_
 ┣ ↠🎀 _${usedPrefix}nulis2 | notas2 *texto*_
 ┣ ↠🪅 _${usedPrefix}lolice *@tag*_
-┣ ↠🪅 _${usedPrefix}simpcard *@tag*_
+┣ ↠🎀 _${usedPrefix}simpcard *@tag*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *LISTA DE LOGOS PERSONALIZADOS*

@@ -208,8 +208,8 @@ let menu =`
 ┣ ↠🎯 _${usedPrefix}doraemon_
 ┣ ↠🎲 _${usedPrefix}jeni_
 ┣ ↠🎳 _${usedPrefix}jisoo_
-┣ ↠🎯 _${usedPrefix}
-┣ ↠🎲 _${usedPrefix}
+┣ ↠🎯 _${usedPrefix}rose_
+┣ ↠🎲 _${usedPrefix}lisa_
 ┣ ↠🎳 _${usedPrefix}wpgaming | fondogaming_
 ┣ ↠🎯 _${usedPrefix}randomwallpaper_
 ┣ ↠🎲 _${usedPrefix}compartirfoto_

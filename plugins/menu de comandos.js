@@ -111,7 +111,7 @@ let menu =`
 ┣ ↠❄️ _${usedPrefix}play *titulo del audio*_
 ┣ ↠☀️ _${usedPrefix}play2 *titulo del video*_
 ┣ ↠❄️ _${usedPrefix}play3 *titulo del audio/video*_
-┣ ↠☀️ _${usedPrefix}play6 *artista y titulo*
+┣ ↠☀️ _${usedPrefix}play6 *artista y titulo*_
 ┣ ↠❄️ _${usedPrefix}letra *nombredelacanción*_
 ┣ ↠☀️ _${usedPrefix}google *texto*_
 ┣ ↠❄️ _${usedPrefix}googlef *texto*_

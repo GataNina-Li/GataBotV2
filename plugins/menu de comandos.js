@@ -129,6 +129,7 @@ let menu =`
 ┣ ↠❄️ _${usedPrefix}twittervideo | twvid *link de twitter*_
 ┣ ↠☀️ _${usedPrefix}wikipedia | wiki | internet *texto*_
 ┣ ↠❄️ _${usedPrefix}spotify | spotimusica *autor, cancion*_
+┣ ↠☀️ _${usedPrefix}wpaesthetic | fondoaesthetic_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *GESTION DE GRUPOS* 
@@ -203,6 +204,13 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *RANDOM|EXTRAS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┣ ↠🎳 _${usedPrefix}pubg_
+┣ ↠🎯 _${usedPrefix}doraemon_
+┣ ↠🎲 _${usedPrefix}jeni_
+┣ ↠🎳 _${usedPrefix}jisoo_
+┣ ↠🎯 _${usedPrefix}
+┣ ↠🎲 _${usedPrefix}
+┣ ↠🎳 _${usedPrefix}wpgaming | fondogaming_
 ┣ ↠🎯 _${usedPrefix}randomwallpaper_
 ┣ ↠🎲 _${usedPrefix}compartirfoto_
 ┣ ↠🎳 _${usedPrefix}futbol_

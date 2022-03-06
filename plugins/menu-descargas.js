@@ -43,6 +43,7 @@ let menu =`
  ‖⇛ 🚀 _${usedPrefix}wikipedia | wiki | internet *texto*_
  ‖⇛ 🚀 _${usedPrefix}spotify | spotimusica *autor, cancion*_
  ‖⇛ 🚀 _${usedPrefix}frase *escriba un número (1 - 99)*_
+ ‖⇛ 🚀 _${usedPrefix}wpaesthetic | fondoaesthetic_
  ‖ ➥ ⧼ *_MENÚ DE DESCARGAS_* ⧽  
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()

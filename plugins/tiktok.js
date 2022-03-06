@@ -4,6 +4,6 @@ if (!args[0]) throw `*Formato de uso: ${usedPrefix + command} https://tiktokxxxx
 if (!args[0].match(/tiktok/gi)) throw `*Fallo al detectar la URL de tiktok, compruebe que sea de tiktok*`
 let res = await fetch("https://api-alc.herokuapp.com/api/download/tiktok?url="+args[0]+"&apikey=ConfuMods")
 let json = await res.json()
-conn.sendFile(m.chat, json.result.sin_marca, 'error.mp4', `*¡Aqui tienes el tiktok!*\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`, m)}
+conn.sendFile(m.chat, json.result.sin_marca, 'error.mp4', `🤹‍♀️ *¡Aqui tienes el tiktok!*\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`, m)}
 handler.command = /^(tik(tok)?(dl)?)$/i
 module.exports = handler

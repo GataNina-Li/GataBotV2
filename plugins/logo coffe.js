@@ -5,5 +5,5 @@ response = args.join(' ').split('|')
 if (!args[0]) throw '*❰ ❗️ ❱ Ingrese un texto*\n*Ejemplo:*\n*#coffe Gata*'        
 let res = `https://api-alc.herokuapp.com/api/photooxy/coffee-cup?texto=${response[0]}&apikey=ConfuMods`
 conn.sendFile(m.chat, res, 'error.jpg', `✅ *¡Logo terminado!*`, m, false)}
-handler.command = /^(coffe|logocoffe|Coffe|Logocoffe)$/i
+handler.command = /^(coffe|logocoffe|Coffe|Logocoffe|coff)$/i
 module.exports = handler

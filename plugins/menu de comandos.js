@@ -323,16 +323,14 @@ let menu =`
 ┣ ↠🎀 _${usedPrefix}flaming | logoflaming_
 ┣ ↠🪅 _${usedPrefix}lovemessages | lovemensajes_
 ┣ ↠🎀 _${usedPrefix}playa | logoplaya_
-┣ ↠🪅 _${usedPrefix}
-┣ ↠🎀 _${usedPrefix}
-┣ ↠🪅 _${usedPrefix}
-┣ ↠🎀 _${usedPrefix}
-┣ ↠🪅 _${usedPrefix}
-┣ ↠🎀 _${usedPrefix}
-┣ ↠🪅 _${usedPrefix}
-┣ ↠🎀 _${usedPrefix}
-┣ ↠🪅
-┣ ↠🎀
+┣ ↠🪅 _${usedPrefix}logorandom_
+┣ ↠🎀 _${usedPrefix}romanticdouble | romantico2_
+┣ ↠🪅 _${usedPrefix}romanticmessages | romanticms_
+┣ ↠🎀 _${usedPrefix}logosky_
+┣ ↠🪅 _${usedPrefix}taza | logotaza_
+┣ ↠🎀 _${usedPrefix}taza2 | logotaza2_
+┣ ↠🪅 _${usedPrefix}technology | tecnologia_
+┣ ↠🎀 _${usedPrefix}coff_
 ┣ ↠🪅 _${usedPrefix}lolice_
 ┣ ↠🎀 _${usedPrefix}simpcard_
 ┣ ↠🪅 _${usedPrefix}hornycard_ 

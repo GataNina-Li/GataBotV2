@@ -102,21 +102,22 @@ let menu =`
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *DESCARGAS*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ↠☀️ _${usedPrefix}imagen | image | gimage *texto*_
-┣ ↠❄️ _${usedPrefix}ytsearch *texto*_
-┣ ↠☀️ _${usedPrefix}dlaudio *link yt*_
-┣ ↠❄️ _${usedPrefix}dlvid *link yt*_
-┣ ↠☀️ _${usedPrefix}ytmp3 *link yt*_
-┣ ↠❄️ _${usedPrefix}ytmp4 *link yt*_
-┣ ↠☀️ _${usedPrefix}play *titulo del audio*_
-┣ ↠❄️ _${usedPrefix}play2 *titulo del video*_
-┣ ↠☀️ _${usedPrefix}play3 *titulo del audio/video*_
+┣ ↠❄️ _${usedPrefix}imagen | image | gimage *texto*_
+┣ ↠☀️ _${usedPrefix}ytsearch *texto*_
+┣ ↠❄️ _${usedPrefix}dlaudio *link yt*_
+┣ ↠☀️ _${usedPrefix}dlvid *link yt*_
+┣ ↠❄️ _${usedPrefix}ytmp3 *link yt*_
+┣ ↠☀️ _${usedPrefix}ytmp4 *link yt*_
+┣ ↠❄️ _${usedPrefix}play *titulo del audio*_
+┣ ↠☀️ _${usedPrefix}play2 *titulo del video*_
+┣ ↠❄️ _${usedPrefix}play3 *titulo del audio/video*_
+┣ ↠☀️ _${usedPrefix}play6 *artista y titulo*
 ┣ ↠❄️ _${usedPrefix}letra *nombredelacanción*_
 ┣ ↠☀️ _${usedPrefix}google *texto*_
 ┣ ↠❄️ _${usedPrefix}googlef *texto*_
 ┣ ↠☀️ _${usedPrefix}pinterestvideo | pintvid *link*_
 ┣ ↠❄️ _${usedPrefix}tiktokaudio *link del tiktok*_
-┣ ↠☀️ _${usedPrefix}tiktok *link*_
+┣ ↠☀️ _${usedPrefix}tiktok | tiktokdl *link*_
 ┣ ↠❄️ _${usedPrefix}tiktok2 | Tiktok2 *link del tiktok*_
 ┣ ↠☀️ _${usedPrefix}acortar | reducir *link*_
 ┣ ↠❄️ _${usedPrefix}pinterest | pinterest2 *texto*_

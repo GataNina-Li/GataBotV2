@@ -3,7 +3,7 @@ let handler = async m => m.reply(`
 
 🐈 𝙋𝙍𝙊𝘾𝙀𝙎𝙊 𝘿𝙀 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊́𝙉 🐈
 
-*_https://github.com/GataNina-Li/GataBot_*
+*_https://github.com/GataNina-Li/GataBotV2_*
 
 *_Asumiremos que ya debiste de estar informado sobre el contenido del comando #instalarbot_*
 
@@ -77,15 +77,15 @@ apt install imagemagick -y
 
 ▫️ *_Ahora escriba:_*
 
-git clone https://github.com/GataNina-Li/GataBot
+git clone https://github.com/GataNina-Li/GataBotV2
 
 ▫️ _*Esperamos...* 🤹‍♀️ esto puede tardar dependiendo de la velocidad de su Internet_
 
 ▫️ *_Ahora escriba:_*
 
-cd GataBot
+cd GataBotV2
 
-▫️ _Si sale algo así *"~/GataBot $"*_
+▫️ _Si sale algo así *"~/GataBotV2 $"*_
 _*¡Entonces vas bien!*_ 🌟
 
 ▫️ *_Ahora escriba:_*
@@ -118,7 +118,7 @@ npm start
 
 ❇️ *Si tienes aún dudas visita el repositorio de GataBot*
 
-*_https://github.com/GataNina-Li/GataBot_*
+*_https://github.com/GataNina-Li/GataBotV2_*
 
 ⚡▁ ▂ ▄ ▅ ▆ ▇ █ 🚆 █ ▇ ▆ ▅ ▄ ▂ ▁⚡
                             🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈

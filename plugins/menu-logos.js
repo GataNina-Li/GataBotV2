@@ -16,6 +16,21 @@ let menu =`
  ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
  ‖
  ‖⇛ 🔮 _${usedPrefix}logos_ *(lista)*
+ ‖⇛ 💮 _${usedPrefix}cementerio | logocementerio_
+ ‖⇛ 💮 _${usedPrefix}cesped | logocesped_
+ ‖⇛ 💮 _${usedPrefix}coffe | logocoffe_
+ ‖⇛ 💮 _${usedPrefix}fire | logofire
+ ‖⇛ 💮 _${usedPrefix}flaming | logoflaming_
+ ‖⇛ 💮 _${usedPrefix}lovemessages | lovemensajes_
+ ‖⇛ 💮 _${usedPrefix}playa | logoplaya_
+ ‖⇛ 💮 _${usedPrefix}logorandom_
+ ‖⇛ 💮 _${usedPrefix}romanticdouble | romantico2_
+ ‖⇛ 💮 _${usedPrefix}romanticmessages | romanticms_
+ ‖⇛ 💮 _${usedPrefix}logosky_
+ ‖⇛ 💮 _${usedPrefix}taza | logotaza_
+ ‖⇛ 💮 _${usedPrefix}taza2 | logotaza2_
+ ‖⇛ 💮 _${usedPrefix}technology | tecnologia_
+ ‖⇛ 💮 _${usedPrefix}coff_
  ‖⇛ 💮 _${usedPrefix}lolice_
  ‖⇛ 💮 _${usedPrefix}simpcard_
  ‖⇛ 💮 _${usedPrefix}hornycard_ 

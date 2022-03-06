@@ -7,9 +7,9 @@
 ## ¡Hola! Bienvenido(a) 😸 a este repositorio ☘ me podrias apoyar con una ⭐️ ¡Gracias! 
 
 <p align="center">   
-<a href="https://github.com/GataNina-Li/GataBot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/GataNina-Li/GataBot?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/GataNina-Li/GataBot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/GataNina-Li/GataBot?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/GataNina-Li/GataBot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/GataNina-Li/GataBot?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/GataNina-Li/GataBotV2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/GataNina-Li/GataBotV2?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/GataNina-Li/GataBotV2/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/GataNina-Li/GataBotV2?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/GataNina-Li/GataBotV2/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/GataNina-Li/GataBotV2?label=Stars&color=yellow&style=flat-square"></a>
 </p> 
 
 ###### 👇 Si tiene dudas 
@@ -30,7 +30,7 @@
 --------- 
 
 ### ⚙️ AJUSTES
-- CAMBIAR NÚMERO DE LA PROPIETARIA [Aquí](https://github.com/GataNina-Li/GataBot/edit/master/config.js)
+- CAMBIAR NÚMERO DE LA PROPIETARIA [Aquí](https://github.com/GataNina-Li/GataBotV2/edit/master/config.js)
 --------- 
 
 ### 📎 COMANDOS DE INSTALACIÓN PARA TERMUX
@@ -42,8 +42,8 @@
 > apt install nodejs -y
 > apt install ffmpeg -y
 > apt install imagemagick -y
-> git clone https://github.com/GataNina-Li/GataBot
-> cd GataBot
+> git clone https://github.com/GataNina-Li/GataBotV2
+> cd GataBotV2
 > ls
 > npm install
 > npm install -g npm@8.5.3

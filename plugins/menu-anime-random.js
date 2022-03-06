@@ -15,6 +15,13 @@ let menu =`
  ‖ 💖 *¡𝗛ola! ${username}* 💖
  ‖    ֎┉┉┉┉┉┉⊰ 🌟 ⊱┉┉┉┉┉┉┉֍
  ‖
+ ‖⇛ 🪅 _${usedPrefix}pubg_
+ ‖⇛ 🪅 _${usedPrefix}doraemon_
+ ‖⇛ 🪅 _${usedPrefix}jeni_
+ ‖⇛ 🪅 _${usedPrefix}jisoo_
+ ‖⇛ 🪅 _${usedPrefix}rose_
+ ‖⇛ 🪅 _${usedPrefix}wpmontaña | fondomontaña_
+ ‖⇛ 🪅 _${usedPrefix}wpgaming | fondogaming_
  ‖⇛ 🪅 _${usedPrefix}randomwallpaper_
  ‖⇛ 🪅 _${usedPrefix}compartirfoto_
  ‖⇛ 🪅 _${usedPrefix}futbol_

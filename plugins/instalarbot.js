@@ -15,7 +15,7 @@ let handler = async m => m.reply(`
 🌸 𝙂𝙄𝙏𝙃𝙐𝘽 > 𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙄𝙊
 *_Visita mí repositorio 😸 para más información, si te agrada el Bot apoya me con una ⭐️ ¡Gracias!_*
 
-*_https://github.com/GataNina-Li/GataBot_*
+*_https://github.com/GataNina-Li/GataBotV2_*
 
 
 ❇️ 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 𝘿𝙀 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊́𝙉 𝙑𝙄́𝘼 𝙂𝙄𝙏𝙃𝙐𝘽 
@@ -27,8 +27,8 @@ let handler = async m => m.reply(`
 > apt install nodejs -y
 > apt install ffmpeg -y
 > apt install imagemagick -y
-> git clone https://github.com/GataNina-Li/GataBot
-> cd GataBot
+> git clone https://github.com/GataNina-Li/GataBotV2
+> cd GataBotV2
 > ls
 > npm install
 > npm install -g npm@8.5.3
@@ -42,7 +42,7 @@ let handler = async m => m.reply(`
 💡 *_NOTA:_*
 *_Lea la información del archivo README.md de GataBot:_*
 
-*_https://github.com/GataNina-Li/GataBot/blob/master/README.md_*
+*_https://github.com/GataNina-Li/GataBotV2/blob/master/README.md_*
 
 ⚠️ *_Si usas un número importante para que sea Bot, o un WhatsApp normal es posible que el número pueda irse al soporte_*
 

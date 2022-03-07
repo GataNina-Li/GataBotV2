@@ -21,7 +21,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ *MENU +18*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃»🔞 _${usedPrefix}video_
+┃ 🔥 *IMÁGENES* 🔥
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃»🔞 _${usedPrefix}imglesbians | imagenlesbians_
 ┃»🔞 _${usedPrefix}porno_
 ┃»🔞 _${usedPrefix}randomnsfw | nsfw_
@@ -59,6 +60,11 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃»🔞 _${usedPrefix}nsfwloli_
 ┃»🔞 _${usedPrefix}xnxxsearch *texto*_
 ┃»🔞 _${usedPrefix}xnxx *link de xnxx*_
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃ 🔥 *VÍDEOS* 🔥
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃»🔞 _${usedPrefix}video_
+┃»🔞 _${usedPrefix}pornovid_
 ┗━━━━━━━━━━━━━━━━━━┛
 `.trim()
     let mentionedJid = [who]

@@ -1,7 +1,7 @@
 let handler = async(m, { conn, usedPrefix, command }) => {
 await conn.sendButtonVid(m.chat, pickRandom(asupan), '🥵🔥', 'Gata Dios', 'SIGUIENTE', `${usedPrefix + command}`, m, false)
 }
-handler.command = /^videos2$/i
+handler.command = /^porno01$/i
 module.exports = handler
 
 function pickRandom(list) {

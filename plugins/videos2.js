@@ -7,7 +7,7 @@ let caption = `
 `.trim()
 
 let handler = async (m, { conn }) => {
-let video = fs.readFileSync(`./videos2/${pickRandom(['1','2','3'])}.mp4`)
+let video = fs.readFileSync(`./videos2/${pickRandom(['1a','2a','3a'])}.mp4`)
 
      conn.sendFile(m.chat, video, '1.mp4', caption, m)
 }

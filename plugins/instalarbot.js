@@ -48,7 +48,7 @@ let handler = async m => m.reply(`
 
 💛 *_Si tienes dudas o necesitas ayuda en el proceso de la instalación puede escribir me a este número (No es Bot el número)_*
 
-📲 *_Wa.me/994407312387_*
+📲 *_Wa.me/14509777159_*
 
 ❗ *_Solo para temas de instalación_* 
 

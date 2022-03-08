@@ -32,7 +32,6 @@ const asupan = [
 "https://e.top4top.io/m_2257di15t0.mp4",
 "https://d.top4top.io/m_225754y5s0.mp4",
 "https://j.top4top.io/m_22573jxk20.mp4",
-"https://g.top4top.io/m_2257lw1620.mp4",
 "https://d.top4top.io/m_2257puxyo0.mp4",
 "https://e.top4top.io/m_2257bb1an0.mp4",
 "https://a.top4top.io/m_2257utyrp0.mp4",

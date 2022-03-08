@@ -1,5 +1,5 @@
 let handler = async m => m.reply(`
-𝘾𝙐𝙀𝙉𝙏𝘼𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎 𝙂𝘼𝙏𝘼𝘽𝙊𝙏
+✅ 𝘾𝙐𝙀𝙉𝙏𝘼𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎 𝙂𝘼𝙏𝘼𝘽𝙊𝙏 ✅
 
 *Hola, los números Oficiales de GataBot son:*
 
@@ -32,6 +32,6 @@ _________________________________________________
 `.trim()) 
 handler.help = ['instalarbot']
 handler.tags = ['info']
-handler.command = /^cuentasoficiales|cuentaoficial|cuentasofc|cuentasgatabot|Cuentasoficiales|cuentagatabot$/i
+handler.command = /^cuentasoficiales|cuentaoficial|cuentasofc|cuentasgatabot|Cuentasoficiales|cuentagatabot|cuentasgb|cuentagb|Cuentagb|Cuentasgb$/i
 
 module.exports = handler

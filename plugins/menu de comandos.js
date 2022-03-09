@@ -78,8 +78,8 @@ let menu =`
 ┣ ↠🎖️ _${usedPrefix}topotakus | toptakus_
 ┣ ↠🎖️ _${usedPrefix}top10integrantes_
 ┣ ↠🎖️ _${usedPrefix}top10shiposters | topshipost_
-┣ ↠🎖️ _${usedPrefix}
-┣ ↠🎖️ _${usedPrefix}
+┣ ↠🎖️ _${usedPrefix}top10panafrescos_
+┣ ↠🎖️ _${usedPrefix}top10lagrasa | top10grasa_
 ┣ ↠🎖️ _${usedPrefix}
 ┣ ↠🎖️ _${usedPrefix}
 ┣ ↠🎖️ _${usedPrefix}

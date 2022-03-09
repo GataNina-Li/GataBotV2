@@ -20,6 +20,10 @@ let menu =`
  ‖⇛ 🎳 _${usedPrefix}topput@s | toppt_
  ‖⇛ 🎳 _${usedPrefix}toppajer@s | toppajeros_
  ‖⇛ 🎳 _${usedPrefix}topotakus | toptakus_
+ ‖⇛ 🎳 _${usedPrefix}top10integrantes_
+ ‖⇛ 🎳 _${usedPrefix}top10shiposters | topshipost_
+ ‖⇛ 🎳 _${usedPrefix}top10panafrescos_
+ ‖⇛ 🎳 _${usedPrefix}top10lagrasa | top10grasa_
  ‖⇛ 🎳 _${usedPrefix}math | mates | matemáticas *modo*_
  ‖⇛ 🎳 _${usedPrefix}ttt | tictactoe *nombre del la sala*_
  ‖⇛ 🎳 _${usedPrefix}delttt *nombre del la sala*_

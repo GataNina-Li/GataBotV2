@@ -80,9 +80,6 @@ let menu =`
 ┣ ↠🎖️ _${usedPrefix}top10shiposters | topshipost_
 ┣ ↠🎖️ _${usedPrefix}top10panafrescos_
 ┣ ↠🎖️ _${usedPrefix}top10lagrasa | top10grasa_
-┣ ↠🎖️ _${usedPrefix}
-┣ ↠🎖️ _${usedPrefix}
-┣ ↠🎖️ _${usedPrefix}
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *JUEGOS*

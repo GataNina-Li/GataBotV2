@@ -38,7 +38,7 @@ if (!global.DATABASE.data.stats) global.DATABASE.data.stats = {}
 if (!global.DATABASE.data.msgs) global.DATABASE.data.msgs = {}
 if (!global.DATABASE.data.sticker) global.DATABASE.data.sticker = {}
 global.conn = new WAConnection()
-conn.browserDescription = ['𝙂𝙖𝙩𝙖𝘽𝙤𝙩 𝙥𝙤𝙧 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', 'Firefox', '3.0']
+conn.browserDescription = ['GataBot por Gata Dios', 'Firefox', '3.0']
 let authFile = `${opts._[0] || 'session'}.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'

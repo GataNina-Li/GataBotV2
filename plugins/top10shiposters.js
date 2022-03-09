@@ -48,9 +48,9 @@ function handler(m, { groupMetadata }) {
         }
     })
 }
-handler.help = ['top10integrantes','top10mejores']
+handler.help = ['top10shiposters','top10shipost']
 handler.tags = ['main']
-handler.command = ['top10integrantes','top10mejores','top10mejor','top10integrante','top10mejore']
-handler.group = true
+handler.command = ['top10shiposters','top10shiposter','top10shipost','topshiposters','topshipost']
+handler.group = true 
 
 module.exports = handler

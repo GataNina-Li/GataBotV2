@@ -3,7 +3,7 @@ let handler = async m => m.reply(`
 
 *Hola, los números Oficiales de GataBot son:*
 
-🐈 *GataBot ~ Wa.me/994407312387*
+🐈 *GataBot ~ Wa.me/14504003616*
 
 🐈 *GataBot ~ Wa.me/593993684821*
 

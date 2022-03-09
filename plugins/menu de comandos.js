@@ -76,6 +76,13 @@ let menu =`
 ┣ ↠🎖️ _${usedPrefix}topput@s | toppt_
 ┣ ↠🎖️ _${usedPrefix}toppajer@s | toppajeros_
 ┣ ↠🎖️ _${usedPrefix}topotakus | toptakus_
+┣ ↠🎖️ _${usedPrefix}top10integrantes_
+┣ ↠🎖️ _${usedPrefix}top10shiposters | topshipost_
+┣ ↠🎖️ _${usedPrefix}
+┣ ↠🎖️ _${usedPrefix}
+┣ ↠🎖️ _${usedPrefix}
+┣ ↠🎖️ _${usedPrefix}
+┣ ↠🎖️ _${usedPrefix}
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
 ┃ *JUEGOS*

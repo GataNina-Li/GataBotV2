@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Sempai|SEMPAI|sempai/ 
+handler.customPrefix = /hablame|habla me|Háblame|háblame/ 
 handler.command = new RegExp
 module.exports = handler

@@ -8,8 +8,8 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Fino señores|fino señores|Fino senores|fino senores/i 
-handler.command = new RegExp
+handler.customPrefix = /Fino señores|fino señores|Fino senores|fino senores|Fino/i 
+handler.command = new RegExp 
 
 handler.fail = null
 handler.exp = 100

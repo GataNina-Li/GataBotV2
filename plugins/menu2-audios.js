@@ -90,7 +90,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Wtf_
 ⎪➫🔊 _Una pregunta_
 ⎪➫🔊 _Que sucede_
-⎪➫🔊 _Sempai_
+⎪➫🔊 _Hablame_
 ⎪➫🔊 _Pikachu_
 ⎪➫🔊 _Niconico_
 ⎪➫🔊 _Yokese_

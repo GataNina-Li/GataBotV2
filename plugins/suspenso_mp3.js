@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Suspenso|suspenso/ 
+handler.customPrefix = /Cagaste|Miedo|Pvp|PVP|temor|que pasa|Que sucede|Que pasa|que sucede|Qué pasa|Qué sucede|Dime|dime/ 
 handler.command = new RegExp
 module.exports = handler

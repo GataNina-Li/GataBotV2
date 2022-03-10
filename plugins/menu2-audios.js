@@ -94,6 +94,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Pikachu_
 ⎪➫🔊 _Niconico_
 ⎪➫🔊 _Yokese_
+⎪➫🔊 _Omaiga_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

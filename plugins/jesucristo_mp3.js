@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Jesucristo|jesucristo|Jesús|jesús|Auronplay|Auron|Dios|dios/ 
+handler.customPrefix = /Jesucristo|jesucristo|Jesús|jesús|Auronplay|Auron|Dios/ 
 handler.command = new RegExp
 module.exports = handler

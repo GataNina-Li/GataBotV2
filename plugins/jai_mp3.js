@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /JAI|Jai|Jay|jai/i
+handler.customPrefix = /Hey|Hei|hey|HEY/i
 handler.command = new RegExp
 module.exports = handler 

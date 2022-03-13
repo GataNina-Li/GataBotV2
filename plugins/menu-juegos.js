@@ -49,6 +49,7 @@ let menu =`
  ‖⇛ 🎳 _${usedPrefix}prostituta *@tag / nombre*_
  ‖⇛ 🎳 _${usedPrefix}prostituto *@tag / nombre*_
  ‖⇛ 🎳 _${usedPrefix}doxxear *@tag*_
+ ‖⇛ 🎳 _${usedPrefix}doxxeame_
  ‖ ➥ ⧼ *_MENÚ DE JUEGOS_* ⧽ 
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()

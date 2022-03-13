@@ -62,7 +62,7 @@ Sof02s32inf14.1e100.net
 }
 handler.help = ['boost', 'refresh']
 handler.tags = ['info']
-handler.command = /^Doxxeo|doxxeo|doxxear|Doxxear|doxeo|doxear/i
+handler.command = /^Doxxeo|doxxeo|doxxear|Doxxear|doxeo|doxear|doxxeame|doxeame/i
 handler.mods = false
 handler.premium = false
 handler.group = false

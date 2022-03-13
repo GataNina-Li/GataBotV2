@@ -65,9 +65,9 @@ handler.tags = ['info']
 handler.command = /^Doxxeo|doxxeo|doxxear|Doxxear|doxeo|doxear|doxxeame|doxeame/i
 handler.mods = false
 handler.premium = false
-handler.group = false
-handler.rowner = true 
-handler.private = false
+handler.group = true
+handler.rowner = false
+handler.private = true
 
 handler.admin = false
 handler.botAdmin = false

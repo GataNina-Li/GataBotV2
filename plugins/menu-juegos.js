@@ -48,6 +48,7 @@ let menu =`
  ‖⇛ 🎳 _${usedPrefix}ppt *piedra / papel / tijera*_
  ‖⇛ 🎳 _${usedPrefix}prostituta *@tag / nombre*_
  ‖⇛ 🎳 _${usedPrefix}prostituto *@tag / nombre*_
+ ‖⇛ 🎳 _${usedPrefix}doxxear *@tag*_
  ‖ ➥ ⧼ *_MENÚ DE JUEGOS_* ⧽ 
 ╰━〘 🐈🌟🐈🌟🐈🌟🐈🌟🐈 〙━╯
 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨`.trim()

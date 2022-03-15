@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Sus|sus|Amongos|among us|Among us|Among Us|Us/i 
+handler.customPrefix = /Sus|sus|Amongos|among us|Among us|Among/i 
 handler.command = new RegExp 
 
 handler.fail = null

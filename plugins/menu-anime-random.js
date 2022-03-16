@@ -47,7 +47,7 @@ let menu =`
  ‖⇛ 🪅 _${usedPrefix}gawrgura_
  ‖⇛ 🪅 _${usedPrefix}miku_
  ‖⇛ 🪅 _${usedPrefix}nyan_
- ‖⇛ 🪅 _${usedPrefix}pat_
+ ‖⇛ 🪅 _${usedPrefix}pasticker_
  ‖⇛ 🪅 _${usedPrefix}itachi_
  ‖⇛ 🪅 _${usedPrefix}slap_
  ‖⇛ 🪅 _${usedPrefix}pat_

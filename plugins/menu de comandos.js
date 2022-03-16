@@ -252,7 +252,7 @@ let menu =`
 ┣ ↠🎲 _${usedPrefix}pat_
 ┣ ↠🎳 _${usedPrefix}itachi_
 ┣ ↠🎯 _${usedPrefix}slap_
-┣ ↠🎲 _${usedPrefix}pat_
+┣ ↠🎲 _${usedPrefix}pasticker_
 ┣ ↠🎳 _${usedPrefix}perfil_
 ┣ ↠🎯 _${usedPrefix}scan | datos | escaneo_
 ┣ ↠🎲 _${usedPrefix}kpop_

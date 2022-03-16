@@ -9,6 +9,6 @@ let { url } = json
 let stiker = await sticker(null, url, 'pat', '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨')
 conn.sendMessage(m.chat, stiker, MessageType.sticker, { quoted: m })
 } catch (e) { }}
-handler.customPrefix = /pat/i
+handler.customPrefix = /(pat)/i
 handler.command = new RegExp
 module.exports = handler

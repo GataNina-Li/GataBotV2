@@ -18,6 +18,16 @@ let handler = async m => m.reply(`
 👆 _Puedes Instalar a GataBot diciendo #instalarbot y #procesobot_
 _________________________________________________
 
+*GRUPO OFICIAL GATABOT*
+
+*https://chat.whatsapp.com/Eg7m7mmb85IDLnSgFooDg6*
+_________________________________________________
+
+*GITHUB*
+
+*https://github.com/GataNina-Li/GataBotV2*
+_________________________________________________
+
 *Número de la Creadora (NO BOT)*
 
 😸 *Gata Dios ~ Wa.me/14509777159*
@@ -26,7 +36,7 @@ _________________________________________________
 _________________________________________________
 
 ⚠️ *Los Bots Oficiales son temporales en grupos, es preferible que sea Bot o instalar a GataBot* ⚠️
-                            🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
+                            🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈                    
 `.trim()) 
 handler.help = ['instalarbot']
 handler.tags = ['info']

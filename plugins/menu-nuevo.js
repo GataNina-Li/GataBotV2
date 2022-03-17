@@ -52,7 +52,7 @@ let menu =`
  ‖⇶ _${usedPrefix}menucrearlogos | mlogos_
  ‖ 
  ‖ 💎 *_MENU PARA PROPIETARIO/A_* 💎
- ‖⇶ _${usedPrefix}menupropiet
+ ‖⇶ _${usedPrefix}menupropietario_
  ‖
  ‖ ✅ *_CUENTAS OFICIALES GATABOT_* ✅
  ‖⇶ _${usedPrefix}cuentasgatabot | cuentasgb_

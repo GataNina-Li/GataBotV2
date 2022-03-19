@@ -3,9 +3,9 @@ let handler = async m => m.reply(`
 
 *Hola, los números Oficiales de GataBot son:*
 
-🐈 *GataBot ~ Wa.me/14504003616*
-
 🐈 *GataBot ~ Wa.me/593993684821*
+
+🐈 *Sub GataBot ~ Wa.me/14509251286*
 
 👆 _Para saber si GataBot está Activada escriba #estado_
 
@@ -30,7 +30,7 @@ _________________________________________________
 
 *Número de la Creadora (NO BOT)*
 
-😸 *Gata Dios ~ Wa.me/14509777159*
+😸 *Gata Dios ~ https://wa.me/message/XBTGQ4NYEWM7O1*
 
 👆 _Solo escríbeme para temas relacionados a GataBot_
 _________________________________________________

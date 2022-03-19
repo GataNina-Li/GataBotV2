@@ -13,11 +13,11 @@
 </p> 
 
 ###### 👇 Si tiene dudas 
-#### 💚 *CONTACTO #1* 
+#### 💚 *CONTACTO 1* 
 [![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
-)](https://api.whatsapp.com/send?phone=14509777159&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 
+)](https://api.whatsapp.com/send?phone=14509544207&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 
   
-#### 💚 *CONTACTO #2*  
+#### 💚 *CONTACTO 2*  
 [![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
 )](https://api.whatsapp.com/send?phone=593968585383&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 
 --------- 

@@ -20,6 +20,10 @@
 #### 💚 *CONTACTO 2*  
 [![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
 )](https://api.whatsapp.com/send?phone=593968585383&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 
+
+#### 🌱 *GRUPO OFICIAL*  
+[![blog](https://img.shields.io/badge/GataBot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
+)](https://chat.whatsapp.com/Eg7m7mmb85IDLnSgFooDg6) 
 --------- 
  
 ### ✅ DEBE DE TENER A SU DISPOSICIÓN: 

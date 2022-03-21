@@ -63,7 +63,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
       }, 30000)
     })
     global.conns.push(conn)
-  } else throw '*「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」*\n\n*❰ ⚠️ ❱ No se puede hacer un bot dentro de un sub bot!*\n*✳️ Use el comando #jadibot al numero oficial/principal del Bot*\n\n*👉 https://wa.me/' + global.conn.user.jid.split`@`[0] + '?text=#jadibot*\n\n*「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」*'
+  } else throw '*「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」*\n\n*❰ ⚠️ ❱ No se puede hacer un bot dentro de un sub bot!*\n*✳️ Use el comando #jadibot al numero oficial/principal de GataBot*\n\n*👉 https://wa.me/' + global.conn.user.jid.split`@`[0] + '?text=#jadibot*\n\n*「 🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈 」*'
 }
 handler.help = ['jadibot']
 handler.tags = ['jadibot']

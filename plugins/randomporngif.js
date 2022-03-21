@@ -1,10 +1,17 @@
-const axios = require('axios')
- let handler = async(m, { conn }) => {
-let les = await axios.get('https://meme-api.herokuapp.com/gimme/porngif')
-            conn.sendFile(m.chat, `${les.data.url}`, '', `${les.data.title}`, m)
-  }
+let fetch = require("node-fetch")
+const { sticker } = require('../lib/sticker')
+const { MessageType } = require('@adiwajshing/baileys')
+let handler = async (m, { conn}) => {
+try {
+let res = await fetch('https://meme-api.herokuapp.com/gimme/porngif')
+let json = await res.json()
+let { url } = json
+let stiker = await sticker(null, url, 'Pornogif', 'GataBot 🐈 - Gata Dios')
+conn.sendMessage(m.chat, stiker, MessageType.sticker, { quoted: m })
+} catch (e) { }}
+
 handler.help = ['pornogif']
-handler.tags = ['images']
+handler.tags = ['General']
 handler.command = /^(pornogif)$/i 
 handler.owner = false
 handler.mods = false

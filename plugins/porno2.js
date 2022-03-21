@@ -9,6 +9,22 @@ let { url } = json
 let stiker = await sticker(null, url, 'Pornogif', 'GataBot 🐈 - Gata Dios')
 conn.sendMessage(m.chat, stiker, MessageType.sticker, { quoted: m })
 } catch (e) { }}
-handler.customPrefix = /^(porno2|Porno2)$/i
+
+handler.help = ['porno2']
+handler.tags = ['General']
+handler.command = /^(porno2)$/i 
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+handler.register = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
 handler.exp = 0
+handler.limit = false
+
 module.exports = handler

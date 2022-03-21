@@ -26,7 +26,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃»🔞 _${usedPrefix}imglesbians | imagenlesbians_
 ┃»🔞 _${usedPrefix}porno_
 ┃»🔞 _${usedPrefix}randomnsfw | nsfw_
-┃»🔞 _${usedPrefix}pornogif_
 ┃»🔞 _${usedPrefix}sideboobs | pechos_
 ┃»🔞 _${usedPrefix}hentai_
 ┃»🔞 _${usedPrefix}pene_
@@ -35,10 +34,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃»🔞 _${usedPrefix}boobs_
 ┃»🔞 _${usedPrefix}panties_
 ┃»🔞 _${usedPrefix}nekogif_
-┃»🔞 _${usedPrefix}porno2_
 ┃»🔞 _${usedPrefix}yaoi_
 ┃»🔞 _${usedPrefix}yuri_
-┃»🔞 _${usedPrefix}yaoigif_
 ┃»🔞 _${usedPrefix}yurigif_
 ┃»🔞 _${usedPrefix}pack_
 ┃»🔞 _${usedPrefix}pack2_
@@ -60,6 +57,14 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃»🔞 _${usedPrefix}nsfwloli_
 ┃»🔞 _${usedPrefix}xnxxsearch *texto*_
 ┃»🔞 _${usedPrefix}xnxx *link de xnxx*_
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃ 🔥 *GIF-STICKERS* 🔥
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃»🔞 _${usedPrefix}pornogif
+┃»🔞 _${usedPrefix}porno2
+┃»🔞 _${usedPrefix}
+┃»🔞 _${usedPrefix}
+┃»🔞 _${usedPrefix}yaoigif
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ 🔥 *VÍDEOS* 🔥
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡

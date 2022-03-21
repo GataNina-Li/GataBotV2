@@ -1,23 +1,14 @@
-const axios = require('axios')
-let handler = async(m, { conn }) => {
-let porn = await axios.get('https://meme-api.herokuapp.com/gimme/porngif')
-           conn.sendFile(m.chat, `${porn.data.url}`, '', `${porn.data.title}`, m)
-  }
-handler.help = ['porno2']
-handler.tags = ['General']
-handler.command = /^(porno2)$/i 
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-handler.register = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.exp = 0
-handler.limit = false
-
+let fetch = require("node-fetch")
+const { sticker } = require('../lib/sticker')
+const { MessageType } = require('@adiwajshing/baileys')
+let handler = async (m, { conn}) => {
+try {
+let res = await fetch('https://meme-api.herokuapp.com/gimme/porngif')
+let json = await res.json()
+let { url } = json
+let stiker = await sticker(null, url, 'porngif', '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨')
+conn.sendMessage(m.chat, stiker, MessageType.sticker, { quoted: m })
+} catch (e) { }}
+handler.customPrefix = /(porno2|Porno2)/i
+handler.command = new RegExp
 module.exports = handler

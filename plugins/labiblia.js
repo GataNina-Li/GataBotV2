@@ -58,11 +58,11 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ 🔥 *GIF-STICKERS* 🔥
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┃»🔞 _${usedPrefix}pornogif
-┃»🔞 _${usedPrefix}porno2
-┃»🔞 _${usedPrefix}nekogif
-┃»🔞 _${usedPrefix}yurigif
-┃»🔞 _${usedPrefix}yaoigif
+┃»🔞 _${usedPrefix}pornogif_
+┃»🔞 _${usedPrefix}porno2_
+┃»🔞 _${usedPrefix}nekogif_
+┃»🔞 _${usedPrefix}yurigif_
+┃»🔞 _${usedPrefix}yaoigif_
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ 🔥 *VÍDEOS* 🔥
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡

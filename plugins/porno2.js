@@ -10,5 +10,5 @@ let stiker = await sticker(null, url, 'Pornogif', 'GataBot 🐈 - Gata Dios')
 conn.sendMessage(m.chat, stiker, MessageType.sticker, { quoted: m })
 } catch (e) { }}
 handler.customPrefix = /^(porno2|Porno2)$/i
-handler.command = new RegExp
+handler.exp = 0
 module.exports = handler

@@ -10,7 +10,7 @@ let stiker = await sticker(null, url, 'Yaoigif', 'GataBot 🐈 - Gata Dios')
 conn.sendMessage(m.chat, stiker, MessageType.sticker, { quoted: m })
 } catch (e) { }}
 
-handler.help = ['porno2']
+handler.help = ['yaoigif']
 handler.tags = ['General']
 handler.command = /^(yaoigif)$/i 
 handler.owner = false

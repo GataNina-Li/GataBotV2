@@ -33,10 +33,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃»🔞 _${usedPrefix}pussy_
 ┃»🔞 _${usedPrefix}boobs_
 ┃»🔞 _${usedPrefix}panties_
-┃»🔞 _${usedPrefix}nekogif_
 ┃»🔞 _${usedPrefix}yaoi_
 ┃»🔞 _${usedPrefix}yuri_
-┃»🔞 _${usedPrefix}yurigif_
 ┃»🔞 _${usedPrefix}pack_
 ┃»🔞 _${usedPrefix}pack2_
 ┃»🔞 _${usedPrefix}pack3_
@@ -62,8 +60,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃»🔞 _${usedPrefix}pornogif
 ┃»🔞 _${usedPrefix}porno2
-┃»🔞 _${usedPrefix}
-┃»🔞 _${usedPrefix}
+┃»🔞 _${usedPrefix}nekogif
+┃»🔞 _${usedPrefix}yurigif
 ┃»🔞 _${usedPrefix}yaoigif
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ 🔥 *VÍDEOS* 🔥

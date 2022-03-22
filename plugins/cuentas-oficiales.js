@@ -18,16 +18,25 @@ let handler = async m => m.reply(`
 👆 _Puedes hacer una solicitud para que los Bots Oficiales se unan diciendo #unete enlace del grupo_
 
 👆 _Puedes Instalar a GataBot diciendo #instalarbot y #procesobot_
+
 _________________________________________________
 
 *GRUPO OFICIAL GATABOT*
 
 *https://chat.whatsapp.com/Eg7m7mmb85IDLnSgFooDg6*
+
+_________________________________________________
+
+*CANAL OFICIAL DE YOU TUBE*
+
+*https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA*
+
 _________________________________________________
 
 *GITHUB*
 
 *https://github.com/GataNina-Li/GataBotV2*
+
 _________________________________________________
 
 *Número de la Creadora (NO BOT)*

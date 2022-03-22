@@ -24,6 +24,10 @@
 #### 🌱 *GRUPO OFICIAL*  
 [![blog](https://img.shields.io/badge/GataBot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
 )](https://chat.whatsapp.com/Eg7m7mmb85IDLnSgFooDg6) 
+
+#### 🎥 *VÍDEO DE INSTALACIÓN*
+[![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+](https://youtu.be/85xI8WFMIUY)
 --------- 
  
 ### ✅ DEBE DE TENER A SU DISPOSICIÓN: 

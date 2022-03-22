@@ -3,6 +3,9 @@ let handler = async m => m.reply(`
 
 🐈 𝙋𝙍𝙊𝘾𝙀𝙎𝙊 𝘿𝙀 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊́𝙉 🐈
 
+*VÍDEO DE INSTALACIÓN*
+*https://youtu.be/85xI8WFMIUY*
+
 *_https://github.com/GataNina-Li/GataBotV2_*
 
 *_Asumiremos que ya debiste de estar informado sobre el contenido del comando #instalarbot_*
@@ -101,7 +104,7 @@ npm install
 
 ▫️ _Esperamos... 🐋 Cuando te vuelva a salir el *$ , escriba:*_
 
-npm install -g npm@8.5.3
+npm install -g npm@8.5.5
 
 ▫️ *_Ahora escriba:_*
 

@@ -3,6 +3,9 @@ let handler = async m => m.reply(`
 
 💥 𝙔𝘼 𝙋𝙐𝙀𝘿𝙀 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝘼 𝙂𝘼𝙏𝘼𝘽𝙊𝙏 ❕
 
+*VÍDEO DE INSTALACIÓN*
+https://youtu.be/85xI8WFMIUY
+
 ✨ 𝙍𝙀𝙌𝙐𝙄𝙎𝙄𝙏𝙊𝙎 𝙋𝘼𝙍𝘼 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙂𝘼𝙏𝘼𝘽𝙊𝙏
 
 ✅ _1 GB de almacenamiento_

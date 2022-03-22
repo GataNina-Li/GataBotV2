@@ -5,7 +5,7 @@ let handler = async m => m.reply(`
 
 🐈 *GataBot ~ Wa.me/593993684821*
 
-🐈 *GataBot ~ Wa.me/524777935604
+🐈 *GataBot ~ Wa.me/524777935604*
 
 🐈 *Sub GataBot ~ Wa.me/14509251286*
 

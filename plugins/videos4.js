@@ -10,6 +10,7 @@ function pickRandom(list) {
 
 const asupan = [
 "https://l.top4top.io/m_2257y4pyl0.mp4",
+"https://c.top4top.io/m_2274woesg0.mp4",
 "https://k.top4top.io/m_2257pdwjy0.mp4",
 "https://a.top4top.io/m_2257qulmx0.mp4",
 "https://a.top4top.io/m_2257vxzr62.mp4",

@@ -29,7 +29,7 @@ global.APIs = { // API Prefix
   lol: 'https://api.lolhuman.xyz',
   pencarikode: 'https://pencarikode.xyz',
   Velgrynd: 'https://velgrynd.herokuapp.com',
-  rey: 'https://server-api-rey.herokuapp.com',
+  rey: 'https://server-apirey.herokuapp.com',
   neoxr: 'https://api.neoxr.eu.org',
   hardianto: 'http://hardianto-chan.herokuapp.com'
 }
@@ -49,8 +49,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'GataBot 🐈'
-global.author = 'Gata Dios'
+global.packname = 'SasukeBot ❤️'
+global.author = 'Camilo Bot'
 
 
 //global.wait = '*Esperé un momento..*'

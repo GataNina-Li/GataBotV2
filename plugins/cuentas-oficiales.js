@@ -18,6 +18,19 @@ _________________________________________________
 
 
 
+⚠️ *Los Bots Oficiales son temporales en grupos, es preferible que sea Bot o instalar a GataBot* ⚠️
+
+                            🎇 𝗖𝗮𝗺𝗶𝗹𝗼 𝗕𝗼𝘁 🎇                    
+
+`.trim()) 
+
+handler.help = ['instalarbot']
+
+handler.tags = ['info']
+
+handler.command = /^cuentasoficiales|cuentaoficial|cuentasofc|cuentasgatabot|Cuentasoficiales|cuentagatabot|cuentasgb|cuentagb|Cuentagb|Cuentasgb$/i
+
+module.exports = handler
 
 
 
@@ -43,4 +56,5 @@ _________________________________________________
 
 
 
-⚠️ *Los 
+
+ 

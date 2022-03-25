@@ -10,7 +10,7 @@ let handler  = async (m, { conn, text }) => {
    //await m.reply('*_Aguarde un momento..._*')
     let img = await (await fetch('https://leyscoders-api.herokuapp.com/api/textto-image?text=' + encodeURIComponent(text))).buffer()
     if (!img) throw img
-    let stiker = await sticker(img, false, 'GataBot 🐈', 'Gata Dios')
+    let stiker = await sticker(img, false, 'SasukeBot 🐈', 'Camilo Bot')
     conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m
     })

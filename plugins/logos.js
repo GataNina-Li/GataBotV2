@@ -12,7 +12,7 @@ let handler = async (m, { conn, args: [effect], text: txt, usedPrefix, command }
   let result = await axios.get(res, {
     responseType: 'arraybuffer'
   })
-  await conn.sendFile(m.chat, result.data, 'Error.jpg', `✅ *¡Tú imagen personalizada!*\n✨ *Efecto: ${effect}*\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`, m)
+  await conn.sendFile(m.chat, result.data, 'Error.jpg', `✅ *¡Tú imagen personalizada!*\n✨ *Efecto: ${effect}*\n🎇 𝘾𝙖𝙢𝙞𝙡𝙤 𝘽𝙤𝙩 🎇`, m)
 }
 handler.command = /^(logo|logos)$/i 
 

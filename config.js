@@ -1,7 +1,7 @@
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/FACD8CyieFHHCSPp7jFvlb' , 'https://chat.whatsapp.com/DNnoeLJFBdGKcUlwLAJa4t'] // No tiene utilidad 
 global.channelYT = [''] // No tiene utilidad
-global.owner = ['51955101247' , '19173361138' , '19806352049'] #on restrict // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
+global.owner = ['51955101247' , '19173361138' , '19806352049']  // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 global.mods = ['5219992095479' , '972557048356'] // No tiene utilidad
 global.prems = ['5219996125657' , '5219991402134'] // No tiene utilidad
 

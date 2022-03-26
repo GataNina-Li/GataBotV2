@@ -9,7 +9,7 @@ if (!res.ok) throw await res.text()
 let json = await res.json()
 if (!json.thumbnail.genius) throw json
 let teks = `*${json.title}*\n_${json.author}_\n\n${json.lyrics}\n\n\n${json.links.genius}`
-let foot = '©𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+let foot = '©𝘾𝙖𝙢𝙞𝙡𝙤 𝘽𝙤𝙩'
 conn.send2ButtonImg(m.chat, await(await fetch(json.thumbnail.genius)).buffer(), teks, foot,'🎧 DESCARGAR MUSICA 🔊', `#play ${text}`, '🎥 DESCARGAR VIDEO 🎞️', `#play2 ${text}`, m)
 } catch (e) {
 console.log(e)

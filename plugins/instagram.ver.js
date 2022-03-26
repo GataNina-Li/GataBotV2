@@ -15,7 +15,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 💠 *Publicaciones:* ${json.postsCountM}
 💠 *Link:* https://instagram.com/${json.username}
 💠 *Bio:* ${json.bio}
-𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 
+𝘾𝙖𝙢𝙞𝙡𝙤 𝘽𝙤𝙩 
 
 `.trim() // add your own json.blablabla :)
   conn.sendFile(m.chat, json.profilePicHD, 'error.jpg', iggs, m)

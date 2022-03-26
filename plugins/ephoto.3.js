@@ -7,7 +7,7 @@ let handler = async(m, { conn, args, usedPrefix, text}) => {
   if (text.length > 15) throw '*Uhm.. texto demasiado largo, ingrese un texto menor a 15 caracteres*'
   let result = await ephoto3('https://en.ephoto360.com/text-heart-flashlight-188.html', `${text}`)
     let uh = `https://s1.ephoto360.com${result.image}`
-await conn.sendFile(m.chat, uh,'p.jpg', '*El amor es lo mejor del mundo*\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', m,false, { thumbnail: Buffer.alloc(0) })
+await conn.sendFile(m.chat, uh,'p.jpg', '*El amor es lo mejor del mundo*\n,🎇 𝘾𝙖𝙢𝙞𝙡𝙤 𝘽𝙤𝙩 🎇', m,false, { thumbnail: Buffer.alloc(0) })
     
   }
 

@@ -9,7 +9,7 @@ const estiloaudio = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ..
 message: { 
 "audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99569", "ptt": "true"   
 }}}  
-conn.sendButton(m.chat, `*Hola, como te puedo ayudar?*`, 'Gata Bot', '𝙼𝙴𝙽𝚄 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂', `${usedPrefix}menu`, 'conversation', { sendEphemeral: true, quoted: estilo })
+conn.sendButton(m.chat, `*¡Hola! Visita el menú 🐈*`, 'Gata Bot', '𝙈𝙀𝙉𝙐 𝙉𝙐𝙀𝙑𝙊', `${usedPrefix}menu`, 'conversation', { sendEphemeral: true, quoted: estilo })
 await conn.sendFile(m.chat, vn, 'bot.mp3', null, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true, quoted: estiloaudio })
 }
 handler.command = /^(ot|ata|gata bot|Gata Dios|GATABOT|Gatabot|GataBot|GATA BOT)$/i

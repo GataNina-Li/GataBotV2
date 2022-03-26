@@ -24,7 +24,7 @@ let info = `
 ❰ ❗️ ❱ No nos hacemos responsables del mal uso que le puedas dar a esta función del Bot.
 `.trim() 
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🎇 𝘾𝙖𝙢𝙞𝙡𝙤 𝘽𝙤𝙩 🎇', 'status@broadcast')
 }
 handler.command = /^(anonimochat|chatanonimo|AnonimoChat|ChatAnonimo|chatanónimo|anónimochat|anonimoch)$/i 
 

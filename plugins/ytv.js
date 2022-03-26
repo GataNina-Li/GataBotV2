@@ -2,7 +2,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 let fetch = require('node-fetch')
 const { servers, ytv } = require('../lib/y2mate')
 let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
-  if (!args || !args[0]) throw '*❰ ❗ ❱ Inserte un enlace de YouTube*\n\n*Ejemplo:*\n*#dlaudio https://youtu.be/gBRi6aZJGj4*'
+  if (!args || !args[0]) throw '*❰ ❗ ❱ Inserte un enlace de YouTube*\n\n*Ejemplo:*\n*#dlvid https://youtu.be/gBRi6aZJGj4*'
  // let chat = global.db.data.chats[m.chat]
   let server = (args[1] || servers[0]).toLowerCase()
   try {

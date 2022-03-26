@@ -2,7 +2,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 let fetch = require('node-fetch')
 const { servers, ytv } = require('../lib/y2mate')
 let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
-  if (!args || !args[0]) throw '*Inserte un enlace de YT*'
+  if (!args || !args[0]) throw '*❰ ❗ ❱ Inserte un enlace de YouTube*\n\n*Ejemplo:*\n*#dlaudio https://youtu.be/gBRi6aZJGj4*'
  // let chat = global.db.data.chats[m.chat]
   let server = (args[1] || servers[0]).toLowerCase()
   try {
@@ -14,7 +14,8 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
     catch (e) { }
     await m.reply(`*✳️ Espere un momento, estoy descargando su video*\n\n*⚠️ Si su vídeo no es envíado después de 5 minutos, por favor inténtelo nuevamente, si el error perdura intente con un video de menor tamaño*`)
 conn.sendFile(m.chat, dl_link, '', `
-*🔰 Aquí tienes tu video*
+*💖  Aquí tienes tu video 💖*
+𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
   `.trim(), m, 0, {
       ..._thumb,
     //  asDocument: chat.useDocument

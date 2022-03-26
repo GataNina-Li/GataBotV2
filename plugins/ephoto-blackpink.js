@@ -3,17 +3,17 @@ const { ephoto3 } = require('../lib/ephoto3.js')
 
 let handler = async(m, { conn, args, usedPrefix, text, command}) => {
 
-    if (args.length == 0) throw `*Uso correcto del comando:*\n*${usedPrefix+command} (tipo) (texto)*\n\n*Ejemplo:*\n*${usedPrefix+command} type1 GataBot*\n\n*Tipos disponibles:*\ntype1\ntype2`
+    if (args.length == 0) throw `*Uso correcto del comando:*\n*${usedPrefix+command} (tipo) (texto)*\n\n*Ejemplo:*\n*${usedPrefix+command} type1 SasukeBot*\n\n*Tipos disponibles:*\ntype1\ntype2`
 let Pilihan = args[0]
 let uuid = {
  type1: 'https://en.ephoto360.com/create-a-blackpink-neon-logo-text-effect-online-710.html',
  type2: 'https://en.ephoto360.com/online-blackpink-style-logo-maker-effect-711.html'
  
 }[Pilihan]
-if (!uuid) throw `*Tipo incorrecto*\n\n*Tipos disponibles:*\ntype1\ntype2\n\n*Ejemplo:*\n*#lblackpink type1 GataBot*`
+if (!uuid) throw `*Tipo incorrecto*\n\n*Tipos disponibles:*\ntype1\ntype2\n\n*Ejemplo:*\n*#lblackpink type1 SasukeBot*`
 let [teks1, ...teks2] = text.replace(Pilihan,'').trimStart().split('|')
 if(!teks1) throw '✨ *Ingrese un texto*\n\n✨ *Ejemplo:*\n*#lblackpink type1 GataBot*'
-if(teks1.length > 20) throw `*Uhm.. texto demasiado largo, ingrese un texto menor a 20 caracteres*\n\n*Ejemplo:*\n${usedPrefix+command} type1 GataBot*`
+if(teks1.length > 20) throw `*Uhm.. texto demasiado largo, ingrese un texto menor a 20 caracteres*\n\n*Ejemplo:*\n${usedPrefix+command} type1 SasukeBot*`
 teks2 = teks2.join('|')
   let result = await ephoto3(uuid, `${teks1}`)
     let uh = `https://s1.ephoto360.com${result.image}`

@@ -4,19 +4,19 @@ let handler = async m => m.reply(`
 🐈 𝙋𝙍𝙊𝘾𝙀𝙎𝙊 𝘿𝙀 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊́𝙉 🐈
 
 *VÍDEO DE INSTALACIÓN*
-*https://youtu.be/85xI8WFMIUY*
+*https://youtu.be/85xI8WFMgnsY*
 
-*_https://github.com/GataNina-Li/GataBotV2_*
+*_https://github.com/GataNina-Li/SasukeBot_*
 
 *_Asumiremos que ya debiste de estar informado sobre el contenido del comando #instalarbot_*
 
 *_Asegúrese de crear una cuenta en GitHub, te recomiendo que veas este vídeo para poder crear la cuenta_*
 
 ❇️ *Crear cuenta en Celular:*
-*_https://youtu.be/hVtq40FBLxs_*
+*_https://youtu.be/hVtq40FBsnf_*
 
 ❇️ *Crear cuenta en PC:*
-*_https://youtu.be/Ts7op-h95uE_*
+*_https://youtu.be/Ts7op-hdguE_*
 
 😊 *_¡¡Comencemos!!_*
 _Tenemos que instalar la aplicación F-Droid, aquí te dejo la página para que puedas descargar la_
@@ -80,7 +80,7 @@ apt install imagemagick -y
 
 ▫️ *_Ahora escriba:_*
 
-git clone https://github.com/GataNina-Li/GataBotV2
+git clone https://github.com/GataNina-Li/SasukeBot
 
 ▫️ _*Esperamos...* 🤹‍♀️ esto puede tardar dependiendo de la velocidad de su Internet_
 
@@ -88,7 +88,7 @@ git clone https://github.com/GataNina-Li/GataBotV2
 
 cd GataBotV2
 
-▫️ _Si sale algo así *"~/GataBotV2 $"*_
+▫️ _Si sale algo así *"~/SasukeBot $"*_
 _*¡Entonces vas bien!*_ 🌟
 
 ▫️ *_Ahora escriba:_*
@@ -124,7 +124,7 @@ npm start
 *_https://github.com/GataNina-Li/GataBotV2_*
 
 ⚡▁ ▂ ▄ ▅ ▆ ▇ █ 🚆 █ ▇ ▆ ▅ ▄ ▂ ▁⚡
-                            🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
+                            🎇 𝘾𝙖𝙢𝙞𝙡𝙤 𝘽𝙤𝙩 🎇
 `.trim()) 
 handler.help = ['instalarbot']
 handler.tags = ['info']

@@ -12,5 +12,5 @@ message: {
 conn.sendButton(m.chat, `*¡Hola! Visita el menú 🐈*`, 'Gata Bot', '𝙈𝙀𝙉𝙐 𝙉𝙐𝙀𝙑𝙊', `${usedPrefix}menu`, 'conversation', { sendEphemeral: true, quoted: estilo })
 await conn.sendFile(m.chat, vn, 'bot.mp3', null, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true, quoted: estiloaudio })
 }
-handler.command = /^(ot|ata|gata bot|Gata Dios|GATABOT|Gatabot|GataBot|GATA BOT)$/i
+handler.command = /^(ot|ata)$/i
 module.exports = handler

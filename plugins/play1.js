@@ -5,7 +5,7 @@ const { servers, yta, ytv } = require('../lib/y2mate')
 let handler = async (m, { conn, command, text }) => {
   if (!text) throw '*📌 Escriba el nombre/título del video o audio a bucar*\n\n*Ejemplo:*\n*#play Billie Eilish - Bellyache*'
   let results = await yts(text)
-  m.reply('*⏳Procesando⏳*\n\n*[❗] Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
+  m.reply('🔁 *Descargando...*\n\n*❰ ❗ ❱ Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
   let vid = results.all.find(video => video.seconds < 3600)
   if (!vid) throw '*Video/Audio No encontrado* '
   let isVideo = /2$/.test(command)
@@ -14,10 +14,10 @@ let handler = async (m, { conn, command, text }) => {
   conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
 *🪄 ️Reproductor By Gata Dios 🪄*
 
-*${title}*
+💗 *${title}*
 9:99 ━❍──────── -9:99
 ↻     ⊲  Ⅱ  ⊳     ↺
-💗 VOLUME: ▁▂▃▄▅▆▇ 100%
+VOLUME: ▁▂▃▄▅▆▇ 100%
 
 *🎈 Tamaño del archivo:* ${filesizeF}
 *🎁 Aguarde un momento en lo que envío su audio/video*

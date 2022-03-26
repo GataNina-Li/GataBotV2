@@ -14,7 +14,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
     catch (e) { }
     await m.reply(`*🔁 Descargando su Video...*\n\n*❰ ⚠️ ❱ Si su Video no se envía en 5 minutos, intente con otro comando*`)
 conn.sendFile(m.chat, dl_link, '', `
-*💖  Aquí tienes tu video 💖*
+*💖 Aquí tienes tu video 💖*
 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨
   `.trim(), m, 0, {
       ..._thumb,

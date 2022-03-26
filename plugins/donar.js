@@ -5,7 +5,7 @@ let handler = async m => m.reply(`
 *┇                         「 DONAR 」*  
 *┣ ┅ ━━━━━━━━━━━━━━━━ ┅ ━*
 *┇❖ Colaborador en el desarrollo*
-*┇ de GataBot Por Gata Dios* 😸
+*┇ de SasukeBot Por Camilo Bot* 😸
 *┣ ┅ ━━━━━━━━━━━━━━━━ ┅ ━*
 *┃❖ Hola persona hermosa 💙*
 *┃👉 Aquí tienes algunos datos*

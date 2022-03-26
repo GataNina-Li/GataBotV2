@@ -119,9 +119,9 @@ npm start
 
 ❗ *RECUERDA HACER ESTE PROCEDIMIENTO PASO A PASO PARA QUE NO TENGAS INCONVENIENTES*
 
-❇️ *Si tienes aún dudas visita el repositorio de GataBot*
+❇️ *Si tienes aún dudas visita el repositorio de SasukeBot*
 
-*_https://github.com/GataNina-Li/GataBotV2_*
+*_https://github.com/GataNina-Li/SasukeBot_*
 
 ⚡▁ ▂ ▄ ▅ ▆ ▇ █ 🚆 █ ▇ ▆ ▅ ▄ ▂ ▁⚡
                             🎇 𝘾𝙖𝙢𝙞𝙡𝙤 𝘽𝙤𝙩 🎇

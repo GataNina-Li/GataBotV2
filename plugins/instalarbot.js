@@ -34,7 +34,7 @@ let handler = async m => m.reply(`
 > cd GataBotV2
 > ls
 > npm install
-> npm install -g npm@8.5.3
+> npm install -g npm@8.5.5
 > npm update
 > npm start
 
@@ -51,7 +51,7 @@ let handler = async m => m.reply(`
 
 💛 *_Si tienes dudas o necesitas ayuda en el proceso de la instalación puede escribir me a este número (No es Bot el número)_*
 
-📲 *_Wa.me/14509777159_*
+📲 *_Wa.me/14509544207_*
 
 ❗ *_Solo para temas de instalación_* 
 

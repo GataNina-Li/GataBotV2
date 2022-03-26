@@ -12,7 +12,7 @@ let uuid = {
 }[Pilihan]
 if (!uuid) throw `*Tipo incorrecto*\n\n*Tipos disponibles:*\ntype1\ntype2\n\n*Ejemplo:*\n*#lblackpink type1 SasukeBot*`
 let [teks1, ...teks2] = text.replace(Pilihan,'').trimStart().split('|')
-if(!teks1) throw '✨ *Ingrese un texto*\n\n✨ *Ejemplo:*\n*#lblackpink type1 GataBot*'
+if(!teks1) throw '✨ *Ingrese un texto*\n\n✨ *Ejemplo:*\n*#lblackpink type1 SasukeBot*'
 if(teks1.length > 20) throw `*Uhm.. texto demasiado largo, ingrese un texto menor a 20 caracteres*\n\n*Ejemplo:*\n${usedPrefix+command} type1 SasukeBot*`
 teks2 = teks2.join('|')
   let result = await ephoto3(uuid, `${teks1}`)

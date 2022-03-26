@@ -187,7 +187,7 @@ let menu =`
 ┣ ↠🪄 _${usedPrefix}estilo *texto*_
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *SUBIR ESTADOS A GATABOT*
+┃ *SUBIR ESTADOS A SASUKEBOT*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ *¡Sube estados a la cuenta de SasukeBot!*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡

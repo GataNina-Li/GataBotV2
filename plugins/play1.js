@@ -3,7 +3,7 @@ let yts = require('yt-search')
 let fetch = require('node-fetch')
 const { servers, yta, ytv } = require('../lib/y2mate')
 let handler = async (m, { conn, command, text }) => {
-  if (!text) throw '*✳️ Inserte el nombre/título del video o audio a bucar*\n\n*Ejemplo:*\n*#play Juan Solo - Querido Corazón*'
+  if (!text) throw '*📌 Escriba el nombre/título del video o audio a bucar*\n\n*Ejemplo:*\n*#play Billie Eilish - Bellyache*'
   let results = await yts(text)
   m.reply('*⏳Procesando⏳*\n\n*[❗] Si no obtiene ningun resultado o le sale algun error intente con otro nombre*')
   let vid = results.all.find(video => video.seconds < 3600)
@@ -12,20 +12,22 @@ let handler = async (m, { conn, command, text }) => {
   let { dl_link, thumb, title, filesize, filesizeF} = await (isVideo ? ytv : yta)(vid.url, 'id4')
   //let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < filesizesLimit
   conn.sendFile(m.chat, thumb, 'thumbnail.jpg', `
-*⏯ ️Reproductor By Gata Dios ⏯️*
+*🪄 ️Reproductor By Gata Dios 🪄*
 
 *${title}*
-*⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
+9:99 ━❍──────── -9:99
+↻     ⊲  Ⅱ  ⊳     ↺
+💗 VOLUME: ▁▂▃▄▅▆▇ 100%
 
-*📂Tamaño del archivo:* ${filesizeF}
-*👉🏻Aguarde un momento en lo que envío su audio/video*
+*🎈 Tamaño del archivo:* ${filesizeF}
+*🎁 Aguarde un momento en lo que envío su audio/video*
 `.trim(), m)
   let _thumb = {}
   try { if (isVideo) _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
   catch (e) { }
   conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(command)), `
-*🔥Título:* ${title}
-*📂Tamaño del archivo:* ${filesizeF}
+*🎈 Título:* ${title}
+*🎁 Tamaño del archivo:* ${filesizeF}
 `.trim(), m, false, _thumb || {})
 }
 handler.help = ['play', 'play2'].map(v => v + ' <canción >')

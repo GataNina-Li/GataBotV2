@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
   m.reply('*_Creando diseño..._*\n\n*_Espere alrededor de 1 minuto_*')
   try {
     let img = await ht(text ? text : ':v')
-    conn.sendFile(m.chat, img, 'Logo.png', '*_Diseño terminado, aqui tienes tu imagen personalizada_*\n\n🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈', m)
+    conn.sendFile(m.chat, img, 'Logo.png', '*_Diseño terminado, aqui tienes tu imagen personalizada_*\n\n🎇 𝘾𝙖𝙢𝙞𝙡𝙤 𝘽𝙤𝙩 🎇', m)
     setTimeout(() => {
       fs.unlinkSync(img)
     }, 5000);

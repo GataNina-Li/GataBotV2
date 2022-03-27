@@ -17,7 +17,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let str = `
 ┏━━━━━━━━━━━━━━━━━━┓    
 ┃ *Hola ${username}, aqui tienes el menu +18*
-┃ Usar bajo su responsabilidad 
+┃ *Usar bajo su responsabilidad*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ *MENU +18*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
@@ -71,6 +71,14 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃»🔞 _${usedPrefix}pornovidgay | pornogayv_
 ┃»🔞 _${usedPrefix}pornolesbivid | pornolesbiv_
 ┃»🔞 _${usedPrefix}pornobisexualvid | pornobiv_
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃ 🔥 *PREMIUM* 🔥
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃ *Usar bajo su responsabilidad* 
+┃ *Vídeos +18 aleatorios*
+┃ *Puede tardar en enviar*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+┃»🔞 _${usedPrefix}pornopremium
 ┗━━━━━━━━━━━━━━━━━━┛
 `.trim()
     let mentionedJid = [who]

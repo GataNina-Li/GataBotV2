@@ -11,7 +11,7 @@ let cp = require('child_process')
 let path = require('path')
 let fs = require('fs')
 
-let rl = Readline.createInterface(process.stdin, process.stdout)
+let rl = Readline.createInterface(process.stdin, process.stdout) 
 let WAConnection = simple.WAConnection(_WAConnection)
 
 //global.owner = Object.keys(global.Owner)

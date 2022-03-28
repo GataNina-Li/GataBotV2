@@ -122,8 +122,9 @@ global.reloadHandler = function () {
   }
   conn.welcome = '┏━━━━━━━━━━━━━━━━ıllıllı\n┃──〘 ༻𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊/𝘼༺ 〙──\n┃━━━━━━━━━━━━━━━━ıllıllı\n┃ *_🐈 @user ingresaste a_* \n┃ *_@subject 🐈_*\n┃\n┃ᚒ⌬ *_Un grupo agradable 🤗_*\n┃ᚒ⌬ *_Respeta a los integrantes 🦋_* \n┃ᚒ⌬ *_¿Quieres ver mis comandos? 😳_* \n┃ᚒ⌬ *_Escribe: #menu_* \n┃ᚒ⌬ *_Por favor lee la descripción del grupo_*\n┃                                 👇\n\n@desc\n\n┃\n┃ *_Gracias 🕊️_*\n┃ *_🤹‍♀️ ¡Disfruta del Grupo! 🤹‍♀️_* \n┗━━━━━━━━━━━━━━━━ꪶ࿋྄ིᤢꫂ'
   conn.bye = '┏━━━━━━━━━━━━━━━━Z҉z҉Z҉\n┃────〘 ༻𝘼𝘿𝙄𝙊𝙎༺ 〙────\n┃━━━━━━━━━━━━━━━━Z҉z҉Z҉\n┃ *_🪦 Se fue @user_* 🪦\n┗━━━━━━━━━━━━━━━━Z҉z҉Z҉'
-  conn.spromote = '@user ahora es administrador!' 
-  conn.sdemote = '@user ya no es un administrador!'
+  conn.spromote = '@user 𝙀𝙎 𝙉𝙐𝙀𝙑𝙊(𝘼) 𝘼𝘿𝙈𝙄𝙉 𝙀𝙉 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊!! ⚘' 
+  conn.sdemote = '@user 𝙔𝘼 𝙉𝙊 𝙀𝙎 𝘼𝘿𝙈𝙄𝙉 𝙀𝙉 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊!! 😟'
+  conn.sDesc = '𝘼𝙏𝙀𝙉𝘾𝙄𝙊́𝙉! 𝙏𝙀𝙉𝙀𝙈𝙊𝙎 𝙐𝙉𝘼 𝙉𝙐𝙀𝙑𝘼 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊́𝙉 ✅\n𝙇𝘼 𝘿𝙀𝙎𝘾𝙍𝙄𝙋𝘾𝙄𝙊́𝙉 𝙀𝙎:\n\n@desc'
   conn.handler = handler.handler
   conn.onDelete = handler.delete
   conn.onParticipantsUpdate = handler.participantsUpdate

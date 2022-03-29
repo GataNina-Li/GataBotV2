@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
      let handler  = async (m, { conn, usedPrefix, command }) => {
-    heum = await fetch(`https://melcanz.com/nsfwhentai?apikey=apiamel`)
+    heum = await fetch(`https://melcanz.com/nsfwhentai?apikey=apikey`)
     json = await heum.buffer()
    conn.sendButtonImg(m.chat, json, '*Hentai 🥵*', 'Gata Dios', 'SIGUIENTE 🔄', `${usedPrefix + command}`, m, false)
 }

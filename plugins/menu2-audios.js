@@ -83,6 +83,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Fino señores_
 ⎪➫🔊 _Verdad que te engañe_
 ⎪➫🔊 _Sus_
+⎪➫🔊 _Ohayo_
 ⎪➫🔊 _La voz de hombre_
 ⎪➫🔊 _Pero esto_
 ⎪➫🔊 _Bien pensado Woody_

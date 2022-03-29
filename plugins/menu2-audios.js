@@ -53,6 +53,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Shadow Bot_
 ⎪➫🔊 _Pasa pack Bot_
 ⎪➫🔊 _Atencion grupo_
+⎪➫🔊 _Homero chino_
 ⎪➫🔊 _Oh me vengo_
 ⎪➫🔊 _Murio el grupo_
 ⎪➫🔊 _Siuuu_

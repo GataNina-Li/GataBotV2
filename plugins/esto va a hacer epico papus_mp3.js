@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Esto va ser épico papus|esto va ser épico papus|Esto va ser|Esto va a hacer|esto va ser|esto va a hacer/i 
+handler.customPrefix = /Esto va ser épico papus|esto va ser épico papus|Esto va ser|Esto va a hacer|esto va acer|Esto va aser|esto va ser|esto va a hacer/i 
 handler.command = new RegExp
 
 handler.fail = null

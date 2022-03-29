@@ -7,7 +7,7 @@ let handler = async m => m.reply(`
 
 🐈 *GataBot ~ Wa.me/524777935604*
 
-🐈 *Sub GataBot ~ Wa.me/14509251286*
+🐈 *Sub GataBot ~ Wa.me/12367085278*
 
 👆 _Para saber si GataBot está Activada escriba #estado_
 

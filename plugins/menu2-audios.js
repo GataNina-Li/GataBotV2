@@ -110,10 +110,12 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Abduzcan_
 ⎪➫🔊 _Joder_
 ⎪➫🔊 _Hablar primos_
+⎪➫🔊 _Mmm_
+⎪➫🔊 _Orale_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-                      🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤� 🐈
+                      🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
          0:40 ━❍──────── -8:39
          ↻     ⊲  Ⅱ  ⊳     ↺
          VOLUMEN: ▁▂▃▄▅▆▇ 100%

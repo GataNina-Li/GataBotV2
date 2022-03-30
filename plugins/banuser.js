@@ -6,11 +6,12 @@ let handler = async (m, { conn, text}) => {
     if (!who) throw '*_ETIQUETE A ALGUN USUARIO_*'
     let users = global.DATABASE._data.users
     users[who].banned = true
-    conn.reply(m.chat, `*✅ _EL USUARIO FUE BANEADO CON EXITO_*\n\n*_EL USUARIO NO TENDRA PODRÁ USAR EL BOT_*`, m)
+    conn.reply(m.chat, `*✅ _EL USUARIO FUE BANEADO CON EXITO_*\n\n*_EL USUARIO NO PODRÁ USAR A GATABOT_*`, m)
 }
 handler.help = ['banuser']
 handler.tags = ['General']
-handler.command = /^banuser$/i
+handler.command = /^banuser|banusuario|nobot|sinbot$/i
 handler.rowner = true
+handler.admin = true
 
 module.exports = handler

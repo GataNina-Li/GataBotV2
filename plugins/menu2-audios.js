@@ -106,6 +106,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _El pepe_
 ⎪➫🔊 _Pokémon_
 ⎪➫🔊 _No me hagas usar esto_
+⎪➫🔊 _Esto va para ti_
+⎪➫🔊 _Abduzcan_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

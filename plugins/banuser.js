@@ -11,7 +11,6 @@ let handler = async (m, { conn, text}) => {
 handler.help = ['banuser']
 handler.tags = ['General']
 handler.command = /^banuser|banusuario|nobot|sinbot$/i
-handler.rowner = true
 handler.admin = true
 
 module.exports = handler

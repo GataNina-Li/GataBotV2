@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /No chupa la|No chupala|no chupala/ 
+handler.customPrefix = /No chupa la|No chupala|no chupala|No chu|no chu/ 
 handler.command = new RegExp
 module.exports = handler

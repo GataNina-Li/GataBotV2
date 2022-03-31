@@ -45,6 +45,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ┃»🔞 _${usedPrefix}culo_
 ┃»🔞 _${usedPrefix}htrap | trapito_
 ┃»🔞 _${usedPrefix}furro | furry_
+┃»🔞 _${usedPrefix}orgy | orgia_
 ┃»🔞 _${usedPrefix}nsfwass_
 ┃»🔞 _${usedPrefix}nsfwbdsm | bdsm_
 ┃»🔞 _${usedPrefix}nsfwcum | cum_

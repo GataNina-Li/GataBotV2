@@ -13,6 +13,7 @@ handler.help = ['ban']
 handler.tags = ['owner']
 handler.command = /^unbanuser$/i
 handler.admin = true
+handler.botAdmin = true
 
 
 module.exports = handler

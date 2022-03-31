@@ -12,7 +12,7 @@ let handler = async (m, { conn, text}) => {
 handler.help = ['ban']
 handler.tags = ['owner']
 handler.command = /^unbanuser$/i
-handler.owner = true
+handler.rowner = true
 
 
 module.exports = handler

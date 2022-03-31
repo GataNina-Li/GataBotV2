@@ -10,7 +10,7 @@ let handler = async (m, { conn, text}) => {
 }
 handler.help = ['banuser']
 handler.tags = ['General']
-handler.command = /^banuser$/i
+handler.command = /^banuser|banusuario|sinbot$/i
 handler.admin = true
 handler.botAdmin = true
 

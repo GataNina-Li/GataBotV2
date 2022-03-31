@@ -12,5 +12,6 @@ handler.help = ['banuser']
 handler.tags = ['General']
 handler.command = /^banuser$/i
 handler.admin = true
+handler.botAdmin = true
 
 module.exports = handler

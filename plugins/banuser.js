@@ -10,14 +10,7 @@ let handler = async (m, { conn, text}) => {
 }
 handler.help = ['banuser']
 handler.tags = ['General']
-handler.command = /^banuser|banusuario|nobot|sinbot$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = true
-handler.private = false
-
-handler.admin = true
-handler.botAdmin = true
+handler.command = /^banuser$/i
+handler.owner = true
 
 module.exports = handler

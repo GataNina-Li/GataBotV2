@@ -1,3 +1,4 @@
+/*
 let util = require('util')
 let path = require('path')
 
@@ -12,3 +13,4 @@ handler.customPrefix = /audio hentai|Audio hentai|audiohentai|Audiohentai/i
 handler.command = new RegExp
 
 module.exports = handler
+*/

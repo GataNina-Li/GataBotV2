@@ -15,7 +15,7 @@ let audio1B = audio1A.exec(m.text)
 let audio2A = /buenos dias|Buenos dias|buenos días|Buenos días/i
 let audio2B = audio2A.exec(m.text)
 
-let audio3A = /Hentai|HENTAI|hentai|antojen|hentay|Hentay|Antojen/i
+let audio3A = /Hentai|HENTAI|hentai|antojen|hentay|Hentay|Antojen/i 
 let audio3B = audio3A.exec(m.text)
 
 let audio4A = /fiesta del admin|Fiesta del admin|atención grupo|atencion grupo|aviso importante|fiestadeladmin|fiesta en casa del admin/i

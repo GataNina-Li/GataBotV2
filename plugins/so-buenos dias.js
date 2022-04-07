@@ -1,3 +1,4 @@
+/*
 let util = require('util')
 let path = require('path')
 
@@ -11,3 +12,4 @@ ptt: true
 handler.customPrefix = /buenos dias|Buenos dias|buenos días|Buenos días/ 
 handler.command = new RegExp
 module.exports = handler
+*/

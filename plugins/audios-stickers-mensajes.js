@@ -12,22 +12,22 @@ if ((m.isBaileys && m.fromMe) || m.fromMe ) return true
 let audio1A = /noche de paz|Noche de paz|Noche de amor|noche de amor|Noche de Paz/i
 let audio1B = audio1A.exec(m.text)
 
-let audio2A = /bot te amo|te amo bot/i
+let audio2A = /buenos dias|Buenos dias|buenos días|Buenos días/i
 let audio2B = audio2A.exec(m.text)
 
-let audio3A = /bot eres hombre o mujer/i
+let audio3A = /Hentai|HENTAI|hentai|antojen|hentay|Hentay|Antojen/i
 let audio3B = audio3A.exec(m.text)
 
-let audio4A = /a mimir/i
+let audio4A = /fiesta del admin|Fiesta del admin|atención grupo|atencion grupo|aviso importante|fiestadeladmin|fiesta en casa del admin/i
 let audio4B = audio4A.exec(m.text)
 
-let audio5A = /pasen hentai|pasen hentay|antojen/i
+let audio5A = /fiesta del admin2|fiesta del admin 2|fiestadeladmin2|Fiesta del admin 2|Fiesta del admin2/i
 let audio5B = audio5A.exec(m.text)
 
-let audio6A = /eres gay|que gay/i
+let audio6A = /fiesta viernes|viernes|Viernes|viernes fiesta/i
 let audio6B = audio6A.exec(m.text)
 
-let audio7A = /mirame/i
+let audio7A = /Me olvide|ME OLVIDE|me olvide|Me olvidé|me olvidé|ME OLVIDÉ/i
 let audio7B = audio7A.exec(m.text)
 
 let audio8A = /😭|:"c|:'c/i
@@ -68,34 +68,33 @@ if (audio1B) {
 	} else
 
 if (audio2B) {
-	let vn = './storage/audio/Yo_igual_te_amo_pero.mp3'
-	conn.sendFile(m.chat, vn, 'Yo_igual_te_amo_pero.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+	let vn = './media/Buenos-dias-2.mp3'
+	conn.sendFile(m.chat, vn, 'Buenos-dias-2.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 	} else
 
 if (audio3B) {
-	let vn = './storage/audio/Tontito_soy_hombre.mp3'
-	conn.sendFile(m.chat, vn, 'Tontito_soy_hombre.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+	let vn = './media/hentai.mp3'
+	conn.sendFile(m.chat, vn, 'hentai.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 	} else
 
 if (audio4B) {
-	let vn = './storage/audio/Tienes_que_mimir.mp3'
-	conn.sendFile(m.chat, vn, 'Tienes_que_mimir.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+	let vn = './media/Fiesta1.mp3'
+	conn.sendFile(m.chat, vn, 'Fiesta1.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 	} else
 
 if (audio5B) {
-	let au = ["./storage/audio/Pensamientos_sexuales.mp3", "./storage/audio/No_te_da_verguenza.mp3"]
-	let vn = au[Math.floor(Math.random() * au.length)]
-	conn.sendFile(m.chat, vn, 'Pensamientos_verguensa.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+	let vn = './media/fiesta.mp3'
+	conn.sendFile(m.chat, vn, 'fiesta.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 	} else
 
 if (audio6B) {
-	let vn = './storage/audio/Ok_maricon.mp3'
-	conn.sendFile(m.chat, vn, 'Ok_maricon.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+	let vn = './media/viernes.mp3'
+	conn.sendFile(m.chat, vn, 'viernes.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 	} else
 
 if (audio7B) {
-	let vn = './storage/audio/No_miro_personas_lindas.mp3'
-	conn.sendFile(m.chat, vn, 'No_miro_personas_lindas.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+	let vn = './media/chica lgante.mp3'
+	conn.sendFile(m.chat, vn, 'chica lgante.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 	} else
 
 if (audio8B) {

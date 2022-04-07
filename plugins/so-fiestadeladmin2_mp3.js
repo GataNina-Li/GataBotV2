@@ -1,3 +1,4 @@
+/*
 let util = require('util')
 let path = require('path')
 
@@ -14,3 +15,4 @@ handler.command = new RegExp
 handler.fail = null
 handler.exp = 100
 module.exports = handler
+*/

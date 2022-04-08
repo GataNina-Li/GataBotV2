@@ -25,7 +25,7 @@ let menu =`
 ┋➥ ❖⃟⚔ _${usedPrefix}mining_
 ┋➥ ❖⃟🏹 _${usedPrefix}monthly_
 ┋➥ ❖⃟⚔ _${usedPrefix}open_
-┋➥ ❖⃟🏹 _${usedPrefix}shop_
+┋➥ ❖⃟🏹 _${usedPrefix}tienda | shop_
 ┋➥ ❖⃟⚔ _${usedPrefix}transferir_
 ┋➥ ❖⃟🏹 _${usedPrefix}use_
 ┋➥ ❖⃟⚔ _${usedPrefix}weekly_

@@ -1,4 +1,3 @@
-/*
 let util = require('util')
 let path = require('path')
 
@@ -12,4 +11,4 @@ ptt: true
 handler.customPrefix = /baneado|Baneado/ 
 handler.command = new RegExp
 module.exports = handler
-*/
+

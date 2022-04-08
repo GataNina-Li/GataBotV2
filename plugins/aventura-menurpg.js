@@ -9,7 +9,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-♚〓🛡️〓〓🛡️ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 🛡️〓〓🛡️〓♔
+♚||〓🛡️〓〓🛡️ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 🛡️〓〓🛡️〓||♔
 ┋ 🏰 *¡Hola! ${username}* 🏰
 ┋┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
 ┋ 🏞️ *¡Estás apunto de iniciar tú Aventura!*

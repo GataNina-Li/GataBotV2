@@ -33,20 +33,20 @@ let handler = async (m, { conn, usedPrefix, DevMode }) => {
                 let sampah = `${Math.floor(Math.random() * 300)}`.trim()
                 let legendary = (_legendary * 1)
                 let str = `
-*Tu vida se reduce -${healt * 1} porque fuiste ${pickRandom(['a las tierras perdidas', 'al vale de Kara', 'a Beleriand', 'a la ciudad de fuego', 'a Camorrus', 'al fin del horizonte', 'al grito de cuervo', 'al valle del anochecer'])} y obtienes:*
+*Tu vida se reduce ⬇️❤‍🩹 -${healt * 1} porque fuiste 🛣️ ${pickRandom(['a las tierras perdidas', 'al vale de Kara', 'a Beleriand', 'a la ciudad de fuego', 'a Camorrus', 'al fin del horizonte', 'al grito de cuervo', 'al valle del anochecer'])} y obtienes:*
 
-- Exp: ${exp} 
-- Dinero: ${uang}
-- Basura: ${sampah}${potion == 0 ? '' : '\n- Pocion: ' + potion + ''}${diamond == 0 ? '' : '\n- Diamantes: ' + diamond + ''}${common == 0 ? '' : '\n- Cajas comunes: ' + common + ''}${uncommon == 0 ? '' : '\n- Caja poco común: ' + uncommon + ''}
+🤺 *Exp:* ${exp} 
+💵 *Dinero:* ${uang}
+🗑️ *Basura:* ${sampah}${potion == 0 ? '' : '\n🔮 *Pocion:* ' + potion + ''}${diamond == 0 ? '' : '\n- Diamantes: ' + diamond + ''}${common == 0 ? '' : '\n- Cajas comunes: ' + common + ''}${uncommon == 0 ? '' : '\n- Caja poco común: ' + uncommon + ''}
 `.trim()
                 conn.reply(m.chat, str, m)
                 if (mythic > 0) {
                     global.DATABASE._data.users[m.sender].mythic += mythic * 1
-                    conn.reply(m.chat, '*Felicidades, obtienes un artículo raro*\n' + mythic + ' Caja mitica', m)
+                    conn.reply(m.chat, '🥳 *Felicidades, obtienes un artículo raro*\n' + mythic + ' Caja mitica', m)
                 }
                 if (legendary > 0) {
                     global.DATABASE._data.users[m.sender].legendary += legendary * 1
-                    conn.reply(m.chat, '*Felicidades, obtienes un artículo épico*\n' + legendary + ' Caja legendaria', m)
+                    conn.reply(m.chat, '🤩 *Felicidades, obtienes un artículo épico*\n' + legendary + ' Caja legendaria', m)
                 }
                 global.DATABASE._data.users[m.sender].healt -= healt * 1
                 global.DATABASE._data.users[m.sender].exp += exp * 1
@@ -58,7 +58,7 @@ let handler = async (m, { conn, usedPrefix, DevMode }) => {
                 global.DATABASE._data.users[m.sender].sampah += sampah * 1
                 global.DATABASE._data.users[m.sender].lastadventure = new Date * 1
             } else conn.reply(m.chat, `Te quedaste sin energía vuelve dentro de *${timers}*`, m)
-        } else conn.reply(m.chat, `*Mínimo 80 de salud para poder ir de aventura*\n\nPuedes comprar *pociones de vida* con el comando\n• ${usedPrefix}shop buy pocion <total>`, m)
+        } else conn.reply(m.chat, `🤏 *Mínimo 80 de 💖 salud para poder ir de aventura* 🤺\n\nPuedes comprar 🛍️ *pociones de vida* con el comando\n• ${usedPrefix}shop buy pocion *total*`, m)
     } catch (e) {
         console.log(e)
         conn.reply(m.chat, 'Error', m)
@@ -72,7 +72,7 @@ let handler = async (m, { conn, usedPrefix, DevMode }) => {
 }
 handler.help = ['adventure']
 handler.tags = ['rpg']
-handler.command = /^(adventure|(ber)?petualang(ang)?|mulung|work)$/i
+handler.command = /^(adventure|aventura|explorar)$/i
 
 handler.cooldown = cooldown
 

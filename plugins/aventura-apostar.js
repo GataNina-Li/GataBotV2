@@ -15,7 +15,7 @@ async function handler(m, { conn, args, isROwner }) {
                 count,
                 timeout: setTimeout(() => (m.reply('timed out'), delete confirm[m.sender]), 60000)
             }
-            let txt = '*⭕ Estas seguro/a de que desea apostar?*'
+            let txt = '*🤔 Estas seguro/a de que desea apostar?*'
             const buttons = [
                 {buttonId: `id1`, buttonText: {displayText: 'Si'}, type: 1},
                 {buttonId: `id2`, buttonText: {displayText: 'No'}, type: 1}
@@ -23,7 +23,7 @@ async function handler(m, { conn, args, isROwner }) {
 
             const buttonMessage = {
                 contentText: txt,
-                footerText: 'Elija una opcion, tienes 60 segundos',
+                footerText: 'Elija una opcion, tienes 60 segundos\n*Gata Dios*',
                 buttons: buttons,
                 headerType: 1
             }
@@ -34,7 +34,7 @@ async function handler(m, { conn, args, isROwner }) {
             let { timeout } = confirm[m.sender]
             clearTimeout(timeout)
             delete confirm[m.sender]
-            m.reply('Se acabo el tiempo!')
+            m.reply('Se acabo el tiempo! 😬')
         }
     }
 }
@@ -64,9 +64,9 @@ handler.before = async m => {
 💸 *APUESTA* 💸
 
 Bot roll: *${Bot}*
-User roll: *${Kamu}*
+Usted roll: *${Kamu}*
 
-Tu *${status}* ${status == 'Ganas!' ? `*+${count * 2}*` : status == 'Pierdes!' ? ` *-${count * 1}*` : `*+${Math.floor(count / 1.5)}*`} de dinero
+Tu *${status}* ${status == 'Ganas!' ? `*+${count * 5}*` : status == 'Pierdes!' ? ` *-${count * 4}*` : `*+${Math.floor(count / 1.5)}*`} de dinero
 `.trim())
             clearTimeout(timeout)
             delete confirm[m.sender]
@@ -82,7 +82,7 @@ Tu *${status}* ${status == 'Ganas!' ? `*+${count * 2}*` : status == 'Pierdes!' ?
         clearTimeout(timeout)
         delete confirm[m.sender]
         if (moneyDulu > (user.money * 1)) user.money = moneyDulu * 1
-        m.reply('Error saat melakukan judi (Rejected)')
+        m.reply('Error al apostar (Tú te lo pierdes 😌✨)')
         return !0
     } finally {
         clearTimeout(timeout)

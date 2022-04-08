@@ -4,37 +4,36 @@ let handler  = async (m, { conn, usedPrefix }) => {
 │ 
 │〘 Tutorial EPIC RPG 〙
 │• *${usedPrefix}claim*
-│   Staterpack yang bisa di klaim 
-│   12 jam sekali
+│   Paquete de inicio reclamable 
+│   cada 12 horas 
 │• *${usedPrefix}mulung*
 │• *${usedPrefix}adventure*
 │• *${usedPrefix}petualang*
-│   Untuk mencari resource seperti 
-│   Money, Exp, dll..,dibutuhkan  
-│   minimal 80 nyawa untuk bisa 
-│   melakukannya dan, kamu tidak 
-│   dapat spam karena ada delay 5 
-│   menit
-│• *${usedPrefix}use potion <jumlah>*
-│   Untuk memakai potion/untuk 
-│   mengisi nyawa/health
-│• *${usedPrefix}shop buy potion <jumlah>*
-│   Untuk membeli potion dan ketik 
-│   *${usedPrefix}use potion <jumlah>*
-│   untuk menggunakan potion
+│   Para buscar recursos como Dinero,    
+│   Exp, etc..., se necesita un mínimo
+│   de 80 vidas para poder hacerlo y
+│   no puedes enviar spam porque
+│   hay un retraso de 5 minutos. 
+│• *${usedPrefix}use potion <total>*
+│   Para usar pociones debe 
+│   llenar su vida/salud
+│• *${usedPrefix}shop buy potion <total>*
+│   Para comprar una poción, escribir
+│   *${usedPrefix}use potion <total>*
+│   usar pociones
 │• *${usedPrefix}shop <args>*
-│   Untuk membeli atau menjual sesuatu
+│   comprar o vender algo
 │• *${usedPrefix}shop buy <crate> <jumlah>*
-│   Untuk membeli Crate
+│   Comprar Caja
 │• *${usedPrefix}profile*
 │• *${usedPrefix}pp*
 │• *${usedPrefix}profil*
-│   untuk mengetahui No whatsapmu, dll
+│   para saber tu número de whatsapp, etc.
 │• *${usedPrefix}inv*
 │• *${usedPrefix}inventory*
 │• *${usedPrefix}bal*
-│   Untuk mengecek nyawa, money, dll.
-│• *${usedPrefix}judi <jumlah>*
+│   Para comprobar la vida, el dinero, etc.
+│• *${usedPrefix}judi <total>*
 │   *_Jangan judi, Karena gk bakal_*
 │   *_balik modal.BENERAN GK BOHONG_*
 │  

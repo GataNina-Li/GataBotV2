@@ -4,7 +4,7 @@ let moment = require('moment-timezone')
 let path = require('path')
 let util = require('util')
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './RPG.jpg'
+let pp = './RPG.jpeg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'

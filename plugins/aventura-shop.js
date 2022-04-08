@@ -40,7 +40,7 @@ let handler  = async (m, { conn, text, command, args, usedPrefix, DevMode }) => 
 🤩 Legendario: _$${Blegendary}_
 
 ✅ *Ejemplo se uso* :
-${usedPrefix}shop buy pocion 1
+${usedPrefix}shop comprar pocion 1
 
 ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━
 
@@ -59,10 +59,10 @@ ${usedPrefix}shop buy pocion 1
 😽 Legendario: _$${Slegendary}_
 
 ✅ *Ejemplo se uso* :
-${usedPrefix}shop sell basura 10
+${usedPrefix}shop vender basura 10
 `.trim()
     try {
-        if (/shop|toko/i.test(command)) {
+        if (/shop|toko|tienda/i.test(command)) {
             const count = args[2] && args[2].length > 0 ? Math.min(99999999, Math.max(parseInt(args[2]), 1)) : !args[2] || args.length < 4 ? 1 :Math.min(1, count)
             const sampah = global.DATABASE._data.users[m.sender].sampah
             switch (jualbeli) {
@@ -218,7 +218,7 @@ ${usedPrefix}shop sell basura 10
             default:
                 return conn.reply(m.chat, Kchat, text, { quoted: m, contextInfo: { externalAdReply:{title: `\t\t\t\tTIENDA RPG`, previewType:"PHOTO",thumbnail: shoprpg, sourceUrl:``}}})
             }
-        } else if (/beli|buy/i.test(command)) {
+        } else if (/beli|buy|comprar/i.test(command)) {
             const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
             switch (type) {
                 case 'pocion':
@@ -300,7 +300,7 @@ ${usedPrefix}shop sell basura 10
                 default:
                     return conn.reply(m.chat, Kchat, text, { quoted: m, contextInfo: { externalAdReply:{title: `\t\t\t\tTIENDA RPG`, previewType:"PHOTO",thumbnail: shoprpg, sourceUrl:``}}})
             }
-        } else if (/sell|jual|/i.test(command)) {
+        } else if (/sell|jual|vender/i.test(command)) {
             const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
             switch (type) {
                 case 'pocion':
@@ -384,5 +384,5 @@ ${usedPrefix}shop sell basura 10
 handler.help = ['shop']
 handler.tags = ['rpg']
     
-handler.command = /^(shop|toko|buy|beli|sell|jual)$/i
+handler.command = /^(shop|toko|tienda|buy|beli|comprar|sell|jual|vender)$/i
 module.exports = handler

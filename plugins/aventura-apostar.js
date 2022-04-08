@@ -66,7 +66,7 @@ handler.before = async m => {
 🦾 Bot roll: *${Bot}*
 💪 Usted roll: *${Kamu}*
 
-Tu *${status}* ${status == '🤩 Ganas!' ? `*+${count * 8}*` : status == '😭 Pierdes!' ? ` *-${count * 3}*` : `*+${Math.floor(count / 1.5)}*`} de dinero.
+Tu *${status}* ${status == 'Ganas!' ? `*+${count * 8}*` : status == 'Pierdes!' ? ` *-${count * 3}*` : `*+${Math.floor(count / 1.5)}*`} de dinero.
 `.trim())
             clearTimeout(timeout)
             delete confirm[m.sender]

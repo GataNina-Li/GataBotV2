@@ -9,7 +9,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
-〓〓🛡️〓〓🛡️ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 🛡️〓〓🛡️〓〓
+💥〓〓🛡️〓〓🛡️ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 🛡️〓〓🛡️〓〓💥
 ┋ ➤ 🏰 *¡Hola! ${username}!* 🏰
 ┋┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
 ┋ 🏞️ *¡Estás apunto de iniciar tú Aventura!*
@@ -29,7 +29,7 @@ let menu =`
 ┋➥ ❖⃟⚔ _${usedPrefix}transferir_
 ┋➥ ❖⃟🏹 _${usedPrefix}use_
 ┋➥ ❖⃟⚔ _${usedPrefix}weekly_
-🛡️〓〓🛡️〓〓🛡️〓〓🛡️〓〓🛡️〓〓🛡️`.trim()
+  🛡️〓〓🛡️〓〓🛡️〓〓🛡️〓〓🛡️〓〓🛡️`.trim()
 let mentionedJid = [who]
 conn.send3ButtonImg(m.chat, pp, menu, '*Gata Dios*', 'MENU', `#menu`, 'MENU AUDIOS', `#audiosrandom`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {

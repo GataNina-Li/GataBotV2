@@ -35,7 +35,7 @@ conn.send3ButtonImg(m.chat, pp, menu, '*©Cᴏᴍᴘᴀɴʏ Zᴇɴ Bᴏᴛ*', ` 
 //ptt: true 
 //})
 }
-handler.command = /^(|menurpg|rpgmenu|MENURPG)$/i
+handler.command = /^(menurpg|rpgmenu|MENURPG)$/i
 handler.fail = null
 handler.rowner=true
 module.exports = handler

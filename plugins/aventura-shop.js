@@ -27,38 +27,38 @@ let handler  = async (m, { conn, text, command, args, usedPrefix, DevMode }) => 
     const Kchat = `
 *🛒 ARTÍCULOS PARA COMPRAR 🛍️*
 
-- Pocion: _$${potion}_
-- Diamante: _$${Bdiamond}_
-- Basura: _$${Bsampah}_
-- Armadura: _$${armor}_
-- Pico: _$${pickaxe}_
+🔮 Pocion: _$${potion}_
+💎 Diamante: _$${Bdiamond}_
+🚮 Basura: _$${Bsampah}_
+🦾 Armadura: _$${armor}_
+⛏️ Pico: _$${pickaxe}_
 
 *Cajas 📦*
-- Comun: _$${Bcommon}_
-- Normal: _$${Buncommon}_
-- Mitico: _$${Bmythic}_
-- Legendario: _$${Blegendary}_
+😃 Comun: _$${Bcommon}_
+😁 Normal: _$${Buncommon}_
+😌 Mitico: _$${Bmythic}_
+🤩 Legendario: _$${Blegendary}_
 
-*Ejemplo se uso* :
+✅ *Ejemplo se uso* :
 ${usedPrefix}shop buy pocion 1
 
 ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━
 
 *🛒 ARTÍCULOS PARA VENDER 🛍️*
 
-- Pocion: _$${Spotion}_
-- Diamante: _$${Sdiamond}_
-- Piedra: _$${Sbatu}_
-- Hierro: _$${Siron}_
-- Basura: _$${Ssampah}_
+🔮 Pocion: _$${Spotion}_
+💎 Diamante: _$${Sdiamond}_
+🪨 Piedra: _$${Sbatu}_
+⚕️ Hierro: _$${Siron}_
+🚮 Basura: _$${Ssampah}_
 
 *Cajas 📦*
-- Comun: _$${Scommon}_
-- Normal: _$${Suncommon}_
-- Mitico: _$${Smythic}_
-- Legendario: _$${Slegendary}_
+😺 Comun: _$${Scommon}_
+😸 Normal: _$${Suncommon}_
+😼 Mitico: _$${Smythic}_
+😽 Legendario: _$${Slegendary}_
 
-*Ejemplo se uso* :
+✅ *Ejemplo se uso* :
 ${usedPrefix}shop sell basura 10
 `.trim()
     try {
@@ -367,7 +367,7 @@ ${usedPrefix}shop sell basura 10
                         } else conn.reply(m.chat, `No tienes suficiente hierro para vender`, m)
                         break
                 default:
-                    return conn.reply(m.chat, Kchat, text, { quoted: m, contextInfo: { externalAdReply:{title: `\t\t\t\tTIENDA RPG`, previewType:"PHOTO",thumbnail: shoprpg, sourceUrl:``}}})
+                    return conn.reply(m.chat, Kchat, text, { quoted: m, contextInfo: { externalAdReply:{title: `\t\t\t\tTIENDA GATABOT`, previewType:"PHOTO",thumbnail: shoprpg, sourceUrl:``}}})
             }
         }
     } catch (e) {

@@ -1,3 +1,4 @@
+/*
 let { MessageType } = require("@adiwajshing/baileys");
 let util = require('util')
 let path = require('path')
@@ -30,7 +31,7 @@ let audio6B = audio6A.exec(m.text)
 let audio7A = /Me olvide|ME OLVIDE|me olvide|Me olvidé|me olvidé|ME OLVIDÉ/i
 let audio7B = audio7A.exec(m.text)
 
-let audio8A = /😭|:"c|:'c/i
+let audio8A = /baneado|Baneado|baneada|Baneada/i
 let audio8B = audio8A.exec(m.text)
 
 let audio9A = /error/i
@@ -98,8 +99,8 @@ if (audio7B) {
 	} else
 
 if (audio8B) {
-	let vn = './storage/audio/No_llores_onii-chan.mp3'
-	conn.sendFile(m.chat, vn, 'No_llores_onii-chan.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+	let vn = './media/baneado.mp3'
+	conn.sendFile(m.chat, vn, 'baneado.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 	} else
 
 if (audio9B) {
@@ -155,5 +156,6 @@ if (texto1B) {
 
 
 } */ 
-
+/*
 module.exports = handler
+*/

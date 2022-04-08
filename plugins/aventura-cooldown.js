@@ -26,5 +26,5 @@ let handler = async (m, { conn, usedPrefix }) => {
 }
 handler.help = ['cd', 'cooldown']
 handler.tags = ['rpg']
-handler.command = /^(cool)$/i
+handler.command = /^(cd|cooldown)$/i
 module.exports = handler

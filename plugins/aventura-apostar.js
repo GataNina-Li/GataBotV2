@@ -63,10 +63,10 @@ handler.before = async m => {
             m.reply(`
 💸 *APUESTA* 💸
 
-Bot roll: *${Bot}*
-Usted roll: *${Kamu}*
+🦾 Bot roll: *${Bot}*
+💪 Usted roll: *${Kamu}*
 
-Tu *${status}* ${status == 'Ganas!' ? `*+${count * 5, 10, 15}*` : status == 'Pierdes!' ? ` *-${count * 4}*` : `*+${Math.floor(count / 1.5)}*`} de dinero
+Tu *${status}* ${status == '🤩 Ganas!' ? `*+${count * 8}*` : status == '😭 Pierdes!' ? ` *-${count * 3}*` : `*+${Math.floor(count / 1.5)}*`} de dinero.
 `.trim())
             clearTimeout(timeout)
             delete confirm[m.sender]
@@ -74,7 +74,7 @@ Tu *${status}* ${status == 'Ganas!' ? `*+${count * 5, 10, 15}*` : status == 'Pie
         } else if (/^(no|No)$/i.test(txt)) {
             clearTimeout(timeout)
             delete confirm[m.sender]
-            m.reply('Rejected')
+            m.reply('Tú te lo pierdes 😌✨')
             return !0
         }
 

@@ -26,16 +26,16 @@ let menu =`
 ┋➥ ❖⃟🏹 _${usedPrefix}shop_
 ┋➥ ❖⃟⚔ _${usedPrefix}transferir_
 ┋➥ ❖⃟🏹 _${usedPrefix}use_
-┋➥ ❖⃟⚔ _${usedPrefix}weekly
+┋➥ ❖⃟⚔ _${usedPrefix}weekly_
 ┗━━━━━━━━━━━━━┛`.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '*©Cᴏᴍᴘᴀɴʏ Zᴇɴ Bᴏᴛ*', ` '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '*©Cᴏᴍᴘᴀɴʏ Zᴇɴ Bᴏᴛ*', 'MENU', `#menu`, 'MENU AUDIOS', `#audiosrandom`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
 //})
 }
-handler.command = /^(menurpg|rpgmenu|MENURPG)$/i
+handler.command = /^(menurpg|rpgmenu)$/i
 handler.fail = null
 handler.rowner=true
 module.exports = handler

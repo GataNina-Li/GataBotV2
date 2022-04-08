@@ -23,7 +23,7 @@ let handler  = async (m, { conn, text, command, args, usedPrefix, DevMode }) => 
     let type = (args[0] || '').toLowerCase()
     let _type = (args[1] || '').toLowerCase()
     let jualbeli = (args[0] || '').toLowerCase()
-    let shoprpg = fs.readFileSync('./src/image/shop.png')
+    let shoprpg = fs.readFileSync('./src/shop.png')
     const Kchat = `
 *🛒 ARTÍCULOS PARA COMPRAR 🛍️*
 

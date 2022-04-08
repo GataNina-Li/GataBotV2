@@ -40,7 +40,7 @@ let handler  = async (m, { conn, text, command, args, usedPrefix, DevMode }) => 
 🤩 Legendario: _$${Blegendary}_
 
 ✅ *Ejemplo se uso* :
-${usedPrefix}shop comprar pocion 1
+${usedPrefix}tienda comprar pocion 1
 
 ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━
 
@@ -59,7 +59,7 @@ ${usedPrefix}shop comprar pocion 1
 😽 Legendario: _$${Slegendary}_
 
 ✅ *Ejemplo se uso* :
-${usedPrefix}shop vender basura 10
+${usedPrefix}tienda vender basura 10
 `.trim()
     try {
         if (/shop|toko|tienda/i.test(command)) {

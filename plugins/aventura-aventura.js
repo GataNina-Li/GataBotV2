@@ -58,7 +58,7 @@ let handler = async (m, { conn, usedPrefix, DevMode }) => {
                 global.DATABASE._data.users[m.sender].sampah += sampah * 1
                 global.DATABASE._data.users[m.sender].lastadventure = new Date * 1
             } else conn.reply(m.chat, `Te quedaste sin energía vuelve dentro de *${timers}*`, m)
-        } else conn.reply(m.chat, `🤏 *Mínimo 80 de 💖 salud para poder ir de aventura* 🤺\n\nPuedes comprar 🛍️ *pociones de vida* con el comando\n• ${usedPrefix}shop buy pocion *total*`, m)
+        } else conn.reply(m.chat, `🤏 *Mínimo 80 de 💖 salud para poder ir de aventura* 🤺\n\nPuedes comprar 🛍️ *pociones de vida* con el comando:\n• ${usedPrefix}shop buy pocion *total*`, m)
     } catch (e) {
         console.log(e)
         conn.reply(m.chat, 'Error', m)

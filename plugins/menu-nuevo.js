@@ -8,8 +8,8 @@ let fetch = require('node-fetch')
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
 let username = conn.getName(who)
-let vn = './media/menugatabot.mp3'
 let pp = 'https://i.imgur.com/8fK4h6F.jpg'
+let vn = './media/menugatabot.mp3'
 let menu =`
 ╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
  ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍

@@ -9,6 +9,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let username = conn.getName(who)
 let vn = './media/menugatabot.mp3'
+let pp = 'https://i.imgur.com/8fK4h6F.jpg'
 let menu =`
 ╭━〘 🐈⚡️🐈⚡️🐈⚡️🐈⚡️🐈 〙━╮
  ‖ ֎┉┉┉⊰ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ⊱┉┉┉֍
@@ -62,7 +63,6 @@ let menu =`
 conn.send3ButtonLoc(m.chat, (await fetch(pp)).buffer(), `
 ⁖ᯓ፨҈༺ 𝙂𝙖𝙩𝙖𝘽𝙤𝙩 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ༻፨҈ᯓ⁖
 `.trim(), menu, 'Ⓜ️ 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 Ⓜ️', `#mcompleto`, '🔖 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝙈𝙀𝙉𝙐 🔖', `#menuinfobot`, '🎮 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙅𝙐𝙀𝙂𝙊𝙎 🎮', `#menujuego`, m, false, { contextInfo: { mentionedJid }})
-let pp = 'https://i.imgur.com/8fK4h6F.jpg'
  await await await await await await conn.sendFile(m.chat, vn, 'menugatabot.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true 

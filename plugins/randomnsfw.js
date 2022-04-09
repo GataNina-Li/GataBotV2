@@ -1,4 +1,6 @@
 const axios = require('axios')
+if (isBanned) return  reply(mess.banned)
+if (!isGroup) return reply('esta función es solo para grupos')
  let handler = async(m, { conn }) => {
 let les = await axios.get('https://meme-api.herokuapp.com/gimme/nsfw')
             conn.sendFile(m.chat, `${les.data.url}`, '', `${les.data.title}`, m)

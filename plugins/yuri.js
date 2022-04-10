@@ -1,6 +1,7 @@
 const axios = require('axios')
  let handler = async(m, { conn }) => {
-  if (!db.data.chats[m.chat].nsfw && m.isGroup) throw 'Escriba *!enable* *nsfw* para activar esta característica'
+  let chat = global.DATABASE._data.chats[m.chat]
+  if (!(data.chats[m.chat].nsfw && m.isGroup)) throw 'Escriba *!enable* *nsfw* para activar esta característica'
 let les = await axios.get('https://meme-api.herokuapp.com/gimme/yuri')
             conn.sendFile(m.chat, `${les.data.url}`, '', `${les.data.title}`, m)
   }

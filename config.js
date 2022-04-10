@@ -3,7 +3,7 @@ global.linkGC = ['https://chat.whatsapp.com/FACD8CyieFHHCSPp7jFvlb' , 'https://c
 global.channelYT = [''] // No tiene utilidad
 global.owner = ['51955101247' , '19173361138' , '19806352049' , '14696530958']  // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 global.mods = ['51955101247' , '51955101247'] // No tiene utilidad
-global.prems = ['5219996125657' , '5219991402134'] // No tiene utilidad
+global.prems = ['51955101247' , '51955101247'] // No tiene utilidad
 
 // Nota: Puedes contactarme si necesitas ayuda con algo al +994407312387 (Solo temas de la instalación)
 // => Solo dudas sobre la instalación, temas generales contactarme al +593968585383 (Temas serios, si vas a intervenir al chat para molesrtar seras bloqueado/a) 

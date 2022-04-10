@@ -133,6 +133,14 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
         global.dfail('prems', m, conn)
         throw false
       }
+      opts['restrict'] = isEnable
+      break
+    case 'nsfw':
+      isAll = true
+      if (!isOwner) {
+        global.dfail('owner', m, conn)
+        throw false
+      }
       global.opts['autoread'] = isEnable
       break
     case 'pconly':
@@ -174,7 +182,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     default:
       if (!/[01]/.test(command)) return m.reply(`
 *Lista de opciones:*
-🏷 welcome | delete | public | antilink | restrict | autoread | antilink2 | detect | antitoxic
+🏷 welcome | delete | public | antilink | restrict | autoread | antilink2 | detect | antitoxic | nsfw
 
 *Ejemplo:*
 ${usedPrefix}enable welcome

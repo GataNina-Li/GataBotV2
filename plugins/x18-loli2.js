@@ -1,6 +1,7 @@
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn }) => {
+if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'
 	let url = anime[Math.floor(Math.random() * anime.length)]
 	await conn.sendMessage(m.chat, {
 		contentText: '*¡¡LLAMEN A LA POLICÍA!! 🚨️*',

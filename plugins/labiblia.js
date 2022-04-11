@@ -26,7 +26,7 @@ if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Func
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃»🔞 _${usedPrefix}verlesbianas | imagenlesbians_
 ┃»🔞 _${usedPrefix}porno_
-┃»🔞 _${usedPrefix}randomnsfw | nsfw_
+┃»🔞 _${usedPrefix}contenido18 | 18contenido_
 ┃»🔞 _${usedPrefix}sideboobs | pechos_
 ┃»🔞 _${usedPrefix}hentai_
 ┃»🔞 _${usedPrefix}pene_

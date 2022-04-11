@@ -534,6 +534,7 @@ global.dfail = (type, m, conn) => {
     mods: '*❰ ⚠️ ❱ Este comando solo puede ser utilizado por moderadores y él Propietario/a | Owner del Bot*',
     premium: '*❰ ⚠️ ❱ Este comando es solo para miembros Premium*',
     group: '*❰ ⚠️ ❱ Este comando solo se puede usar en grupos*',
+    nsfw: '*❰ ⚠️ ❱ Este comando solo puede ser utilizado por él Propietario/a | Owner del Bot*',
     private: '*❰ ⚠️ ❱ Este comando solo se puede usar en el chat privado del número del Bot*',
     admin: '*❰ ⚠️ ❱ Este comando es solo para Administradores del grupo*',
     botAdmin: '*❰ ⚠️ ❱ Ascender el Bot a Admin para usar este comando*',

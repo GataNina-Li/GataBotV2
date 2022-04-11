@@ -12,6 +12,8 @@ let video = fs.readFileSync(`./videos/${pickRandom(['1','2','3','4','5','6','7',
 
      conn.sendFile(m.chat, video, '1.mp4', caption, m)
 }
+handler.help = ['xvideo']
+handler.tags = ['xvideo']
 handler.command = /^video|vídeo$/i
 handler.owner = false
 handler.mods = false

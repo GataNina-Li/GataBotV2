@@ -1,7 +1,7 @@
 let util = require('util')
 let path = require('path')
 let fs = require('fs')
-
+if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'
 let caption = `
 🥵🔥🔥🔥🔥
 `.trim()
@@ -12,6 +12,19 @@ let video = fs.readFileSync(`./videos/${pickRandom(['1','2','3','4','5','6','7',
      conn.sendFile(m.chat, video, '1.mp4', caption, m)
 }
 handler.command = /^video|vídeo$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+handler.register = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+handler.exp = 200
+handler.limit = false
 module.exports = handler
 
 function pickRandom(list) {

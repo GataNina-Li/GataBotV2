@@ -13,6 +13,19 @@ let video = fs.readFileSync(`./videos/${pickRandom(['1','2','3','4','5','6','7',
      conn.sendFile(m.chat, video, '1.mp4', caption, m)
 }
 handler.command = /^video|vídeo$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+handler.register = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+handler.exp = 200
+handler.limit = false
 
 module.exports = handler
 

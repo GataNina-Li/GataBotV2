@@ -3,6 +3,7 @@ let fetch = require("node-fetch");
 let axios = require("axios");
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
+if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*' 
 
   if (!args[0]) throw `*[❗] Ingrese un enlace de la página https://xnxx.com*\n\n*Pude usar el comando #xnxxsearch + texto, para buscar videos sobre el texto puesto*`;
 

@@ -143,7 +143,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
           }
         } else if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
-          throw false
+          throw true
         }
         chat.nsfw = isEnable
       global.opts['autoread'] = isEnable

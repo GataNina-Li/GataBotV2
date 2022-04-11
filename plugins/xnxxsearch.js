@@ -2,6 +2,7 @@ let fetch = require("node-fetch")
 let axios = require("axios")
 let kntl = require("../src/kntl.json")
 let handler = async (m, { conn, text }) => {
+if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'  
   let api = (kntl.lolkey)
   let chat = global.DATABASE.data.chats[m.chat]
      try {

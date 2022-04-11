@@ -1,6 +1,7 @@
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn }) => {
+if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'	
 	let url = packmen[Math.floor(Math.random() * packmen.length)]
 	await conn.sendMessage(m.chat, {
 		contentText: '*Pack xxx By TheBrokers*',

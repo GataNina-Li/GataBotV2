@@ -6,7 +6,7 @@ let les = await axios.get('https://meme-api.herokuapp.com/gimme/lesbians')
   }
 handler.help = ['imglesbians']
 handler.tags = ['images']
-handler.command = /^(lesbiana|imagenlesbians)$/i
+handler.command = /^(verlesbianas|imagenlesbians)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

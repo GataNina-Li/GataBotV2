@@ -5,7 +5,7 @@ if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Func
             conn.sendFile(m.chat, `${les.data.url}`, '', `${les.data.title}`, m)
   }
 handler.help = ['yuri']
-handler.tags = ['nsfw']
+handler.tags = ['yuri']
 handler.command = /^(yuri)$/i 
 handler.owner = false
 handler.mods = false
@@ -15,7 +15,7 @@ handler.private = false
 handler.register = false
 
 handler.admin = false
-handler.botAdmin = true
+handler.botAdmin = false
 
 handler.fail = null
 handler.exp = 200

@@ -1,4 +1,6 @@
 let handler = async(m, { conn, usedPrefix, command }) => {
+if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'
+  
 await conn.sendButtonVid(m.chat, pickRandom(asupan), '🔥🔥🔥🔥', 'Gata Dios', 'SIGUIENTE 🔄🥵', `${usedPrefix + command}`, m, false)
 }
 handler.command = /^(pornoaleatorio|pornopremium|pornoalevid|pornovidale|pornopremiumvid|pornopremiumv|Pornopremium|Pornopremiumvid)$/i

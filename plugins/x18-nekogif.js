@@ -7,6 +7,7 @@ const gs = require('nekos.life')
 const neko = new gs()
 
 let handler  = async (m, { conn, text }) => {
+if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*' 
   pp = (await neko.sfw.nekoGif()).url
                      await sticker(false, pp, 'SFW Neko', author).then(gege => {
                      conn.sendMessage(m.chat, gege, 'stickerMessage', { quoted: m })

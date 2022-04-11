@@ -136,16 +136,11 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       opts['restrict'] = isEnable
       break
     case 'nsfw':
-        if (!m.isGroup) {
-          if (!isOwner) {
-            global.dfail('group', m, conn)
-            throw false
-          }
-        } else if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
-          throw false
-        }
-        chat.nsfw = isEnable
+      isAll = true
+      if (!(isAdmin || isOwner)) {
+        global.dfail('admin', m, conn)
+        throw false
+      }
       global.opts['autoread'] = isEnable
       break
     case 'pconly':

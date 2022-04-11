@@ -181,6 +181,7 @@ module.exports = {
           isBanned: false,
           welcome: true, 
           detect: false,
+          nsfw: false,
           sWelcome: "",
           sBye: '',
           sPromote: '',

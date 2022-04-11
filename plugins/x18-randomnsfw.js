@@ -1,6 +1,6 @@
 const axios = require('axios')
-if (isBanned) return  reply(mess.banned)
-if (!isGroup) return reply('esta función es solo para grupos')
+//if (isBanned) return  reply(mess.banned)
+//if (!isGroup) return reply('esta función es solo para grupos')
 let handler = async(m, { conn }) => {
 if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'
 let les = await axios.get('https://meme-api.herokuapp.com/gimme/nsfw')

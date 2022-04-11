@@ -105,7 +105,9 @@ y el Whatsapp que este usando. Lo aconsejable es máximo 45 grupos
 [![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=100)](https://github.com/BrunoSobrino) 
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) 
 [![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming) 
-[![ALBERTO9883](https://github.com/ALBERTO9883.png?size=100)](https://github.com/ALBERTO9883) 
+[![ALBERTO9883](https://github.com/ALBERTO9883.png?size=100)](https://github.com/ALBERTO9883)
+[![Drz103](https://github.com/Drz103.png?size=100)](https://github.com/Drz103) 
+
  
 ### 🌟 CONTRIBUYENTES 
 

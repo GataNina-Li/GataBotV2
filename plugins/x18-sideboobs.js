@@ -3,6 +3,7 @@ let fetch = require('node-fetch')
 let neko = require('nekos.life')
 let Neko = new neko()
      let handler  = async (m, { conn, args }) => {
+     if (!DATABASE._data.chats[m.chat].nsfw && m.isGroup) throw '❰ ⚠️ ❱ *Función Nsfw Desactivada*\n*Escriba #on nsfw para activar esta Función.*'
      json = (await axios.get('https://meme-api.herokuapp.com/gimme/sideboobs')).data
    conn.sendFile(m.chat, json.url, 'boobs.jpg', json.title, m, false)
 }

@@ -1,3 +1,4 @@
+/*
 let handler  = async (m, { conn, usedPrefix }) => {
   conn.reply(m.chat, `
 ╭─「 *Tutorial Main METRO BOT* 」
@@ -56,3 +57,4 @@ handler.botAdmin = false
 handler.fail = null
 
 module.exports = handler
+*/

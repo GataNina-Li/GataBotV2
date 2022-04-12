@@ -1,3 +1,4 @@
+/*
 let { MessageType, mentionedJid } = require("@adiwajshing/baileys")
 let fs = require('fs')
 let levelling = require('../lib/levelling')
@@ -149,3 +150,4 @@ module.exports = handler
 
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
+*/

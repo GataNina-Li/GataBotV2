@@ -1,3 +1,4 @@
+/*
 let handler = async (m, { conn, args, usedPrefix }) => {
     let type = (args[0] || '').toLowerCase()
     let rubah = global.DATABASE._data.users[m.sender].rubah
@@ -90,3 +91,4 @@ function clockString(ms) {
   console.log({ms,h,m,s})
   return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')
 }
+*/

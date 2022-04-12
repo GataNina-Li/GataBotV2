@@ -1,3 +1,4 @@
+/*
 let fs = require('fs')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
@@ -41,3 +42,4 @@ handler.command = /^(menurpg|rpgmenu)$/i
 handler.fail = null
 handler.rowner=true
 module.exports = handler
+*/

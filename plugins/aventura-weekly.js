@@ -1,3 +1,4 @@
+/*
 let { MessageType } = require('@adiwajshing/baileys')
 const cooldown = 604800000
 let handler = async (m, { conn, usedPrefix, command }) => {
@@ -60,3 +61,4 @@ function button(teks, user) {
 
     return buttonMessage
 }
+*/

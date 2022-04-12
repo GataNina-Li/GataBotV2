@@ -1,3 +1,4 @@
+/*
 let handler = async (m, { conn, usedPrefix }) => {
 	
 	let user = global.DATABASE._data.users[m.sender]
@@ -64,3 +65,4 @@ function clockString(seconds) {
 function pickRandom(list) {
     return list[Math.floor(Math.random() * list.length)]
 } 
+*/

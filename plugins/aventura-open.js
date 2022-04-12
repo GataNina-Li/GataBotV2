@@ -1,3 +1,4 @@
+/*
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, command, args, text, usedPrefix, DevMode }) => {
   try {
@@ -670,3 +671,4 @@ module.exports = handler
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
+*/

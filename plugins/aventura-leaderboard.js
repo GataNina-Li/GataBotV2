@@ -1,3 +1,4 @@
+/*
 let handler = async (m, { conn, args }) => {
   let name = m.fromMe ? conn.user : conn.contacts[m.sender] 
   let sortedExp = Object.entries(global.DATABASE.data.users).sort((a, b) => b[1].exp - a[1].exp)
@@ -47,4 +48,4 @@ handler.fail = null
 handler.exp = 0
 
 module.exports = handler
-
+*/

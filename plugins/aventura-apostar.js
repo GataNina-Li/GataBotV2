@@ -1,3 +1,4 @@
+/*
 let { MessageType } = require('@adiwajshing/baileys')
 
 let confirm = {}
@@ -102,7 +103,7 @@ module.exports = handler
  * @param {Number} x 
  * @returns Boolean
  */
-function number(x = 0) {
+/* function number(x = 0) {
     x = parseInt(x)
     return !isNaN(x) && typeof x == 'number'
 }
@@ -133,3 +134,4 @@ function button(teks, user) {
     
     return buttonMessage
 }
+*/

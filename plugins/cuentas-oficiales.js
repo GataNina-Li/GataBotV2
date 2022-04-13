@@ -23,7 +23,7 @@ _________________________________________________
 
 *GRUPO OFICIAL GATABOT*
 
-*https://chat.whatsapp.com/Eg7m7mmb85IDLnSgFooDg6*
+*https://chat.whatsapp.com/Hahc7UwSouH9jIDStkT5QW*
 
 _________________________________________________
 

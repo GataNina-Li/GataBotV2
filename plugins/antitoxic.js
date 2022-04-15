@@ -9,7 +9,8 @@ handler.before = function (m, { isOwner, isBotAdmin }) {
     let user = global.DATABASE._data.users[m.sender]
     let isGroupToxic = linkRegex.exec(m.text)
 
-    if (!chat.antiToxic && !chat.isBanned && isGroupToxic) {
+    if (!chat.antiToxic && !chat.isBanned && isGroupToxic && !chat.isEnable) {
+        chat.antiToxic = isEnable
         user.warn += 1
         this.send2Button(m.chat, `*Malas palabras detectadas!*
 *Alerta:* ${user.warn} / 5

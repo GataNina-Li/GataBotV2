@@ -12,12 +12,9 @@ handler.before = function (m, { isOwner, isBotAdmin }) {
     if (!chat.antiToxic && !chat.isBanned && isGroupToxic) {
         user.warn += 1
         this.send2Button(m.chat, `*Malas palabras detectadas!*
-Warning: ${user.warn} / 5
-Si la advertencia llega a 5 serás baneado
-
-ketik *#on antitoxic* para activar antitoxic
-
-“gadrdfgsgfsh`, 'Antibadword', 'Nyalakan Antibadword', '.on antitoxic', 'Astaghfirullah', '.off antitoxic', m)
+*Alerta:* ${user.warn} / 5
+*Si la Alerta llega a 5 serás eliminado/a*
+“`, 'Gata Dios', 'Activar', '.on antitoxic', 'Desactivar', '.off antitoxic', m)
         if (user.warn >= 5) {
             user.banned = true
             if (m.isGroup) {

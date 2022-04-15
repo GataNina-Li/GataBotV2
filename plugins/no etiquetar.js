@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
 `.trim(), m)
     let mentionedJid = [m.sender]
 }
-handler.customPrefix = /@593968585383/i
+handler.customPrefix = /@5939685853835/i
 handler.command = new RegExp
 
 module.exports = handler

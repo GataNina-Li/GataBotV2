@@ -19,7 +19,7 @@ handler.before = function (m, { isOwner, isBotAdmin }) {
             user.banned = true
             if (m.isGroup) {
                 if (isBotAdmin) {
-                    this.groupRemove(m.chat, [m.sender], true)
+                    this.groupRemove(m.chat, [m.sender])
                 }
             }
         }

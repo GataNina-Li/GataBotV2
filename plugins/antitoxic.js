@@ -1,3 +1,4 @@
+/*
 let = require('@adiwajshing/baileys')
 let handler = m => m
 
@@ -27,3 +28,4 @@ handler.before = function (m, { isOwner, isBotAdmin }) {
     return !0
 }
 module.exports = handler
+*/

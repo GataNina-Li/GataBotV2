@@ -3,7 +3,7 @@ let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
 let handler = async (m, { conn, text, isMods, isOwner }) => {
     let link = (m.quoted ? m.quoted.text ? m.quoted.text : text : text) || text
     let [_, code] = link.match(linkRegex) || []
-    if (!code) throw '*❰ ⚠️ ❱ Link erroneo o incompleto*\n*👉 Inserte un enlace de unión de un grupo de WhatsApp*\n\n*Ejemplo:*\n*#join https://chat.whatsapp.com/Eg7m7mmb85IDLnSgFooDg6*\n\n*❰ ❗️ ❱ No responda a un mensaje porque causa interferencia, escribalo como un mensaje nuevo*'
+    if (!code) throw '*❰ ⚠️ ❱ Link erroneo o incompleto*\n*👉 Inserte un enlace de unión de un grupo de WhatsApp*\n\n*Ejemplo:*\n*#join https://chat.whatsapp.com/Hahc7UwSouH9jIDStkT5QW*\n\n*❰ ❗️ ❱ No responda a un mensaje porque causa interferencia, escribalo como un mensaje nuevo*'
     if (isMods || isOwner || m.fromMe) {
         let res = await conn.acceptInvite(code)
         m.reply(`*✅ El Bot se unió con éxito al grupo*`)

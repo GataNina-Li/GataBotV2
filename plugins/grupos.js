@@ -2,6 +2,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 *_➡️ GRUPO(S) OFICIAL DE GATABOT_*
 ✅ https://chat.whatsapp.com/Hahc7UwSouH9jIDStkT5QW
+✅ https://chat.whatsapp.com/IIHEIQR4j81G3u4kOiZpiX
 
 *_➡️ GRUPO(S)_*
 ✅ https://chat.whatsapp.com/BlasuG7z02d16wEaCf61pa

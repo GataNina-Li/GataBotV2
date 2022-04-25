@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, {command, conn, text}) => {
-if (!text) throw `*❰ ❗ ❱ Ingrese el nombre/titulo o link para descargar la canción o vídeo de YouTube*\n\n*Ejemplo*\n*#play Billie Eilish - Bellyache*`
+if (!text) throw `*❰ ❗ ❱ Ingrese el nombre/titulo o link para descargar la canción o vídeo de YouTube*\n\n*Ejemplo*\n*#play.1 Billie Eilish - Bellyache*\n*#play.2 Billie Eilish - Bellyache*`
 if (command == 'play.1') {
 let espera = '*❰ ❗ ❱ Aguarde un momento en lo que envío su audio*'
 m.reply(espera)

@@ -129,6 +129,8 @@ let menu =`
 ┣ ↠❄️ _${usedPrefix}ytmp3 *link yt*_
 ┣ ↠☀️ _${usedPrefix}ytmp4 *link yt*_
 ┣ ↠❄️ _${usedPrefix}play *titulo del audio*_
+┣ ↠☀️ _${usedPrefix}play.1 *titulo del audio*_
+┣ ↠❄️ _${usedPrefix}play.2 *titulo del video*_
 ┣ ↠☀️ _${usedPrefix}play2 *titulo del video*_
 ┣ ↠❄️ _${usedPrefix}play3 *titulo del audio/video*_
 ┣ ↠☀️ _${usedPrefix}play6 *artista y titulo*_

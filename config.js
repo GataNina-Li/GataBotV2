@@ -1,9 +1,9 @@
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ' , 'https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs' , 'https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F' , 'https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC' , 'https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb'] // No tiene utilidad 
+global.linkGC = ['https://chat.whatsapp.com/BDbuqKSM7SZ42T2H2243n9' , 'https://chat.whatsapp.com/KZXLDv3dSnCFamoE9k7xHl' , 'https://chat.whatsapp.com/HsAgYyjFZY2GEpfAJ5d91z' , 'https://chat.whatsapp.com/Hxd9OI7hE1WHx2lpyDLdGN' , 'https://chat.whatsapp.com/HcqFYHRRsCgAE8jTiNAdr4'] // No tiene utilidad 
 global.channelYT = ['https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'] // No tiene utilidad
-global.owner = ['593993684821' , '14509544207' , '529996125657'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
-global.mods = ['5219992095479' , '972557048356'] // No tiene utilidad
-global.prems = ['5219996125657' , '5219991402134'] // No tiene utilidad
+global.owner = ['51913458682' , '+18724659809' , '+51924591772'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
+global.mods = ['+51924591772' , '972557048356'] // No tiene utilidad
+global.prems = ['51913458682' , '51935596831'] // No tiene utilidad
 
 // Nota: Puedes contactarme si necesitas ayuda con algo al +994407312387 (Solo temas de la instalación)
 // => Solo dudas sobre la instalación, temas generales contactarme al +593968585383 (Temas serios, si vas a intervenir al chat para molesrtar seras bloqueado/a) 
@@ -49,8 +49,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'GataBot 🐈'
-global.author = 'Gata Dios'
+global.packname = '𓆩ֶ፝֟𓆪⁩🐋𝕷ucas😁🐋🐈'
+global.author = '𓆩ֶ፝֟𓆪⁩🐋𝕷びc𝚫s✰🐋'
 
 
 //global.wait = '*Esperé un momento..*'

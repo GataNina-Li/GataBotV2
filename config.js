@@ -1,7 +1,7 @@
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ' , 'https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs' , 'https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F' , 'https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC' , 'https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb'] // No tiene utilidad 
+global.linkGC = ['https://chat.whatsapp.com/KZXLDv3dSnCFamoE9k7xHl' , 'https://chat.whatsapp.com/HsAgYyjFZY2GEpfAJ5d91z' , 'https://chat.whatsapp.com/HcqFYHRRsCgAE8jTiNAdr4' , 'https://chat.whatsapp.com/Hxd9OI7hE1WHx2lpyDLdGN' , 'https://chat.whatsapp.com/FaQjUnyl7l8J5AsOxiIFl6' , 'https://chat.whatsapp.com/J41WjEVpwIFKeCQPjsexyY' , 'https://chat.whatsapp.com/FTXnYWTDcQ1JOetrUwXqq5' , 'https://chat.whatsapp.com/K7TsmqdqxhrGKERKLUDXBP' , 'https://chat.whatsapp.com/GERbj6rH4qQDjNElqfaczT' , 'https://chat.whatsapp.com/EwGG2i1ZuvG9pE6p9pNmIz'  , 'https://chat.whatsapp.com/LAuQljQEQmG9b16SNCwEAp'  , 'https://chat.whatsapp.com/DCoMwu0Hz992s9Aue78Fyi'  , 'https://chat.whatsapp.com/CHqovAky47lLRwJrIr5HFX'  , 'https://chat.whatsapp.com/BnWmn9edajT41nx9uj0fiM'  , 'https://chat.whatsapp.com/HTUBcz3zmSO1Ne766gema3'  , 'https://chat.whatsapp.com/I9KKHonMPR84YwicvLP5qn'  , 'https://chat.whatsapp.com/FCoP5zNCNraFdf3zMQkcRI'  , 'https://chat.whatsapp.com/BDbuqKSM7SZ42T2H2243n9'] // No tiene utilidad 
 global.channelYT = ['https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'] // No tiene utilidad
-global.owner = ['593993684821' , '14509544207' , '529996125657'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
+global.owner = ['18724659809' , '51913458682' , '51924591772', '51935596831] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 global.mods = ['5219992095479' , '972557048356'] // No tiene utilidad
 global.prems = ['5219996125657' , '5219991402134'] // No tiene utilidad
 

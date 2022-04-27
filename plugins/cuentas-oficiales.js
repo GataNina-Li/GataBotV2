@@ -5,10 +5,6 @@ let handler = async m => m.reply(`
 
 🐈 *GataBot ~ Wa.me/593993684821*
 
-🐈 *GataBot ~ Wa.me/524777935604*
-
-🐈 *Sub GataBot ~ Wa.me/12367085278*
-
 👆 _Para saber si GataBot está Activada escriba #estado_
 
 👆 _Para ver el menú escriba #menu_
@@ -22,8 +18,10 @@ let handler = async m => m.reply(`
 _________________________________________________
 
 *GRUPO OFICIAL GATABOT*
-
 *https://chat.whatsapp.com/Hahc7UwSouH9jIDStkT5QW*
+
+*GRUPO OFICIAL GATABOT #2*
+*https://chat.whatsapp.com/IIHEIQR4j81G3u4kOiZpiX*
 
 _________________________________________________
 

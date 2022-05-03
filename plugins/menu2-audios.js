@@ -122,6 +122,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Moshi moshi_
 ⎪➫🔊 _Calla Fan de BTS_
 ⎪➫🔊 _Que tal grupo_
+⎪➫🔊 _Muchachos_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

@@ -123,6 +123,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Calla Fan de BTS_
 ⎪➫🔊 _Que tal grupo_
 ⎪➫🔊 _Muchachos_
+⎪➫🔊 _Está Zzzz_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

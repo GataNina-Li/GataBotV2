@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Me anda buscando anonymous|me anda buscando anonymous|Me está buscando anonymous|me está buscando anonymous/i 
+handler.customPrefix = /Me anda buscando anonymous|me anda buscando anonymous|Me está buscando anonymous|me está buscando anonymous|Me está buscando anonimo|Me esta buscando anonimo|anonimus|anónimo/i 
 handler.command = new RegExp
 
 handler.fail = null

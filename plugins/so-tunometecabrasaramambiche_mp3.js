@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /tunometecabrasaramambiche.mp3/i 
+handler.customPrefix = /tunometecabrasaramambiche/i 
 handler.command = new RegExp
 
 handler.fail = null

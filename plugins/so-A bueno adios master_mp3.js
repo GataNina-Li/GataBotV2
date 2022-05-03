@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /A bueno adios master|A bueno adiós master|🫂/i 
+handler.customPrefix = /Bueno master|🫂/i 
 handler.command = new RegExp
 
 handler.fail = null

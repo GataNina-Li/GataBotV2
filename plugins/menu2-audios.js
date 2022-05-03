@@ -130,6 +130,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _El rap de Fernanfloo_
 ⎪➫🔊 _Tal vez_
 ⎪➫🔊 _Corte corte_
+⎪➫🔊 _Buenas noches_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

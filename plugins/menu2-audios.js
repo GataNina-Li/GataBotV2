@@ -144,6 +144,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Motivación_
 ⎪➫🔊 _En caso de una investigación_
 ⎪➫🔊 _Buen día grupo | 🙌_
+⎪➫🔊 _Las reglas del grupo_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

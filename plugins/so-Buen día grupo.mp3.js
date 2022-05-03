@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Buen día grupo.mp3|Buen dia grupo.mp3|🙌/i 
+handler.customPrefix = /Buen día grupo|Buen dia grupo|🙌/i 
 handler.command = new RegExp
 
 handler.fail = null

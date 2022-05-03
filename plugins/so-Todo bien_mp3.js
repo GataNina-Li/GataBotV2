@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Todo bien|Todo bien 🧐/i 
+handler.customPrefix = /Todo bien/i 
 handler.command = new RegExp
 
 handler.fail = null

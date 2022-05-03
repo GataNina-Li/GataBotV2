@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Potaxio|Potasio/i 
+handler.customPrefix = /Potaxio|Potasio|🥑/i 
 handler.command = new RegExp
 
 handler.fail = null

@@ -119,6 +119,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Todo bien | 🧐_
 ⎪➫🔊 _Te gusta el Pepino | 🥒_
 ⎪➫🔊 _El tóxico_
+⎪➫🔊 _Moshi moshi_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

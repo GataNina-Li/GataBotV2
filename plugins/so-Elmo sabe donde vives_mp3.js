@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Elmo sabe donde vives/i 
+handler.customPrefix = /Elmo sabe donde vives|Elmo sabe dónde vives/i 
 handler.command = new RegExp
 
 handler.fail = null

@@ -50,7 +50,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Onichan_
 ⎪➫🔊 _Bot puto_
 ⎪➫🔊 _Feliz cumpleaños_
-⎪➫🔊 _Shadow Bot_
 ⎪➫🔊 _Pasa pack Bot_
 ⎪➫🔊 _Atencion grupo_
 ⎪➫🔊 _Homero chino_
@@ -139,6 +138,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Se están riendo de mí_
 ⎪➫🔊 _Su nivel de pendejo_
 ⎪➫🔊 _Bienvenido/a | 🥳 | 🤗 | 👋_
+⎪➫🔊 _Elmo sabe donde vives_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

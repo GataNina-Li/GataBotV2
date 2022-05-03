@@ -140,6 +140,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Bienvenido/a | 🥳 | 🤗 | 👋_
 ⎪➫🔊 _Elmo sabe donde vives_
 ⎪➫🔊 _tunometecabrasaramambiche_
+⎪➫🔊 _Y este quien es_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

@@ -118,6 +118,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Momento equisde | Momento XD_
 ⎪➫🔊 _Todo bien | 🧐_
 ⎪➫🔊 _Te gusta el Pepino | 🥒_
+⎪➫🔊 _El tóxico_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

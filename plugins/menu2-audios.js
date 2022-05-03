@@ -128,6 +128,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Potaxio | 🥑_
 ⎪➫🔊 _Nico nico_
 ⎪➫🔊 _El rap de Fernanfloo_
+⎪➫🔊 _Tal vez_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

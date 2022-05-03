@@ -115,6 +115,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⎪➫🔊 _Me anda buscando anonymous_
 ⎪➫🔊 _Blackpink in your area_
 ⎪➫🔊 _Cambiate a Movistar_
+⎪➫🔊 _Momento equisde | Momento XD_
 ╰══〘 🐈⚡️🐈⚡️🐈⚡️🐈 〙══╯
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮

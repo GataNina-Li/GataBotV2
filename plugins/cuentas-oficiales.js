@@ -21,7 +21,7 @@ _________________________________________________
 *https://chat.whatsapp.com/Hahc7UwSouH9jIDStkT5QW*
 
 *GRUPO OFICIAL GATABOT #2*
-*https://chat.whatsapp.com/IIHEIQR4j81G3u4kOiZpiX*
+*https://chat.whatsapp.com/JFTOYLdpiTBCluFJvikBxN*
 
 _________________________________________________
 

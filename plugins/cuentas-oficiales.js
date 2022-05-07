@@ -25,7 +25,14 @@ _________________________________________________
 
 _________________________________________________
 
-*CANAL OFICIAL DE YOU TUBE*
+*INFORMATE EN INSTAGRAM*
+
+*https://instagram.com/gata_dios*
+👆 _Solo escríbeme para temas relacionados a GataBot_
+
+_________________________________________________
+
+*CANAL OFICIAL DE YOUTUBE*
 
 *https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA*
 
@@ -37,16 +44,16 @@ _________________________________________________
 
 _________________________________________________
 
-*Número de la Creadora (NO BOT)*
-
-😸 *Gata Dios ~ https://wa.me/message/XBTGQ4NYEWM7O1*
-
-👆 _Solo escríbeme para temas relacionados a GataBot_
-_________________________________________________
-
 ⚠️ *Los Bots Oficiales son temporales en grupos, es preferible que sea Bot o instalar a GataBot* ⚠️
                             🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈                    
 `.trim()) 
+//😸 *Gata Dios ~ https://wa.me/message/XBTGQ4NYEWM7O1*
+//*Número de la Creadora (NO BOT)*
+
+//😸 *Gata Dios ~ https://wa.me/message/XBTGQ4NYEWM7O1*
+
+//👆 _Solo escríbeme para temas relacionados a GataBot_
+//_________________________________________________
 handler.help = ['instalarbot']
 handler.tags = ['info']
 handler.command = /^cuentasoficiales|cuentaoficial|cuentasofc|cuentasgatabot|Cuentasoficiales|cuentagatabot|cuentasgb|cuentagb|Cuentagb|Cuentasgb$/i

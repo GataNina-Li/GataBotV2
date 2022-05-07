@@ -4,7 +4,7 @@ function handler(m) {
   //this.sendContact(m.chat, '14509251286', 'OFICIAL - SubGataBot', m)
   //this.sendContact(m.chat, '14509544207', 'Gata Dios', m)
   }
-handler.help = ['contacto']
+handler.help = ['contacto'] 
 handler.tags = ['info']
  
 handler.command = /^(contacto|owner|creator|creador|propietario|dueño|dueña)$/i

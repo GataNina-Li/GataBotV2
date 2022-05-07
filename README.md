@@ -12,14 +12,18 @@
 <a href="https://github.com/GataNina-Li/GataBotV2/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/GataNina-Li/GataBotV2?label=Stars&color=yellow&style=flat-square"></a>
 </p> 
 
+<p align="center">   
+<a href="https://instagram.com/gata_dios" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+</p> 
+
+[![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+](https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA)
+
 ###### 👇 Si tiene dudas 
 #### 💚 *CONTACTO 1* 
 [![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
-)](https://api.whatsapp.com/send?phone=14509544207&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 
-  
-#### 💚 *CONTACTO 2*  
-[![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
 )](https://api.whatsapp.com/send?phone=593968585383&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub) 
+
 
 #### 🌱 *GRUPO OFICIAL*  
 [![blog](https://img.shields.io/badge/GataBot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 

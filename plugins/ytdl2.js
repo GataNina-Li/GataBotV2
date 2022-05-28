@@ -7,7 +7,7 @@ let fs = require('fs')
 let y = fs.readFileSync('./Menu2.jpg')
   if (!args || !args[0]) throw '*❰ ❗ ❱ Inserte un enlace de YouTube*\n\n*Ejemplo:*\n*#ytmp4 https://youtu.be/gBRi6aZJGj4*'
   let chat = global.DATABASE.data.chats[m.chat]
-  let quality = args[1] || '480'
+  let quality = args[1] || '360'
   let server = (args[2] || servers[0]).toLowerCase()
   let { dl_link, thumb, title, filesize, filesizeF } = await yt(args[0], quality + 'p', 'mp4', quality, servers.includes(server) ? server : servers[0])
   //let isLimit = (isPrems || isOwner ? 99 : limit) * 99888898 < filesize

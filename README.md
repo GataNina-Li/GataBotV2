@@ -20,7 +20,7 @@
 ](https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA)
 
 ###### 👇 Si tiene dudas 
-### 💚 *CONTACTO 1* 💖 ```DONAR``` [`Aquí`](https://paypal.me/OficialGD)
+### 💚 *CONTACTO 1* 
 [![blog](https://img.shields.io/badge/Gata_Dios-25D366?style=for-the-badge&logo=whatsapp&logoColor=white 
 )](https://api.whatsapp.com/send?phone=593968585383&text=¡Hola!%20Gata%20Dios%20😸%20vengo%20de%20GitHub)  
 

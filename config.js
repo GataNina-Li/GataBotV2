@@ -1,5 +1,5 @@
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/Jc039Olf04SJqRSDzpUqXI'], 
+ 
 global.channelYT = ['https://youtube.com/channel/UC43JGHXWOW0v7B21l-ebzXA'] 
 global.owner = ['51934299838'], // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 global.mods = ['523532470551'],

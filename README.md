@@ -36,7 +36,7 @@
 
 #### 🎥 *VÍDEO DE INSTALACIÓN*
 [![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/85xI8WFMIUY)
+](https://youtu.be/ixPPpLg11cI)
 --------- 
  
 ### ✅ DEBE DE TENER A SU DISPOSICIÓN: 

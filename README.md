@@ -17,7 +17,7 @@
 </p> 
 
 [![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA)
+](https://youtube.com/channel/UCNpof3FXcDgjKIOtlOt04AA)
 
 ###### 👇 Si tiene dudas 
 ### 💚 *CONTACTO 1* 

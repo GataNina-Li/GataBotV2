@@ -17,7 +17,7 @@
 </p> 
 
 [![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA)
+](https://youtube.com/channel/UCNpof3FXcDgjKIOtlOt04AA)
 
 ### 💖 ```DONAR``` [`Aquí`](https://paypal.me/OficialGD)
 
@@ -31,7 +31,7 @@
 
 #### 🎥 *VÍDEO DE INSTALACIÓN*
 [![blog](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/85xI8WFMIUY)
+](https://youtu.be/ixPPpLg11cI)
 --------- 
  
 ### ✅ DEBE DE TENER A SU DISPOSICIÓN: 

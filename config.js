@@ -33,7 +33,7 @@ global.APIs = { // API Prefix
   neoxr: 'https://api.neoxr.eu.org',
   hardianto: 'http://hardianto-chan.herokuapp.com'
 }
-global.APIKeys = { // APIKey Here
+global.APIKeys =50768012985 { // APIKey Here
   // 'https://website': 'apikey'
   'https://melcanz.com': 'DyotaMC05',
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
